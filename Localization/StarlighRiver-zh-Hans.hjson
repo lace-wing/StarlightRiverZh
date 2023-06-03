@@ -126,7 +126,7 @@ Mods: # MapEntry entries may need to be manually populated
         DisplayName: 哨卫染剂
         Tooltip:
           '''
-          使屏障能够模仿Shattered Sentinel的护盾效果
+          使屏障能够模仿碎晶哨卫的护盾效果
           可装备
           装饰性物品
           '''
