@@ -1,3 +1,5 @@
 displayName = Starlight River Chinese Patch
 author = Starlight Boat
 version = 0.1
+modReferences = StarlightRiver
+translationMod = true
