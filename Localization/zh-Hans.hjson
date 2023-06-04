@@ -1,10 +1,10 @@
 Mods: {
 	StarlightRiver: {
 		Keybinds: {
-			// "[PH]Hint.DisplayName": "[ P H] Hint"
-			// "Forbidden Winds.DisplayName": Forbidden  Winds
-			// Faeflame.DisplayName: Faeflame
-			// Starsight.DisplayName: Starsight
+			"[PH]Hint.DisplayName": "[PH] 提示"
+			"Forbidden Winds.DisplayName": 禁忌之风
+			Faeflame.DisplayName: 妖精火焰
+			Starsight.DisplayName: Starsight
 		}
 
 		Items: {
@@ -12,7 +12,7 @@ Mods: {
 				DisplayName: "[PH]测试用鞭"
 				Tooltip:
 					'''
-					[PH]Whip Infusion
+					[PH]鞭子灌注
 					无效果
 					'''
 			}
@@ -28,7 +28,7 @@ Mods: {
 					'''
 					禁忌之风灌注
 					冲刺的距离更远且保留较多速度
-					耐力消耗乘以1.3倍
+					星光消耗乘以1.3倍
 					'''
 			}
 
@@ -38,7 +38,7 @@ Mods: {
 					'''
 					禁忌之风灌注
 					冲刺的距离更远且保留更多速度
-					耐力消耗乘以1.6倍
+					星光消耗乘以1.6倍
 					'''
 			}
 
@@ -48,7 +48,7 @@ Mods: {
 					'''
 					禁忌之风灌注
 					冲刺的距离更远且保留最多速度
-					耐力消耗乘以2倍
+					星光消耗乘以2倍
 					'''
 			}
 
@@ -77,7 +77,7 @@ Mods: {
 					'''
 					禁忌之风灌注
 					冲刺会被一种短暂、频繁且强力的速度爆发替代
-					减少0.25耐力消耗
+					减少0.25星光消耗
 					'''
 			}
 
@@ -98,8 +98,8 @@ Mods: {
 			}
 
 			CauldronItem: {
-				DisplayName: 坩埚
-				Tooltip: 炼金锅
+				DisplayName: 炼金坩埚
+				Tooltip: 放置炼金坩埚
 			}
 
 			MixingStick: {
@@ -108,7 +108,7 @@ Mods: {
 					搅拌棒
 					用这个来完成炼金配方并制作它们。
 					'''
-				// DisplayName: Mixing Stick
+				DisplayName: Mixing Stick
 			}
 
 			MoonstoneBarrierDye: {
@@ -272,37 +272,37 @@ Mods: {
 
 			DesertArtifact1Item: {
 				DisplayName: 远古化石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DesertArtifact2Item: {
 				DisplayName: 远古化石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DesertArtifact3Item: {
 				DisplayName: 远古化石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DesertArtifact4Item: {
 				DisplayName: 远古化石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DesertArtifact5Item: {
 				DisplayName: 远古化石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DesertArtifact6Item: {
 				DisplayName: 远古化石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DesertArtifact7Item: {
 				DisplayName: 远古化石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			ExoticGeodeArtifactItem: {
@@ -351,7 +351,7 @@ Mods: {
 					当屏障存在时，除了药水、屏障和魔力疾病外，你无法获得任何减益
 					+40点屏障
 					'''
-				// DisplayName: Defiled Ankh
+				DisplayName: Defiled Ankh
 			}
 
 			Sandscript: {
@@ -414,7 +414,7 @@ Mods: {
 					松开以发射炽热火轮，在返回前会融化被接触的敌人并在物块上滑动
 					'Rip and tear'
 					'''
-				// DisplayName: Thousandth Degree
+				DisplayName: Thousandth Degree
 			}
 
 			TwistSword: {
@@ -447,142 +447,142 @@ Mods: {
 
 			BlackPepper: {
 				Tooltip: "\n\n"
-				// DisplayName: Black Pepper
+				DisplayName: Black Pepper
 			}
 
 			BrusselSprouts: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Brussel Sprouts
+				Tooltip: "\n\n"
+				DisplayName: Brussel Sprouts
 			}
 
 			Butter: {
 				Tooltip: "\n\n"
-				// DisplayName: Butter
+				DisplayName: Butter
 			}
 
 			Cabbage: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Cabbage
+				Tooltip: "\n\n"
+				DisplayName: Cabbage
 			}
 
 			Carrot: {
 				Tooltip: "\n\n"
-				// DisplayName: Carrot
+				DisplayName: Carrot
 			}
 
 			Cashews: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Cashews
+				Tooltip: "\n\n"
+				DisplayName: Cashews
 			}
 
 			Cherry: {
 				Tooltip: "\n\n"
-				// DisplayName: Cherry
+				DisplayName: Cherry
 			}
 
 			ChocolateGlaze: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Chocolate Glaze
+				Tooltip: "\n\n"
+				DisplayName: Chocolate Glaze
 			}
 
 			CoffeeBeans: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Coffee Beans
+				Tooltip: "\n\n"
+				DisplayName: Coffee Beans
 			}
 
 			CrimsonSteak: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Crimson Steak
+				Tooltip: "\n\n"
+				DisplayName: Crimson Steak
 			}
 
 			DicedMushrooms: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Diced Mushrooms
+				Tooltip: "\n\n"
+				DisplayName: Diced Mushrooms
 			}
 
 			Dough: {
 				Tooltip: "\n\n"
-				// DisplayName: Dough
+				DisplayName: Dough
 			}
 
 			Dressing: {
 				Tooltip: "\n\n"
-				// DisplayName: Dressing
+				DisplayName: Dressing
 			}
 
 			EaterSteak: {
 				Tooltip: "\n\n"
-				// DisplayName: Eater Steak
+				DisplayName: Eater Steak
 			}
 
 			Entrails: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Entrails
+				Tooltip: "\n\n"
+				DisplayName: Entrails
 			}
 
 			Eye: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Eye
+				Tooltip: "\n\n"
+				DisplayName: Eye
 			}
 
 			FaceSteak: {
 				Tooltip: "\n\n"
-				// DisplayName: Face Steak
+				DisplayName: Face Steak
 			}
 
 			Flour: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Flour
+				Tooltip: "\n\n"
+				DisplayName: Flour
 			}
 
 			Gelatine: {
 				Tooltip: "\n\n"
-				// DisplayName: Gelatine
+				DisplayName: Gelatine
 			}
 
 			GelBerry: {
 				Tooltip: "\n\n"
-				// DisplayName: Gel Berry
+				DisplayName: Gel Berry
 			}
 
 			GiantMushroom: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Giant Mushroom
+				Tooltip: "\n\n"
+				DisplayName: Giant Mushroom
 			}
 
 			HealthExtract: {
 				Tooltip: "\n\n"
-				// DisplayName: Health Extract
+				DisplayName: Health Extract
 			}
 
 			HoneySyrup: {
 				Tooltip: "\n\n"
-				// DisplayName: Honey Syrup
+				DisplayName: Honey Syrup
 			}
 
 			IvySalad: {
 				Tooltip: "\n\n"
-				// DisplayName: Ivy Salad
+				DisplayName: Ivy Salad
 			}
 
 			JumboShrimp: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Jumbo Shrimp
+				Tooltip: "\n\n"
+				DisplayName: Jumbo Shrimp
 			}
 
 			Lettuce: {
 				Tooltip: "\n\n"
-				// DisplayName: Lettuce
+				DisplayName: Lettuce
 			}
 
 			MahoganyRoot: {
 				Tooltip: "\n\n"
-				// DisplayName: Mahogany Root
+				DisplayName: Mahogany Root
 			}
 
 			ManaExtract: {
 				Tooltip: "\n\n"
-				// DisplayName: Mana Extract
+				DisplayName: Mana Extract
 			}
 
 			Meal: {
@@ -592,122 +592,122 @@ Mods: {
 
 			Milk: {
 				Tooltip: "\n\n"
-				// DisplayName: Milk
+				DisplayName: Milk
 			}
 
 			Rabbit: {
 				Tooltip: "\n\n"
-				// DisplayName: Rabbit
+				DisplayName: Rabbit
 			}
 
 			RocketFuel: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Rocket Fuel
+				Tooltip: "\n\n"
+				DisplayName: Rocket Fuel
 			}
 
 			SeaSalt: {
 				Tooltip: "\n\n"
-				// DisplayName: Sea Salt
+				DisplayName: Sea Salt
 			}
 
 			SkySprinkles: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Sky Sprinkles
+				Tooltip: "\n\n"
+				DisplayName: Sky Sprinkles
 			}
 
 			BlastoffShake: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Blastoff Shake
+				Tooltip: "\n\n"
+				DisplayName: Blastoff Shake
 			}
 
 			BrandedCoffee: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Branded Coffee
+				Tooltip: "\n\n"
+				DisplayName: Branded Coffee
 			}
 
 			ButterPancakes: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Butter Pancakes
+				Tooltip: "\n\n"
+				DisplayName: Butter Pancakes
 			}
 
 			CherryBrownie: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Cherry Brownie
+				Tooltip: "\n\n"
+				DisplayName: Cherry Brownie
 			}
 
 			CreamySoup: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Creamy Soup
+				Tooltip: "\n\n"
+				DisplayName: Creamy Soup
 			}
 
 			CrimsonKebab: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Crimson Kebab
+				Tooltip: "\n\n"
+				DisplayName: Crimson Kebab
 			}
 
 			JungleSalad: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Jungle Salad
+				Tooltip: "\n\n"
+				DisplayName: Jungle Salad
 			}
 
 			MushroomSteak: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Mushroom Steak
+				Tooltip: "\n\n"
+				DisplayName: Mushroom Steak
 			}
 
 			Salad: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Salad
+				Tooltip: "\n\n"
+				DisplayName: Salad
 			}
 
 			ShrimpSandwich: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Shrimp Sandwich
+				Tooltip: "\n\n"
+				DisplayName: Shrimp Sandwich
 			}
 
 			Slimejelly: {
 				Tooltip: "\n\n"
-				// DisplayName: Slimejelly
+				DisplayName: Slimejelly
 			}
 
 			SupportCookies: {
 				Tooltip: "\n\n"
-				// DisplayName: Support Cookies
+				DisplayName: Support Cookies
 			}
 
 			StarlightWater: {
 				Tooltip: "\n\n"
-				// DisplayName: Starlight Water
+				DisplayName: Starlight Water
 			}
 
 			Sugar: {
 				Tooltip: "\n\n"
-				// DisplayName: Sugar
+				DisplayName: Sugar
 			}
 
 			TableSalt: {
 				Tooltip: "\n\n"
-				// DisplayName: Table Salt
+				DisplayName: Table Salt
 			}
 
 			Toast: {
 				Tooltip: "\n\n"
-				// DisplayName: Toast
+				DisplayName: Toast
 			}
 
 			VertebrateNuggets: {
-				/* Tooltip: "\n\n" */
-				// DisplayName: Vertebrate Nuggets
+				Tooltip: "\n\n"
+				DisplayName: Vertebrate Nuggets
 			}
 
 			Vinegar: {
 				Tooltip: "\n\n"
-				// DisplayName: Vinegar
+				DisplayName: Vinegar
 			}
 
 			WhippedCream: {
 				Tooltip: "\n\n"
-				// DisplayName: Whipped Cream
+				DisplayName: Whipped Cream
 			}
 
 			AcornSprout: {
@@ -819,7 +819,7 @@ Mods: {
 
 			GeomancerHood: {
 				DisplayName: 地卜师的兜帽
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			GeomancerItemDummy: {
@@ -837,12 +837,12 @@ Mods: {
 
 			GeomancerPants: {
 				DisplayName: 地卜师的护胫
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			GeomancerRobe: {
 				DisplayName: 地卜师的斗篷
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			GeoRuby: {
@@ -904,7 +904,7 @@ Mods: {
 
 			LivingBlood: {
 				DisplayName: 不死之血
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			PoltergeistChest: {
@@ -927,13 +927,13 @@ Mods: {
 			}
 
 			StaffOfSelfDisassembly: {
-				// DisplayName: Staff of Self Disassembly
-				/* Tooltip:
+				DisplayName: Staff of Self Disassembly
+				Tooltip:
 					'''
 					Reserve 40 life to summon a flesh apparation
 					apparations grant increased life regeneration
 					life regeneration boost is increased when apparitions strike an enemy
-					''' */
+					'''
 			}
 
 			CharonsObol: {
@@ -953,7 +953,7 @@ Mods: {
 					降低66%伤害
 					装备后无法再造成暴击
 					'''
-				// DisplayName: Corpseflower
+				DisplayName: Corpseflower
 			}
 
 			Slitherring: {
@@ -962,8 +962,8 @@ Mods: {
 			}
 
 			ChargedMagnet: {
-				// DisplayName: Charged Magnet
-				// Tooltip: "'Pulsing with magnetic power'"
+				DisplayName: Charged Magnet
+				Tooltip: "'Pulsing with magnetic power'"
 			}
 
 			GrayGoo: {
@@ -993,8 +993,8 @@ Mods: {
 			}
 
 			UnchargedMagnet: {
-				// DisplayName: Uncharged Magnet
-				// Tooltip: May attract charged enemies
+				DisplayName: Uncharged Magnet
+				Tooltip: May attract charged enemies
 			}
 
 			AlchemistShackles: {
@@ -1012,13 +1012,13 @@ Mods: {
 			}
 
 			AxeBook: {
-				// DisplayName: Tiger Technique
-				/* Tooltip:
+				DisplayName: Tiger Technique
+				Tooltip:
 					'''
 					Allows execution of combos with axes
 					The final strike will rend enemies by 1
 					Right click to throw your axe
-					''' */
+					'''
 			}
 
 			BalloonGun: {
@@ -1161,13 +1161,13 @@ Mods: {
 			}
 
 			Earthduster: {
-				/* Tooltip:
+				Tooltip:
 					'''
 					Hold <left> to fire a rapid stream of soil
 					Can use many different types of soils
 					33% chance to not consume ammo
-					''' */
-				// DisplayName: Earthduster
+					'''
+				DisplayName: Earthduster
 			}
 
 			ElectroArrow: {
@@ -1242,7 +1242,7 @@ Mods: {
 
 			Gunchucks: {
 				DisplayName: 双截猎枪
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			GunstrapBoots: {
@@ -1302,13 +1302,13 @@ Mods: {
 			}
 
 			JadeStopwatch: {
-				// DisplayName: Jade stopwatch
-				/* Tooltip:
+				DisplayName: Jade stopwatch
+				Tooltip:
 					'''
 					Time moves more quickly for you
 					Time moves more slowly for you briefly after being hit
 					50% reduced damage
-					''' */
+					'''
 			}
 
 			LostCollar: {
@@ -1328,7 +1328,7 @@ Mods: {
 					无法使用补充魔力的物品
 					魔法攻击击中敌人时有25%几率使你回复部分等同于此次伤害量的魔力值
 					'''
-				// DisplayName: Magebane
+				DisplayName: Magebane
 			}
 
 			MagmaGun: {
@@ -1337,13 +1337,13 @@ Mods: {
 			}
 
 			MartialBook: {
-				// DisplayName: Martial Encyclopedia
-				/* Tooltip:
+				DisplayName: Martial Encyclopedia
+				Tooltip:
 					'''
 					Combined effects of Tiger, Snake, and Mantis Techniques
 					+10% melee critical damage
 					Quit, don't quit... Noodles, don't noodles.
-					''' */
+					'''
 			}
 
 			PandorasDagger: {
@@ -1414,7 +1414,7 @@ Mods: {
 					蘑菇会造成更少的伤害，但会造成中毒减益
 					75%几率不消耗弹药
 					'''
-				// DisplayName: Sling
+				DisplayName: Sling
 			}
 
 			Soilgun: {
@@ -1457,13 +1457,13 @@ Mods: {
 			}
 
 			SpearBook: {
-				// DisplayName: Snake Technique
-				/* Tooltip:
+				DisplayName: Snake Technique
+				Tooltip:
 					'''
 					Allows execution of combos with spears
 					Last combo attack has increased critical strike chance and damage
 					Right click to deter enemies with a flurry of stabs
-					''' */
+					'''
 			}
 
 			SpikedMail: {
@@ -1477,7 +1477,7 @@ Mods: {
 
 			StaminaGel: {
 				DisplayName: 耐力凝胶
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			StaminaRing: {
@@ -1502,7 +1502,7 @@ Mods: {
 					被巨斧嵌入的敌人会被聚焦
 					<right>被嵌入的敌人会使巨斧取消嵌入
 					'''
-				// DisplayName: Tainted Greataxe
+				DisplayName: Tainted Greataxe
 			}
 
 			TinCoil: {
@@ -1565,7 +1565,7 @@ Mods: {
 
 			MoonstoneHamaxe: {
 				Tooltip: <right>充能并挥舞，能够摧毁墙壁
-				// DisplayName: Moonstone Hamaxe
+				DisplayName: Moonstone Hamaxe
 			}
 
 			MoonstoneHead: {
@@ -1588,7 +1588,7 @@ Mods: {
 
 			MoonstoneOreItem: {
 				DisplayName: 月长石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			StarlightShuriken: {
@@ -1603,7 +1603,7 @@ Mods: {
 
 			Shaker: {
 				DisplayName: 震颤者
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			PalestoneNail: {
@@ -1651,7 +1651,7 @@ Mods: {
 					将火枪子弹转化为Auroracle Ink
 					造成暴击或击杀敌人时会使触手从你的体内长出来，向你的光标方向发射弹幕
 					'''
-				// DisplayName: Octogun
+				DisplayName: Octogun
 			}
 
 			OverflowingUrn: {
@@ -1665,7 +1665,7 @@ Mods: {
 
 			SquidBossBag: {
 				DisplayName: 宝藏袋（极光之触）
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			SquidBossSpawn: {
@@ -1698,7 +1698,7 @@ Mods: {
 					发射闪光的触手长枪
 					可充能并一次性发射至多5支长枪
 					'''
-				// DisplayName: Tentalance
+				DisplayName: Tentalance
 			}
 
 			WaterStaff: {
@@ -1821,7 +1821,7 @@ Mods: {
 
 			AncientGear: {
 				DisplayName: 远古齿轮
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			Buzzsaw: {
@@ -1961,32 +1961,32 @@ Mods: {
 
 			AncientStarwoodBoots: {
 				DisplayName: 远古星木护胫
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AncientStarwoodChest: {
 				DisplayName: 远古星木长袍
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AncientStarwoodHat: {
 				DisplayName: 远古星木帽
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			MechaChest: {
 				DisplayName: 机甲躯
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			MechaHead: {
 				DisplayName: 机甲盔
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			MechaLegs: {
 				DisplayName: 机甲腿
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			WardenHat: {
@@ -2035,7 +2035,7 @@ Mods: {
 
 			GlassIdol: {
 				Tooltip: Used to worship a powerful guardian.
-				// DisplayName: Glass Idol
+				DisplayName: Glass Idol
 			}
 
 			GlassIdolEndless: {
@@ -2088,7 +2088,7 @@ Mods: {
 					每条粘在敌人身上的熔岩都会使其每秒受到10点伤害, 和3点召唤标记伤害, 每名敌人身上最多粘住三条熔岩螨
 					熔岩螨会在击中身上粘住三条熔岩螨的敌人时反弹并额外造成50%伤害
 					'''
-				// DisplayName: Magmite Vacpack
+				DisplayName: Magmite Vacpack
 			}
 
 			Needler: {
@@ -2112,7 +2112,7 @@ Mods: {
 					地狱晶体会锁定敌人, 伤害会随着时间流逝而逐渐增加
 					<right>可使晶体同时瞄准多个敌人, 但伤害不再会随着时间流逝而逐渐增加且造成的伤害减少
 					'''
-				// DisplayName: Recursive Focus
+				DisplayName: Recursive Focus
 			}
 
 			RefractiveBlade: {
@@ -2126,7 +2126,7 @@ Mods: {
 
 			SandstoneChunk: {
 				DisplayName: 远古陶瓷
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			ShatteredAegis: {
@@ -2155,7 +2155,7 @@ Mods: {
 
 			VitricBossBag: {
 				DisplayName: 宝藏袋（塞洛斯）
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricBow: {
@@ -2204,7 +2204,7 @@ Mods: {
 
 			VitricOre: {
 				DisplayName: 琉璃碎片
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricPick: {
@@ -2227,8 +2227,8 @@ Mods: {
 			}
 
 			CoolmiteItem: {
-				// DisplayName: Coolmite
-				// Tooltip: Fragile! Please handle with care.
+				DisplayName: Coolmite
+				Tooltip: Fragile! Please handle with care.
 			}
 
 			MagmitePassiveItem: {
@@ -2263,17 +2263,17 @@ Mods: {
 
 			AnkhChestItem: {
 				DisplayName: 十字箱
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DesertMonolithFlippedItem: {
-				// DisplayName: Flipped Desert Monolith
-				// Tooltip: Places a section of flipped desert monolith
+				DisplayName: Flipped Desert Monolith
+				Tooltip: Places a section of flipped desert monolith
 			}
 
 			DesertMonolithItem: {
-				// DisplayName: Desert Monolith
-				// Tooltip: Places a section of desert monolith
+				DisplayName: Desert Monolith
+				Tooltip: Places a section of desert monolith
 			}
 
 			ForestBerryBushItem: {
@@ -2375,7 +2375,7 @@ Mods: {
 
 			CrusherOvergrowItem: {
 				DisplayName: 碾压陷阱
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			NoxiousNodeItem: {
@@ -2395,7 +2395,7 @@ Mods: {
 
 			SkeletonBrickItem: {
 				DisplayName: 骨砖
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TorchOvergrowItem: {
@@ -2405,12 +2405,12 @@ Mods: {
 
 			WallOvergrowBrickItem: {
 				DisplayName: 符文砖墙
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			WallOvergrowGrassItem: {
 				DisplayName: 繁茂草墙
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			WindowSmallItem: {
@@ -2445,12 +2445,12 @@ Mods: {
 
 			PalestoneItem: {
 				DisplayName: 苍白石块
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AuroraBrickDoorItem: {
 				DisplayName: Debug Brick Placer
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AuroraBrickItem: {
@@ -2480,12 +2480,12 @@ Mods: {
 
 			DoorBombShooterItem: {
 				DisplayName: Debug Shooter Placer
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			PermafrostIceItem: {
 				DisplayName: 永冻冰块
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TouchstoneItem: {
@@ -2495,17 +2495,17 @@ Mods: {
 
 			TouchstoneLootboxItem: {
 				DisplayName: Touchstone Chest Placer
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AuroracleTrophyItem: {
 				DisplayName: 极光之触纪念章
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			CeirosTrophyItem: {
 				DisplayName: 塞洛斯纪念章
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			CombatShrineItem: {
@@ -2535,17 +2535,17 @@ Mods: {
 
 			TempleChestPlacer: {
 				DisplayName: Temple Chest Placer
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleWallBigItem: {
 				DisplayName: 大古庙砖墙
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleWallItem: {
 				DisplayName: 古庙砖墙
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TestBubble: {
@@ -2560,12 +2560,12 @@ Mods: {
 
 			AncientSandstonePillarWallItem: {
 				DisplayName: 远古砂岩墙
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AncientSandstonePlatformItem: {
 				DisplayName: 远古砂岩平台
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AncientSandstoneTorchItem: {
@@ -2575,12 +2575,12 @@ Mods: {
 
 			AncientSandstoneWallItem: {
 				DisplayName: 远古砂岩墙
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DestructableGlassItem: {
-				// DisplayName: Breakable vitric crystal
-				// Tooltip: A chunk of vitric crystal susceptible to the force of forbidden winds
+				DisplayName: Breakable vitric crystal
+				Tooltip: A chunk of vitric crystal susceptible to the force of forbidden winds
 			}
 
 			ForgeDoorItem: {
@@ -2600,7 +2600,7 @@ Mods: {
 
 			CrystalSlimeSpawnerItem: {
 				DisplayName: NPC Spawner
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DashableDoorItem: {
@@ -2639,13 +2639,13 @@ Mods: {
 			}
 
 			LightActorItem: {
-				// DisplayName: Light actor placer
-				// Tooltip: Debug item
+				DisplayName: Light actor placer
+				Tooltip: Debug item
 			}
 
 			LensItem: {
-				// DisplayName: Reflector Lens
-				// Tooltip: Debug Item
+				DisplayName: Reflector Lens
+				Tooltip: Debug Item
 			}
 
 			ReflectorItem: {
@@ -2655,17 +2655,17 @@ Mods: {
 
 			LowWindBannerItem: {
 				DisplayName: 矩形飘带
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			MainForgeItem: {
-				// DisplayName: Main forge
-				// Tooltip: Debug item
+				DisplayName: Main forge
+				Tooltip: Debug item
 			}
 
 			NPCSpawnerItem: {
 				DisplayName: NPC Spawner
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			OldCeirosShrineItem: {
@@ -2674,8 +2674,8 @@ Mods: {
 			}
 
 			TallWindowCrystalItem: {
-				// DisplayName: Crystal Window Actor
-				// Tooltip: Debug Item
+				DisplayName: Crystal Window Actor
+				Tooltip: Debug Item
 			}
 
 			TallWindowItem: {
@@ -2684,28 +2684,28 @@ Mods: {
 			}
 
 			TallWindowLavaItem: {
-				// DisplayName: Lava Window Actor
-				// Tooltip: Debug Item
+				DisplayName: Lava Window Actor
+				Tooltip: Debug Item
 			}
 
 			TempleCandleCrystalItem: {
 				DisplayName: 神殿晶体蜡烛
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleCandleItem: {
 				DisplayName: 神殿蜡烛
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleCeirosFountainItem: {
 				DisplayName: 神殿哨卫喷泉
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleWallCandleItem: {
 				DisplayName: 神殿壁挂蜡烛
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TutorialDoor1Item: {
@@ -2719,8 +2719,8 @@ Mods: {
 			}
 
 			VitricPillarWallCrystalItem: {
-				// DisplayName: Crystal Vitric Forge Pillar
-				// Tooltip: Sturdy
+				DisplayName: Crystal Vitric Forge Pillar
+				Tooltip: Sturdy
 			}
 
 			VitricPillarWallItem: {
@@ -2729,8 +2729,8 @@ Mods: {
 			}
 
 			VitricPillarWallLavaItem: {
-				// DisplayName: Lava Vitric Forge Pillar
-				// Tooltip: Sturdy
+				DisplayName: Lava Vitric Forge Pillar
+				Tooltip: Sturdy
 			}
 
 			VitricPillarWallShortItem: {
@@ -2744,8 +2744,8 @@ Mods: {
 			}
 
 			VitricTempleWallSafeItem: {
-				// DisplayName: Vitric Forge Brick Wall (Safe)
-				// Tooltip: Sturdy
+				DisplayName: Vitric Forge Brick Wall (Safe)
+				Tooltip: Sturdy
 			}
 
 			WindsRoomActorItem: {
@@ -2755,7 +2755,7 @@ Mods: {
 
 			VitricBannerSmallItem: {
 				DisplayName: 短飘带
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricBossAltarItem: {
@@ -2790,7 +2790,7 @@ Mods: {
 
 			VitricLootBoxItem: {
 				DisplayName: 琉璃晶匣
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricMediumCrystalItem: {
@@ -2800,22 +2800,22 @@ Mods: {
 
 			VitricOreFloatItem: {
 				DisplayName: 飘浮琉璃矿
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricOreItem: {
 				DisplayName: 琉璃矿
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricRockItem: {
 				DisplayName: 琉璃岩
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricSandWallItem: {
 				DisplayName: 琉璃砂墙
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricSmallCrystalItem: {
@@ -2830,7 +2830,7 @@ Mods: {
 
 			VitricBannerItem: {
 				DisplayName: 长飘带
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			CombatShrineBarrierItem: {
@@ -2845,87 +2845,87 @@ Mods: {
 
 			VitricBathtub: {
 				DisplayName: 琉璃浴缸
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricBed: {
 				DisplayName: 琉璃床
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricBookcase: {
 				DisplayName: 琉璃书架
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricCandelabra: {
 				DisplayName: 琉璃烛台
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricCandle: {
 				DisplayName: 琉璃蜡烛
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricChair: {
 				DisplayName: 琉璃椅
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricChandelier: {
 				DisplayName: 琉璃吊灯
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricClock: {
 				DisplayName: 琉璃时钟
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricDresser: {
 				DisplayName: 琉璃梳妆台
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricLamp: {
 				DisplayName: 琉璃灯
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricLantern: {
 				DisplayName: 琉璃灯笼
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricPiano: {
 				DisplayName: 琉璃钢琴
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricSink: {
 				DisplayName: 琉璃水槽
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricSofa: {
 				DisplayName: 琉璃沙发
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricTable: {
 				DisplayName: 琉璃桌
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricWorkbench: {
 				DisplayName: 琉璃工作台
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricDoor: {
 				DisplayName: 琉璃门
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricBossBarrierItem: {
@@ -2940,277 +2940,277 @@ Mods: {
 
 			TempleChairItem: {
 				DisplayName: 神殿椅
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleLargeVaseItem: {
 				DisplayName: 神殿花瓶
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleLargeVaseCrystalItem: {
 				DisplayName: 神殿晶体花瓶
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleWorkbenchItem: {
 				DisplayName: 神殿工作台
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleThroneItem: {
 				DisplayName: 神殿王座
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleFloorWeaponRackItem: {
 				DisplayName: 神殿落地武器架
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleTableItem: {
 				DisplayName: 神殿桌
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleTableCrystalItem: {
 				DisplayName: 神殿晶体桌
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleWeaponRack0Item: {
 				DisplayName: 神殿武器架A
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleWeaponRack1Item: {
 				DisplayName: 神殿武器架B
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleWeaponRack2Item: {
 				DisplayName: 神殿武器架C
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleWeaponRack3Item: {
 				DisplayName: 神殿武器架D
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleThingamajigItem: {
 				DisplayName: 神殿大型武器架
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			TempleBrickItem: {
 				DisplayName: 远古砖
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricBoss1Item: {
 				DisplayName: 八音盒（塞洛斯 1）
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricBoss2Item: {
 				DisplayName: 八音盒（塞洛斯 2）
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricPassiveItem: {
 				DisplayName: 八音盒（琉璃沙漠）
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricTempleItem: {
 				DisplayName: 八音盒（琉璃神庙）
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			MinibossItem: {
 				DisplayName: 八音盒（小Boss）
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			OvergrowItem: {
 				DisplayName: 八音盒 (Overgrow)
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AuroracleItem: {
 				DisplayName: 八音盒 （极光之触）
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			LeafOvergrowItem: {
 				DisplayName: 妖精叶
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			BrickOvergrowItem: {
 				DisplayName: 符文砖
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			StoneOvergrowItem: {
 				DisplayName: 符文石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			SpringstoneItem: {
 				DisplayName: 温泉石
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			ShrineBrazierItem: {
 				DisplayName: 神秘火盆
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			WitTileItem: {
 				DisplayName: 智砖
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AncientSandstoneItem: {
 				DisplayName: 远古砂岩
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AncientSandstoneTileItem: {
 				DisplayName: 远古砂岩瓷砖
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricBrickItem: {
 				DisplayName: 琉璃砖
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricCactusItem: {
 				DisplayName: 琉璃仙人掌
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricGlassItem: {
 				DisplayName: 琉璃
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricSandItem: {
 				DisplayName: 琉璃沙块
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricSoftSandItem: {
 				DisplayName: 柔软琉璃沙块
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			VitricSandPlainItem: {
 				DisplayName: 软沙块
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			DoorLasersItem: {
-				// DisplayName: Laser Puzzle Temple Door
-				// Tooltip: Temple Door, Opens if laser puzzle is solved
+				DisplayName: Laser Puzzle Temple Door
+				Tooltip: Temple Door, Opens if laser puzzle is solved
 			}
 
 			VitricDoorClosed: {
-				// DisplayName: Vitric Door
-				// Tooltip: ""
+				DisplayName: Vitric Door
+				Tooltip: ""
 			}
 
 			"": {
-				// Tooltip: ""
-				// DisplayName: ""
+				Tooltip: ""
+				DisplayName: ""
 			}
 
 			TarnishedRing: {
-				// DisplayName: Tarnished Ring
-				// Tooltip: "'Ancient and heavily tarnished, but still solid. You could sculpt this into something useful..."
+				DisplayName: Tarnished Ring
+				Tooltip: "'Ancient and heavily tarnished, but still solid. You could sculpt this into something useful..."
 			}
 
 			BaseBarrierDye: {
-				// DisplayName: Base Barrier Dye
-				// Tooltip: ""
+				DisplayName: Base Barrier Dye
+				Tooltip: ""
 			}
 
 			ExampleCombatMountItem: {
-				// DisplayName: Example Combat Mount Item
-				// Tooltip: ""
+				DisplayName: Example Combat Mount Item
+				Tooltip: ""
 			}
 
 			MonkSpade: {
-				// DisplayName: Monk Spade
-				// Tooltip: ""
+				DisplayName: Monk Spade
+				Tooltip: ""
 			}
 
 			RainbowCycleDye: {
-				// DisplayName: Rainbow Cycle Dye
-				// Tooltip: ""
+				DisplayName: Rainbow Cycle Dye
+				Tooltip: ""
 			}
 
 			RainbowCycleDye2: {
-				// DisplayName: Rainbow Cycle Dye2
-				// Tooltip: ""
+				DisplayName: Rainbow Cycle Dye2
+				Tooltip: ""
 			}
 
 			StaminaPickup: {
-				// DisplayName: Stamina Pickup
-				// Tooltip: ""
+				DisplayName: Stamina Pickup
+				Tooltip: ""
 			}
 
 			ForestBerries: {
-				// DisplayName: Forest Berries
-				// Tooltip: ""
+				DisplayName: Forest Berries
+				Tooltip: ""
 			}
 
 			RedLaserPointer: {
-				// DisplayName: Red Laser Pointer
-				// Tooltip: ""
+				DisplayName: Red Laser Pointer
+				Tooltip: ""
 			}
 
 			OrangeLaserPointer: {
-				// DisplayName: Orange Laser Pointer
-				// Tooltip: ""
+				DisplayName: Orange Laser Pointer
+				Tooltip: ""
 			}
 
 			YellowLaserPointer: {
-				// DisplayName: Yellow Laser Pointer
-				// Tooltip: ""
+				DisplayName: Yellow Laser Pointer
+				Tooltip: ""
 			}
 
 			GreenLaserPointer: {
-				// DisplayName: Green Laser Pointer
-				// Tooltip: ""
+				DisplayName: Green Laser Pointer
+				Tooltip: ""
 			}
 
 			BlueLaserPointer: {
-				// DisplayName: Blue Laser Pointer
-				// Tooltip: ""
+				DisplayName: Blue Laser Pointer
+				Tooltip: ""
 			}
 
 			PurpleLaserPointer: {
-				// DisplayName: Purple Laser Pointer
-				// Tooltip: ""
+				DisplayName: Purple Laser Pointer
+				Tooltip: ""
 			}
 
 			WhiteLaserPointer: {
-				// DisplayName: White Laser Pointer
-				// Tooltip: ""
+				DisplayName: White Laser Pointer
+				Tooltip: ""
 			}
 
 			PinkLaserPointer: {
-				// DisplayName: Pink Laser Pointer
-				// Tooltip: ""
+				DisplayName: Pink Laser Pointer
+				Tooltip: ""
 			}
 		}
 
 		Projectiles: {
-			// CauldronDummy.DisplayName: ""
+			CauldronDummy.DisplayName: ""
 			ArtifactItemProj.DisplayName: 人工制品
 			GlassBubble.DisplayName: 不稳定泡泡
 			GlassBubbleFragment.DisplayName: 玻璃碎片
@@ -3262,7 +3262,7 @@ Mods: {
 			BloodBolt.DisplayName: Blood Bolt
 			BloodBolterExplosion.DisplayName: Blood Bolter
 			BloodBolterHeldProj.DisplayName: Blood bolter
-			// FleshApparation.DisplayName: Flesh apparation
+			FleshApparation.DisplayName: Flesh apparation
 			GluttonyGhoul.DisplayName: Ghoul
 			GluttonyHandle.DisplayName: Gluttony
 			GravediggerSlam.DisplayName: Grave digger
@@ -3293,8 +3293,8 @@ Mods: {
 			DiceProj.DisplayName: Dice
 			DiscordantBolt.DisplayName: Discordant Bolt
 			DualCrossHeld.DisplayName: Double Cross
-			// EarthdusterHoldout.DisplayName: Earthduster
-			// EarthdusterRing.DisplayName: Ring
+			EarthdusterHoldout.DisplayName: Earthduster
+			EarthdusterRing.DisplayName: Ring
 			ElectroArrowProjectile.DisplayName: Electro Arrow
 			FiletSlash.DisplayName: Slash
 			FryingPanBonk.DisplayName: 煎锅
@@ -3336,7 +3336,7 @@ Mods: {
 			TaintedGreataxeProjectile.DisplayName: Ethereal Greataxe
 			ThrusterEmber.DisplayName: Thruster
 			TinCoilWhip.DisplayName: Tin Coil
-			// CrescentOrb.DisplayName: Lunar Orb
+			CrescentOrb.DisplayName: Lunar Orb
 			CrescentQuarterstaffProj.DisplayName: Crescent Quarterstaff
 			DianeCrescant.DisplayName: Crescant
 			MoonfuryProj.DisplayName: Moonfury Spike
@@ -3377,7 +3377,7 @@ Mods: {
 			JetwelderSelector.DisplayName: Jetwelder
 			PhantomBuzzsaw.DisplayName: Buzzsaw
 			RebarProj.DisplayName: Rebar
-			// TempleSpearLaser.DisplayName: Point of Light
+			TempleSpearLaser.DisplayName: Point of Light
 			TempleSpearProjectile.DisplayName: Temple Spear Projectile
 			ArrowMagma.DisplayName: Magma Arrow
 			CoachGunUpgradeBomb.DisplayName: Crystal Bomb
@@ -3407,7 +3407,7 @@ Mods: {
 			VitricBulletCrystalProjectile.DisplayName: Vitric Crystal
 			VitricBulletProjectile.DisplayName: Vitric Bullet
 			VitricSwordProjectile.DisplayName: Enchanted Glass
-			// EnemyMagnetShot.DisplayName: Electro Shock
+			EnemyMagnetShot.DisplayName: Electro Shock
 			AngryCrescentDeathProjectile.DisplayName: Crescent Shard
 			DreamprismSlam.DisplayName: Slam
 			SnoobelCollider.DisplayName: Snoobel
@@ -3417,274 +3417,274 @@ Mods: {
 			PelterConstructArrowLarge.DisplayName: Glass Arrow
 			KettleMortar.DisplayName: Magma Shot
 			SnakeSpit.DisplayName: Molten glass
-			// CrashPodDummy.DisplayName: ""
-			// AnkhChestDummy.DisplayName: ""
-			// TwistSwordTileProj.DisplayName: ""
+			CrashPodDummy.DisplayName: ""
+			AnkhChestDummy.DisplayName: ""
+			TwistSwordTileProj.DisplayName: ""
 			PinkSeaSaltProjectile.DisplayName: Sea Salt
 			TableSaltProjectile.DisplayName: Table Salt
-			// MonkSpearDummy.DisplayName: ""
-			// BouncerDummy.DisplayName: ""
-			// StaminaGemDummy.DisplayName: ""
-			// StaminaOrbDummy.DisplayName: ""
-			// LootBubbleDummy.DisplayName: ""
-			// JellyShroomDummy.DisplayName: ""
-			// BossWindowDummy.DisplayName: ""
-			// NoxiousNodeDummy.DisplayName: ""
-			// WindowSmallDummy.DisplayName: ""
-			// BossGateDummy.DisplayName: ""
-			// CombatShrineDummy.DisplayName: ""
+			MonkSpearDummy.DisplayName: ""
+			BouncerDummy.DisplayName: ""
+			StaminaGemDummy.DisplayName: ""
+			StaminaOrbDummy.DisplayName: ""
+			LootBubbleDummy.DisplayName: ""
+			JellyShroomDummy.DisplayName: ""
+			BossWindowDummy.DisplayName: ""
+			NoxiousNodeDummy.DisplayName: ""
+			WindowSmallDummy.DisplayName: ""
+			BossGateDummy.DisplayName: ""
+			CombatShrineDummy.DisplayName: ""
 			Dart.DisplayName: Cursed Dart
 			SawbladeSmall.DisplayName: Cursed Sawblade
 			Spear.DisplayName: Cursed Spear
-			// EvasionShrineDummy.DisplayName: ""
-			// HotspringFountainDummy.DisplayName: ""
-			// WitShrineDummy.DisplayName: ""
-			// DashBarrierDummy.DisplayName: ""
-			// JarDummy.DisplayName: ""
-			// VerletBannerDummy.DisplayName: ""
-			// ForgeActorDummy.DisplayName: ""
-			// RedBannerShortDummy.DisplayName: ""
-			// CrystalSlimeSpawnerDummy.DisplayName: ""
-			// DashableDoorDummy.DisplayName: ""
-			// DynamicGearDummy.DisplayName: ""
-			// GearPuzzleOriginDummy.DisplayName: ""
-			// ObjectiveGearDummy.DisplayName: ""
-			// LightActorDummy.DisplayName: ""
-			// LensDummy.DisplayName: ""
-			// ReflectorDummy.DisplayName: ""
-			// LowWindBannerDummy.DisplayName: ""
-			// MainForgeDummy.DisplayName: ""
-			// NPCSpawnerDummy.DisplayName: ""
-			// OldCeirosShrineDummy.DisplayName: ""
-			// TallWindowCrystalDummy.DisplayName: ""
-			// TallWindowDummy.DisplayName: ""
-			// TallWindowLavaDummy.DisplayName: ""
-			// TutorialDoor1Dummy.DisplayName: ""
-			// TutorialDoor2Dummy.DisplayName: ""
-			// WindsRoomActorDummy.DisplayName: ""
-			// VitricBannerSmallDummy.DisplayName: ""
-			// VitricBossAltarDummy.DisplayName: ""
-			// VitricGiantDummy.DisplayName: ""
-			// VitricLargeDummy.DisplayName: ""
-			// VitricMediumDummy.DisplayName: ""
-			// VitricOreDummy.DisplayName: ""
-			// VitricOreFloatDummy.DisplayName: ""
-			// VitricSmallDummy.DisplayName: ""
-			// VitricBannerDummy.DisplayName: ""
-			// HintText.DisplayName: Hint Text
-			// BurningGround.DisplayName: Burning Ground
-			// GlassJavelin.DisplayName: Glass Javelin
-			// GlassweaverDoor.DisplayName: Glassweaver Door
-			// Glint.DisplayName: Glint
-			// AuroraWaterSplash.DisplayName: Aurora Water Splash
-			// DoorBomb.DisplayName: Door Bomb
-			// Laser.DisplayName: Laser
-			// CrystalWave.DisplayName: Crystal Wave
-			// FireCone.DisplayName: Fire Cone
-			// FireRingHostile.DisplayName: Fire Ring Hostile
-			// FireRing.DisplayName: Fire Ring
-			// GlassVolley.DisplayName: Glass Volley
-			// GlassVolleyShard.DisplayName: Glass Volley Shard
-			// SpikeMine.DisplayName: Spike Mine
-			// VitricBomb.DisplayName: Vitric Bomb
-			// LightningNode.DisplayName: Lightning Node
-			// ScrapshotHook.DisplayName: Scrapshot Hook
-			// AztecDeathSaxophoneSoundwave.DisplayName: Aztec Death Saxophone Soundwave
-			// SandSlash.DisplayName: Sand Slash
-			// TwistSwordProjectile.DisplayName: Twist Sword Projectile
-			// Acorn.DisplayName: Acorn
-			// MonkSpadeProjectile.DisplayName: Monk Spade Projectile
-			// GeoAmethystProj.DisplayName: Geo Amethyst Proj
-			// GeoDiamondProj.DisplayName: Geo Diamond Proj
-			// GeoEmeraldProj.DisplayName: Geo Emerald Proj
-			// GeoRubyProj.DisplayName: Geo Ruby Proj
-			// GeoSapphireProj.DisplayName: Geo Sapphire Proj
-			// GeoTopazProj.DisplayName: Geo Topaz Proj
-			// ThunderbussBall.DisplayName: Thunderbuss Ball
-			// AxeBookProjectile.DisplayName: Axe Book Projectile
-			// BizarreLightning.DisplayName: Bizarre Lightning
-			// BizarreLightningOrb.DisplayName: Bizarre Lightning Orb
-			// BizarrePotionPoisonCloud.DisplayName: Bizarre Potion Poison Cloud
-			// FryingPanThrownProj.DisplayName: Frying Pan Thrown Proj
-			// GuillotineVFX.DisplayName: Guillotine V F X
-			// HolyAmuletOrb.DisplayName: Holy Amulet Orb
-			// SorcerwrenchProjectile.DisplayName: Sorcerwrench Projectile
-			// SpearBookProjectile.DisplayName: Spear Book Projectile
-			// SwordBookParry.DisplayName: Sword Book Parry
-			// SwordBookProjectile.DisplayName: Sword Book Projectile
-			// ThrownAxeProjectile.DisplayName: Thrown Axe Projectile
-			// UltrapillBlood.DisplayName: Ultrapill Blood
-			// DatsuzeiProjectile.DisplayName: Datsuzei Projectile
-			// StarGlaive.DisplayName: Star Glaive
-			// StarShuriken.DisplayName: Star Shuriken
-			// AuroraThroneMountMinion.DisplayName: Aurora Throne Mount Minion
-			// FrostballProjectile.DisplayName: Frostball Projectile
-			// FrostExplosion.DisplayName: Frost Explosion
-			// TentalanceProjectile.DisplayName: Tentalance Projectile
-			// StarwoodSlingshotProj.DisplayName: Starwood Slingshot Proj
-			// RuneStaffExplosion.DisplayName: Rune Staff Explosion
-			// RuneStaffProjectile.DisplayName: Rune Staff Projectile
-			// TemplePickProjectile.DisplayName: Temple Pick Projectile
-			// TempleSpearLight.DisplayName: Temple Spear Light
-			// LaserPointerProjectile.DisplayName: Laser Pointer Projectile
-			// CoachGunUpgradeExplosion.DisplayName: Coach Gun Upgrade Explosion
-			// MagmaBottleBurn.DisplayName: Magma Bottle Burn
-			// MagmiteBombProjectile.DisplayName: Magmite Bomb Projectile
-			// MagmiteBottleProjectile.DisplayName: Magmite Bottle Projectile
-			// RefractiveBladeLaser.DisplayName: Refractive Blade Laser
-			// RefractiveBladeProj.DisplayName: Refractive Blade Proj
-			// VitricBowProjectile.DisplayName: Vitric Bow Projectile
-			// VitricBowShard.DisplayName: Vitric Bow Shard
-			// BossRushOrbGoreProjectile.DisplayName: Boss Rush Orb Gore Projectile
-			// ConstructSpawner.DisplayName: Construct Spawner
-			// GauntletSpawner.DisplayName: Gauntlet Spawner
-			// SpawnEgg.DisplayName: Spawn Egg
+			EvasionShrineDummy.DisplayName: ""
+			HotspringFountainDummy.DisplayName: ""
+			WitShrineDummy.DisplayName: ""
+			DashBarrierDummy.DisplayName: ""
+			JarDummy.DisplayName: ""
+			VerletBannerDummy.DisplayName: ""
+			ForgeActorDummy.DisplayName: ""
+			RedBannerShortDummy.DisplayName: ""
+			CrystalSlimeSpawnerDummy.DisplayName: ""
+			DashableDoorDummy.DisplayName: ""
+			DynamicGearDummy.DisplayName: ""
+			GearPuzzleOriginDummy.DisplayName: ""
+			ObjectiveGearDummy.DisplayName: ""
+			LightActorDummy.DisplayName: ""
+			LensDummy.DisplayName: ""
+			ReflectorDummy.DisplayName: ""
+			LowWindBannerDummy.DisplayName: ""
+			MainForgeDummy.DisplayName: ""
+			NPCSpawnerDummy.DisplayName: ""
+			OldCeirosShrineDummy.DisplayName: ""
+			TallWindowCrystalDummy.DisplayName: ""
+			TallWindowDummy.DisplayName: ""
+			TallWindowLavaDummy.DisplayName: ""
+			TutorialDoor1Dummy.DisplayName: ""
+			TutorialDoor2Dummy.DisplayName: ""
+			WindsRoomActorDummy.DisplayName: ""
+			VitricBannerSmallDummy.DisplayName: ""
+			VitricBossAltarDummy.DisplayName: ""
+			VitricGiantDummy.DisplayName: ""
+			VitricLargeDummy.DisplayName: ""
+			VitricMediumDummy.DisplayName: ""
+			VitricOreDummy.DisplayName: ""
+			VitricOreFloatDummy.DisplayName: ""
+			VitricSmallDummy.DisplayName: ""
+			VitricBannerDummy.DisplayName: ""
+			HintText.DisplayName: Hint Text
+			BurningGround.DisplayName: Burning Ground
+			GlassJavelin.DisplayName: Glass Javelin
+			GlassweaverDoor.DisplayName: Glassweaver Door
+			Glint.DisplayName: Glint
+			AuroraWaterSplash.DisplayName: Aurora Water Splash
+			DoorBomb.DisplayName: Door Bomb
+			Laser.DisplayName: Laser
+			CrystalWave.DisplayName: Crystal Wave
+			FireCone.DisplayName: Fire Cone
+			FireRingHostile.DisplayName: Fire Ring Hostile
+			FireRing.DisplayName: Fire Ring
+			GlassVolley.DisplayName: Glass Volley
+			GlassVolleyShard.DisplayName: Glass Volley Shard
+			SpikeMine.DisplayName: Spike Mine
+			VitricBomb.DisplayName: Vitric Bomb
+			LightningNode.DisplayName: Lightning Node
+			ScrapshotHook.DisplayName: Scrapshot Hook
+			AztecDeathSaxophoneSoundwave.DisplayName: Aztec Death Saxophone Soundwave
+			SandSlash.DisplayName: Sand Slash
+			TwistSwordProjectile.DisplayName: Twist Sword Projectile
+			Acorn.DisplayName: Acorn
+			MonkSpadeProjectile.DisplayName: Monk Spade Projectile
+			GeoAmethystProj.DisplayName: Geo Amethyst Proj
+			GeoDiamondProj.DisplayName: Geo Diamond Proj
+			GeoEmeraldProj.DisplayName: Geo Emerald Proj
+			GeoRubyProj.DisplayName: Geo Ruby Proj
+			GeoSapphireProj.DisplayName: Geo Sapphire Proj
+			GeoTopazProj.DisplayName: Geo Topaz Proj
+			ThunderbussBall.DisplayName: Thunderbuss Ball
+			AxeBookProjectile.DisplayName: Axe Book Projectile
+			BizarreLightning.DisplayName: Bizarre Lightning
+			BizarreLightningOrb.DisplayName: Bizarre Lightning Orb
+			BizarrePotionPoisonCloud.DisplayName: Bizarre Potion Poison Cloud
+			FryingPanThrownProj.DisplayName: Frying Pan Thrown Proj
+			GuillotineVFX.DisplayName: Guillotine V F X
+			HolyAmuletOrb.DisplayName: Holy Amulet Orb
+			SorcerwrenchProjectile.DisplayName: Sorcerwrench Projectile
+			SpearBookProjectile.DisplayName: Spear Book Projectile
+			SwordBookParry.DisplayName: Sword Book Parry
+			SwordBookProjectile.DisplayName: Sword Book Projectile
+			ThrownAxeProjectile.DisplayName: Thrown Axe Projectile
+			UltrapillBlood.DisplayName: Ultrapill Blood
+			DatsuzeiProjectile.DisplayName: Datsuzei Projectile
+			StarGlaive.DisplayName: Star Glaive
+			StarShuriken.DisplayName: Star Shuriken
+			AuroraThroneMountMinion.DisplayName: Aurora Throne Mount Minion
+			FrostballProjectile.DisplayName: Frostball Projectile
+			FrostExplosion.DisplayName: Frost Explosion
+			TentalanceProjectile.DisplayName: Tentalance Projectile
+			StarwoodSlingshotProj.DisplayName: Starwood Slingshot Proj
+			RuneStaffExplosion.DisplayName: Rune Staff Explosion
+			RuneStaffProjectile.DisplayName: Rune Staff Projectile
+			TemplePickProjectile.DisplayName: Temple Pick Projectile
+			TempleSpearLight.DisplayName: Temple Spear Light
+			LaserPointerProjectile.DisplayName: Laser Pointer Projectile
+			CoachGunUpgradeExplosion.DisplayName: Coach Gun Upgrade Explosion
+			MagmaBottleBurn.DisplayName: Magma Bottle Burn
+			MagmiteBombProjectile.DisplayName: Magmite Bomb Projectile
+			MagmiteBottleProjectile.DisplayName: Magmite Bottle Projectile
+			RefractiveBladeLaser.DisplayName: Refractive Blade Laser
+			RefractiveBladeProj.DisplayName: Refractive Blade Proj
+			VitricBowProjectile.DisplayName: Vitric Bow Projectile
+			VitricBowShard.DisplayName: Vitric Bow Shard
+			BossRushOrbGoreProjectile.DisplayName: Boss Rush Orb Gore Projectile
+			ConstructSpawner.DisplayName: Construct Spawner
+			GauntletSpawner.DisplayName: Gauntlet Spawner
+			SpawnEgg.DisplayName: Spawn Egg
 		}
 
 		Tiles: {
 			CauldronTile.MapEntry: Alchemic Cauldron
-			// SeaglassRingTile.MapEntry: ""
-			// FaeflamePickupTile.MapEntry: ""
-			// ForbiddenWindsPickupTile.MapEntry: ""
-			// StaminaShardTile.MapEntry: ""
+			SeaglassRingTile.MapEntry: ""
+			FaeflamePickupTile.MapEntry: ""
+			ForbiddenWindsPickupTile.MapEntry: ""
+			StaminaShardTile.MapEntry: ""
 			CookStation.MapEntry: Cooking Station
 			Infuser.MapEntry: Infuser
 			CrashPod.MapEntry: Crashed Pod
 			AnkhChest.MapEntry: 十字箱
-			// DesertMonolith.MapEntry: ""
-			// DesertMonolithFlipped.MapEntry: ""
+			DesertMonolith.MapEntry: ""
+			DesertMonolithFlipped.MapEntry: ""
 			TwistSwordTile.MapEntry: Twisted Greatsword
-			// PinkSeaSalt.MapEntry: ""
-			// TableSalt.MapEntry: ""
-			// ForestBerryBush.MapEntry: ""
+			PinkSeaSalt.MapEntry: ""
+			TableSalt.MapEntry: ""
+			ForestBerryBush.MapEntry: ""
 			MonkSpear.MapEntry: Monk's Spade
-			// SlimeberryBush.MapEntry: ""
+			SlimeberryBush.MapEntry: ""
 			ThickTree.MapEntry: Large Tree
-			// ThickTreeBase.MapEntry: ""
+			ThickTreeBase.MapEntry: ""
 			TallAncientFruit.MapEntry: Ancient Fruit
 			TallGoldenRice.MapEntry: Golden Rice
 			TallRice.MapEntry: Rice
 			GreenhouseGlass.MapEntry: Greenhouse Glass
-			// Bouncer.MapEntry: ""
-			// StaminaGem.MapEntry: ""
+			Bouncer.MapEntry: ""
+			StaminaGem.MapEntry: ""
 			DisplayCase.MapEntry: Relic Case
 			DisplayCaseFriendly.MapEntry: Relic Case
 			RatTent.MapEntry: Strange Tent
 			MoonstoneBar.MapEntry: Metal Bar
 			MoonstoneOre.MapEntry: Moonstone Ore
 			JellyShroom.MapEntry: Jelly Shroom
-			// Lumishroom.MapEntry: ""
-			// Vibeshroom.MapEntry: ""
-			// BlueTorchOvergrow.MapEntry: ""
+			Lumishroom.MapEntry: ""
+			Vibeshroom.MapEntry: ""
+			BlueTorchOvergrow.MapEntry: ""
 			OvergrowthLivingWoodTile.MapEntry: Overgrown Living Wood
 			Overgrow.MapEntry: 音乐盒
-			// Rock2x2.MapEntry: ""
-			// SetpieceAltar.MapEntry: ""
+			Rock2x2.MapEntry: ""
+			SetpieceAltar.MapEntry: ""
 			SkeletonBrickTile.MapEntry: Skeleton Brick
-			// TorchOvergrow.MapEntry: ""
-			// WindowSmall.MapEntry: ""
-			// WispAltarL.MapEntry: ""
-			// WispAltarR.MapEntry: ""
+			TorchOvergrow.MapEntry: ""
+			WindowSmall.MapEntry: ""
+			WispAltarL.MapEntry: ""
+			WispAltarR.MapEntry: ""
 			AuroraclePainting.MapEntry: Painting
 			EggCodexPainting.MapEntry: Painting
 			RatKingPainting.MapEntry: Painting
-			// AuroraBrick.MapEntry: ""
-			// AuroraBrickDoor.MapEntry: ""
-			// AuroraIce.MapEntry: ""
-			// BossGate.MapEntry: ""
-			// DoorBombShooter.MapEntry: ""
-			// PermafrostIce.MapEntry: ""
+			AuroraBrick.MapEntry: ""
+			AuroraBrickDoor.MapEntry: ""
+			AuroraIce.MapEntry: ""
+			BossGate.MapEntry: ""
+			DoorBombShooter.MapEntry: ""
+			PermafrostIce.MapEntry: ""
 			Touchstone.MapEntry: Touchstone
-			// TouchstoneLootbox.MapEntry: ""
+			TouchstoneLootbox.MapEntry: ""
 			AuroracleTrophy.MapEntry: 纪念章
 			Auroracle.MapEntry: 音乐盒
 			CeirosTrophy.MapEntry: 纪念章
 			CombatShrine.MapEntry: Mysterious Shrine
 			EvasionShrine.MapEntry: Mysterious Shrine
-			// HotspringFountain.MapEntry: ""
+			HotspringFountain.MapEntry: ""
 			MagmiteShrine.MapEntry: The Boi
 			WitShrine.MapEntry: Mysterious Shrine
-			// DashBarrier.MapEntry: ""
+			DashBarrier.MapEntry: ""
 			JarTall.MapEntry: Stamina Jar
-			// TempleChestSimple.MapEntry: ""
-			// TempleLootBubble.MapEntry: ""
-			// VerletBanner.MapEntry: ""
-			// DestructableGlass.MapEntry: ""
-			// ForgeActor.MapEntry: ""
+			TempleChestSimple.MapEntry: ""
+			TempleLootBubble.MapEntry: ""
+			VerletBanner.MapEntry: ""
+			DestructableGlass.MapEntry: ""
+			ForgeActor.MapEntry: ""
 			ForgeDoor.MapEntry: Forge Door
 			ForgeInnerDoor.MapEntry: Forge Door
-			// RedBannerShort.MapEntry: ""
-			// SandstoneDoor.MapEntry: ""
-			// CrystalSlimeSpawner.MapEntry: ""
-			// DashableDoor.MapEntry: ""
-			// DoorGears.MapEntry: ""
-			// DoorVertical.MapEntry: ""
+			RedBannerShort.MapEntry: ""
+			SandstoneDoor.MapEntry: ""
+			CrystalSlimeSpawner.MapEntry: ""
+			DashableDoor.MapEntry: ""
+			DoorGears.MapEntry: ""
+			DoorVertical.MapEntry: ""
 			EntranceDoor.MapEntry: Vitric Temple Door
-			// DynamicGear.MapEntry: ""
-			// GearPuzzleOrigin.MapEntry: ""
-			// ObjectiveGear.MapEntry: ""
-			// LightActor.MapEntry: ""
-			// Lens.MapEntry: ""
-			// LightGoal.MapEntry: ""
-			// Reflector.MapEntry: ""
-			// LowWindBanner.MapEntry: ""
-			// MainForge.MapEntry: ""
-			// NPCSpawner.MapEntry: ""
-			// OldCeirosShrine.MapEntry: ""
-			// TallWindow.MapEntry: ""
-			// TallWindowCrystal.MapEntry: ""
-			// TallWindowLava.MapEntry: ""
+			DynamicGear.MapEntry: ""
+			GearPuzzleOrigin.MapEntry: ""
+			ObjectiveGear.MapEntry: ""
+			LightActor.MapEntry: ""
+			Lens.MapEntry: ""
+			LightGoal.MapEntry: ""
+			Reflector.MapEntry: ""
+			LowWindBanner.MapEntry: ""
+			MainForge.MapEntry: ""
+			NPCSpawner.MapEntry: ""
+			OldCeirosShrine.MapEntry: ""
+			TallWindow.MapEntry: ""
+			TallWindowCrystal.MapEntry: ""
+			TallWindowLava.MapEntry: ""
 			TempleCandle.MapEntry: 蜡烛
 			TempleCandleCrystal.MapEntry: 蜡烛
 			TempleCeirosFountain.MapEntry: 喷泉
 			TempleWallCandle.MapEntry: 蜡烛
-			// TutorialDoor1.MapEntry: ""
-			// TutorialDoor2.MapEntry: ""
-			// VitricPillarWall.MapEntry: ""
-			// VitricPillarWallCrystal.MapEntry: ""
-			// VitricPillarWallLava.MapEntry: ""
-			// VitricPillarWallShort.MapEntry: ""
-			// WindsRoomActor.MapEntry: ""
-			// VitricBannerSmall.MapEntry: ""
-			// VitricBanner.MapEntry: ""
+			TutorialDoor1.MapEntry: ""
+			TutorialDoor2.MapEntry: ""
+			VitricPillarWall.MapEntry: ""
+			VitricPillarWallCrystal.MapEntry: ""
+			VitricPillarWallLava.MapEntry: ""
+			VitricPillarWallShort.MapEntry: ""
+			WindsRoomActor.MapEntry: ""
+			VitricBannerSmall.MapEntry: ""
+			VitricBanner.MapEntry: ""
 			VitricBossAltar.MapEntry: 塞洛斯祭坛
 			VitricBreakableVases.MapEntry: 罐子
-			// VitricDecor1x1.MapEntry: ""
-			// VitricDecor1x1Inverted.MapEntry: ""
-			// VitricDecor1x2.MapEntry: ""
-			// VitricDecor1x2Inverted.MapEntry: ""
-			// VitricDecor2x1.MapEntry: ""
-			// VitricDecor2x1Inverted.MapEntry: ""
-			// VitricDecor2x2.MapEntry: ""
-			// VitricDecor2x2Inverted.MapEntry: ""
-			// VitricGiantCrystal.MapEntry: ""
-			// VitricLargeCrystal.MapEntry: ""
-			// VitricLootBox.MapEntry: ""
-			// VitricMediumCrystal.MapEntry: ""
+			VitricDecor1x1.MapEntry: ""
+			VitricDecor1x1Inverted.MapEntry: ""
+			VitricDecor1x2.MapEntry: ""
+			VitricDecor1x2Inverted.MapEntry: ""
+			VitricDecor2x1.MapEntry: ""
+			VitricDecor2x1Inverted.MapEntry: ""
+			VitricDecor2x2.MapEntry: ""
+			VitricDecor2x2Inverted.MapEntry: ""
+			VitricGiantCrystal.MapEntry: ""
+			VitricLargeCrystal.MapEntry: ""
+			VitricLootBox.MapEntry: ""
+			VitricMediumCrystal.MapEntry: ""
 			VitricOre.MapEntry: Vitric Ore
 			VitricOreFloat.MapEntry: Vitric Ore
-			// VitricRoundCactus.MapEntry: ""
-			// VitricSmallCactus.MapEntry: ""
-			// VitricSmallCrystal.MapEntry: ""
-			// VitricSpike.MapEntry: ""
-			// VitricBathtub.MapEntry: ""
-			// VitricBed.MapEntry: ""
-			// VitricBookcase.MapEntry: ""
-			// VitricCandelabra.MapEntry: ""
-			// VitricCandle.MapEntry: ""
-			// VitricChair.MapEntry: ""
-			// VitricChandelier.MapEntry: ""
-			// VitricClock.MapEntry: ""
-			// VitricDresser.MapEntry: ""
-			// VitricLamp.MapEntry: ""
-			// VitricLantern.MapEntry: ""
-			// VitricPiano.MapEntry: ""
-			// VitricSink.MapEntry: ""
-			// VitricSofa.MapEntry: ""
-			// VitricTable.MapEntry: ""
-			// VitricWorkbench.MapEntry: ""
-			// VitricDoorClosed.MapEntry: ""
-			// VitricDoorOpen.MapEntry: ""
+			VitricRoundCactus.MapEntry: ""
+			VitricSmallCactus.MapEntry: ""
+			VitricSmallCrystal.MapEntry: ""
+			VitricSpike.MapEntry: ""
+			VitricBathtub.MapEntry: ""
+			VitricBed.MapEntry: ""
+			VitricBookcase.MapEntry: ""
+			VitricCandelabra.MapEntry: ""
+			VitricCandle.MapEntry: ""
+			VitricChair.MapEntry: ""
+			VitricChandelier.MapEntry: ""
+			VitricClock.MapEntry: ""
+			VitricDresser.MapEntry: ""
+			VitricLamp.MapEntry: ""
+			VitricLantern.MapEntry: ""
+			VitricPiano.MapEntry: ""
+			VitricSink.MapEntry: ""
+			VitricSofa.MapEntry: ""
+			VitricTable.MapEntry: ""
+			VitricWorkbench.MapEntry: ""
+			VitricDoorClosed.MapEntry: ""
+			VitricDoorOpen.MapEntry: ""
 			TempleChair.MapEntry: Chair
 			TempleLargeVase.MapEntry: Large Vase
 			TempleLargeVaseCrystal.MapEntry: Large Vase
@@ -3698,75 +3698,75 @@ Mods: {
 			TempleWeaponRack2.MapEntry: 武器架
 			TempleWeaponRack3.MapEntry: 武器架
 			TempleThingamajig.MapEntry: 武器架
-			// TempleBrick.MapEntry: ""
+			TempleBrick.MapEntry: ""
 			VitricBoss1.MapEntry: 音乐盒
 			VitricBoss2.MapEntry: 音乐盒
 			VitricPassive.MapEntry: 音乐盒
 			VitricTemple.MapEntry: 音乐盒
 			Miniboss.MapEntry: 音乐盒
-			// LeafOvergrow.MapEntry: ""
-			// BrickOvergrow.MapEntry: ""
-			// StoneOvergrow.MapEntry: ""
-			// Springstone.MapEntry: ""
-			// ShrineBrazier.MapEntry: ""
-			// WitTile.MapEntry: ""
-			// AncientSandstone.MapEntry: ""
-			// AncientSandstoneTile.MapEntry: ""
-			// VitricBrick.MapEntry: ""
-			// VitricCactus.MapEntry: ""
-			// VitricGlass.MapEntry: ""
-			// VitricSand.MapEntry: ""
-			// VitricSoftSand.MapEntry: ""
-			// VitricSandPlain.MapEntry: ""
-			// PatreonPlaque.MapEntry: ""
-			// DoorLasers.MapEntry: ""
-			// LightBlocker.MapEntry: ""
-			// EmptyHolder.MapEntry: ""
-			// VitricGiantCrystal.MapEntry: Vitric Giant Crystal
-			// VitricLargeCrystal.MapEntry: Vitric Large Crystal
-			// VitricMediumCrystal.MapEntry: Vitric Medium Crystal
-			// VitricSmallCrystal.MapEntry: Vitric Small Crystal
+			LeafOvergrow.MapEntry: ""
+			BrickOvergrow.MapEntry: ""
+			StoneOvergrow.MapEntry: ""
+			Springstone.MapEntry: ""
+			ShrineBrazier.MapEntry: ""
+			WitTile.MapEntry: ""
+			AncientSandstone.MapEntry: ""
+			AncientSandstoneTile.MapEntry: ""
+			VitricBrick.MapEntry: ""
+			VitricCactus.MapEntry: ""
+			VitricGlass.MapEntry: ""
+			VitricSand.MapEntry: ""
+			VitricSoftSand.MapEntry: ""
+			VitricSandPlain.MapEntry: ""
+			PatreonPlaque.MapEntry: ""
+			DoorLasers.MapEntry: ""
+			LightBlocker.MapEntry: ""
+			EmptyHolder.MapEntry: ""
+			VitricGiantCrystal.MapEntry: Vitric Giant Crystal
+			VitricLargeCrystal.MapEntry: Vitric Large Crystal
+			VitricMediumCrystal.MapEntry: Vitric Medium Crystal
+			VitricSmallCrystal.MapEntry: Vitric Small Crystal
 		}
 
 		Biomes: {
 			HotspringBiome: {
 				DisplayName: 热泉
-				// TownNPCDialogueName: the Hotspring Biome
+				TownNPCDialogueName: the Hotspring Biome
 			}
 
 			MoonstoneBiome: {
 				DisplayName: 月光岩地
-				// TownNPCDialogueName: the Moonstone Biome
+				TownNPCDialogueName: the Moonstone Biome
 			}
 
 			OvergrowBiome: {
 				DisplayName: "[PH]繁茂之地"
-				// TownNPCDialogueName: the Overgrow Biome
+				TownNPCDialogueName: the Overgrow Biome
 			}
 
 			PermafrostTempleBiome: {
 				DisplayName: 极光神殿
-				// TownNPCDialogueName: the Permafrost Temple Biome
+				TownNPCDialogueName: the Permafrost Temple Biome
 			}
 
 			VitricDesertBiome: {
 				DisplayName: 琉璃荒漠
-				// TownNPCDialogueName: the Vitric Desert Biome
+				TownNPCDialogueName: the Vitric Desert Biome
 			}
 
 			VitricTempleBiome: {
 				DisplayName: 琉璃锻炉
-				// TownNPCDialogueName: the Vitric Temple Biome
+				TownNPCDialogueName: the Vitric Temple Biome
 			}
 
 			CombatShrineBiome: {
 				DisplayName: 战斗之地
-				// TownNPCDialogueName: the Combat Shrine Biome
+				TownNPCDialogueName: the Combat Shrine Biome
 			}
 
 			EvasionShrineBiome: {
 				DisplayName: 闪躲之地
-				// TownNPCDialogueName: the Evasion Shrine Biome
+				TownNPCDialogueName: the Evasion Shrine Biome
 			}
 		}
 
@@ -3777,37 +3777,37 @@ Mods: {
 				DisplayName: 织璃匠
 
 				TownNPCMood: {
-					// Content: I am content.
-					// NoHome: I hate not having a home.
-					// FarFromHome: I am too far from home.
-					// LoveSpace: I love having so much space.
-					// DislikeCrowded: I dislike how crowded I am.
-					// HateCrowded: I hate how crowded I am.
-					// LikeNPC_Princess: I like {NPCName}.
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: I am content.
+					NoHome: I hate not having a home.
+					FarFromHome: I am too far from home.
+					LoveSpace: I love having so much space.
+					DislikeCrowded: I dislike how crowded I am.
+					HateCrowded: I hate how crowded I am.
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
 				}
 			}
 
-			// ArenaActor.DisplayName: ""
-			// GoldPlatform.DisplayName: ""
-			// IcePlatform.DisplayName: ""
-			// IcePlatformSmall.DisplayName: ""
+			ArenaActor.DisplayName: ""
+			GoldPlatform.DisplayName: ""
+			IcePlatform.DisplayName: ""
+			IcePlatformSmall.DisplayName: ""
 			SquidBoss.DisplayName: 极光之触
-			// ArenaBottom.DisplayName: ""
-			// VitricBackdropLeft.DisplayName: ""
-			// VitricBackdropRight.DisplayName: ""
+			ArenaBottom.DisplayName: ""
+			VitricBackdropLeft.DisplayName: ""
+			VitricBackdropRight.DisplayName: ""
 
 			VitricBoss: {
 				DisplayName: 塞洛斯
-				// DropConditionText: Dropped on the first kill
-				// FirstKillRule: Dropped on first kill
+				DropConditionText: Dropped on the first kill
+				FirstKillRule: Dropped on first kill
 			}
 
 			VitricBossCrystal.DisplayName: 谐振水晶
-			// VitricBossPlatformDown.DisplayName: ""
-			// VitricBossPlatformDownSmall.DisplayName: ""
-			// VitricBossPlatformUp.DisplayName: ""
-			// VitricBossPlatformUpSmall.DisplayName: ""
+			VitricBossPlatformDown.DisplayName: ""
+			VitricBossPlatformDownSmall.DisplayName: ""
+			VitricBossPlatformUp.DisplayName: ""
+			VitricBossPlatformUpSmall.DisplayName: ""
 			CrescentCaster.DisplayName: 新月法师
 			Blover.DisplayName: Blover
 			TreeBat.DisplayName: 树蝠
@@ -3820,22 +3820,22 @@ Mods: {
 			SwordEnemy.DisplayName: Sky Splicer
 
 			Crow: {
-				// DisplayName: ???
+				DisplayName: ???
 
 				TownNPCMood: {
-					// Content: I am content.
-					// NoHome: I hate not having a home.
-					// FarFromHome: I am too far from home.
-					// LoveSpace: I love having so much space.
-					// DislikeCrowded: I dislike how crowded I am.
-					// HateCrowded: I hate how crowded I am.
-					// LikeNPC_Princess: I like {NPCName}.
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: I am content.
+					NoHome: I hate not having a home.
+					FarFromHome: I am too far from home.
+					LoveSpace: I love having so much space.
+					DislikeCrowded: I dislike how crowded I am.
+					HateCrowded: I hate how crowded I am.
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
 				}
 			}
 
 			BoomBug.DisplayName: Firebug
-			// Coolmite.DisplayName: Coolmite
+			Coolmite.DisplayName: Coolmite
 			CrystalPopper.DisplayName: 沙漠蝙蝠
 			CrystalSlime.DisplayName: 琉璃史莱姆
 			DesertWisp.DisplayName: Desert Wisp
@@ -3855,52 +3855,52 @@ Mods: {
 			InfusionSlotPickup.DisplayName: Unnerving Device
 			BerrySlime.DisplayName: 莓果史莱姆
 			TouchstoneWisp.DisplayName: 极光之魂
-			// BossRushOrb.DisplayName: ???
-			// ArenaBlocker.DisplayName: Arena Blocker
-			// Auroraborn.DisplayName: Auroraborn
-			// Auroraling.DisplayName: Auroraling
-			// Tentacle.DisplayName: Tentacle
-			// TentacleHurtbox.DisplayName: Tentacle Hurtbox
-			// StarlightWaterActor.DisplayName: Starlight Water Actor
-			// GravityOrbTest.DisplayName: Gravity Orb Test
-			// BossRushGoal.DisplayName: Boss Rush Goal
-			// Dweller.DisplayName: Dweller
-			// Stalker.DisplayName: Stalker
-			// Dreambeast.DisplayName: Dreambeast
-			// WaterCube.DisplayName: Water Cube
+			BossRushOrb.DisplayName: ???
+			ArenaBlocker.DisplayName: Arena Blocker
+			Auroraborn.DisplayName: Auroraborn
+			Auroraling.DisplayName: Auroraling
+			Tentacle.DisplayName: Tentacle
+			TentacleHurtbox.DisplayName: Tentacle Hurtbox
+			StarlightWaterActor.DisplayName: Starlight Water Actor
+			GravityOrbTest.DisplayName: Gravity Orb Test
+			BossRushGoal.DisplayName: Boss Rush Goal
+			Dweller.DisplayName: Dweller
+			Stalker.DisplayName: Stalker
+			Dreambeast.DisplayName: Dreambeast
+			WaterCube.DisplayName: Water Cube
 
 			EnchantNPC: {
-				// DisplayName: Enchant N P C
+				DisplayName: Enchant N P C
 
 				TownNPCMood: {
-					// Content: I am content.
-					// NoHome: I hate not having a home.
-					// FarFromHome: I am too far from home.
-					// LoveSpace: I love having so much space.
-					// DislikeCrowded: I dislike how crowded I am.
-					// HateCrowded: I hate how crowded I am.
-					// LikeNPC_Princess: I like {NPCName}.
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: I am content.
+					NoHome: I hate not having a home.
+					FarFromHome: I am too far from home.
+					LoveSpace: I love having so much space.
+					DislikeCrowded: I dislike how crowded I am.
+					HateCrowded: I hate how crowded I am.
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
 				}
 			}
 
 			Voidsmith: {
-				// DisplayName: Voidsmith
+				DisplayName: Voidsmith
 
 				TownNPCMood: {
-					// Content: I am content.
-					// NoHome: I hate not having a home.
-					// FarFromHome: I am too far from home.
-					// LoveSpace: I love having so much space.
-					// DislikeCrowded: I dislike how crowded I am.
-					// HateCrowded: I hate how crowded I am.
-					// LikeNPC_Princess: I like {NPCName}.
-					// Princess_LovesNPC: I like {NPCName}.
+					Content: I am content.
+					NoHome: I hate not having a home.
+					FarFromHome: I am too far from home.
+					LoveSpace: I love having so much space.
+					DislikeCrowded: I dislike how crowded I am.
+					HateCrowded: I hate how crowded I am.
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
 				}
 			}
 
-			// DesertWisp2.DisplayName: Desert Wisp2
-			// StaminaShardPickup.DisplayName: Stamina Shard Pickup
+			DesertWisp2.DisplayName: Desert Wisp2
+			StaminaShardPickup.DisplayName: Stamina Shard Pickup
 		}
 
 		Buffs: {
@@ -4048,8 +4048,8 @@ Mods: {
 			}
 
 			FleshApparationBuff: {
-				// DisplayName: Flesh apparation
-				// Description: A chunk of your flesh is following you!
+				DisplayName: Flesh apparation
+				Description: A chunk of your flesh is following you!
 			}
 
 			ShovelQuickFall: {
@@ -4099,7 +4099,7 @@ Mods: {
 
 			ImpactSMGBuff: {
 				DisplayName: 高热！
-				// Description: ""
+				Description: ""
 			}
 
 			IronheartBuff: {
@@ -4158,8 +4158,8 @@ Mods: {
 			}
 
 			MagmaBurn: {
-				// DisplayName: Magma burn
-				// Description: Liquid glass melts away at you!
+				DisplayName: Magma burn
+				Description: Liquid glass melts away at you!
 			}
 
 			PhoenixStormSummonBuff: {
@@ -4195,161 +4195,161 @@ Mods: {
 			StaminaPrefix2.DisplayName: 活力的
 			StaminaPrefix3.DisplayName: 强化的
 			StaminaPrefix4.DisplayName: 过载的
-			// Feral.DisplayName: Feral
-			// Jumpy.DisplayName: Jumpy
-			// Tanklike.DisplayName: Tanklike
+			Feral.DisplayName: Feral
+			Jumpy.DisplayName: Jumpy
+			Tanklike.DisplayName: Tanklike
 		}
 
 		Configs: {
 			AudioConfig: {
-				// DisplayName: Audio Config
+				DisplayName: Audio Config
 
 				InvSounds: {
-					// Label: Custom Inventory Sounds
-					// Tooltip: If custom inventory sounds should play for all Items, select few, or none.
+					Label: Custom Inventory Sounds
+					Tooltip: If custom inventory sounds should play for all Items, select few, or none.
 				}
 			}
 
 			CustomSounds: {
-				// Tooltip: ""
-				// All.Label: All
-				// Specific.Label: Specific
-				// None.Label: None
+				Tooltip: ""
+				All.Label: All
+				Specific.Label: Specific
+				None.Label: None
 			}
 
 			GraphicsConfig: {
-				// DisplayName: Graphics Config
+				DisplayName: Graphics Config
 
 				ScreenshakeMult: {
-					// Label: Screenshake
-					// Tooltip: Modifies the intensity of screen shake effects
+					Label: Screenshake
+					Tooltip: Modifies the intensity of screen shake effects
 				}
 
 				LightingPollRate: {
-					// Label: Lighting Buffer Poll Rate
-					/* Tooltip:
+					Label: Lighting Buffer Poll Rate
+					Tooltip:
 						'''
 						Changes how often the lighting buffer polls for data. 
 						Higher values increase performance but make lighting update slower on some objects. 
 						Lower values result in smoother moving light but may hurt performance.
-						''' */
+						'''
 				}
 
 				ScrollingLightingPoll: {
-					// Label: Scrolling Lighting Buffer Building
-					/* Tooltip:
+					Label: Scrolling Lighting Buffer Building
+					Tooltip:
 						'''
 						Causes the lighting buffer to be built over its poll rate instead of all at once. 
 						May help normalize lag spikes but cause strange lighting artifacts.
-						''' */
+						'''
 				}
 
 				ParticlesActive: {
-					// Label: Extra Particles
-					/* Tooltip:
+					Label: Extra Particles
+					Tooltip:
 						'''
 						Enables/Disables special particles. 
 						Disable this if you have performance issues.
-						''' */
+						'''
 				}
 
 				HighQualityLighting: {
-					// Label: High quality lit textures
-					/* Tooltip:
+					Label: High quality lit textures
+					Tooltip:
 						'''
 						Enables/Disables fancy lighting on large textures. 
 						Disable this if you have performance issues.
-						''' */
+						'''
 				}
 
 				ReflectionConfig: {
-					// Label: Background Reflections
-					/* Tooltip:
+					Label: Background Reflections
+					Tooltip:
 						'''
 						Configures what is rendered for background reflections. 
 						Disable this if you have performance issues.
-						''' */
+						'''
 				}
 			}
 
 			ReflectionSubConfig: {
-				// Tooltip: ""
+				Tooltip: ""
 
 				ReflectionsOn: {
-					// Label: Background Reflections
-					/* Tooltip:
+					Label: Background Reflections
+					Tooltip:
 						'''
 						This will Enable/Disable the background reflections system entirely. 
 						If this is off, the other settings in this block are ignored. 
 						Disable this if you have performance issues.
-						''' */
+						'''
 				}
 
 				PlayerReflectionsOn: {
-					// Label: Reflect Players
-					/* Tooltip:
+					Label: Reflect Players
+					Tooltip:
 						'''
 						This will Enable/Disable reflecting Players.
 						 low performance impact.
-						''' */
+						'''
 				}
 
 				NpcReflectionsOn: {
-					// Label: Reflect NPCs
-					/* Tooltip:
+					Label: Reflect NPCs
+					Tooltip:
 						'''
 						This will Enable/Disable reflecting NPCs.
 						 low performance impact.
-						''' */
+						'''
 				}
 
 				ProjReflectionsOn: {
-					// Label: Reflect Projectiles
-					/* Tooltip:
+					Label: Reflect Projectiles
+					Tooltip:
 						'''
 						This will Enable/Disable reflecting Projectiles.
 						 high performance impact.
-						''' */
+						'''
 				}
 
 				DustReflectionsOn: {
-					// Label: Reflect Particles
-					/* Tooltip:
+					Label: Reflect Particles
+					Tooltip:
 						'''
 						This will Enable/Disable reflecting Particles, gores and dusts.
 						 high performance impact.
-						''' */
+						'''
 				}
 			}
 
 			GUIConfig: {
-				// DisplayName: G U I Config
+				DisplayName: G U I Config
 
 				OverheadStaminaState: {
-					// Label: Overhead Starlight Display
-					// Tooltip: When/If the overhead starlight meter should display
+					Label: Overhead Starlight Display
+					Tooltip: When/If the overhead starlight meter should display
 				}
 
 				KeywordStyle: {
-					// Label: Keyword Style
-					// Tooltip: How keywords should be displayed in tooltips
+					Label: Keyword Style
+					Tooltip: How keywords should be displayed in tooltips
 				}
 			}
 
 			OverlayState: {
-				// Tooltip: ""
-				// AlwaysOn.Label: Always On
-				// WhileNotFull.Label: While Not Full
-				// WhileUsing.Label: While Using
-				// Never.Label: Never
+				Tooltip: ""
+				AlwaysOn.Label: Always On
+				WhileNotFull.Label: While Not Full
+				WhileUsing.Label: While Using
+				Never.Label: Never
 			}
 
 			KeywordStyle: {
-				// Tooltip: ""
-				// Colors.Label: Colors
-				// Brackets.Label: Brackets
-				// Both.Label: Both
-				// Neither.Label: Neither
+				Tooltip: ""
+				Colors.Label: Colors
+				Brackets.Label: Brackets
+				Both.Label: Both
+				Neither.Label: Neither
 			}
 		}
 	}
