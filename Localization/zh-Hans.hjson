@@ -28,7 +28,7 @@ Mods: {
 					'''
 					禁忌之风灌注
 					冲刺的距离更远且保留较多速度
-					星光消耗乘以1.3倍
+					星光消耗提升至1.3
 					'''
 			}
 
@@ -38,7 +38,7 @@ Mods: {
 					'''
 					禁忌之风灌注
 					冲刺的距离更远且保留更多速度
-					星光消耗乘以1.6倍
+					星光消耗提升至1.6
 					'''
 			}
 
@@ -48,7 +48,7 @@ Mods: {
 					'''
 					禁忌之风灌注
 					冲刺的距离更远且保留最多速度
-					星光消耗乘以2倍
+					星光消耗提升至2
 					'''
 			}
 
@@ -430,9 +430,9 @@ Mods: {
 				DisplayName: Warded Mail
 				Tooltip:
 					'''
-					Barrier damage is applied to attackers as thorns 
-					+Barrier negates 10% more damage 
-					+40 barrier
+					屏障受到伤害时会反弹给攻击者
+					屏障能够额外吸收10%伤害
+					+40点屏障
 					'''
 			}
 
@@ -1586,7 +1586,7 @@ Mods: {
 				DisplayName: 月长石护胫
 				Tooltip:
 					'''
-					改进加速度
+					增加加速度
 					+25点屏障
 					'''
 			}
@@ -2199,7 +2199,7 @@ Mods: {
 
 			VitricLegs: {
 				DisplayName: 琉璃护胫
-				Tooltip: 小幅度改善星光再生
+				Tooltip: 小幅度增加星光再生速度
 			}
 
 			VitricMagicBook: {
