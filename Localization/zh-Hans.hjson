@@ -4202,13 +4202,13 @@ Mods: {
 			LayeredPrefix.DisplayName: 分层的
 			PlatedPrefix.DisplayName: 护板的
 			ReinforcedPrefix.DisplayName: 加固的
-			StaminaPrefix1.DisplayName: Sparkling
-			StaminaPrefix2.DisplayName: Shining
-			StaminaPrefix3.DisplayName: Glowing
-			StaminaPrefix4.DisplayName: Radiant
-			Feral.DisplayName: Feral
-			Jumpy.DisplayName: Jumpy
-			Tanklike.DisplayName: Tanklike
+			StaminaPrefix1.DisplayName: 闪烁的
+			StaminaPrefix2.DisplayName: 光亮的
+			StaminaPrefix3.DisplayName: 发光的
+			StaminaPrefix4.DisplayName: 耀眼的
+			Feral.DisplayName: 野性的
+			Jumpy.DisplayName: 跳跃的
+			Tanklike.DisplayName: 固守的
 		}
 
 		Configs: {
