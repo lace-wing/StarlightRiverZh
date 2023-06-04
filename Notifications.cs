@@ -12,7 +12,7 @@ namespace StarlightRiverZh
     {
         public override void OnEnterWorld()
         {
-            Main.NewText("欢迎使用由星光之舟汉化组制作的星光之河汉化补丁。制作仓促，目前翻译尚不完善。我们会逐渐改进，感谢您的耐心和理解。")
+            Main.NewText("欢迎使用由星光之舟汉化组制作的星光之河汉化补丁。制作仓促，目前翻译尚不完善。我们会逐渐改进，感谢您的耐心和理解。");
         }
     }
 }
