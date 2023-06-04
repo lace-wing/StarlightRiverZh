@@ -1,4 +1,4 @@
-Starlight River Chinese Patch | 星光之河汉化补丁
+# Starlight River Chinese Patch | 星光之河汉化补丁
 This is a Chinese localization patch mod for Starlight River.
 这是一个星光之河的汉化补丁。
 
@@ -12,7 +12,7 @@ This is a Chinese localization patch mod for Starlight River.
 
 ## 更新日志
 当前版本的更新日志会在进入世界时显示
-你也可以在本模组Steam创意工坊页面顶端的 “改动说明” 选项卡中浏览历次更新日志
+您也可以在本模组Steam创意工坊页面顶端的 “改动说明” 选项卡中浏览历次更新日志
 
 ## 反馈意见或建议
 您可以在本模组Steam创意工坊页面的 "意见与建议" 讨论区中留言
