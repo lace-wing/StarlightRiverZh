@@ -233,32 +233,32 @@ Mods: {
 
 			AWhip_BlueGem: {
 				DisplayName: 宝藏
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			AWhip_Cloud: {
 				DisplayName: 宝藏
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			AWhip_Coin: {
 				DisplayName: 宝藏
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			AWhip_GreenGem: {
 				DisplayName: 宝藏
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			AWhip_Necklace: {
 				DisplayName: 宝藏
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			AWhip_RedGem: {
 				DisplayName: 宝藏
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			AztecDeathSaxophone: {
@@ -426,13 +426,13 @@ Mods: {
 					'''
 			}
 
-			WardedMail: {
-				DisplayName: 格挡锁甲
+			rescentQuarterstaff: {
+				DisplayName: Crescent Quarterstaff
 				Tooltip:
 					'''
-					屏障受到伤害时会反弹给攻击者
-					屏障会抵消10%额外伤害
-					+40点屏障
+					攻击敌人会用月光能量为法杖充能
+					当最后一击击中地面时，收集的能量会凝聚成月光法球
+					Update this egshels (sfx needed)
 					'''
 			}
 
@@ -799,22 +799,22 @@ Mods: {
 
 			EmeraldHeart: {
 				DisplayName: 绿宝石之心
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			GeoAmethyst: {
 				DisplayName: 紫水晶
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			GeoDiamond: {
 				DisplayName: 钻石
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			GeoEmerald: {
 				DisplayName: 绿宝石
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			GeomancerHood: {
@@ -847,22 +847,22 @@ Mods: {
 
 			GeoRuby: {
 				DisplayName: 红宝石
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			GeoSapphire: {
 				DisplayName: 蓝宝石
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			GeoTopaz: {
 				DisplayName: 黄水晶
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			SapphireStar: {
 				DisplayName: 蓝宝石星星
-				Tooltip: You shouldn't see this
+				Tooltip: 你不应该看见这个
 			}
 
 			SparklingBullet: {
@@ -930,9 +930,9 @@ Mods: {
 				DisplayName: Staff of Self Disassembly
 				Tooltip:
 					'''
-					Reserve 40 life to summon a flesh apparation
-					apparations grant increased life regeneration
-					life regeneration boost is increased when apparitions strike an enemy
+					消耗40点生命值以召唤血肉幽魂
+					幽魂会增加生命再生速度
+					当幽魂攻击敌人时，会强化生命再生速度
 					'''
 			}
 
@@ -1012,12 +1012,12 @@ Mods: {
 			}
 
 			AxeBook: {
-				DisplayName: Tiger Technique
+				DisplayName: 猛虎下山
 				Tooltip:
 					'''
-					Allows execution of combos with axes
-					The final strike will rend enemies by 1
-					Right click to throw your axe
+					允许斧子进行连击
+					连击的最后一击会撕裂敌人
+					右键扔出你的斧子
 					'''
 			}
 
@@ -1273,9 +1273,9 @@ Mods: {
 			HungryStomach: {
 				Tooltip:
 					'''
-					通过伤害敌人来恢复耐力
+					通过伤害敌人来恢复星光
 					近战武器的会使上述效果翻倍
-					诅咒：禁用自然的耐力再生
+					诅咒：禁用自然的星光再生
 					'''
 				DisplayName: 辘辘饥肠
 			}
@@ -1340,8 +1340,8 @@ Mods: {
 				DisplayName: Martial Encyclopedia
 				Tooltip:
 					'''
-					Combined effects of Tiger, Snake, and Mantis Techniques
-					+10% melee critical damage
+					具有猛虎下山、蛇影突袭和Mantis Techniques的效果
+					+10%近战暴击率
 					Quit, don't quit... Noodles, don't noodles.
 					'''
 			}
@@ -1457,12 +1457,12 @@ Mods: {
 			}
 
 			SpearBook: {
-				DisplayName: Snake Technique
+				DisplayName: 蛇影突袭
 				Tooltip:
 					'''
-					Allows execution of combos with spears
-					Last combo attack has increased critical strike chance and damage
-					Right click to deter enemies with a flurry of stabs
+					允许长矛进行连击
+					连击的最后一击的暴击率和伤害增加
+					右键用一连串的刺击震慑敌人
 					'''
 			}
 
@@ -1481,15 +1481,15 @@ Mods: {
 			}
 
 			StaminaRing: {
-				DisplayName: 耐力腰带
-				Tooltip: 缓慢的再生耐力
+				DisplayName: 星光腰带
+				Tooltip: 缓慢的再生星光
 			}
 
 			SwordBook: {
 				DisplayName: 螳螂格斗术
 				Tooltip:
 					'''
-					允许阔剑进行连斩
+					允许阔剑进行连击
 					右键用阔剑进行格挡
 					'''
 			}
@@ -2194,7 +2194,7 @@ Mods: {
 
 			VitricLegs: {
 				DisplayName: 琉璃护胫
-				Tooltip: 小幅度改善耐力再生
+				Tooltip: 小幅度改善星光再生
 			}
 
 			VitricMagicBook: {
@@ -2242,7 +2242,7 @@ Mods: {
 			}
 
 			StaminaShardTileItem: {
-				DisplayName: 耐力碎片
+				DisplayName: 星光碎片
 				Tooltip: 调试物品
 			}
 
@@ -2330,15 +2330,15 @@ Mods: {
 			}
 
 			StaminaGemItem: {
-				DisplayName: 耐力宝石
-				Tooltip: 当用能力造成命中时恢复耐力
+				DisplayName: 星光宝石
+				Tooltip: 当用能力造成命中时恢复星光
 			}
 
 			StaminaOrbItem: {
-				DisplayName: 耐力球
+				DisplayName: 星光球
 				Tooltip:
 					'''
-					通过这个获得耐力！
+					通过这个获得星光！
 					5秒冷却
 					'''
 			}
@@ -3515,8 +3515,8 @@ Mods: {
 			ThrownAxeProjectile.DisplayName: Thrown Axe Projectile
 			UltrapillBlood.DisplayName: Ultrapill Blood
 			DatsuzeiProjectile.DisplayName: Datsuzei Projectile
-			StarGlaive.DisplayName: Star Glaive
-			StarShuriken.DisplayName: Star Shuriken
+			SpearBookProjectile.DisplayName: Spear Book Projectile
+			SwordBookParry.DisplayName: Sword Book Parry
 			AuroraThroneMountMinion.DisplayName: Aurora Throne Mount Minion
 			FrostballProjectile.DisplayName: Frostball Projectile
 			FrostExplosion.DisplayName: Frost Explosion
@@ -4191,10 +4191,10 @@ Mods: {
 			LayeredPrefix.DisplayName: 分层的
 			PlatedPrefix.DisplayName: 护板的
 			ReinforcedPrefix.DisplayName: 加固的
-			StaminaPrefix1.DisplayName: 欢跃的
-			StaminaPrefix2.DisplayName: 活力的
-			StaminaPrefix3.DisplayName: 强化的
-			StaminaPrefix4.DisplayName: 过载的
+			StaminaPrefix1.DisplayName: Sparkling
+			StaminaPrefix2.DisplayName: Shining
+			StaminaPrefix3.DisplayName: Glowing
+			StaminaPrefix4.DisplayName: Radiant
 			Feral.DisplayName: Feral
 			Jumpy.DisplayName: Jumpy
 			Tanklike.DisplayName: Tanklike
