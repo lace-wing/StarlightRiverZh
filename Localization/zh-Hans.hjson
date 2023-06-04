@@ -307,7 +307,7 @@ Mods: {
 
 			ExoticGeodeArtifactItem: {
 				DisplayName: 奇异晶洞
-				Tooltip: "'极其闪亮'"
+				Tooltip: “极其闪亮”
 			}
 
 			PerfectlyGenericArtifactItem: {
@@ -359,8 +359,8 @@ Mods: {
 				Tooltip:
 					'''
 					挥洒刃形沙
-					`This lost tablet contains a fragment of the Epic of Yeremy
-					...The writing is sorta ameteurish for an ancient relic`
+					'This lost tablet contains a fragment of the Epic of Yeremy
+					...The writing is sorta ameteurish for an ancient relic'
 					'''
 			}
 
