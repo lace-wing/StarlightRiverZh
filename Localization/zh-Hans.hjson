@@ -4199,13 +4199,13 @@ Mods: {
 			DoTResistPrefix1.DisplayName: 健康的
 			DoTResistPrefix2.DisplayName: 防护的
 			DoTResistPrefix3.DisplayName: 祝福的
-			LayeredPrefix.DisplayName: 分层的
+			LayeredPrefix.DisplayName: 多层的
 			PlatedPrefix.DisplayName: 护板的
 			ReinforcedPrefix.DisplayName: 加固的
 			StaminaPrefix1.DisplayName: 闪烁的
-			StaminaPrefix2.DisplayName: 光亮的
-			StaminaPrefix3.DisplayName: 发光的
-			StaminaPrefix4.DisplayName: 耀眼的
+			StaminaPrefix2.DisplayName: 明亮的
+			StaminaPrefix3.DisplayName: 炽灼的
+			StaminaPrefix4.DisplayName: 光耀的
 			Feral.DisplayName: 野性的
 			Jumpy.DisplayName: 跳跃的
 			Tanklike.DisplayName: 固守的
