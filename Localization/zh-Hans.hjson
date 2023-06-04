@@ -4213,36 +4213,36 @@ Mods: {
 
 		Configs: {
 			AudioConfig: {
-				DisplayName: Audio Config
+				DisplayName: 音频配置
 
 				InvSounds: {
-					Label: Custom Inventory Sounds
-					Tooltip: If custom inventory sounds should play for all Items, select few, or none.
+					Label: 特制物品栏音效
+					Tooltip: 修改所有的，特定的或不修改物品的物品栏音效。
 				}
 			}
 
 			CustomSounds: {
 				Tooltip: ""
-				All.Label: All
-				Specific.Label: Specific
-				None.Label: None
+				All.Label: 所有
+				Specific.Label: 特定
+				None.Label: 无
 			}
 
 			GraphicsConfig: {
-				DisplayName: Graphics Config
+				DisplayName: 图像配置
 
 				ScreenshakeMult: {
-					Label: Screenshake
-					Tooltip: Modifies the intensity of screen shake effects
+					Label: 震屏
+					Tooltip: 修改震屏效果的强度。
 				}
 
 				LightingPollRate: {
-					Label: Lighting Buffer Poll Rate
+					Label: 光照缓冲区轮询速率
 					Tooltip:
 						'''
-						Changes how often the lighting buffer polls for data. 
-						Higher values increase performance but make lighting update slower on some objects. 
-						Lower values result in smoother moving light but may hurt performance.
+						修改光照系统缓冲区轮询数据的速率。
+						值越高，性能越好，但一些物体的光照加载变慢。
+						值越低，光照越顺滑，但性能需求越高。
 						'''
 				}
 
@@ -4251,34 +4251,34 @@ Mods: {
 					Tooltip:
 						'''
 						Causes the lighting buffer to be built over its poll rate instead of all at once. 
-						May help normalize lag spikes but cause strange lighting artifacts.
+						可能使光照更平滑，但会导致奇怪的光照效果。
 						'''
 				}
 
 				ParticlesActive: {
-					Label: Extra Particles
+					Label: 额外粒子
 					Tooltip:
 						'''
-						Enables/Disables special particles. 
-						Disable this if you have performance issues.
+						开关特殊粒子效果。 
+						若您遇到了性能问题，请关闭。
 						'''
 				}
 
 				HighQualityLighting: {
-					Label: High quality lit textures
+					Label: 高质量光照材质
 					Tooltip:
 						'''
-						Enables/Disables fancy lighting on large textures. 
-						Disable this if you have performance issues.
+						开关大型材质上的特殊光照。 
+						若您遇到了性能问题，请关闭。
 						'''
 				}
 
 				ReflectionConfig: {
-					Label: Background Reflections
+					Label: 背景反射
 					Tooltip:
 						'''
-						Configures what is rendered for background reflections. 
-						Disable this if you have performance issues.
+						控制背景反射渲染哪些物体。
+						若您遇到了性能问题，请关闭。
 						'''
 				}
 			}
@@ -4287,80 +4287,80 @@ Mods: {
 				Tooltip: ""
 
 				ReflectionsOn: {
-					Label: Background Reflections
+					Label: 背景反射
 					Tooltip:
 						'''
-						This will Enable/Disable the background reflections system entirely. 
-						If this is off, the other settings in this block are ignored. 
-						Disable this if you have performance issues.
+						开关背景反射系统。
+						若关闭，该区域中的其他配置会失效。
+						若您遇到了性能问题，请关闭。
 						'''
 				}
 
 				PlayerReflectionsOn: {
-					Label: Reflect Players
+					Label: 反射玩家
 					Tooltip:
 						'''
-						This will Enable/Disable reflecting Players.
-						 low performance impact.
+						开关玩家人物的背景反射。
+						对性能的影响小。
 						'''
 				}
 
 				NpcReflectionsOn: {
-					Label: Reflect NPCs
+					Label: 反射NPC
 					Tooltip:
 						'''
-						This will Enable/Disable reflecting NPCs.
-						 low performance impact.
+						开关NPC的背景反射。
+						对性能的影响小。
 						'''
 				}
 
 				ProjReflectionsOn: {
-					Label: Reflect Projectiles
+					Label: 反射射弹
 					Tooltip:
 						'''
-						This will Enable/Disable reflecting Projectiles.
-						 high performance impact.
+						开关射弹的背景反射。
+						对性能的影响大。
 						'''
 				}
 
 				DustReflectionsOn: {
-					Label: Reflect Particles
+					Label: 反射粒子
 					Tooltip:
 						'''
-						This will Enable/Disable reflecting Particles, gores and dusts.
-						 high performance impact.
+						开关粒子（Particle 和 Dust）和尸块的背景反射。
+						对性能的影响大。
 						'''
 				}
 			}
 
 			GUIConfig: {
-				DisplayName: G U I Config
+				DisplayName: 图形交互界面配置
 
 				OverheadStaminaState: {
-					Label: Overhead Starlight Display
-					Tooltip: When/If the overhead starlight meter should display
+					Label: 头顶星光条显示
+					Tooltip: 控制玩家头顶星光条的显示时机。
 				}
 
 				KeywordStyle: {
-					Label: Keyword Style
-					Tooltip: How keywords should be displayed in tooltips
+					Label: 关键词样式
+					Tooltip: 控制关键词在物品描述中的样式。
 				}
 			}
 
 			OverlayState: {
 				Tooltip: ""
-				AlwaysOn.Label: Always On
-				WhileNotFull.Label: While Not Full
-				WhileUsing.Label: While Using
-				Never.Label: Never
+				AlwaysOn.Label: 始终
+				WhileNotFull.Label: 仅未满时
+				WhileUsing.Label: 仅使用时
+				Never.Label: 永不
 			}
 
 			KeywordStyle: {
 				Tooltip: ""
-				Colors.Label: Colors
-				Brackets.Label: Brackets
-				Both.Label: Both
-				Neither.Label: Neither
+				Colors.Label: 上色
+				Brackets.Label: 带括号
+				Both.Label: 两者皆有
+				Neither.Label: 两者皆无
 			}
 		}
 	}
