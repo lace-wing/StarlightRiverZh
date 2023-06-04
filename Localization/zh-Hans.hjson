@@ -426,13 +426,13 @@ Mods: {
 					'''
 			}
 
-			rescentQuarterstaff: {
-				DisplayName: Crescent Quarterstaff
+			WardedMail: {
+				DisplayName: Warded Mail
 				Tooltip:
 					'''
-					攻击敌人会用月光能量为法杖充能
-					当最后一击击中地面时，收集的能量会凝聚成月光法球
-					Update this egshels (sfx needed)
+					Barrier damage is applied to attackers as thorns 
+					+Barrier negates 10% more damage 
+					+40 barrier
 					'''
 			}
 
@@ -994,7 +994,7 @@ Mods: {
 
 			UnchargedMagnet: {
 				DisplayName: Uncharged Magnet
-				Tooltip: May attract charged enemies
+				Tooltip: 可能会吸引带电的敌人
 			}
 
 			AlchemistShackles: {
@@ -1340,7 +1340,7 @@ Mods: {
 				DisplayName: Martial Encyclopedia
 				Tooltip:
 					'''
-					具有猛虎下山、蛇影突袭和Mantis Techniques的效果
+					具有猛虎下山、蛇影突袭和螳螂剑术的效果
 					+10%近战暴击率
 					Quit, don't quit... Noodles, don't noodles.
 					'''
@@ -1486,7 +1486,7 @@ Mods: {
 			}
 
 			SwordBook: {
-				DisplayName: 螳螂格斗术
+				DisplayName: 螳螂剑术
 				Tooltip:
 					'''
 					允许阔剑进行连击
@@ -1522,7 +1522,12 @@ Mods: {
 
 			CrescentQuarterstaff: {
 				DisplayName: 新月四分杖
-				Tooltip: Update this egshels
+				Tooltip:
+					'''
+					攻击敌人会用月光能量为法杖充能
+					当最后一击击中地面时，收集的能量会凝聚成月光法球
+					Update this egshels (sfx needed)
+					'''
 			}
 
 			Datsuzei: {
@@ -2228,7 +2233,7 @@ Mods: {
 
 			CoolmiteItem: {
 				DisplayName: Coolmite
-				Tooltip: Fragile! Please handle with care.
+				Tooltip: 易碎品! 请小心点.
 			}
 
 			MagmitePassiveItem: {
@@ -2268,12 +2273,12 @@ Mods: {
 
 			DesertMonolithFlippedItem: {
 				DisplayName: Flipped Desert Monolith
-				Tooltip: Places a section of flipped desert monolith
+				Tooltip: 放置一部分水平翻转的沙漠石柱
 			}
 
 			DesertMonolithItem: {
 				DisplayName: Desert Monolith
-				Tooltip: Places a section of desert monolith
+				Tooltip: 放置一部分沙漠石柱
 			}
 
 			ForestBerryBushItem: {
@@ -2640,12 +2645,12 @@ Mods: {
 
 			LightActorItem: {
 				DisplayName: Light actor placer
-				Tooltip: Debug item
+				Tooltip: 调试物品
 			}
 
 			LensItem: {
 				DisplayName: Reflector Lens
-				Tooltip: Debug Item
+				Tooltip: 调试物品
 			}
 
 			ReflectorItem: {
@@ -2660,7 +2665,7 @@ Mods: {
 
 			MainForgeItem: {
 				DisplayName: Main forge
-				Tooltip: Debug item
+				Tooltip: 调试物品
 			}
 
 			NPCSpawnerItem: {
@@ -2675,7 +2680,7 @@ Mods: {
 
 			TallWindowCrystalItem: {
 				DisplayName: Crystal Window Actor
-				Tooltip: Debug Item
+				Tooltip: 调试物品
 			}
 
 			TallWindowItem: {
@@ -2685,7 +2690,7 @@ Mods: {
 
 			TallWindowLavaItem: {
 				DisplayName: Lava Window Actor
-				Tooltip: Debug Item
+				Tooltip: 调试物品
 			}
 
 			TempleCandleCrystalItem: {
