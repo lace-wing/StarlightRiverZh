@@ -4250,7 +4250,7 @@ Mods: {
 					Label: Scrolling Lighting Buffer Building
 					Tooltip:
 						'''
-						Causes the lighting buffer to be built over its poll rate instead of all at once. 
+						让光照系统根据轮询速率更新，而不是一次性更新全部。
 						可能使光照更平滑，但会导致奇怪的光照效果。
 						'''
 				}
