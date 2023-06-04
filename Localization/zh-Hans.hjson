@@ -374,7 +374,8 @@ Mods: {
 			}
 
 			Cloudstrike: {
-				DisplayName: 云霄破击 # 命运2 Destiny 2 Cloudstrike Exotic Sniper Rifle
+				# 命运2 Destiny 2 Cloudstrike Exotic Sniper Rifle
+				DisplayName: 云霄破击
 				Tooltip:
 					'''
 					不攻击时积蓄电能
@@ -972,7 +973,8 @@ Mods: {
 			}
 
 			ThunderBeads: {
-				DisplayName: 磁珠电鞭 #原“电鞭磁珠”
+				#原“电鞭磁珠”
+				DisplayName: 磁珠电鞭
 				Tooltip:
 					'''
 					鞭打敌人会把珠子粘在敌人身上
@@ -1429,7 +1431,8 @@ Mods: {
 			}
 
 			SojournersScarf: {
-				DisplayName: 旅居者的围巾 #原“旅居者围脖”
+				#原“旅居者围脖”
+				DisplayName: 旅居者的围巾
 				Tooltip:
 					'''
 					增加20%移动速度
@@ -2359,7 +2362,8 @@ Mods: {
 			}
 
 			JellyShroomItem: {
-				DisplayName: 蓝色果冻菇 # 蓝色水母菇，neta深海迷航, 但我没找到中译名
+				# 蓝色水母菇，neta深海迷航, 但我没找到中译名
+				DisplayName: 蓝色果冻菇
 				Tooltip: Boing!
 			}
 
@@ -2374,7 +2378,8 @@ Mods: {
 			}
 
 			BlueTorchOvergrowItem: {
-				DisplayName: 蓝仙女火把 #原“蓝仙女火炬”
+				#原“蓝仙女火炬”
+				DisplayName: 蓝仙女火把
 				Tooltip: 闪光的! 并且是蓝的!
 			}
 
@@ -2404,7 +2409,8 @@ Mods: {
 			}
 
 			TorchOvergrowItem: {
-				DisplayName: 仙女火把 #原“仙女火炬”
+				#原“仙女火炬”
+				DisplayName: 仙女火把
 				Tooltip: 闪光的!
 			}
 
@@ -3520,8 +3526,8 @@ Mods: {
 			ThrownAxeProjectile.DisplayName: Thrown Axe Projectile
 			UltrapillBlood.DisplayName: Ultrapill Blood
 			DatsuzeiProjectile.DisplayName: Datsuzei Projectile
-			SpearBookProjectile.DisplayName: Spear Book Projectile
-			SwordBookParry.DisplayName: Sword Book Parry
+			// StarGlaive.DisplayName: Star Glaive
+			// StarShuriken.DisplayName: Star Shuriken
 			AuroraThroneMountMinion.DisplayName: Aurora Throne Mount Minion
 			FrostballProjectile.DisplayName: Frostball Projectile
 			FrostExplosion.DisplayName: Frost Explosion
@@ -3662,15 +3668,15 @@ Mods: {
 			VitricDecor2x1Inverted.MapEntry: ""
 			VitricDecor2x2.MapEntry: ""
 			VitricDecor2x2Inverted.MapEntry: ""
-			VitricGiantCrystal.MapEntry: ""
-			VitricLargeCrystal.MapEntry: ""
+			// VitricGiantCrystal.MapEntry: ""
+			// VitricLargeCrystal.MapEntry: ""
 			VitricLootBox.MapEntry: ""
-			VitricMediumCrystal.MapEntry: ""
+			// VitricMediumCrystal.MapEntry: ""
 			VitricOre.MapEntry: Vitric Ore
 			VitricOreFloat.MapEntry: Vitric Ore
 			VitricRoundCactus.MapEntry: ""
 			VitricSmallCactus.MapEntry: ""
-			VitricSmallCrystal.MapEntry: ""
+			// VitricSmallCrystal.MapEntry: ""
 			VitricSpike.MapEntry: ""
 			VitricBathtub.MapEntry: ""
 			VitricBed.MapEntry: ""
