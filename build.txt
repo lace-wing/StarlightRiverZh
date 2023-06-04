@@ -3,3 +3,4 @@ author = Starlight Boat
 version = 0.01.01
 modReferences = StarlightRiver
 translationMod = true
+side = Client
