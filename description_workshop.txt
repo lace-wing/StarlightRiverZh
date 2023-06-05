@@ -15,5 +15,3 @@
 
 [h2]反馈意见或建议[/h2]
 请在下面的 "意见与建议" 讨论区中留言
-
-[quote=tModLoader]Developed By Starlight Boat[/quote]
