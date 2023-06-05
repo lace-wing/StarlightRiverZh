@@ -90,7 +90,7 @@ Mods: {
 				DisplayName: 空白石板
 				Tooltip:
 					'''
-					La Tabula Rasa
+					一块空白石板
 					可以在灌注站刻印挑战
 					完成挑战后会转化为灌注
 					随着进度的推进，你可以使用新的灌注
@@ -1165,9 +1165,9 @@ Mods: {
 			Earthduster: {
 				Tooltip:
 					'''
-					Hold <left> to fire a rapid stream of soil
-					Can use many different types of soils
-					33% chance to not consume ammo
+					长按左键发射快速的土壤流
+					可以使用多种不同类型的土壤
+					33%几率不消化弹药
 					'''
 				DisplayName: Earthduster
 			}
@@ -1307,9 +1307,9 @@ Mods: {
 				DisplayName: Jade stopwatch
 				Tooltip:
 					'''
-					Time moves more quickly for you
-					Time moves more slowly for you briefly after being hit
-					50% reduced damage
+					时间的流逝速度更快
+					被击中后，时间的流逝速度变慢
+					降低50%伤害
 					'''
 			}
 
