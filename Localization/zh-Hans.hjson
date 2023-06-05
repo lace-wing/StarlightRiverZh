@@ -374,7 +374,6 @@ Mods: {
 			}
 
 			Cloudstrike: {
-				# 命运2 Destiny 2 Cloudstrike Exotic Sniper Rifle
 				DisplayName: 云霄破击
 				Tooltip:
 					'''
@@ -973,7 +972,6 @@ Mods: {
 			}
 
 			ThunderBeads: {
-				#原“电鞭磁珠”
 				DisplayName: 磁珠电鞭
 				Tooltip:
 					'''
@@ -1431,7 +1429,6 @@ Mods: {
 			}
 
 			SojournersScarf: {
-				#原“旅居者围脖”
 				DisplayName: 旅居者的围巾
 				Tooltip:
 					'''
@@ -2362,7 +2359,6 @@ Mods: {
 			}
 
 			JellyShroomItem: {
-				# 蓝色水母菇，neta深海迷航, 但我没找到中译名
 				DisplayName: 蓝色果冻菇
 				Tooltip: Boing!
 			}
@@ -2378,7 +2374,6 @@ Mods: {
 			}
 
 			BlueTorchOvergrowItem: {
-				#原“蓝仙女火炬”
 				DisplayName: 蓝仙女火把
 				Tooltip: 闪光的! 并且是蓝的!
 			}
@@ -2409,7 +2404,6 @@ Mods: {
 			}
 
 			TorchOvergrowItem: {
-				#原“仙女火炬”
 				DisplayName: 仙女火把
 				Tooltip: 闪光的!
 			}
