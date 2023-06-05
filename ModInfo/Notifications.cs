@@ -11,14 +11,14 @@ using Terraria.ModLoader;
 using StarlightRiverZh.Utils;
 using Terraria.ModLoader.IO;
 
-namespace StarlightRiverZh
+namespace StarlightRiverZh.ModInfo
 {
-    internal class Notifications : ModPlayer
+    public class Notifications : ModPlayer
     {
         public static string LastVersion;
         public override void OnEnterWorld()
         {
-            Main.NewText(Text.GetTaggedText(Text.NotifPath + "Welcome", Color.YellowGreen));
+            PopWelcome();
             if (LastVersion != Mod.Version.ToString())
             {
                 PopChangelog();
@@ -36,6 +36,14 @@ namespace StarlightRiverZh
             }
         }
 
+        public void PopVersion()
+        {
+            Main.NewText(Text.TagColor(Mod.Version.ToString(), Color.YellowGreen));
+        }
+        public void PopWelcome()
+        {
+            Main.NewText(Text.GetTaggedText(Text.NotifPath + "Welcome", Color.YellowGreen));
+        }
         public void PopChangelog()
         {
             string log;
