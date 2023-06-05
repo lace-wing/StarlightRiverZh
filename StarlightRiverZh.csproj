@@ -11,6 +11,10 @@
     <AdditionalFiles Remove="Localization\zh-Hans_Mods.StarlightRiver.hjson" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Localization\en-US_Mods.StarlightRiverZh.hjson" />
+    <None Remove="Localization\zh-Hans_Mods.StarlightRiverZh.hjson" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
 </Project>
