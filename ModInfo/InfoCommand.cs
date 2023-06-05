@@ -67,8 +67,8 @@ namespace StarlightRiverZh.ModInfo
             {
                 case Option.Version: return new string[] { "version", "ver", "v" };
                 case Option.Changelog: return new string[] { "changelog", "log", "change", "c" };
-                case Option.Info: return new string[] { "info", "desc", "i" };
-                case Option.Help: return new string[] { "help", "h" };
+                case Option.Info: return new string[] { "information", "info", "description", "desc", "i" };
+                case Option.Help: return new string[] { "help", "options", "-", "h" };
                 case Option.Welcome: return new string[] { "welcome", "w" };
                 default: return null;
             }
