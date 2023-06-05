@@ -15,6 +15,12 @@ namespace StarlightRiverZh.Utils
         public const string DedPath = "Mods.StarlightRiverZh.";
         public const string LocPath = "Mods.StarlightRiver.";
 
+        public static readonly Color TextColor = Color.YellowGreen;
+        public static readonly Color InfoColor = Color.GreenYellow;
+        public static readonly Color WarningColor = Color.Yellow;
+        public static readonly Color ErrorColor = Color.Red;
+        public static readonly Color VersionColor = Color.Aquamarine;
+
         public const string NotifPath = DedPath + "Notifications.";
 
         public static string TagColor(this string text, Color color)

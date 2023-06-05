@@ -21,14 +21,14 @@ namespace StarlightRiverZh.ModInfo
         {
             if (!TryGetOptions(args, out Option[] options))
             {
+                PopInvalidOption();
                 PopOptionLists();
                 return;
             }
             var notif = caller.Player.GetModPlayer<Notifications>();
             if (args.Length < 1)
             {
-                notif.PopWelcome();
-                notif.PopChangelog();
+                PopOptionLists();
                 return;
             }
             foreach (Option op in options)
@@ -47,6 +47,10 @@ namespace StarlightRiverZh.ModInfo
                     case Option.Welcome:
                         notif.PopWelcome();
                         break;
+                    case Option.All:
+                        notif.PopWelcome();
+                        notif.PopChangelog();
+                        break;
                     case Option.Info:
                     default: break;
                 }
@@ -60,6 +64,7 @@ namespace StarlightRiverZh.ModInfo
             Info,
             Help,
             Welcome,
+            All
         }
         private string[] GetOptionTriggers(Option option)
         {
@@ -70,6 +75,7 @@ namespace StarlightRiverZh.ModInfo
                 case Option.Info: return new string[] { "information", "info", "description", "desc", "i" };
                 case Option.Help: return new string[] { "help", "options", "-", "h" };
                 case Option.Welcome: return new string[] { "welcome", "w" };
+                case Option.All: return new string[] { "all", "a" };
                 default: return null;
             }
         }
@@ -119,7 +125,11 @@ namespace StarlightRiverZh.ModInfo
             {
                 lists.Add(GetTriggerList(op));
             }
-            Main.NewTextMultiline("---\n" + Text.TagColor(string.Join('\n', lists), Color.Yellow) + "\n---", true);
+            Main.NewTextMultiline("---\n" + Text.TagColor(string.Join('\n', lists), Text.InfoColor) + "\n---", true);
+        }
+        private void PopInvalidOption()
+        {
+            Main.NewText(Text.GetTaggedText(Text.NotifPath + "InvalidOption", Text.WarningColor));
         }
     }
 }

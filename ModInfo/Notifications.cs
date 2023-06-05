@@ -19,6 +19,7 @@ namespace StarlightRiverZh.ModInfo
         public override void OnEnterWorld()
         {
             PopWelcome();
+            PopMoreInfo();
             if (LastVersion != Mod.Version.ToString())
             {
                 PopChangelog();
@@ -38,11 +39,15 @@ namespace StarlightRiverZh.ModInfo
 
         public void PopVersion()
         {
-            Main.NewText(Text.TagColor(Mod.Version.ToString(), Color.Aquamarine));
+            Main.NewText(Text.TagColor(Mod.Version.ToString(), Text.VersionColor));
         }
         public void PopWelcome()
         {
-            Main.NewText(Text.GetTaggedText(Text.NotifPath + "Welcome", Color.YellowGreen));
+            Main.NewText(Text.GetTaggedText(Text.NotifPath + "Welcome", Text.TextColor));
+        }
+        public void PopMoreInfo()
+        {
+            Main.NewText(Text.GetTaggedText(Text.NotifPath + "MoreInfo", Text.InfoColor));
         }
         public void PopChangelog()
         {
@@ -58,8 +63,8 @@ namespace StarlightRiverZh.ModInfo
                 throw;
             }
             log = log == string.Empty
-                ? Text.GetTaggedText(Text.NotifPath + "NoChangelog", Color.GreenYellow, new object[] { Mod.Version })
-                : Text.GetTaggedText(Text.NotifPath + "Changelog", Color.Aquamarine, new object[] { Mod.Version, log });
+                ? Text.GetTaggedText(Text.NotifPath + "NoChangelog", Text.InfoColor, new object[] { Mod.Version })
+                : Text.GetTaggedText(Text.NotifPath + "Changelog", Text.VersionColor, new object[] { Mod.Version, log });
             Main.NewTextMultiline("---\n" + log + "\n---", true);
         }
     }
