@@ -26,7 +26,7 @@ namespace StarlightRiverZh
             {
                 throw;
             }
-            log = log.Insert(0, $"v{Mod.Version} 更新日志\n");
+            log = log == string.Empty ? $"{Mod.Version} 未检测到更新日志" : log.Insert(0, $"v{Mod.Version} 更新日志\n");
             Main.NewTextMultiline(log, true, Color.YellowGreen);
         }
     }
