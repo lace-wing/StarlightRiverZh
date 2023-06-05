@@ -3218,6 +3218,21 @@ Mods: {
 				DisplayName: Pink Laser Pointer
 				Tooltip: ""
 			}
+
+			FaeHover: {
+				DisplayName: Fae Hover
+				Tooltip: ""
+			}
+
+			GenericHover: {
+				DisplayName: Generic Hover
+				Tooltip: ""
+			}
+
+			WindsHover: {
+				DisplayName: Winds Hover
+				Tooltip: ""
+			}
 		}
 
 		Projectiles: {
@@ -3231,6 +3246,7 @@ Mods: {
 			GlassSword.DisplayName: 琉璃剑
 			LavaLob.DisplayName: Hot Lob
 			Whirlwind.DisplayName: 旋刃
+			Whirl.DisplayName: Whirl
 			InkBlob.DisplayName: 虹墨
 			InkBlobGravity.DisplayName: 虹墨
 			SpewBlob.DisplayName: 极光碎片
@@ -3389,7 +3405,7 @@ Mods: {
 			PhantomBuzzsaw.DisplayName: Buzzsaw
 			RebarProj.DisplayName: Rebar
 			TempleSpearLaser.DisplayName: Point of Light
-			TempleSpearProjectile.DisplayName: Temple Spear Projectile
+			TempleSpearProjectile.DisplayName: Point of Light
 			ArrowMagma.DisplayName: Magma Arrow
 			CoachGunUpgradeBomb.DisplayName: Crystal Bomb
 			CoachGunUpgradeShards.DisplayName: Crystal Shards
@@ -3526,8 +3542,8 @@ Mods: {
 			ThrownAxeProjectile.DisplayName: Thrown Axe Projectile
 			UltrapillBlood.DisplayName: Ultrapill Blood
 			DatsuzeiProjectile.DisplayName: Datsuzei Projectile
-			// StarGlaive.DisplayName: Star Glaive
-			// StarShuriken.DisplayName: Star Shuriken
+			StarGlaive.DisplayName: Star Glaive
+			StarShuriken.DisplayName: Star Shuriken
 			AuroraThroneMountMinion.DisplayName: Aurora Throne Mount Minion
 			FrostballProjectile.DisplayName: Frostball Projectile
 			FrostExplosion.DisplayName: Frost Explosion
@@ -3550,6 +3566,7 @@ Mods: {
 			ConstructSpawner.DisplayName: Construct Spawner
 			GauntletSpawner.DisplayName: Gauntlet Spawner
 			SpawnEgg.DisplayName: Spawn Egg
+			PalestoneDummy.DisplayName: Pale Slash
 		}
 
 		Tiles: {
@@ -4191,6 +4208,15 @@ Mods: {
 			Fogbinded: {
 				DisplayName: Fogbinded
 				Description: Bound to the fogbinder
+			}
+
+			TouchstoneWispBuff: {
+				DisplayName: Aurora Curiosity
+				Description:
+					'''
+					What lies below?
+					Increased mining speed
+					'''
 			}
 		}
 
