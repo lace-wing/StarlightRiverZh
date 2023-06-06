@@ -17,4 +17,12 @@
   <ItemGroup>
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="libs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="StarlightRiver">
+      <HintPath>libs\StarlightRiver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿Notifications: {
+Notifications: {
 	Welcome: 欢迎使用由星光之舟汉化组制作的星光之河汉化补丁。 制作仓促，目前翻译尚不完善。 我们会逐渐改进，感谢您的耐心和理解。
 	MoreInfo: 使用聊天栏指令“/slrzh”以查看更多信息。
 	Changelog:
@@ -8,4 +8,16 @@
 		'''
 	NoChangelog: v{0} 未检测到更新日志
 	InvalidOption: 检测到无效选项
+}
+
+Configs: {
+	SlrzhConfig: {
+		// DisplayName: Slrzh Config
+		// Headers.【测试性】内嵌翻译: 【测试性】内嵌翻译 Header
+
+		ILTranslate: {
+			// Label: 翻译更多文本
+			// Tooltip: 测试功能，开发中，可能造成不可预知的bug，完全不支持多人模式，关闭mod后无法将文本恢复为英文
+		}
+	}
 }

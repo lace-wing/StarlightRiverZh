@@ -1,4 +1,4 @@
-﻿Notifications: {
+Notifications: {
 	Welcome:
 		'''
 		Starlight River Chinese Patch, brought to you by the Starlight Boat. Translation is working in progress, thanks for your patience and understanding.
@@ -12,4 +12,16 @@
 		'''
 	NoChangelog: v{0} no changelog detected
 	InvalidOption: Invalid option detected
+}
+
+Configs: {
+	SlrzhConfig: {
+		DisplayName: Slrzh Config
+		Headers.【测试性】内嵌翻译: 【测试性】内嵌翻译 Header
+
+		ILTranslate: {
+			Label: 翻译更多文本
+			Tooltip: 测试功能，开发中，可能造成不可预知的bug，完全不支持多人模式，关闭mod后无法将文本恢复为英文
+		}
+	}
 }
