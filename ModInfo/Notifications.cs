@@ -16,25 +16,28 @@ namespace StarlightRiverZh.ModInfo
     public class Notifications : ModPlayer
     {
         public static string LastVersion;
+        public static bool VersionChanged;
         public override void OnEnterWorld()
         {
             PopWelcome();
-            PopMoreInfo();
-            if (LastVersion != Mod.Version.ToString())
+            PopInfoHint();
+            if (VersionChanged)
             {
                 PopChangelog();
+                VersionChanged = false;
             }
         }
         public override void SaveData(TagCompound tag)
         {
-            tag.Add("LastVersion", Mod.Version.ToString());
+            if (LastVersion != Mod.Version.ToString())
+            {
+                VersionChanged = true;
+            }
+            tag["LastVersion"] = Mod.Version.ToString();
         }
         public override void LoadData(TagCompound tag)
         {
-            if (tag.ContainsKey("LastVersion"))
-            {
-                LastVersion = tag.GetString("LastVersion");
-            }
+            LastVersion = tag["LastVersion"].ToString();
         }
 
         public void PopVersion()
@@ -45,9 +48,9 @@ namespace StarlightRiverZh.ModInfo
         {
             Main.NewText(Text.GetTaggedText(Text.NotifPath + "Welcome", Text.TextColor));
         }
-        public void PopMoreInfo()
+        public void PopInfoHint()
         {
-            Main.NewText(Text.GetTaggedText(Text.NotifPath + "MoreInfo", Text.InfoColor));
+            Main.NewText(Text.GetTaggedText(Text.NotifPath + "InfoHint", Text.InfoColor));
         }
         public void PopChangelog()
         {
