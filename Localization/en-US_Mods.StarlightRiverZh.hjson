@@ -4,7 +4,7 @@
 		Starlight River Chinese Patch, brought to you by the Starlight Boat. Translation is working in progress, thanks for your patience and understanding.
 		The game language is not set to Chinese!
 		'''
-	MoreInfo: For more info, use chat command '/slrzh'.
+	InfoHint: For more info, use chat command '/slrzh'.
 	Changelog:
 		'''
 		v{0} changelog

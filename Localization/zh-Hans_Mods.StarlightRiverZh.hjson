@@ -1,6 +1,6 @@
 ﻿Notifications: {
 	Welcome: 欢迎使用由星光之舟汉化组制作的星光之河汉化补丁。 制作仓促，目前翻译尚不完善。 我们会逐渐改进，感谢您的耐心和理解。
-	MoreInfo: 使用聊天栏指令“/slrzh”以查看更多信息。
+	InfoHint: 使用聊天栏指令“/slrzh”以查看更多信息。
 	Changelog:
 		'''
 		v{0} 更新日志
