@@ -457,7 +457,7 @@ Mods: {
 
 			Butter: {
 				Tooltip: "\n\n"
-				DisplayName: Butter
+				DisplayName: 黄油
 			}
 
 			Cabbage: {
@@ -477,7 +477,7 @@ Mods: {
 
 			Cherry: {
 				Tooltip: "\n\n"
-				DisplayName: Cherry
+				DisplayName: 樱桃
 			}
 
 			ChocolateGlaze: {
@@ -592,7 +592,7 @@ Mods: {
 
 			Milk: {
 				Tooltip: "\n\n"
-				DisplayName: Milk
+				DisplayName: 牛奶
 			}
 
 			Rabbit: {
@@ -1061,7 +1061,7 @@ Mods: {
 				Tooltip:
 					'''
 					+100点屏障
-					不再受到持续伤害的英雄
+					不再受到持续伤害的影响
 					屏障会吸收所有伤害
 					你可以在没有生命值的情况下存活
 					诅咒：你无法拥有生命值
@@ -1136,7 +1136,7 @@ Mods: {
 				DisplayName: 消毒试剂箱
 				Tooltip:
 					'''
-					Disinfectant Wipes和Sanitizer Spray的组合效果
+					消毒湿巾和消毒喷雾的组合效果
 					当至少拥有一种减益时增加10%伤害
 					'''
 			}
@@ -1653,7 +1653,7 @@ Mods: {
 			Octogun: {
 				Tooltip:
 					'''
-					将火枪子弹转化为Auroracle Ink
+					将火枪子弹转化为极光墨水
 					造成暴击或击杀敌人时会使触手从你的体内长出来，向你的光标方向发射弹幕
 					'''
 				DisplayName: Octogun
@@ -1703,7 +1703,7 @@ Mods: {
 					发射闪光的触手长枪
 					可充能并一次性发射至多5支长枪
 					'''
-				DisplayName: Tentalance
+				DisplayName: 触须长枪
 			}
 
 			WaterStaff: {
@@ -2040,7 +2040,7 @@ Mods: {
 
 			GlassIdol: {
 				Tooltip: Used to worship a powerful guardian.
-				DisplayName: Glass Idol
+				DisplayName: 琉璃圣像
 			}
 
 			GlassIdolEndless: {
