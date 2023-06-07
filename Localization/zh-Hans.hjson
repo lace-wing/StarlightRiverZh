@@ -186,7 +186,7 @@ Mods: {
 				DisplayName: 锈迹霰弹枪
 				Tooltip:
 					'''
-					<right>钩住你的敌人并拉进距离
+					右键钩住你的敌人并拉进距离
 					钩住敌人时射击会减少扩散并向后回退
 					'''
 			}
@@ -317,7 +317,7 @@ Mods: {
 				DisplayName: 海盗箱
 				Tooltip:
 					'''
-					<right>以打开
+					右键打开
 					'Sought after for centuries'
 					'''
 			}
@@ -390,7 +390,7 @@ Mods: {
 				DisplayName: 颅骨破坏者
 				Tooltip:
 					'''
-					<right>以扔出四个烟雾弹
+					右键扔出四个烟雾弹
 					松开右键会在短时间内快速向烟雾弹射击
 					'''
 			}
@@ -400,7 +400,7 @@ Mods: {
 				Tooltip:
 					'''
 					基于你当前的屏障增加魔力再生速度
-					消耗魔力值会强化魔力再生速度
+					消耗魔力值时会增加屏障再生速度
 					-10点屏障
 					'''
 			}
@@ -958,7 +958,7 @@ Mods: {
 				Tooltip:
 					'''
 					造成的伤害会转化为持续的伤害
-					Damage is initially decreased, but can interact with DoT-related accessories
+					初始伤害降低，但可以与持续伤害相关的饰品进行联动
 					你无法再造成暴击
 					'''
 				DisplayName: 尸花
@@ -1006,8 +1006,8 @@ Mods: {
 				DisplayName: 未充能的磁体
 				Tooltip:
 					'''
-					Charged enemies are attracted with this in your inventory
-					Charged enemies are stronger than normal, but charge this item on death
+					你物品栏中的该物品会吸引带电的敌人
+					带电的敌人比普通敌人更加强大，但会在死亡时充能该物品
 					'''
 			}
 
@@ -1015,7 +1015,7 @@ Mods: {
 				DisplayName: 炼金术士的镣铐
 				Tooltip:
 					'''
-					Resource potions are more effective when their respective resource is lower 
+					在资源较低时，对应的资源药水会更加有效
 					诅咒：延长15秒药水疾病减益的时间
 					'''
 			}
@@ -1031,7 +1031,7 @@ Mods: {
 					'''
 					Teaches you the Art of Axes, granting all axe weapons a new combo attack
 					连击的最后一击会撕裂敌人的护甲
-					<right>扔出你的斧子
+					右键扔出你的斧子
 					'''
 			}
 
@@ -1057,7 +1057,7 @@ Mods: {
 
 			BizarrePotion: {
 				DisplayName: 奇异药水
-				Tooltip: Throws a random volatile potion with random - usually explosive - effects
+				Tooltip: 投掷一瓶具有随机 - 通常是爆炸 - 效果的随机挥发性药水
 			}
 
 			Bladesaw: {
@@ -1066,7 +1066,7 @@ Mods: {
 					'''
 					粉碎敌人
 					反复击中敌人会将其撕裂并过热电锯，过热会增加伤害
-					<right>当做工具使用
+					右键当做工具使用
 					'''
 			}
 
@@ -1075,9 +1075,9 @@ Mods: {
 				Tooltip:
 					'''
 					+100点屏障
-					Barrier absorbs ALL damage and recharges faster
-					You are unaffected by damage over time
-					Cursed : You have 0 HP. Healing grants a decaying damage boost instead of life
+					屏障会吸收所有伤害并且重新开始充能的速度更快
+					你不会再受到持续伤害的影响
+					诅咒：你拥有0点生命值。治疗会使你获得一个持续衰减的伤害加成，而非回复生命值
 					'Leave your flesh behind, for your rage is all you need'
 					'''
 			}
@@ -1096,9 +1096,9 @@ Mods: {
 				DisplayName: 因果镜
 				Tooltip:
 					'''
-					Cursed : Your DoT and regeneration effects are inverted.
-					Regenerate life when you would take damage-over-time.
-					Take damage-over-time when you would regenerate life.
+					诅咒：翻转你的持续伤害和生命再生效果。
+					当你受到持续伤害时会再生生命。
+					当你再生生命时会受到持续伤害。
 					这包括自然的生命再生！
 					'''
 			}
@@ -1108,8 +1108,8 @@ Mods: {
 				Tooltip:
 					'''
 					奔跑速度翻倍
-					Take up to 25% more damage while moving over your previous max speed
-					Acceleration is reduced by 75% when over your previous max speed
+					当你的速度超过先前的最大速度时会受到25%额外伤害
+					当你的速度超过先前的最大速度时会降低75%加速度
 					'''
 			}
 
@@ -1144,7 +1144,7 @@ Mods: {
 
 			DiceAmmo: {
 				DisplayName: 骰子
-				Tooltip: Every shot has randomized stats
+				Tooltip: 每发攻击都具有随机的属性
 			}
 
 			DisinfectantKit: {
@@ -1343,8 +1343,8 @@ Mods: {
 			Magebane: {
 				Tooltip:
 					'''
-					Cursed : You can not drink mana potions or other mana-replenishing items
-					Magic attacks have a 25% chance to leech a large portion of their damage as mana
+					诅咒：你无法再引用魔力药水或其他能够回复魔力值的物品
+					魔法攻击击中敌人时有25%几率使你回复大量等同于此次伤害量的魔力值
 					'''
 				DisplayName: Magebane
 			}
@@ -1468,8 +1468,8 @@ Mods: {
 				Tooltip:
 					'''
 					Teaches you the Art of the Spear, granting all spear weapons a new combo attack
-					The last strike in the combo deals increased damage and knockback
-					<right> to deter enemies with a flurry of stabs
+					连击的最后一击的伤害和击退增加
+					右键用一连串的刺击震慑敌人
 					'''
 			}
 
@@ -1495,8 +1495,8 @@ Mods: {
 			TaintedGreataxe: {
 				Tooltip:
 					'''
-					Cursed : Landing a Critical Strike will inflict Focused on a new, different enemy
-					<right> on the Greataxe whilst it is Embedded to release it
+					诅咒：造成暴击时会对一名新的、不同的敌人造成聚焦减益
+					右键被嵌入的敌人会使巨斧取消嵌入
 					'''
 				DisplayName: Tainted Greataxe
 			}
@@ -1526,7 +1526,7 @@ Mods: {
 				Tooltip:
 					'''
 					攻击敌人会用月光能量为法杖充能
-					Condenses collected energy into a lunar orb when the final slam hits the groundUpdate this egshels (sfx needed)
+					当最后一击击中地面时，收集的能量会凝聚成月光法球 Update this egshels (sfx needed)
 					'''
 			}
 
@@ -1539,7 +1539,7 @@ Mods: {
 				DisplayName: 狄阿娜的吊坠
 				Tooltip:
 					'''
-					Consuming mana charges a Crescent Guardian, blitzing nearby enemies when fully charged
+					消耗魔力值为Crescent Guardian充能，完全充能后会电击周围的敌人
 					+20点屏障
 					'''
 			}
@@ -1565,7 +1565,7 @@ Mods: {
 			}
 
 			MoonstoneHamaxe: {
-				Tooltip: <right>充能并挥舞，能够摧毁大范围内的墙壁
+				Tooltip: 长按右键充能，松开以挥舞，能够摧毁大范围内的墙壁
 				DisplayName: 月长石斧
 			}
 
@@ -1627,7 +1627,7 @@ Mods: {
 					'''
 					战斗坐骑：召唤一只极光宝座
 					发射鞭类触手抽打敌人
-					<right>召唤爆破极光流
+					右键召唤爆破极光流
 					'''
 			}
 
@@ -1707,8 +1707,8 @@ Mods: {
 				Tooltip:
 					'''
 					放置或移除流光水  
-					<left>放置
-					<right>移除
+					左键放置
+					右键移除
 					'''
 			}
 
@@ -1748,7 +1748,7 @@ Mods: {
 				DisplayName: 血晶
 				Tooltip:
 					'''
-					Cursed : 你会获得你对敌人造成的减益
+					诅咒：你会获得你对敌人造成的减益
 					你所造成的减益的持续时间延长
 					'''
 			}
@@ -1788,7 +1788,7 @@ Mods: {
 					'''
 					暴击时生成魔力星
 					-3%暴击率
-					被Starwood Armor强化后+3%暴击率
+					被Starwood Armor强化后会+3%暴击率
 					'''
 			}
 
@@ -1854,7 +1854,7 @@ Mods: {
 				Tooltip:
 					'''
 					收集伤害敌人时产生的碎片
-					<right>消耗碎片并制造机器人
+					右键消耗碎片并制造机器人
 					'''
 			}
 
@@ -1883,7 +1883,7 @@ Mods: {
 				Tooltip:
 					'''
 					刺穿敌人
-					Shoot impaled rebar to drive it even deeper into enemies
+					射击钢筋会使其更加深入的刺穿敌人
 					'''
 			}
 
@@ -1891,8 +1891,8 @@ Mods: {
 				DisplayName: Shine Staff
 				Tooltip:
 					'''
-					Hold <left> to search for treasure
-					Release to fire stars toward the cursor
+					长按左键搜寻宝藏
+					松开以向光标发射星星
 					'''
 			}
 
@@ -1919,7 +1919,7 @@ Mods: {
 
 			TemplePick: {
 				DisplayName: 旋风镐
-				Tooltip: Hold right click to charge up a spinning pickaxe dash, breaking anything in your way
+				Tooltip: 长按右键充能并释放十字镐冲锋，破坏任何挡路的事物
 			}
 
 			TempleRune: {
@@ -2003,8 +2003,8 @@ Mods: {
 				DisplayName: 熔岩护骑霰弹枪
 				Tooltip:
 					'''
-					Press <right> to throw out crystal bombs, which explode in chain reactions 
-					Firing at a bomb detonates it prematurely for more violent results
+					右键投掷一颗可被连锁引爆的水晶爆弹
+					射击水晶可提前将其引爆，造成更加强烈的后果
 					'How does he manage to corenuke like that?'
 					'''
 			}
@@ -2014,7 +2014,7 @@ Mods: {
 				Tooltip:
 					'''
 					充能并发射一排绚烂魔法
-					Fully charged shots leech mana where their arrows meet
+					完全充能时，绚烂魔法会在相聚时汲取魔力
 					'''
 			}
 
@@ -2022,8 +2022,8 @@ Mods: {
 				DisplayName: 琢面晶格
 				Tooltip:
 					'''
-					<right> to guard, blocking damage depending on timing
-					Attacks are empowered after a guard, also depending on your guard timing
+					右键防卫，取决于防卫时机来格挡伤害
+					在防卫后会强化攻击，这同样取决于你的防卫时机
 					'''
 			}
 
@@ -2059,7 +2059,7 @@ Mods: {
 
 			MagmaArrow: {
 				DisplayName: 熔岩箭
-				Tooltip: Cools down as it travels, applying less fire but dealing more damage and knockback
+				Tooltip: 在飞行过程中会逐渐冷却下来，施加更少的火焰但会造成更多的伤害和击退
 			}
 
 			MagmaCore: {
@@ -2082,7 +2082,7 @@ Mods: {
 			}
 
 			MagmiteVacpack: {
-				Tooltip: Blasts out Magmites that stick to enemies and increase summon tag damage
+				Tooltip: 发射会粘附在敌人身上的Magmites并增加召唤标记伤害
 				DisplayName: Magmite Vacpack
 			}
 
@@ -2105,7 +2105,7 @@ Mods: {
 					'''
 					召唤一颗地狱晶体
 					地狱晶体会锁定敌人, 伤害会随着时间流逝而逐渐增加
-					<right>可使晶体同时瞄准多个敌人, 但伤害不再会随着时间流逝而逐渐增加且造成的伤害减少
+					右键可使晶体同时瞄准多个敌人, 但伤害不再会随着时间流逝而逐渐增加且造成的伤害减少
 					'''
 				DisplayName: Recursive Focus
 			}
@@ -2176,7 +2176,7 @@ Mods: {
 				DisplayName: 琉璃锤斧
 				Tooltip:
 					'''
-					<right>加热
+					右键加热
 					热量会增加速度
 					热量会随着时间流逝而衰减
 					'''
@@ -2194,7 +2194,7 @@ Mods: {
 
 			VitricMagicBook: {
 				DisplayName: 琉璃之书
-				Tooltip: Summons spikes to stab enemies above them
+				Tooltip: 在敌人上方召唤尖刺刺击敌人
 			}
 
 			VitricOre: {
@@ -2248,7 +2248,7 @@ Mods: {
 
 			CookStationItem: {
 				DisplayName: 灶台
-				Tooltip: <right>准备餐食
+				Tooltip: 右键准备餐食
 			}
 
 			InfuserItem: {
@@ -2845,12 +2845,12 @@ Mods: {
 
 			VitricBossBarrierItem: {
 				DisplayName: VitricBossBarrierItem
-				Tooltip: debug item
+				Tooltip: 调试物品
 			}
 
 			GlassweaverBossBarrierItem: {
 				DisplayName: GlassweaverBossBarrierItem
-				Tooltip: debug item
+				Tooltip: 调试物品
 			}
 
 			VitricBathtub: {
