@@ -447,12 +447,12 @@ Mods: {
 
 			BlackPepper: {
 				Tooltip: "\n\n"
-				DisplayName: Black Pepper
+				DisplayName: 黑胡椒粉
 			}
 
 			BrusselSprouts: {
 				Tooltip: "\n\n"
-				DisplayName: Brussel Sprouts
+				DisplayName: 球芽甘蓝
 			}
 
 			Butter: {
@@ -462,17 +462,17 @@ Mods: {
 
 			Cabbage: {
 				Tooltip: "\n\n"
-				DisplayName: Cabbage
+				DisplayName: 卷心菜
 			}
 
 			Carrot: {
 				Tooltip: "\n\n"
-				DisplayName: Carrot
+				DisplayName: 胡萝卜
 			}
 
 			Cashews: {
 				Tooltip: "\n\n"
-				DisplayName: Cashews
+				DisplayName: 腰果
 			}
 
 			Cherry: {
@@ -487,7 +487,7 @@ Mods: {
 
 			CoffeeBeans: {
 				Tooltip: "\n\n"
-				DisplayName: Coffee Beans
+				DisplayName: 咖啡豆
 			}
 
 			CrimsonSteak: {
@@ -502,7 +502,7 @@ Mods: {
 
 			Dough: {
 				Tooltip: "\n\n"
-				DisplayName: Dough
+				DisplayName: 面团
 			}
 
 			Dressing: {
@@ -522,7 +522,7 @@ Mods: {
 
 			Eye: {
 				Tooltip: "\n\n"
-				DisplayName: Eye
+				DisplayName: 眼球
 			}
 
 			FaceSteak: {
@@ -597,7 +597,7 @@ Mods: {
 
 			Rabbit: {
 				Tooltip: "\n\n"
-				DisplayName: Rabbit
+				DisplayName: 兔肉
 			}
 
 			RocketFuel: {
@@ -607,7 +607,7 @@ Mods: {
 
 			SeaSalt: {
 				Tooltip: "\n\n"
-				DisplayName: Sea Salt
+				DisplayName: 海盐
 			}
 
 			SkySprinkles: {
@@ -682,17 +682,17 @@ Mods: {
 
 			Sugar: {
 				Tooltip: "\n\n"
-				DisplayName: Sugar
+				DisplayName: 白砂糖
 			}
 
 			TableSalt: {
 				Tooltip: "\n\n"
-				DisplayName: Table Salt
+				DisplayName: 精制食盐
 			}
 
 			Toast: {
 				Tooltip: "\n\n"
-				DisplayName: Toast
+				DisplayName: 烤面包
 			}
 
 			VertebrateNuggets: {
@@ -953,7 +953,7 @@ Mods: {
 					降低66%伤害
 					装备后无法再造成暴击
 					'''
-				DisplayName: Corpseflower
+				DisplayName: 尸花
 			}
 
 			Slitherring: {
@@ -962,7 +962,7 @@ Mods: {
 			}
 
 			ChargedMagnet: {
-				DisplayName: Charged Magnet
+				DisplayName: 带电磁体
 				Tooltip: "'Pulsing with magnetic power'"
 			}
 
@@ -993,7 +993,7 @@ Mods: {
 			}
 
 			UnchargedMagnet: {
-				DisplayName: Uncharged Magnet
+				DisplayName: 未充能的磁体
 				Tooltip: 可能会吸引带电的敌人
 			}
 
@@ -1570,7 +1570,7 @@ Mods: {
 
 			MoonstoneHamaxe: {
 				Tooltip: <right>充能并挥舞，能够摧毁墙壁
-				DisplayName: Moonstone Hamaxe
+				DisplayName: 月长石斧
 			}
 
 			MoonstoneHead: {
@@ -1656,7 +1656,7 @@ Mods: {
 					将火枪子弹转化为极光墨水
 					造成暴击或击杀敌人时会使触手从你的体内长出来，向你的光标方向发射弹幕
 					'''
-				DisplayName: Octogun
+				DisplayName: 墨鱼枪
 			}
 
 			OverflowingUrn: {
@@ -2242,7 +2242,7 @@ Mods: {
 			}
 
 			FaeflameTileItem: {
-				DisplayName: 妖火
+				DisplayName: 火焰
 				Tooltip: Debug placer for ability pickup
 			}
 
@@ -2293,7 +2293,7 @@ Mods: {
 
 			SlimeberryBushItem: {
 				DisplayName: 史莱姆莓丛
-				Tooltip: 放置一个slimeberry bush
+				Tooltip: 放置一个史莱姆莓丛
 			}
 
 			AncientFruit: {
@@ -3039,7 +3039,7 @@ Mods: {
 			}
 
 			OvergrowItem: {
-				DisplayName: 八音盒 (Overgrow)
+				DisplayName: 八音盒 (繁茂之地)
 				Tooltip: ""
 			}
 
@@ -3833,13 +3833,13 @@ Mods: {
 			VitricBossPlatformUp.DisplayName: ""
 			VitricBossPlatformUpSmall.DisplayName: ""
 			CrescentCaster.DisplayName: 新月法师
-			Blover.DisplayName: Blover
+			Blover.DisplayName: 三叶草
 			TreeBat.DisplayName: 树蝠
 			Warbanner.DisplayName: Haunted Warbanner
-			Fogbinder.DisplayName: Fogbinder
-			AngryCrescent.DisplayName: Angry Crescent
-			Dreamprism.DisplayName: Dreamprism
-			Crusher.DisplayName: Masher
+			Fogbinder.DisplayName: 雾影锁魔
+			AngryCrescent.DisplayName: 愤怒新月
+			Dreamprism.DisplayName: 梦幻棱晶
+			Crusher.DisplayName: 碾碎机
 			Snoobel.DisplayName: Snoobel
 			SwordEnemy.DisplayName: Sky Splicer
 
@@ -3858,7 +3858,7 @@ Mods: {
 				}
 			}
 
-			BoomBug.DisplayName: Firebug
+			BoomBug.DisplayName: 萤火虫
 			Coolmite.DisplayName: Coolmite
 			CrystalPopper.DisplayName: 沙漠蝙蝠
 			CrystalSlime.DisplayName: 琉璃史莱姆
@@ -3871,7 +3871,7 @@ Mods: {
 			ShieldConstruct.DisplayName: Shield Construct
 			SupporterConstruct.DisplayName: Supporter Construct
 			KettleCreature.DisplayName: Kettle Kreature
-			LesserFirebug.DisplayName: Lesser Firebug
+			LesserFirebug.DisplayName: 小萤火虫
 			MagmitePassive.DisplayName: 小熔滴螨
 			Snake.DisplayName: 熔火响尾蛇
 			FaeflamePickup.DisplayName: 妖精火焰
@@ -3881,7 +3881,7 @@ Mods: {
 			TouchstoneWisp.DisplayName: 极光之魂
 			BossRushOrb.DisplayName: ???
 			ArenaBlocker.DisplayName: Arena Blocker
-			Auroraborn.DisplayName: Auroraborn
+			Auroraborn.DisplayName: 极光子嗣
 			Auroraling.DisplayName: Auroraling
 			Tentacle.DisplayName: Tentacle
 			TentacleHurtbox.DisplayName: Tentacle Hurtbox
@@ -4207,11 +4207,11 @@ Mods: {
 			}
 
 			TouchstoneWispBuff: {
-				DisplayName: Aurora Curiosity
+				DisplayName: 极光奇遇
 				Description:
 					'''
-					What lies below?
-					Increased mining speed
+					下面是什么？
+					增加挖掘速度
 					'''
 			}
 		}
