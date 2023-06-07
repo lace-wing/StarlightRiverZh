@@ -1,10 +1,9 @@
 Mods: {
 	StarlightRiver: {
 		Keybinds: {
-			"[PH]Hint.DisplayName": "[PH] 提示"
+			Starsight.DisplayName: 星视
 			"Forbidden Winds.DisplayName": 禁忌之风
 			Faeflame.DisplayName: 妖精火焰
-			Starsight.DisplayName: 星视
 		}
 
 		Items: {
@@ -90,7 +89,6 @@ Mods: {
 				DisplayName: 空白石板
 				Tooltip:
 					'''
-					一块空白石板
 					可以在灌注站刻印挑战
 					完成挑战后会转化为灌注
 					随着进度的推进，你可以使用新的灌注
@@ -98,8 +96,8 @@ Mods: {
 			}
 
 			CauldronItem: {
-				DisplayName: 炼金坩埚
 				Tooltip: 放置炼金坩埚
+				DisplayName: 坩埚
 			}
 
 			MixingStick: {
@@ -181,18 +179,14 @@ Mods: {
 
 			ScrappodItem: {
 				DisplayName: 破片弹
-				Tooltip:
-					'''
-					到达光标位置时碎裂成弹片
-					无法在射击时立刻碎裂
-					'''
+				Tooltip: 到达光标位置时碎裂成弹片
 			}
 
 			Scrapshot: {
 				DisplayName: 锈迹霰弹枪
 				Tooltip:
 					'''
-					右键钩住你的敌人并拉进距离
+					<right>钩住你的敌人并拉进距离
 					钩住敌人时射击会减少扩散并向后回退
 					'''
 			}
@@ -227,7 +221,7 @@ Mods: {
 				Tooltip:
 					'''
 					打击敌人会使其掉落宝藏
-					收集宝藏会强化召唤物
+					收集宝藏会强化你的召唤物
 					'''
 			}
 
@@ -262,52 +256,56 @@ Mods: {
 			}
 
 			AztecDeathSaxophone: {
-				DisplayName: 阿兹台克死亡萨克斯
+				DisplayName: 克死亡萨克斯
 				Tooltip:
 					'''
-					受到伤害或击杀敌人时会为萨克斯充能
-					充能后，左键释放狂暴乐曲，屠杀任何挡路的敌人
+					受到伤害或使用其他武器击杀敌人时会为萨克斯充能
+					充能后，使用以释放高伤害的原始死亡咆哮
 					'''
 			}
 
 			DesertArtifact1Item: {
 				DisplayName: 远古化石
-				Tooltip: ""
+				Tooltip: 应该能卖个好价钱！
 			}
 
 			DesertArtifact2Item: {
 				DisplayName: 远古化石
-				Tooltip: ""
+				Tooltip: 应该能卖个好价钱！
 			}
 
 			DesertArtifact3Item: {
 				DisplayName: 远古化石
-				Tooltip: ""
+				Tooltip: 应该能卖个好价钱！
 			}
 
 			DesertArtifact4Item: {
 				DisplayName: 远古化石
-				Tooltip: ""
+				Tooltip: 应该能卖个好价钱！
 			}
 
 			DesertArtifact5Item: {
 				DisplayName: 远古化石
-				Tooltip: ""
+				Tooltip: 应该能卖个好价钱！
 			}
 
 			DesertArtifact6Item: {
 				DisplayName: 远古化石
-				Tooltip: ""
+				Tooltip: 应该能卖个好价钱！
 			}
 
 			DesertArtifact7Item: {
 				DisplayName: 远古化石
-				Tooltip: ""
+				Tooltip: 应该能卖个好价钱！
 			}
 
 			ExoticGeodeArtifactItem: {
 				DisplayName: 奇异晶洞
-				Tooltip: “极其闪亮”
+				Tooltip:
+					'''
+					“极其闪亮”
+					一个提炼机也许能把它拆分开来...
+					'''
 			}
 
 			PerfectlyGenericArtifactItem: {
@@ -319,7 +317,7 @@ Mods: {
 				DisplayName: 海盗箱
 				Tooltip:
 					'''
-					右键打开
+					<right>以打开
 					'Sought after for centuries'
 					'''
 			}
@@ -360,7 +358,7 @@ Mods: {
 					'''
 					挥洒刃形沙
 					'This lost tablet contains a fragment of the Epic of Yeremy
-					...The writing is sorta ameteurish for an ancient relic'
+					...The writing is sorta amateurish for an ancient relic'
 					'''
 			}
 
@@ -385,14 +383,14 @@ Mods: {
 
 			InertStaff: {
 				DisplayName: 失效的新月法杖
-				Tooltip: ‘This broken artifact still holds some latent astral energy’
+				Tooltip: ‘Still holds some latent astral energy...’
 			}
 
 			SkullBuster: {
 				DisplayName: 颅骨破坏者
 				Tooltip:
 					'''
-					右键扔出四个烟雾弹
+					<right>以扔出四个烟雾弹
 					松开右键会在短时间内快速向烟雾弹射击
 					'''
 			}
@@ -401,8 +399,8 @@ Mods: {
 				DisplayName: 星光吊坠
 				Tooltip:
 					'''
-					每点屏障增加1%魔力再生速度
-					在过去5秒内每消耗4点魔力值都会增加1%屏障再生速度
+					基于你当前的屏障增加魔力再生速度
+					消耗魔力值会强化魔力再生速度
 					-10点屏障
 					'''
 			}
@@ -411,7 +409,7 @@ Mods: {
 				Tooltip:
 					'''
 					融化被接触的敌人并加热
-					松开以发射炽热火轮，在返回前会融化被接触的敌人并在物块上滑动
+					松开以发射炽热火轮
 					'Rip and tear'
 					'''
 				DisplayName: Thousandth Degree
@@ -440,7 +438,7 @@ Mods: {
 				DisplayName: 复制细胞
 				Tooltip:
 					'''
-					+15%持续伤害抗性
+					+15%抗性
 					小幅度增加生命开始再生的速度
 					'''
 			}
@@ -720,7 +718,7 @@ Mods: {
 				Tooltip:
 					'''
 					翻倍物块放置距离和工具距离
-					挖掘超过原先距离的物块时降低50%挖掘速度
+					挖掘超过原先距离的物块时降低33%挖掘速度
 					'''
 			}
 
@@ -739,9 +737,9 @@ Mods: {
 				DisplayName: 多汁牛排
 				Tooltip:
 					'''
-					召唤一只野狼战斗坐骑
+					战斗坐骑：召唤一只野狼
 					用强力的撕咬造成流血减益
-					右键嚎叫并强化召唤物的速度
+					右键使野狼嚎叫并强化召唤物的速度
 					'''
 			}
 
@@ -826,12 +824,12 @@ Mods: {
 				DisplayName: 不同宝石的效果：
 				Tooltip:
 					'''
-					钻石：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
-					黄玉：+100点屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
-					翡翠：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
-					蓝宝石：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
-					紫晶：使用攻击都会造成可叠加的剧毒紫晶减益
-					红玉：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
+					[i/s1:5668]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
+					[i/s1:5676]：+100点屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
+					[i/s1:5669]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
+					[i/s1:5675]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
+					[i/s1:5667]：使用攻击都会造成可叠加的剧毒紫晶减益
+					[i/s1:5674]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
 					'''
 			}
 
@@ -890,21 +888,21 @@ Mods: {
 
 			Gluttony: {
 				DisplayName: 暴食
-				Tooltip: 吸取你敌人的灵魂！
+				Tooltip: 吸取你敌人的灵魂，使他们对抗昔日的兄弟
 			}
 
 			GravediggerItem: {
 				DisplayName: 坟墓粉碎者
 				Tooltip:
 					'''
-					将敌人挑向空中
+					按住W键时会将敌人挑向空中，按住S键时会将敌人击落
 					击中空中的敌人会造成更多的伤害
 					'''
 			}
 
 			LivingBlood: {
 				DisplayName: 不死之血
-				Tooltip: ""
+				Tooltip: "'Unnaturally pulses with the light of the Blood Moon'"
 			}
 
 			PoltergeistChest: {
@@ -926,13 +924,23 @@ Mods: {
 				Tooltip: +40点最大魔力值
 			}
 
-			StaffOfSelfDisassembly: {
-				DisplayName: Staff of Self Disassembly
+			RadculasRapier: {
+				DisplayName: Radcula's Rapier
 				Tooltip:
 					'''
-					消耗40点生命值以召唤血肉幽魂
-					幽魂会增加生命再生速度
-					当幽魂攻击敌人时，会强化生命再生速度
+					快速戳刺敌人，造成可堆叠的流血效果
+					右键传送至光标位置，收割路径上流血的敌人以获得高伤害和生命值
+					传送时打击多个敌人会降低冷却时间
+					'''
+			}
+
+			StaffOfSelfDisassembly: {
+				DisplayName: Staff of Self-Disassembly
+				Tooltip:
+					'''
+					消耗40点生命值以召唤血肉之惧
+					血肉之惧会增加生命再生速度
+					当血肉之惧攻击敌人时，会强化生命再生速度
 					'''
 			}
 
@@ -940,9 +948,9 @@ Mods: {
 				DisplayName: 卡戎的银币
 				Tooltip:
 					'''
-					将附近掉落的金钱转化为反射钱币，命中钱币的弹幕会被反弹
+					将附近掉落的金钱转化为古老钱币，命中钱币的弹幕会被反弹
 					钱币会在接触任何表面时失去效果
-					'Money is the root of all evil'
+					'Soon, may the Ferryman come...'
 					'''
 			}
 
@@ -950,15 +958,15 @@ Mods: {
 				Tooltip:
 					'''
 					造成的伤害会转化为持续的伤害
-					降低66%伤害
-					装备后无法再造成暴击
+					Damage is initially decreased, but can interact with DoT-related accessories
+					你无法再造成暴击
 					'''
 				DisplayName: 尸花
 			}
 
 			Slitherring: {
 				DisplayName: 蛇鞭
-				Tooltip: 鞭子有几率打出较小的蛇鞭
+				Tooltip: 当你使用鞭子时，偶尔会有一条小蛇一同进行攻击
 			}
 
 			ChargedMagnet: {
@@ -968,7 +976,11 @@ Mods: {
 
 			GrayGoo: {
 				DisplayName: 灰色粘质
-				Tooltip: 召唤纳米机器群吞噬你的敌人
+				Tooltip:
+					'''
+					召唤纳米机器群吞噬你的敌人
+					'Say the line, Armstrong!'
+					'''
 			}
 
 			ThunderBeads: {
@@ -985,39 +997,41 @@ Mods: {
 				Tooltip:
 					'''
 					在锥形范围发射强大的闪电
-					右键发射一个闪电球
-					箱球体射击会电击附近的所有敌人
-					球体会在碰撞时爆炸，同时至多存在一个球体
+					右键发射一个会吸引并强化闪电的爆炸性闪电球
 					'Crush the path of most resistance'
 					'''
 			}
 
 			UnchargedMagnet: {
 				DisplayName: 未充能的磁体
-				Tooltip: 可能会吸引带电的敌人
+				Tooltip:
+					'''
+					Charged enemies are attracted with this in your inventory
+					Charged enemies are stronger than normal, but charge this item on death
+					'''
 			}
 
 			AlchemistShackles: {
 				DisplayName: 炼金术士的镣铐
 				Tooltip:
 					'''
-					当你的魔力值和生命值较低时，魔力和生命药水会更加有效
+					Resource potions are more effective when their respective resource is lower 
 					诅咒：延长15秒药水疾病减益的时间
 					'''
 			}
 
 			ArchaeologistsMap: {
 				DisplayName: 考古学家的地图
-				Tooltip: 揭露附近古物的位置
+				Tooltip: 揭露附近的一个古物的位置
 			}
 
 			AxeBook: {
 				DisplayName: 猛虎下山
 				Tooltip:
 					'''
-					允许斧子进行连击
-					连击的最后一击会撕裂敌人
-					右键扔出你的斧子
+					Teaches you the Art of Axes, granting all axe weapons a new combo attack
+					连击的最后一击会撕裂敌人的护甲
+					<right>扔出你的斧子
 					'''
 			}
 
@@ -1043,7 +1057,7 @@ Mods: {
 
 			BizarrePotion: {
 				DisplayName: 奇异药水
-				Tooltip: 投掷具有随机效果的随机药水
+				Tooltip: Throws a random volatile potion with random - usually explosive - effects
 			}
 
 			Bladesaw: {
@@ -1052,7 +1066,7 @@ Mods: {
 					'''
 					粉碎敌人
 					反复击中敌人会将其撕裂并过热电锯，过热会增加伤害
-					右键当做工具使用
+					<right>当做工具使用
 					'''
 			}
 
@@ -1061,12 +1075,9 @@ Mods: {
 				Tooltip:
 					'''
 					+100点屏障
-					不再受到持续伤害的影响
-					屏障会吸收所有伤害
-					你可以在没有生命值的情况下存活
-					诅咒：你无法拥有生命值
-					大幅度降低屏障再生速度
-					治疗会使你获得一个持续衰减的伤害加成，而非回复生命值
+					Barrier absorbs ALL damage and recharges faster
+					You are unaffected by damage over time
+					Cursed : You have 0 HP. Healing grants a decaying damage boost instead of life
 					'Leave your flesh behind, for your rage is all you need'
 					'''
 			}
@@ -1078,16 +1089,17 @@ Mods: {
 
 			BuffChalice: {
 				DisplayName: 强化圣杯
-				Tooltip: 造成减益时会短暂增加减益抗性
+				Tooltip: 造成减益时会短暂增加你的抗性
 			}
 
 			CasualMirror: {
 				DisplayName: 因果镜
 				Tooltip:
 					'''
-					受到持续伤害时再生生命
-					诅咒：再生生命时受到持续伤害
-					这包括自然的生命再生
+					Cursed : Your DoT and regeneration effects are inverted.
+					Regenerate life when you would take damage-over-time.
+					Take damage-over-time when you would regenerate life.
+					这包括自然的生命再生！
 					'''
 			}
 
@@ -1096,8 +1108,8 @@ Mods: {
 				Tooltip:
 					'''
 					奔跑速度翻倍
-					当速度超过默认速度时会受到25%额外伤害
-					当速度超过默认速度时会降低75%加速度
+					Take up to 25% more damage while moving over your previous max speed
+					Acceleration is reduced by 75% when over your previous max speed
 					'''
 			}
 
@@ -1106,7 +1118,6 @@ Mods: {
 				Tooltip:
 					'''
 					右键扔出一捆被引燃的炸药
-					炸药会在2.5秒后爆炸，造成持续伤害并削弱敌人
 					射击炸药可提前将其引爆
 					'My business, my rules'
 					'''
@@ -1124,12 +1135,16 @@ Mods: {
 
 			CutlassBus: {
 				DisplayName: 弯刀之魂
-				Tooltip: egshels update this lol
+				Tooltip:
+					'''
+					egshels update this lol
+					hi its me im egshels im not going to update this lol its debug
+					'''
 			}
 
 			DiceAmmo: {
 				DisplayName: 骰子
-				Tooltip: 每次射击都是随机的
+				Tooltip: Every shot has randomized stats
 			}
 
 			DisinfectantKit: {
@@ -1145,26 +1160,26 @@ Mods: {
 				DisplayName: 消毒湿巾
 				Tooltip:
 					'''
-					暴击时有10%几率缩短3秒所有减益的持续时间
+					暴击时有10%几率缩短3秒施加于你的减益的持续时间
 					药水疾病减益不会受到影响
 					'''
 			}
 
 			DualCross: {
 				DisplayName: 双发十字弩
-				Tooltip: 同时发射你背包中位置较高的两种子弹
+				Tooltip: 同时发射你弹药栏中位置较高的两种箭矢
 			}
 
 			DullBlade: {
 				DisplayName: 钝刃
-				Tooltip: 看起来不是很锋利...但是嘛...
+				Tooltip: Ancient and heavily worn, but still solid. You could forge this into something useful...
 			}
 
 			Earthduster: {
 				Tooltip:
 					'''
-					长按左键发射快速的土壤流
-					可以使用多种不同类型的土壤
+					长按左键发射快速的大地流
+					可以使用多种不同类型的方块作为弹药，每种方块都有一种独特的效果
 					33%几率不消化弹药
 					'''
 				DisplayName: Earthduster
@@ -1199,8 +1214,7 @@ Mods: {
 				Tooltip:
 					'''
 					暴击时会从敌人身上切下肉块
-					吞食肉块会获得治疗和Blood Frenzy增益
-					Blood Frenzy会增加攻击速度但会降低暴击率
+					吞食肉块会获得治疗和Bloodfrenzy增益
 					'''
 			}
 
@@ -1251,6 +1265,7 @@ Mods: {
 					'''
 					进行二段跳时会向下方发射子弹
 					使用翅膀飞行时将持续发射子弹
+					'Smells like steak and fries'
 					'''
 			}
 
@@ -1267,14 +1282,14 @@ Mods: {
 
 			HolyAmulet: {
 				DisplayName: 神圣护身符
-				Tooltip: 每回复25点生命值便会释放一次追踪的爆破能量
+				Tooltip: 每回复25点生命值便会释放一次追踪神圣能量
 			}
 
 			HungryStomach: {
 				Tooltip:
 					'''
 					通过伤害敌人来恢复星光
-					近战武器的会使上述效果翻倍
+					近战武器会使上述效果翻倍
 					诅咒：禁用自然的星光再生
 					'''
 				DisplayName: 辘辘饥肠
@@ -1293,7 +1308,11 @@ Mods: {
 
 			ImpulseThruster: {
 				DisplayName: 脉冲推进器
-				Tooltip: 将所有的飞行时间转化为能量爆发
+				Tooltip:
+					'''
+					将所有的飞行时间转化为能量爆发
+					'At least 30 OSHA violations, in the palm of your hand'
+					'''
 			}
 
 			Ironheart: {
@@ -1302,12 +1321,11 @@ Mods: {
 			}
 
 			JadeStopwatch: {
-				DisplayName: Jade stopwatch
+				DisplayName: Jade Stopwatch
 				Tooltip:
 					'''
 					时间的流逝速度更快
 					被击中后，时间的流逝速度变慢
-					降低50%伤害
 					'''
 			}
 
@@ -1325,8 +1343,8 @@ Mods: {
 			Magebane: {
 				Tooltip:
 					'''
-					无法使用补充魔力的物品
-					魔法攻击击中敌人时有25%几率使你回复部分等同于此次伤害量的魔力值
+					Cursed : You can not drink mana potions or other mana-replenishing items
+					Magic attacks have a 25% chance to leech a large portion of their damage as mana
 					'''
 				DisplayName: Magebane
 			}
@@ -1342,7 +1360,7 @@ Mods: {
 					'''
 					具有猛虎下山、蛇影突袭和螳螂剑术的效果
 					+10%近战暴击率
-					Quit, don't quit... Noodles, don't noodles.
+					'Quit, don't quit... Noodles, don't noodles.'
 					'''
 			}
 
@@ -1371,17 +1389,6 @@ Mods: {
 				Tooltip: 使你获得方向固定的二段跳
 			}
 
-			RadculasRapier: {
-				DisplayName: 拉德库拉的长剑
-				Tooltip:
-					'''
-					快速戳刺敌人，造成致命的流血效果
-					右键传送至光标位置，斩击在路径上的所有东西
-					基于击中敌人时流血的效力增加伤害并治疗玩家
-					你在传送时斩击的敌人越多，冷却时间越短
-					'''
-			}
-
 			RhythmicResonator: {
 				DisplayName: 节律共振器
 				Tooltip:
@@ -1393,7 +1400,7 @@ Mods: {
 
 			SanitizerSpray: {
 				DisplayName: 消毒喷雾
-				Tooltip: 暴击时有25%几率转移部分在持续时间内的减益至附近的敌人身上
+				Tooltip: 暴击时有25%几率转移部分施加于你的减益至附近的敌人身上
 			}
 
 			ShockAbsorber: {
@@ -1452,7 +1459,7 @@ Mods: {
 					'''
 					青蛙会在死亡时复活，每次复活时都会更加强大。
 					击杀其他动物时有几率揭露它们其实一直是青蛙
-					然后，它们会像青蛙一样复活，因为它们一直是青蛙
+					They will then be resurrected as if they were a frog the whole time, because they wereI'm telling you, don't fuck with the frogs, please, they are stronger than you know
 					'''
 			}
 
@@ -1460,9 +1467,9 @@ Mods: {
 				DisplayName: 蛇影突袭
 				Tooltip:
 					'''
-					允许长矛进行连击
-					连击的最后一击的暴击率和伤害增加
-					右键用一连串的刺击震慑敌人
+					Teaches you the Art of the Spear, granting all spear weapons a new combo attack
+					The last strike in the combo deals increased damage and knockback
+					<right> to deter enemies with a flurry of stabs
 					'''
 			}
 
@@ -1476,7 +1483,7 @@ Mods: {
 			}
 
 			StaminaGel: {
-				DisplayName: 耐力凝胶
+				DisplayName: 星光凝胶
 				Tooltip: ""
 			}
 
@@ -1485,24 +1492,18 @@ Mods: {
 				Tooltip: 缓慢的再生星光
 			}
 
-			SwordBook: {
-				DisplayName: 螳螂剑术
-				Tooltip:
-					'''
-					允许阔剑进行连击
-					右键用阔剑进行格挡
-					'''
-			}
-
 			TaintedGreataxe: {
 				Tooltip:
 					'''
-					诅咒
-					召唤一柄以太巨斧，巨斧会嵌入最近被暴击的敌人身上
-					被巨斧嵌入的敌人会被聚焦
-					<right>被嵌入的敌人会使巨斧取消嵌入
+					Cursed : Landing a Critical Strike will inflict Focused on a new, different enemy
+					<right> on the Greataxe whilst it is Embedded to release it
 					'''
 				DisplayName: Tainted Greataxe
+			}
+
+			TarnishedRing: {
+				DisplayName: Tarnished Ring
+				Tooltip: "'Ancient and heavily tarnished, but still solid. You could sculpt this into something useful..."
 			}
 
 			TinCoil: {
@@ -1525,8 +1526,7 @@ Mods: {
 				Tooltip:
 					'''
 					攻击敌人会用月光能量为法杖充能
-					当最后一击击中地面时，收集的能量会凝聚成月光法球
-					Update this egshels (sfx needed)
+					Condenses collected energy into a lunar orb when the final slam hits the groundUpdate this egshels (sfx needed)
 					'''
 			}
 
@@ -1539,18 +1539,14 @@ Mods: {
 				DisplayName: 狄阿娜的吊坠
 				Tooltip:
 					'''
-					某些关于新月的事，我不道
+					Consuming mana charges a Crescent Guardian, blitzing nearby enemies when fully charged
 					+20点屏障
 					'''
 			}
 
 			Moonfury: {
 				DisplayName: 月怒
-				Tooltip:
-					'''
-					召唤月长石碎片从天而降，用Dreamfire折磨敌人
-					被Dreamfire折磨的敌人会受到来自月怒的额外伤害
-					'''
+				Tooltip: 召唤月长石碎片从天而降，对被击中的敌人造成Dreamfire减益
 			}
 
 			MoonstoneArrow: {
@@ -1560,7 +1556,7 @@ Mods: {
 
 			MoonstoneBarItem: {
 				DisplayName: 月长石锭
-				Tooltip: "'闪耀着美丽的光芒'"
+				Tooltip: "'Shimmering with twisted starlight'"
 			}
 
 			MoonstoneChest: {
@@ -1569,7 +1565,7 @@ Mods: {
 			}
 
 			MoonstoneHamaxe: {
-				Tooltip: <right>充能并挥舞，能够摧毁墙壁
+				Tooltip: <right>充能并挥舞，能够摧毁大范围内的墙壁
 				DisplayName: 月长石斧
 			}
 
@@ -1620,7 +1616,7 @@ Mods: {
 				DisplayName: 极光钟
 				Tooltip:
 					'''
-					召唤一个哨兵铃铛
+					召唤一个铃铛哨兵
 					使用鞭子鞭打铃铛时会敲响铃铛
 					'''
 			}
@@ -1629,9 +1625,9 @@ Mods: {
 				DisplayName: 极光王冠
 				Tooltip:
 					'''
-					召唤一只极光宝座战斗坐骑
+					战斗坐骑：召唤一只极光宝座
 					发射鞭类触手抽打敌人
-					右键召唤爆破极光流
+					<right>召唤爆破极光流
 					'''
 			}
 
@@ -1654,7 +1650,7 @@ Mods: {
 				Tooltip:
 					'''
 					将火枪子弹转化为极光墨水
-					造成暴击或击杀敌人时会使触手从你的体内长出来，向你的光标方向发射弹幕
+					造成暴击或击杀敌人时会使触手从你的身后长出来
 					'''
 				DisplayName: 墨鱼枪
 			}
@@ -1664,7 +1660,7 @@ Mods: {
 				Tooltip:
 					'''
 					释放寒风激流
-					长时间使用时会对你造成霜冻减益
+					长时间使用会使其变得不可控
 					'''
 			}
 
@@ -1711,8 +1707,8 @@ Mods: {
 				Tooltip:
 					'''
 					放置或移除流光水  
-					左键放置
-					右键移除
+					<left>放置
+					<right>移除
 					'''
 			}
 
@@ -1752,7 +1748,7 @@ Mods: {
 				DisplayName: 血晶
 				Tooltip:
 					'''
-					你会获得你对敌人造成的减益
+					Cursed : 你会获得你对敌人造成的减益
 					你所造成的减益的持续时间延长
 					'''
 			}
@@ -1773,7 +1769,7 @@ Mods: {
 
 			Astroscrap: {
 				DisplayName: 异星合金
-				Tooltip: ‘Alloy salvaged from the wreckage of your world’s invaders’
+				Tooltip: ‘Alloy salvaged from enigmatic wreckage’
 			}
 
 			StarwoodBoomerang: {
@@ -1792,7 +1788,7 @@ Mods: {
 					'''
 					暴击时生成魔力星
 					-3%暴击率
-					强化后+3%暴击率
+					被Starwood Armor强化后+3%暴击率
 					'''
 			}
 
@@ -1843,8 +1839,8 @@ Mods: {
 				DisplayName: 齿轮弹
 				Tooltip:
 					'''
-					可弹跳至多五次
-					命中后伤害减半
+					可在敌人之间弹跳至多五次
+					每次弹跳都会减半伤害
 					'''
 			}
 
@@ -1858,7 +1854,7 @@ Mods: {
 				Tooltip:
 					'''
 					收集伤害敌人时产生的碎片
-					右键消耗碎片并制造机器人
+					<right>消耗碎片并制造机器人
 					'''
 			}
 
@@ -1887,17 +1883,16 @@ Mods: {
 				Tooltip:
 					'''
 					刺穿敌人
-					射击钢筋会使其更加深入的刺穿敌人
+					Shoot impaled rebar to drive it even deeper into enemies
 					'''
 			}
 
 			RuneStaff: {
-				DisplayName: 远古符文法杖
+				DisplayName: Shine Staff
 				Tooltip:
 					'''
-					长按召唤至多三个爆破符文
-					释放时会将符文向你的光标方向发射
-					持续长按会引爆符文, 并且造成的伤害会增加
+					Hold <left> to search for treasure
+					Release to fire stars toward the cursor
 					'''
 			}
 
@@ -1924,7 +1919,7 @@ Mods: {
 
 			TemplePick: {
 				DisplayName: 旋风镐
-				Tooltip: 长按右键充能并释放十字镐冲锋
+				Tooltip: Hold right click to charge up a spinning pickaxe dash, breaking anything in your way
 			}
 
 			TempleRune: {
@@ -1952,7 +1947,7 @@ Mods: {
 
 			ChefBag: {
 				DisplayName: 厨师袋
-				Tooltip: 储存大量的各种原材料
+				Tooltip: 储存大量的食物原材料
 			}
 
 			CurseRemover: {
@@ -2008,9 +2003,9 @@ Mods: {
 				DisplayName: 熔岩护骑霰弹枪
 				Tooltip:
 					'''
-					右键投掷一颗可被连锁引爆的不稳定水晶爆弹
-					射击水晶可提前将其引爆，造成更暴力的后果
-					How does he manage to nuke like that?
+					Press <right> to throw out crystal bombs, which explode in chain reactions 
+					Firing at a bomb detonates it prematurely for more violent results
+					'How does he manage to corenuke like that?'
 					'''
 			}
 
@@ -2019,7 +2014,7 @@ Mods: {
 				Tooltip:
 					'''
 					充能并发射一排绚烂魔法
-					完全充能时发射的魔法会汲取魔力
+					Fully charged shots leech mana where their arrows meet
 					'''
 			}
 
@@ -2027,9 +2022,8 @@ Mods: {
 				DisplayName: 琢面晶格
 				Tooltip:
 					'''
-					右键防卫
-					在防卫后强会化攻击
-					在合适的时机防卫会使强化更有效
+					<right> to guard, blocking damage depending on timing
+					Attacks are empowered after a guard, also depending on your guard timing
 					'''
 			}
 
@@ -2058,13 +2052,14 @@ Mods: {
 					'''
 					用你的拳头快速殴打敌人并积蓄起爆充能
 					长按右键消耗充能, 松开后将你以逃逸速度向前推进
-					在飞行时攻击会消耗剩余推进时间并向前释放爆破冲击|n'Heroes always arrive from the skies'
+					在飞行时攻击会消耗剩余推进时间并向前释放爆破冲击
+					'Heroes always arrive from the skies'
 					'''
 			}
 
 			MagmaArrow: {
 				DisplayName: 熔岩箭
-				Tooltip: 在飞行过程中会逐渐变凉
+				Tooltip: Cools down as it travels, applying less fire but dealing more damage and knockback
 			}
 
 			MagmaCore: {
@@ -2087,12 +2082,7 @@ Mods: {
 			}
 
 			MagmiteVacpack: {
-				Tooltip:
-					'''
-					发射会粘在敌人身上的熔岩螨
-					每条粘在敌人身上的熔岩都会使其每秒受到10点伤害, 和3点召唤标记伤害, 每名敌人身上最多粘住三条熔岩螨
-					熔岩螨会在击中身上粘住三条熔岩螨的敌人时反弹并额外造成50%伤害
-					'''
+				Tooltip: Blasts out Magmites that stick to enemies and increase summon tag damage
 				DisplayName: Magmite Vacpack
 			}
 
@@ -2149,13 +2139,13 @@ Mods: {
 			}
 
 			TempleEntranceKey: {
-				DisplayName: 大号锻炉钥匙
-				Tooltip: Opens a door to the vitric forge.
+				DisplayName: 锻炉钥匙
+				Tooltip: Opens a door to the Vitric Forge.
 			}
 
 			TempleKey: {
 				DisplayName: 小号锻炉钥匙
-				Tooltip: Opens a door inside the vitric forge.
+				Tooltip: Opens a door inside the Vitric Forge.
 			}
 
 			VitricBossBag: {
@@ -2164,8 +2154,8 @@ Mods: {
 			}
 
 			VitricBow: {
-				DisplayName: 琉璃弓
-				Tooltip: 可能需要重制
+				DisplayName: 远古琉璃弓
+				Tooltip: ""
 			}
 
 			VitricBulletItem: {
@@ -2186,7 +2176,7 @@ Mods: {
 				DisplayName: 琉璃锤斧
 				Tooltip:
 					'''
-					右键加热
+					<right>加热
 					热量会增加速度
 					热量会随着时间流逝而衰减
 					'''
@@ -2204,7 +2194,7 @@ Mods: {
 
 			VitricMagicBook: {
 				DisplayName: 琉璃之书
-				Tooltip: 在附近的地面上召唤尖刺
+				Tooltip: Summons spikes to stab enemies above them
 			}
 
 			VitricOre: {
@@ -2258,7 +2248,7 @@ Mods: {
 
 			CookStationItem: {
 				DisplayName: 灶台
-				Tooltip: 右键准备餐食
+				Tooltip: <right>准备餐食
 			}
 
 			InfuserItem: {
@@ -2469,7 +2459,7 @@ Mods: {
 			}
 
 			AuroraBrickWallItem: {
-				DisplayName: 极光砖墙
+				DisplayName: 极光砖墙 Dangerous
 				Tooltip: 哦哦哦...美滴很
 			}
 
@@ -2616,6 +2606,11 @@ Mods: {
 			DoorGearsItem: {
 				DisplayName: Gear Puzzle Temple Door
 				Tooltip: 神殿门, 但如果是水平的呢?
+			}
+
+			DoorLasersItem: {
+				DisplayName: Laser Puzzle Temple Door
+				Tooltip: Temple Door, Opens if laser puzzle is solved
 			}
 
 			DoorVerticalItem: {
@@ -2848,6 +2843,16 @@ Mods: {
 				Tooltip: 调试物品
 			}
 
+			VitricBossBarrierItem: {
+				DisplayName: VitricBossBarrierItem
+				Tooltip: debug item
+			}
+
+			GlassweaverBossBarrierItem: {
+				DisplayName: GlassweaverBossBarrierItem
+				Tooltip: debug item
+			}
+
 			VitricBathtub: {
 				DisplayName: 琉璃浴缸
 				Tooltip: ""
@@ -2928,19 +2933,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			VitricDoor: {
+			VitricDoorClosed: {
 				DisplayName: 琉璃门
 				Tooltip: ""
-			}
-
-			VitricBossBarrierItem: {
-				DisplayName: VitricBossBarrierItem
-				Tooltip: 调试物品
-			}
-
-			GlassweaverBossBarrierItem: {
-				DisplayName: GlassweaverBossBarrierItem
-				Tooltip: 调试物品
 			}
 
 			TempleChairItem: {
@@ -3118,26 +3113,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			DoorLasersItem: {
-				DisplayName: Laser Puzzle Temple Door
-				Tooltip: Temple Door, Opens if laser puzzle is solved
-			}
-
-			VitricDoorClosed: {
-				DisplayName: Vitric Door
-				Tooltip: ""
-			}
-
-			"": {
-				Tooltip: ""
-				DisplayName: ""
-			}
-
-			TarnishedRing: {
-				DisplayName: Tarnished Ring
-				Tooltip: "'Ancient and heavily tarnished, but still solid. You could sculpt this into something useful..."
-			}
-
 			BaseBarrierDye: {
 				DisplayName: Base Barrier Dye
 				Tooltip: ""
@@ -3163,8 +3138,28 @@ Mods: {
 				Tooltip: ""
 			}
 
+			FaeHover: {
+				DisplayName: Fae Hover
+				Tooltip: ""
+			}
+
+			GenericHover: {
+				DisplayName: Generic Hover
+				Tooltip: ""
+			}
+
+			WindsHover: {
+				DisplayName: Winds Hover
+				Tooltip: ""
+			}
+
 			StaminaPickup: {
 				DisplayName: Stamina Pickup
+				Tooltip: ""
+			}
+
+			SwordBook: {
+				DisplayName: Sword Book
 				Tooltip: ""
 			}
 
@@ -3210,21 +3205,6 @@ Mods: {
 
 			PinkLaserPointer: {
 				DisplayName: Pink Laser Pointer
-				Tooltip: ""
-			}
-
-			FaeHover: {
-				DisplayName: Fae Hover
-				Tooltip: ""
-			}
-
-			GenericHover: {
-				DisplayName: Generic Hover
-				Tooltip: ""
-			}
-
-			WindsHover: {
-				DisplayName: Winds Hover
 				Tooltip: ""
 			}
 		}
@@ -3289,6 +3269,8 @@ Mods: {
 			GravediggerSlam.DisplayName: Grave digger
 			GravediggerSwing.DisplayName: Grave digger
 			PoltergeistMinion.DisplayName: Haunted Weapon
+			RadculasRapierSwungBlade.DisplayName: Radculas Rapier
+			RadculasRapierTeleport.DisplayName: Radculas Rapier
 			CopperObol.DisplayName: 铜币
 			GoldObol.DisplayName: 金币
 			ObolImpact.DisplayName: Obol Star
@@ -3331,8 +3313,6 @@ Mods: {
 			ImpactSMGHoldout.DisplayName: Impact SMG
 			ImpactSMGShot.DisplayName: Impact SMG Shot
 			MagmaGunPhantomProj.DisplayName: Magma Glob
-			RadculasRapierSwungBlade.DisplayName: 拉德库拉的长剑
-			RadculasRapierTeleport.DisplayName: 拉德库拉的长剑
 			SlingHeldProjectile.DisplayName: Sling
 			SlingMushroomProjectile.DisplayName: Shroom
 			SlingSeedProjectile.DisplayName: Seed
@@ -3368,6 +3348,7 @@ Mods: {
 			MoonstoneHamaxeRing.DisplayName: Explosion
 			ShakerBall.DisplayName: Shaker
 			PaleKnight.DisplayName: Pale Knight
+			PalestoneDummy.DisplayName: Pale Slash
 			PalestoneSlash.DisplayName: Pale Slash
 			AuroraBellProj.DisplayName: Aurora Bell
 			AuroraBellRing.DisplayName: Aurora Bell
@@ -3398,6 +3379,9 @@ Mods: {
 			JetwelderSelector.DisplayName: Jetwelder
 			PhantomBuzzsaw.DisplayName: Buzzsaw
 			RebarProj.DisplayName: Rebar
+			RuneStaffHoldout.DisplayName: Shine Staff
+			RuneStaffHoldoutFlash.DisplayName: Shine Staff
+			RuneStaffProjectile.DisplayName: Shine Star
 			TempleSpearLaser.DisplayName: Point of Light
 			TempleSpearProjectile.DisplayName: Point of Light
 			ArrowMagma.DisplayName: Magma Arrow
@@ -3543,8 +3527,6 @@ Mods: {
 			FrostExplosion.DisplayName: Frost Explosion
 			TentalanceProjectile.DisplayName: Tentalance Projectile
 			StarwoodSlingshotProj.DisplayName: Starwood Slingshot Proj
-			RuneStaffExplosion.DisplayName: Rune Staff Explosion
-			RuneStaffProjectile.DisplayName: Rune Staff Projectile
 			TemplePickProjectile.DisplayName: Temple Pick Projectile
 			TempleSpearLight.DisplayName: Temple Spear Light
 			LaserPointerProjectile.DisplayName: Laser Pointer Projectile
@@ -3560,9 +3542,6 @@ Mods: {
 			ConstructSpawner.DisplayName: Construct Spawner
 			GauntletSpawner.DisplayName: Gauntlet Spawner
 			SpawnEgg.DisplayName: Spawn Egg
-			PalestoneDummy.DisplayName: Pale Slash
-			// RuneStaffHoldout.DisplayName: Shine Staff
-			// RuneStaffHoldoutFlash.DisplayName: Shine Staff
 		}
 
 		Tiles: {
@@ -3593,6 +3572,7 @@ Mods: {
 			StaminaGem.MapEntry: ""
 			DisplayCase.MapEntry: Relic Case
 			DisplayCaseFriendly.MapEntry: Relic Case
+			PatreonPlaque.MapEntry: ""
 			RatTent.MapEntry: Strange Tent
 			MoonstoneBar.MapEntry: Metal Bar
 			MoonstoneOre.MapEntry: Moonstone Ore
@@ -3642,17 +3622,20 @@ Mods: {
 			CrystalSlimeSpawner.MapEntry: ""
 			DashableDoor.MapEntry: ""
 			DoorGears.MapEntry: ""
+			DoorLasers.MapEntry: ""
 			DoorVertical.MapEntry: ""
 			EntranceDoor.MapEntry: Vitric Temple Door
 			DynamicGear.MapEntry: ""
 			GearPuzzleOrigin.MapEntry: ""
 			ObjectiveGear.MapEntry: ""
 			LightActor.MapEntry: ""
+			EmptyHolder.MapEntry: ""
 			Lens.MapEntry: ""
+			LightBlocker.MapEntry: ""
 			LightGoal.MapEntry: ""
 			Reflector.MapEntry: ""
 			LowWindBanner.MapEntry: ""
-			MainForge.MapEntry: ""
+			MainForge.MapEntry: Vitric Forgeheart
 			NPCSpawner.MapEntry: ""
 			OldCeirosShrine.MapEntry: ""
 			TallWindow.MapEntry: ""
@@ -3742,10 +3725,6 @@ Mods: {
 			VitricSand.MapEntry: ""
 			VitricSoftSand.MapEntry: ""
 			VitricSandPlain.MapEntry: ""
-			PatreonPlaque.MapEntry: ""
-			DoorLasers.MapEntry: ""
-			LightBlocker.MapEntry: ""
-			EmptyHolder.MapEntry: ""
 			VitricGiantCrystal.MapEntry: Vitric Giant Crystal
 			VitricLargeCrystal.MapEntry: Vitric Large Crystal
 			VitricMediumCrystal.MapEntry: Vitric Medium Crystal
@@ -3823,7 +3802,6 @@ Mods: {
 
 			VitricBoss: {
 				DisplayName: 塞洛斯
-				DropConditionText: Dropped on the first kill
 				FirstKillRule: Dropped on first kill
 			}
 
@@ -3832,6 +3810,7 @@ Mods: {
 			VitricBossPlatformDownSmall.DisplayName: ""
 			VitricBossPlatformUp.DisplayName: ""
 			VitricBossPlatformUpSmall.DisplayName: ""
+			BossRushOrb.DisplayName: ???
 			CrescentCaster.DisplayName: 新月法师
 			Blover.DisplayName: 三叶草
 			TreeBat.DisplayName: 树蝠
@@ -3842,22 +3821,7 @@ Mods: {
 			Crusher.DisplayName: 碾碎机
 			Snoobel.DisplayName: Snoobel
 			SwordEnemy.DisplayName: Sky Splicer
-
-			Crow: {
-				DisplayName: ???
-
-				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
-					LikeNPC_Princess: I like {NPCName}.
-					Princess_LovesNPC: I like {NPCName}.
-				}
-			}
-
+			Crow.DisplayName: ???
 			BoomBug.DisplayName: 萤火虫
 			Coolmite.DisplayName: Coolmite
 			CrystalPopper.DisplayName: 沙漠蝙蝠
@@ -3870,16 +3834,15 @@ Mods: {
 			PelterConstruct.DisplayName: Pelter Construct
 			ShieldConstruct.DisplayName: Shield Construct
 			SupporterConstruct.DisplayName: Supporter Construct
-			KettleCreature.DisplayName: Kettle Kreature
+			KettleCreature.DisplayName: Magmortar
 			LesserFirebug.DisplayName: 小萤火虫
 			MagmitePassive.DisplayName: 小熔滴螨
-			Snake.DisplayName: 熔火响尾蛇
+			Snake.DisplayName: Sandviper
 			FaeflamePickup.DisplayName: 妖精火焰
 			ForbiddenWindsPickup.DisplayName: 禁忌之风
 			InfusionSlotPickup.DisplayName: Unnerving Device
 			BerrySlime.DisplayName: 莓果史莱姆
 			TouchstoneWisp.DisplayName: 极光之魂
-			BossRushOrb.DisplayName: ???
 			ArenaBlocker.DisplayName: Arena Blocker
 			Auroraborn.DisplayName: 极光子嗣
 			Auroraling.DisplayName: Auroraling
@@ -4076,6 +4039,11 @@ Mods: {
 				Description: A chunk of your flesh is following you!
 			}
 
+			RadculasRapierCooldown: {
+				DisplayName: Radcula's Teleport Cooldown
+				Description: The rapier's energy seems deminished
+			}
+
 			ShovelQuickFall: {
 				DisplayName: 速降
 				Description: 砰然坠地
@@ -4134,11 +4102,6 @@ Mods: {
 			PlexusChaliceBuff: {
 				DisplayName: Plexus Resistance
 				Description: +30% Inoculation
-			}
-
-			RadculasRapierCooldown: {
-				DisplayName: Radcula的传送冷却
-				Description: The rapier's energy seems deminished
 			}
 
 			MoonfuryDebuff: {
@@ -4202,8 +4165,8 @@ Mods: {
 			}
 
 			Fogbinded: {
-				DisplayName: Fogbinded
-				Description: Bound to the fogbinder
+				DisplayName: Fogbound
+				Description: Bound to the Fogbinder
 			}
 
 			TouchstoneWispBuff: {
