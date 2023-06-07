@@ -133,9 +133,9 @@ Mods: {
 				DisplayName: 海玻璃指环
 				Tooltip:
 					'''
-					+10点屏障
+					+10 最大屏障
 					小幅度增加屏障开始再生的速度
-					'The battering waves have not diminished its shine'
+					'汹涌的海浪并没有削减它的光芒'
 					'''
 			}
 
@@ -160,34 +160,34 @@ Mods: {
 
 			BreacherLegs: {
 				DisplayName: 破坏者护胫
-				Tooltip: 基于速度增加远程暴击率，至多增加20%远程暴击率
+				Tooltip: 基于速度增加远程暴击伤害，最多增加20%远程暴击伤害
 			}
 
 			FlareBreacher: {
 				DisplayName: 耀斑破坏者
-				Tooltip: 发射会嵌入敌人体内的爆破照明弹，爆炸成的弹片会穿透并冲击敌人的身后
+				Tooltip: 发射能嵌入敌人体内的爆破性照明弹，爆炸后弹片会穿透敌人并对它身后的敌人造成伤害
 			}
 
 			ReactivePlating: {
 				DisplayName: 反应镀层
 				Tooltip:
 					'''
-					在多次受击后获得短暂的伤害抗性
-					'The shielding activates, but only after... repeated triggers.'
+					在多次受到伤害后获得短暂的伤害抗性
+					'防护激活，但是只有在...反复触发以后。'
 					'''
 			}
 
 			ScrappodItem: {
 				DisplayName: 破片弹
-				Tooltip: 到达光标位置时碎裂成弹片
+				Tooltip: 到达光标位置时破裂成碎片
 			}
 
 			Scrapshot: {
 				DisplayName: 锈迹霰弹枪
 				Tooltip:
 					'''
-					右键钩住你的敌人并拉进距离
-					钩住敌人时射击会减少扩散并向后回退
+					右键钩住你的敌人并拉近距离
+					钩住敌人时射击会降低霰弹的扩散并将你向后弹飞
 					'''
 			}
 
@@ -196,7 +196,7 @@ Mods: {
 				Tooltip:
 					'''
 					受到超过50点伤害时会召唤空降补给
-					站在补给点附近会获得伤害、再生或防御加成
+					站在补给附近会获得伤害、再生或防御增益
 					10秒冷却时间
 					'''
 			}
@@ -221,7 +221,7 @@ Mods: {
 				Tooltip:
 					'''
 					打击敌人会使其掉落宝藏
-					收集宝藏会强化你的召唤物
+					收集宝藏会强化你的仆从
 					'''
 			}
 
@@ -256,11 +256,11 @@ Mods: {
 			}
 
 			AztecDeathSaxophone: {
-				DisplayName: 克死亡萨克斯
+				DisplayName: 死亡萨克斯
 				Tooltip:
 					'''
 					受到伤害或使用其他武器击杀敌人时会为萨克斯充能
-					充能后，使用以释放高伤害的原始死亡咆哮
+					充能后，使用它以释放高伤害的原始死亡咆哮
 					'''
 			}
 
@@ -303,14 +303,14 @@ Mods: {
 				DisplayName: 奇异晶洞
 				Tooltip:
 					'''
-					“极其闪亮”
+					“难以置信地闪亮”
 					一个提炼机也许能把它拆分开来...
 					'''
 			}
 
 			PerfectlyGenericArtifactItem: {
 				DisplayName: 完美通用物品
-				Tooltip: 召唤一个完美通用的宠物
+				Tooltip: 召唤一个完美通用宠物
 			}
 
 			PirateChestArtifactItem: {
@@ -318,18 +318,18 @@ Mods: {
 				Tooltip:
 					'''
 					右键打开
-					'Sought after for centuries'
+					'争相追寻了几个世纪'
 					'''
 			}
 
 			RainTotemArtifactItem: {
 				DisplayName: 暴雨图腾
-				Tooltip: 唤起或终止一场暴雨
+				Tooltip: 召唤或终止一场暴雨
 			}
 
 			WindTotemArtifactItem: {
 				DisplayName: 烈风图腾
-				Tooltip: 唤起或终止一场大风
+				Tooltip: 召唤或终止一场大风
 			}
 
 			DebugModerEnabler: {
@@ -345,11 +345,11 @@ Mods: {
 			DefiledAnkh: {
 				Tooltip:
 					'''
-					诅咒：你的屏障拥有25%伤害减免
-					当屏障存在时，除了药水、屏障和魔力疾病外，你无法获得任何减益
-					+40点屏障
+					诅咒：你的屏障的伤害吸收减少25%
+					当屏障存在时，除了药水、屏障和魔力疾病减益外，你不会获得任何其他减益
+					+40 最大屏障
 					'''
-				DisplayName: Defiled Ankh
+				DisplayName: 亵渎十字章
 			}
 
 			Sandscript: {
@@ -366,8 +366,8 @@ Mods: {
 				DisplayName: 水蓝宝石
 				Tooltip:
 					'''
-					屏障会抵消5%额外伤害
-					+10点屏障
+					屏障伤害吸收增加5%
+					+10 最大屏障
 					'''
 			}
 
@@ -377,21 +377,21 @@ Mods: {
 					'''
 					不攻击时积蓄电能
 					下次射击的伤害和距离会随着电能的积蓄而增加
-					'Meet this storm of sound and fury, till thunder-clashes fade to silence'
+					'迎接这场声势浩大的风暴，直到雷霆的冲击归于沉寂'
 					'''
 			}
 
 			InertStaff: {
 				DisplayName: 失效的新月法杖
-				Tooltip: ‘Still holds some latent astral energy...’
+				Tooltip: ‘仍然保留着一些潜在的星体能量...’
 			}
 
 			SkullBuster: {
 				DisplayName: 颅骨破坏者
 				Tooltip:
 					'''
-					右键扔出四个烟雾弹
-					松开右键会在短时间内快速向烟雾弹射击
+					按住右键扔出四个颅骨炸弹
+					松开右键会在短时间内快速向颅骨炸弹射击进行引爆
 					'''
 			}
 
@@ -400,37 +400,37 @@ Mods: {
 				Tooltip:
 					'''
 					基于你当前的屏障增加魔力再生速度
-					消耗魔力值时会增加屏障再生速度
-					-10点屏障
+					消耗魔力时会增加屏障再生速度
+					-10 最大屏障
 					'''
 			}
 
 			ThousandthDegree: {
 				Tooltip:
 					'''
-					融化被接触的敌人并加热
-					松开以发射炽热火轮
-					'Rip and tear'
+					按住左键融化与之接触的敌人并以此为火轮加热
+					松开左键以发射炽热火轮
+					'撕裂并撕碎'
 					'''
-				DisplayName: Thousandth Degree
+				DisplayName: 千度火轮
 			}
 
 			TwistSword: {
 				DisplayName: 环旋重剑
 				Tooltip:
 					'''
-					长按释放回旋斩
-					释放回旋斩时长按跳跃键会向上加速
+					长按左键释放回旋斩
+					释放回旋斩时长按跳跃键能够持续向上移动
 					'''
 			}
 
 			WardedMail: {
-				DisplayName: Warded Mail
+				DisplayName: 格挡锁甲
 				Tooltip:
 					'''
 					屏障受到伤害时会反弹给攻击者
-					屏障能够额外吸收10%伤害
-					+40点屏障
+					屏障的伤害吸收增加10%
+					+40 最大屏障
 					'''
 			}
 
@@ -438,7 +438,7 @@ Mods: {
 				DisplayName: 复制细胞
 				Tooltip:
 					'''
-					+15%抗性
+					+15% Inoculation
 					小幅度增加生命开始再生的速度
 					'''
 			}
