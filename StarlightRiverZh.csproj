@@ -8,10 +8,12 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <AdditionalFiles Remove="Localization\en-US_Mods.StarlightRiver.Common.hjson" />
     <AdditionalFiles Remove="Localization\zh-Hans_Mods.StarlightRiver.hjson" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Localization\en-US_Mods.StarlightRiverZh.hjson" />
+    <None Remove="localization\zh-Hans_Mods.StarlightRiver.Common.hjson" />
     <None Remove="Localization\zh-Hans_Mods.StarlightRiverZh.hjson" />
   </ItemGroup>
   <ItemGroup>
