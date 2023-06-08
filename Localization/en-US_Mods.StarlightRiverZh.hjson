@@ -16,8 +16,8 @@ Notifications: {
 
 Configs: {
 	SlrzhConfig: {
-		DisplayName: Slrzh Config
-		Headers.【测试性】内嵌翻译: 【测试性】内嵌翻译 Header
+		DisplayName: 模组配置
+		ILTranslateHeader: 【测试性】内嵌翻译
 
 		ILTranslate: {
 			Label: 翻译更多文本

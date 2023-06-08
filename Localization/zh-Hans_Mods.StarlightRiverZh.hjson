@@ -12,12 +12,12 @@ Notifications: {
 
 Configs: {
 	SlrzhConfig: {
-		// DisplayName: Slrzh Config
-		// Headers.【测试性】内嵌翻译: 【测试性】内嵌翻译 Header
+		DisplayName: 模组配置
+		ILTranslateHeader: 【测试性】内嵌翻译
 
 		ILTranslate: {
-			// Label: 翻译更多文本
-			// Tooltip: 测试功能，开发中，可能造成不可预知的bug，完全不支持多人模式，关闭mod后无法将文本恢复为英文
+			Label: 翻译更多文本
+			Tooltip: 测试功能，开发中，可能造成不可预知的bug，完全不支持多人模式，关闭mod后无法将文本恢复为英文
 		}
 	}
 }
