@@ -357,8 +357,8 @@ Mods: {
 				Tooltip:
 					'''
 					挥洒刃形沙
-					`This lost tablet contains a fragment of the Epic of Yeremy
-					...The writing is sorta amateurish for an ancient relic`
+					`这块遗失的石碑上记载着耶雷米史诗的片段
+					...对于一件古代遗物来说，上面的笔迹有点拙略`
 					'''
 			}
 
@@ -480,7 +480,7 @@ Mods: {
 
 			ChocolateGlaze: {
 				Tooltip: "\n\n"
-				DisplayName: Chocolate Glaze
+				DisplayName: 巧克力涂饰酱
 			}
 
 			CoffeeBeans: {
@@ -490,12 +490,12 @@ Mods: {
 
 			CrimsonSteak: {
 				Tooltip: "\n\n"
-				DisplayName: Crimson Steak
+				DisplayName: 深红牛排
 			}
 
 			DicedMushrooms: {
 				Tooltip: "\n\n"
-				DisplayName: Diced Mushrooms
+				DisplayName: 蘑菇丁
 			}
 
 			Dough: {
@@ -505,17 +505,17 @@ Mods: {
 
 			Dressing: {
 				Tooltip: "\n\n"
-				DisplayName: Dressing
+				DisplayName: 沙拉酱
 			}
 
 			EaterSteak: {
 				Tooltip: "\n\n"
-				DisplayName: Eater Steak
+				DisplayName: 吞噬怪肉排
 			}
 
 			Entrails: {
 				Tooltip: "\n\n"
-				DisplayName: Entrails
+				DisplayName: 内脏
 			}
 
 			Eye: {
@@ -525,62 +525,62 @@ Mods: {
 
 			FaceSteak: {
 				Tooltip: "\n\n"
-				DisplayName: Face Steak
+				DisplayName: 脸怪肉排
 			}
 
 			Flour: {
 				Tooltip: "\n\n"
-				DisplayName: Flour
+				DisplayName: 面粉
 			}
 
 			Gelatine: {
 				Tooltip: "\n\n"
-				DisplayName: Gelatine
+				DisplayName: 明胶
 			}
 
 			GelBerry: {
 				Tooltip: "\n\n"
-				DisplayName: Gel Berry
+				DisplayName: 胶莓
 			}
 
 			GiantMushroom: {
 				Tooltip: "\n\n"
-				DisplayName: Giant Mushroom
+				DisplayName: 巨大蘑菇
 			}
 
 			HealthExtract: {
 				Tooltip: "\n\n"
-				DisplayName: Health Extract
+				DisplayName: 生命精华
 			}
 
 			HoneySyrup: {
 				Tooltip: "\n\n"
-				DisplayName: Honey Syrup
+				DisplayName: 蜂蜜糖浆
 			}
 
 			IvySalad: {
 				Tooltip: "\n\n"
-				DisplayName: Ivy Salad
+				DisplayName: 常青藤沙拉
 			}
 
 			JumboShrimp: {
 				Tooltip: "\n\n"
-				DisplayName: Jumbo Shrimp
+				DisplayName: 大虾
 			}
 
 			Lettuce: {
 				Tooltip: "\n\n"
-				DisplayName: Lettuce
+				DisplayName: 生菜
 			}
 
 			MahoganyRoot: {
 				Tooltip: "\n\n"
-				DisplayName: Mahogany Root
+				DisplayName: 红木根
 			}
 
 			ManaExtract: {
 				Tooltip: "\n\n"
-				DisplayName: Mana Extract
+				DisplayName: 魔力精华
 			}
 
 			Meal: {
@@ -600,7 +600,7 @@ Mods: {
 
 			RocketFuel: {
 				Tooltip: "\n\n"
-				DisplayName: Rocket Fuel
+				DisplayName: 火箭燃料
 			}
 
 			SeaSalt: {
@@ -610,42 +610,42 @@ Mods: {
 
 			SkySprinkles: {
 				Tooltip: "\n\n"
-				DisplayName: Sky Sprinkles
+				DisplayName: 天空彩糖碎
 			}
 
 			BlastoffShake: {
 				Tooltip: "\n\n"
-				DisplayName: Blastoff Shake
+				DisplayName: Blastoff奶昔
 			}
 
 			BrandedCoffee: {
 				Tooltip: "\n\n"
-				DisplayName: Branded Coffee
+				DisplayName: 品牌咖啡
 			}
 
 			ButterPancakes: {
 				Tooltip: "\n\n"
-				DisplayName: Butter Pancakes
+				DisplayName: 黄油煎饼
 			}
 
 			CherryBrownie: {
 				Tooltip: "\n\n"
-				DisplayName: Cherry Brownie
+				DisplayName: 莓果巧克力蛋糕
 			}
 
 			CreamySoup: {
 				Tooltip: "\n\n"
-				DisplayName: Creamy Soup
+				DisplayName: 浓汤
 			}
 
 			CrimsonKebab: {
 				Tooltip: "\n\n"
-				DisplayName: Crimson Kebab
+				DisplayName: 深红腌肉串
 			}
 
 			JungleSalad: {
 				Tooltip: "\n\n"
-				DisplayName: Jungle Salad
+				DisplayName: 雨林沙拉
 			}
 
 			MushroomSteak: {
@@ -655,27 +655,27 @@ Mods: {
 
 			Salad: {
 				Tooltip: "\n\n"
-				DisplayName: Salad
+				DisplayName: 沙拉
 			}
 
 			ShrimpSandwich: {
 				Tooltip: "\n\n"
-				DisplayName: Shrimp Sandwich
+				DisplayName: 虾仁三明治
 			}
 
 			Slimejelly: {
 				Tooltip: "\n\n"
-				DisplayName: Slimejelly
+				DisplayName: 史莱姆果冻
 			}
 
 			SupportCookies: {
 				Tooltip: "\n\n"
-				DisplayName: Support Cookies
+				DisplayName: 疗愈曲奇
 			}
 
 			StarlightWater: {
 				Tooltip: "\n\n"
-				DisplayName: Starlight Water
+				DisplayName: 星光之水
 			}
 
 			Sugar: {
@@ -685,12 +685,12 @@ Mods: {
 
 			TableSalt: {
 				Tooltip: "\n\n"
-				DisplayName: 精制食盐
+				DisplayName: 食盐
 			}
 
 			Toast: {
 				Tooltip: "\n\n"
-				DisplayName: 烤面包
+				DisplayName: 烤面包片
 			}
 
 			VertebrateNuggets: {
@@ -700,12 +700,12 @@ Mods: {
 
 			Vinegar: {
 				Tooltip: "\n\n"
-				DisplayName: Vinegar
+				DisplayName: 醋
 			}
 
 			WhippedCream: {
 				Tooltip: "\n\n"
-				DisplayName: Whipped Cream
+				DisplayName: 掼奶油
 			}
 
 			AcornSprout: {
@@ -717,8 +717,8 @@ Mods: {
 				DisplayName: 砖瓦匠的槌子
 				Tooltip:
 					'''
-					翻倍物块放置距离和工具距离
-					挖掘超过原先距离的物块时降低33%挖掘速度
+					物块放置距离和工具使用范围翻倍
+					挖掘超过原本距离的物块时，降低33%挖掘速度
 					'''
 			}
 
@@ -726,10 +726,10 @@ Mods: {
 				DisplayName: 蒙尘护符
 				Tooltip:
 					'''
-					+20点最大生命值
-					+20点最大魔力值
-					暴击率乘以0.8
-					'An old heirloom with an inscription lost to time'
+					+20 最大生命
+					+20 最大魔力
+					暴击率乘0.8
+					'一件古老的传家宝，上面刻有遗失在时光中的文字'
 					'''
 			}
 
@@ -739,7 +739,7 @@ Mods: {
 					'''
 					战斗坐骑：召唤一只野狼
 					用强力的撕咬造成流血减益
-					右键使野狼嚎叫并强化召唤物的速度
+					右键使野狼嚎叫并强化仆从的速度
 					'''
 			}
 
@@ -747,8 +747,8 @@ Mods: {
 				DisplayName: 老旧的磨刀石
 				Tooltip:
 					'''
-					+1点伤害
-					'Why in tarnation are you sharpening your wand?!'
+					+1 任何伤害
+					'该死的，你为什么要磨刀？！'
 					'''
 			}
 
@@ -757,9 +757,9 @@ Mods: {
 				Tooltip:
 					'''
 					在一条直线上延伸物块
-					方向基于你光标的方向
-					长按SHIFT键翻转方向
-					30格物块距离
+			                延伸物块的方向基于你光标的方向
+					按住SHIFT键翻转方向
+					拥有30格物块放置距离
 					'''
 			}
 
@@ -768,16 +768,16 @@ Mods: {
 				Tooltip:
 					'''
 					在一条直线上以极快的速度延伸物块
-					方向基于你光标的方向
-					长按SHIFT键翻转方向
-					40格物块距离
-					'The perfect tool for every esteemed bridgebuilder!'
+					延伸物块的方向基于你光标的方向
+					按住SHIFT键翻转方向
+					拥有40格物块放置距离
+					'每一个令人尊敬的桥梁建筑师都拥有的绝佳工具！'
 					'''
 			}
 
 			ForestIvyBlowdart: {
 				DisplayName: 常青藤吹管
-				Tooltip: 击中敌人时会在其身上逐渐长出藤蔓，造成接触伤害并传播附近的敌人
+				Tooltip: 击中敌人时会在其身上逐渐长出藤蔓，造成接触伤害并向附近的敌人传播
 			}
 
 			ForestIvyChest: {
@@ -873,7 +873,7 @@ Mods: {
 				Tooltip:
 					'''
 					每受到25点伤害便会释放一个追踪血矢
-					血矢会伤害敌人并且使它们在死亡时必定掉落红心
+					血矢会对敌人造成伤害并且使它们在死亡时必定掉落心
 					'''
 			}
 
@@ -882,27 +882,27 @@ Mods: {
 				Tooltip:
 					'''
 					将木箭转化为血矢
-					血矢会刺穿被击杀的敌人的血肉，并在接触到表面时爆炸
+					血矢会刺穿被击杀的敌人的血肉，并在接触到敌人体表时爆炸
 					'''
 			}
 
 			Gluttony: {
 				DisplayName: 暴食
-				Tooltip: 吸取你敌人的灵魂，使他们对抗昔日的兄弟
+				Tooltip: 吸取敌人的灵魂，使他们对抗曾经的战友
 			}
 
 			GravediggerItem: {
 				DisplayName: 坟墓粉碎者
 				Tooltip:
 					'''
-					按住W键时会将敌人挑向空中，按住S键时会将敌人击落
+					按住W键时攻击会将敌人挑向空中，按住S键时攻击会将敌人击落
 					击中空中的敌人会造成更多的伤害
 					'''
 			}
 
 			LivingBlood: {
 				DisplayName: 不死之血
-				Tooltip: "'Unnaturally pulses with the light of the Blood Moon'"
+				Tooltip: "'血月之光的异常脉冲'"
 			}
 
 			PoltergeistChest: {
@@ -921,16 +921,16 @@ Mods: {
 
 			PoltergeistLegs: {
 				DisplayName: 作祟袍靴
-				Tooltip: +40点最大魔力值
+				Tooltip: +40 最大魔力
 			}
 
 			RadculasRapier: {
-				DisplayName: Radcula's Rapier
+				DisplayName: 拉德库拉的长剑
 				Tooltip:
 					'''
-					快速戳刺敌人，造成可堆叠的流血效果
-					右键传送至光标位置，收割路径上流血的敌人以获得高伤害和生命值
-					传送时打击多个敌人会降低冷却时间
+					快速戳刺敌人，造成可堆叠的流血减益
+					右键极速冲刺至光标位置，收割路径上流血减益的敌人以造成高伤害和吸血效果
+					极速冲刺时击中多个敌人会缩短下一次冲刺的冷却时间
 					'''
 			}
 
