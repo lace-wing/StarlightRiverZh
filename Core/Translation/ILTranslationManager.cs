@@ -14,7 +14,7 @@ namespace StarlightRiverZh.Core.Translation {
         public static void Load() {
             patcherManager = new PatcherManager();
             foreach (Type type in StarlightRiverZh.Instance.Code.GetTypes()) {
-                if (type.IsSubclassOf(typeof(Entry))) {
+                if (type.IsSubclassOf(typeof(TypeEntry)) && !type.IsAbstract) {
                     Entry entry = Activator.CreateInstance(type) as Entry;
                     if (entry != null) {
                         entry.Load();

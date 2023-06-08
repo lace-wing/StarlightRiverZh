@@ -18,7 +18,7 @@ namespace StarlightRiverZh.QuickTranslate {
         public virtual void Load() {
 
         }
-        public static void QuickTrans(Type type, string method, string origin, string trans, BindingFlags bindingFlags) {
+        public static void QuickTrans(Type type, string method, string origin, string trans, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Public) {
             MethodInfo me = type.GetMethod(method, bindingFlags);
             QuickTrans(type, me, origin, trans);
         }
