@@ -3,6 +3,7 @@ Notifications: {
 		'''
 		Starlight River Chinese Patch, brought to you by the Starlight Boat. Translation is working in progress, thanks for your patience and understanding.
 		The game language is not set to Chinese!
+		If there is a bug, try disabling experimental features in mod config.
 		'''
 	InfoHint: For more info, use chat command '/slrzh'.
 	Changelog:
@@ -16,12 +17,17 @@ Notifications: {
 
 Configs: {
 	SlrzhConfig: {
-		DisplayName: 模组配置
-		ILTranslateHeader: 【测试性】内嵌翻译
+		DisplayName: Starlight River Chinese Patch
+		ILTranslateHeader: "[Experimental] IL Translation"
 
 		ILTranslate: {
-			Label: 翻译更多文本
-			Tooltip: 测试功能，开发中，可能造成不可预知的bug，完全不支持多人模式，关闭mod后无法将文本恢复为英文
+			Label: Translates more texts
+			Tooltip:
+				'''
+				Experimental feature, under development, might be bugged.
+				Does NOT support multiplayer.
+				Texts do not restore to defaults even with this mod disabled.
+				'''
 		}
 	}
 }

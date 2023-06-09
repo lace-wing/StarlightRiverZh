@@ -1,6 +1,6 @@
 displayName = 星光之河汉化补丁
 author = Starlight Boat
-version = 0.1.3.1
+version = 0.1.6.1
 modReferences = StarlightRiver
 translationMod = true
 side = Client
