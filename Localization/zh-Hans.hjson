@@ -1685,7 +1685,7 @@ Mods: {
 
 			SquidFins: {
 				DisplayName: 鱿鱼鳍
-				Tooltip: 允许你像jellysquid一样游泳
+				Tooltip: 允许你像水母鱿一样游泳
 			}
 
 			TentacleHook: {
