@@ -1,9 +1,9 @@
 Mods: {
 	StarlightRiver: {
 		Keybinds: {
-			Starsight.DisplayName: 星视
+			Starsight.DisplayName: 星灵之视
 			"Forbidden Winds.DisplayName": 禁忌之风
-			Faeflame.DisplayName: 妖精火焰
+			Faeflame.DisplayName: 妖精之火
 		}
 
 		Items: {
