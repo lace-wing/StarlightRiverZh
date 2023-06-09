@@ -9,13 +9,11 @@ namespace StarlightRiverZh
 		private static StarlightRiverZh _instance;
 		public static StarlightRiverZh Instance => _instance;
 
-        private static Type[] _starlightRiverTypes;
-
-        public static Type[] StarlightRiverTypes => _starlightRiverTypes;
+        internal static Type[] starlightRiverTypes;
+        public static Type[] StarlightRiverTypes => starlightRiverTypes;
 
         public override void Load() {
             _instance = this;
-            _starlightRiverTypes = typeof(StarlightRiver.StarlightRiver).Assembly.GetTypes();
         }
     }
 }

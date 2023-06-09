@@ -50,11 +50,30 @@ Starsight: {
 	DesertMonolithFlipped: These towering monoliths withstood the test of time...
 	CrashPod: A fallen droppod, made of metal rich in binding Starlight. You'd have to use a Starlight power of equal strength...
 	#Misc
-	Nothing: 这啥都没有……
+	Nothing: Nothing interesting here...
 }
 
+MasterDeathText: {
+	0: Maybe try Journey Mode...
+	1: You're not supposed to win.
+	2: Whoopsie daisy.
+	3: It's not THAT hard.
+	4: Give up.
+	5: Have you tried dodging?
+	6: skill issue
+	7: Are the logged hours on your Steam account accurate?
+	8: You sure you wanna do this?
+	9: There are easier difficulties you know.
+	10: You can install Dragonlens from the mod browser.
+	11: You can always come back after beating other bosses.
+	12: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+	13: Just so you know, Starlight River does not have a pacifist route. Consider changing your playstyle.
+	14: Press {0} to jump.
+	15: You died so many times you broke our snarky quote code. Great job.
+}
+
+#不要翻译这个
 EN: {
-	#不要翻译这个
 	Starsight: {
 		#NPC
 		ForbiddenWindsPickup: A dense conflux of Starlight energy... could this be the tangle Alican mentioned?
@@ -108,5 +127,24 @@ EN: {
 		CrashPod: A fallen droppod, made of metal rich in binding Starlight. You'd have to use a Starlight power of equal strength...
 		#Misc
 		Nothing: Nothing interesting here...
+	}
+
+	MasterDeathText: {
+		0: Maybe try Journey Mode...
+		1: You're not supposed to win.
+		2: Whoopsie daisy.
+		3: It's not THAT hard.
+		4: Give up.
+		5: Have you tried dodging?
+		6: skill issue
+		7: Are the logged hours on your Steam account accurate?
+		8: You sure you wanna do this?
+		9: There are easier difficulties you know.
+		10: You can install Dragonlens from the mod browser.
+		11: You can always come back after beating other bosses.
+		12: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+		13: Just so you know, Starlight River does not have a pacifist route. Consider changing your playstyle.
+		14: Press {0} to jump.
+		15: You died so many times you broke our snarky quote code. Great job.
 	}
 }

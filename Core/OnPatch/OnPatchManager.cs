@@ -12,6 +12,7 @@ public class OnPatchManager : ILoadable
 
     public void Load(Mod mod)
     {
+        StarlightRiverZh.starlightRiverTypes = typeof(StarlightRiver.StarlightRiver).Assembly.GetTypes();
         _hooks = new List<Hook>();
         foreach (Type type in mod.Code.GetTypes())
         {

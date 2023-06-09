@@ -1,8 +1,7 @@
-﻿using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 using MonoMod.RuntimeDetour;
 using StarlightRiverZh.Core.OnPatch;
-using Terraria;
+using StarlightRiverZh.QuickTranslate;
 using Terraria.Localization;
 
 namespace StarlightRiverZh.OnPatches;
@@ -12,7 +11,7 @@ public class StarsightHint : IOnPatch
     public Hook Load()
     {
         //StarlightRiver.Content.Abilities.Hint.HintAbility.OnActivate()
-        MethodBase m = typeof(StarlightRiver.StarlightRiver).Assembly.GetTypes().FirstOrDefault(t => t.Name == "HintAbility")?.GetMethod("OnActivate");
+        MethodBase m = TypeEntry.GetSlrType("HintAbility")?.GetMethod("OnActivate");
         return m is null ? null : new Hook(m, OnActivateOverride);
     }
 
@@ -23,7 +22,10 @@ public class StarsightHint : IOnPatch
 
         FieldInfo f = hintAbility.GetType().GetField("hintToDisplay", BindingFlags.Static | BindingFlags.Public);
         if (f is null)
+        {
+            StarlightRiverZh.Instance.Logger.Warn("StarsightHint patch failed to load!");
             return;
+        }
 
         string text = f.GetValue(hintAbility) as string;
         foreach (string key in starsightKeys)

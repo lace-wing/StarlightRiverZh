@@ -20,6 +20,6 @@ namespace StarlightRiverZh.QuickTranslate {
             QuickTrans(TargetType, method, origin, trans);
         }
 
-        protected static Type GetSlrType(string type) => StarlightRiverZh.StarlightRiverTypes.FirstOrDefault(t => t.Name == type) ?? throw new Exception($"No type named {type} found in StarlightRiver assembly");
+        public static Type GetSlrType(string type) => StarlightRiverZh.StarlightRiverTypes.FirstOrDefault(t => t.Name == type) ?? throw new Exception($"No type named {type} found in StarlightRiver assembly");
     }
 }
