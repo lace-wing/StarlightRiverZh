@@ -1671,14 +1671,14 @@ Mods: {
 
 			SquidBossSpawn: {
 				DisplayName: 可疑供品
-				Tooltip: 扔进极光之水，召唤拜鱿教徒们所崇敬之物
+				Tooltip: 扔进流光水，召唤拜鱿教徒们所崇敬之物
 			}
 
 			SquidBossSpawnEndless: {
 				DisplayName: 镀金可疑供品
 				Tooltip:
 					'''
-					扔进极光之水，召唤拜鱿教徒们所崇敬之物
+					扔进流光水，召唤拜鱿教徒们所崇敬之物
 					无限使用
 					'''
 			}
@@ -1690,7 +1690,7 @@ Mods: {
 
 			TentacleHook: {
 				DisplayName: 腕足钩
-				Tooltip: 移动你的鼠标以钩住周围的物块
+				Tooltip: 移动鼠标，瞄准周围的物块
 			}
 
 			Tentalance: {
