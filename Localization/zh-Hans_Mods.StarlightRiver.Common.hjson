@@ -1,26 +1,26 @@
 Starsight: {
 	#NPC·
 	ForbiddenWindsPickup: A dense conflux of Starlight energy... could this be the tangle Alican mentioned?
-	Coolmite: 在结晶里更可爱！
+	Coolmite: 在水晶里更可爱！
 	MagmitePassive: 好可爱！
-	Crow: What does he want with me?
-	Snoobel: Extremely ugly. so Fucking ugly.
+	Crow: 他想让我做什么？
+	Snoobel: 好丑，太tm丑了。
 	Crusher: Watch your step.
 	Dreambeast: 这不是真的，这不是真的，这不是真的，这 不 是 真 的，这 不 是 真 的，这 不 是 真 的。
 	Fogbinder: Disrupted with prolonged contact...
 	Warbanner: It somehow bolsters nearby foes...
 	CrescentCaster: It somehow shields nearby foes...
-	Dweller: There's something here.
-	Stalker: Theres... nothing there. An illusion.
+	Dweller: 这儿有些东西。
+	Stalker: 那里......啥都没有，只是幻觉。
 	BossRushOrb: 我 看 见 你 了。
 	VitricBoss: 织璃匠曾提起过一个“哨卫”......集中注意力！
 	SquidBoss: 它仅在那些防护触手被摧毁后才可以受到伤害......
 	TentacleHurtbox: 它保护着主体！
 	Glassweaver: 现在他开始认真起来了。
-	GlassweaverWaiting: Is this... creature... really what 'lurks beneath the desert?'
+	GlassweaverWaiting: 这真的是......“沙漠下所潜藏着的”......生物？
 	#Projectile
-	MainForgeDummy: An ancient forge, powered by concentrated light...
-	DynamicGearDummy: A magical gear that can change its shape...
+	MainForgeDummy: 一个古老的锻炉，由凝聚的光芒驱动......
+	DynamicGearDummy: 一个可以改变其形状的神奇齿轮......
 	JellyShroomDummy: 这个蘑菇不同寻常，还有富有弹性。
 	#Tile
 	VitricBossAltar: An altar, encased in crystal rich with binding Starlight. You'd have to use a Starlight power of equal strength...
