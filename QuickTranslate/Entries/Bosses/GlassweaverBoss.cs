@@ -9,7 +9,7 @@ using Terraria.Localization;
 
 namespace StarlightRiverZh.QuickTranslate.Entries {
     public class GlassweaverBoss : TypeEntry {
-        public override Type TargetType => typeof(StarlightRiver.Content.Bosses.GlassMiniboss.Glassweaver);
+        public GlassweaverBoss() : base(typeof(StarlightRiver.Content.Bosses.GlassMiniboss.Glassweaver)) {}
 
         public override void Load() {
             MethodInfo ai = TargetType.GetMethod("AI", BindingFlags.Public | BindingFlags.Instance);

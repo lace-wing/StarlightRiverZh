@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace StarlightRiverZh.QuickTranslate {
     public abstract class MethodEntry : TypeEntry {
-        public abstract string MethodName { get; }
+        protected MethodEntry(Type targetType, string methodName) : base(targetType) => MethodName = methodName;
+        protected MethodEntry(string targetTypeName, string methodName) : base(targetTypeName) => MethodName = methodName;
+
+        protected readonly string MethodName;
         public BindingFlags Flags {
             get {
                 return BindingFlags.Public | BindingFlags.Instance;

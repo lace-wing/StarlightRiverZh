@@ -6,21 +6,21 @@ using Terraria.ModLoader;
 
 namespace StarlightRiverZh.Core.OnPatch;
 
-public class OnPatchManager : ModSystem
+public class OnPatchManager : ILoadable
 {
     private List<Hook> _hooks;
 
-    public override void PostSetupContent()
+    public void Load(Mod mod)
     {
         _hooks = new List<Hook>();
-        foreach (Type type in Mod.Code.GetTypes())
+        foreach (Type type in mod.Code.GetTypes())
         {
             if (type.GetInterfaces().Contains(typeof(IOnPatch)))
             {
                 Hook hook = (Activator.CreateInstance(type) as IOnPatch)!.Load();
                 if (hook is null)
                 {
-                    Mod.Logger.Warn($"{type.FullName} failed to load!");
+                    mod.Logger.Warn($"{type.FullName} failed to load!");
                     continue;
                 }
                 _hooks.Add(hook);
@@ -29,7 +29,7 @@ public class OnPatchManager : ModSystem
         }
     }
     
-    public override void Unload()
+    public void Unload()
     {
         foreach (Hook hook in _hooks)
         {

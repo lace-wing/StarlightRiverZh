@@ -8,7 +8,7 @@ using Terraria.Localization;
 
 namespace StarlightRiverZh.QuickTranslate.Entries.Bosses {
     public class SquidBoss : TypeEntry {
-        public override Type TargetType => typeof(StarlightRiver.Content.Bosses.SquidBoss.SquidBoss);
+        public SquidBoss() : base(typeof(StarlightRiver.Content.Bosses.SquidBoss.SquidBoss)) {}
         public override void Load() {
             MethodInfo ai = TargetType.GetMethod("AI", BindingFlags.Public | BindingFlags.Instance);
             QTType(ai, ", The Venerated", "，被敬拜者");

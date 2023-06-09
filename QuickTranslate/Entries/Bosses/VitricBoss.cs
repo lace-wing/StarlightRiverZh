@@ -8,7 +8,8 @@ using Terraria.Localization;
 
 namespace StarlightRiverZh.QuickTranslate.Entries.Bosses {
     public class VitricBoss : TypeEntry {
-        public override Type TargetType => typeof(StarlightRiver.Content.Bosses.VitricBoss.VitricBoss);
+        public VitricBoss() : base(typeof(StarlightRiver.Content.Bosses.VitricBoss.VitricBoss)) {}
+
         public override void Load() {
             MethodInfo ai = TargetType.GetMethod("AI", BindingFlags.Public | BindingFlags.Instance);
             QTType(ai, ", Shattered Sentinel", "，碎晶哨卫");
