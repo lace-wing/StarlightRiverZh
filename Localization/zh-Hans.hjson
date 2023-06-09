@@ -1029,7 +1029,7 @@ Mods: {
 				DisplayName: 猛虎下山
 				Tooltip:
 					'''
-					Teaches you the Art of Axes, granting all axe weapons a new combo attack
+					将战斧技艺传授与你，所有斧类武器获得新的连击招式
 					连击的最后一击会撕裂敌人的护甲
 					右键扔出你的斧子
 					'''
@@ -1355,12 +1355,12 @@ Mods: {
 			}
 
 			MartialBook: {
-				DisplayName: Martial Encyclopedia
+				DisplayName: 武术大全
 				Tooltip:
 					'''
 					具有猛虎下山、蛇影突袭和螳螂剑术的效果
 					+10%近战暴击率
-					'Quit, don't quit... Noodles, don't noodles.'
+					‘放弃，不放弃，做面条，不做面条。’
 					'''
 			}
 
@@ -1467,7 +1467,7 @@ Mods: {
 				DisplayName: 蛇影突袭
 				Tooltip:
 					'''
-					Teaches you the Art of the Spear, granting all spear weapons a new combo attack
+					将长枪武艺传授与你，所有长矛类武器获得新的连击招式
 					连击的最后一击的伤害和击退增加
 					右键用一连串的刺击震慑敌人
 					'''
