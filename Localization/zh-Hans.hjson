@@ -1690,7 +1690,7 @@ Mods: {
 
 			TentacleHook: {
 				DisplayName: 腕足钩
-				Tooltip: 移动你的鼠标以钩住周围的对象
+				Tooltip: 移动你的鼠标以钩住周围的物块
 			}
 
 			Tentalance: {
