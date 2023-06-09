@@ -1671,14 +1671,14 @@ Mods: {
 
 			SquidBossSpawn: {
 				DisplayName: 可疑供品
-				Tooltip: Drop in prismatic waters to summon the one the Squiddites worship
+				Tooltip: 扔进极光之水，召唤拜鱿教徒们所崇敬之物
 			}
 
 			SquidBossSpawnEndless: {
 				DisplayName: 镀金可疑供品
 				Tooltip:
 					'''
-					Drop in prismatic waters to summon the one the Squiddites worship
+					扔进极光之水，召唤拜鱿教徒们所崇敬之物
 					无限使用
 					'''
 			}
