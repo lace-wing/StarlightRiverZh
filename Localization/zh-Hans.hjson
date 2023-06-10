@@ -739,7 +739,7 @@ Mods: {
 					'''
 					战斗坐骑：召唤一只野狼
 					用强力的撕咬造成流血减益
-					右键使野狼嚎叫并强化仆从的速度
+					右键使野狼嚎叫并提升仆从的速度
 					'''
 			}
 
@@ -786,7 +786,7 @@ Mods: {
 			}
 
 			GeoDiamond: {
-				DisplayName: 钻石
+				DisplayName: 金刚石
 				Tooltip: 你不应该看见这个
 			}
 
@@ -852,7 +852,7 @@ Mods: {
 				Tooltip:
 					'''
 					将木箭转化为血矢
-					血矢会刺穿被击杀的敌人的血肉，并在接触到敌人体表时爆炸
+					血矢会刺穿被击杀的敌人的血肉，并在接触到物块表面时爆炸
 					'''
 			}
 
@@ -895,7 +895,7 @@ Mods: {
 			}
 
 			RadculasRapier: {
-				DisplayName: 拉德库拉的长剑
+				DisplayName: 拉德库拉长剑
 				Tooltip:
 					'''
 					快速戳刺敌人，造成可堆叠的流血减益
@@ -905,12 +905,12 @@ Mods: {
 			}
 
 			StaffOfSelfDisassembly: {
-				DisplayName: Staff of Self-Disassembly
+				DisplayName: 自我献祭之杖
 				Tooltip:
 					'''
-					消耗40点生命值以召唤血肉之惧
-					血肉之惧会增加生命再生速度
-					当血肉之惧攻击敌人时，会强化生命再生速度
+					消耗40点生命值以召唤血肉恐惧
+					血肉恐惧会增加生命再生速度
+					当血肉恐惧攻击敌人时，会进一步提升生命再生速度
 					'''
 			}
 
@@ -918,17 +918,17 @@ Mods: {
 				DisplayName: 卡戎的银币
 				Tooltip:
 					'''
-					将附近掉落的金钱转化为古老钱币，命中钱币的弹幕会被反弹
-					钱币会在接触任何表面时失去效果
-					'Soon, may the Ferryman come...'
+					将附近掉落的所有钱币转化为古老钱币，命中钱币的弹幕会被反弹
+					古老钱币会在接触任何物块表面时失去它的效果
+					'很快，一位摆渡人可能就要来了...'
 					'''
 			}
 
 			Corpseflower: {
 				Tooltip:
 					'''
-					造成的伤害会转化为持续的伤害
-					初始伤害降低，但可以与持续伤害相关的饰品进行联动
+					你造成的所有伤害会转化为持续伤害
+					初始伤害降低，但受到持续伤害相关饰品的影响
 					你无法再造成暴击
 					'''
 				DisplayName: 尸花
@@ -941,7 +941,7 @@ Mods: {
 
 			ChargedMagnet: {
 				DisplayName: 带电磁体
-				Tooltip: "'Pulsing with magnetic power'"
+				Tooltip: "'磁力脉冲'"
 			}
 
 			GrayGoo: {
@@ -949,7 +949,7 @@ Mods: {
 				Tooltip:
 					'''
 					召唤纳米机器群吞噬你的敌人
-					'Say the line, Armstrong!'
+					'读台词，阿姆斯特朗！'
 					'''
 			}
 
@@ -957,8 +957,8 @@ Mods: {
 				DisplayName: 磁珠电鞭
 				Tooltip:
 					'''
-					鞭打敌人会把珠子粘在敌人身上
-					反复电击以电击被粘住的敌人
+					鞭打敌人会把一串磁珠粘在敌人身上
+					连续点击左键反复电击被磁珠粘住的敌人
 					'''
 			}
 
@@ -967,7 +967,7 @@ Mods: {
 				Tooltip:
 					'''
 					在锥形范围发射强大的闪电
-					右键发射一个会吸引并强化闪电的爆炸性闪电球
+					右键发射一个爆炸性闪电球，它会吸引并强化你发射的闪电
 					'Crush the path of most resistance'
 					'''
 			}
@@ -976,8 +976,8 @@ Mods: {
 				DisplayName: 未充能的磁体
 				Tooltip:
 					'''
-					你物品栏中的该物品会吸引带电的敌人
-					带电的敌人比普通敌人更加强大，但会在死亡时充能该物品
+					该物品在物品栏时会吸引带电的敌人
+					带电的敌人比普通敌人更加强大，但在死亡时会对未充能的磁体进行充能
 					'''
 			}
 
@@ -985,8 +985,8 @@ Mods: {
 				DisplayName: 炼金术士的镣铐
 				Tooltip:
 					'''
-					在资源较低时，对应的资源药水会更加有效
-					诅咒：延长15秒药水疾病减益的时间
+					在资源较低时，对应的资源药水会更加有效（资源指生命，魔力等）
+					诅咒：延长15秒耐药性减益的时间
 					'''
 			}
 
@@ -1022,12 +1022,12 @@ Mods: {
 
 			BarbedKnife: {
 				DisplayName: 带刺血刃
-				Tooltip: 暴击时会造成流血减益，可叠加至多5次
+				Tooltip: 暴击时会造成流血减益，可叠加最多5层
 			}
 
 			BizarrePotion: {
 				DisplayName: 奇异药水
-				Tooltip: 投掷一瓶具有随机 - 通常是爆炸 - 效果的随机挥发性药水
+				Tooltip: 投掷一瓶具有随机效果（通常是爆炸性效果）的挥发性药水
 			}
 
 			Bladesaw: {
@@ -1035,8 +1035,8 @@ Mods: {
 				Tooltip:
 					'''
 					粉碎敌人
-					反复击中敌人会将其撕裂并过热电锯，过热会增加伤害
-					右键当做工具使用
+					反复攻击会使刃锯过热，过热会增加伤害
+					右键作为工具使用
 					'''
 			}
 
@@ -1044,29 +1044,29 @@ Mods: {
 				DisplayName: 无血战士的护符
 				Tooltip:
 					'''
-					+100点屏障
-					屏障会吸收所有伤害，但重新开始充能的速度变慢
-					你不会再受到持续伤害的影响
-					诅咒：你拥有0点生命值。治疗会使你获得一个持续衰减的伤害加成，而非回复生命值
-					'Leave your flesh behind, for your rage is all you need'
+					+100 最大屏障
+					屏障会吸收所有伤害并且重新开始充能的速度会变得更快
+					你不再受到持续伤害的影响
+					诅咒：你拥有0点生命值。治疗会使你获得一个逐渐减弱的伤害增益，而非恢复生命值
+					'抛弃你的肉体吧，你所需要的只是愤怒'
 					'''
 			}
 
 			BrokenGlasses: {
-				DisplayName: Broken Glasses
-				Tooltip: 持续伤害效果能够造成暴击
+				DisplayName: 破碎的风镜
+				Tooltip: 使持续伤害效果能够造成暴击
 			}
 
 			BuffChalice: {
 				DisplayName: 强化圣杯
-				Tooltip: 造成减益时会短暂增加你的抗性
+				Tooltip: 造成减益时会短暂增加你的Inoculation
 			}
 
 			CasualMirror: {
 				DisplayName: 因果镜
 				Tooltip:
 					'''
-					诅咒：翻转你的持续伤害和生命再生效果。
+					诅咒：你的持续伤害和生命再生效果反转。
 					当你受到持续伤害时会再生生命。
 					当你再生生命时会受到持续伤害。
 					这包括自然的生命再生！
@@ -1077,9 +1077,9 @@ Mods: {
 				DisplayName: 廉价溜冰鞋
 				Tooltip:
 					'''
-					奔跑速度翻倍
-					当你的速度超过先前的最大速度时会受到25%额外伤害
-					当你的速度超过先前的最大速度时会降低75%加速度
+					最大移动速度翻倍
+					当你的移动速度超过原本的最大速度时会受到25%额外伤害
+					当你的移动速度超过原本的最大速度时会降低75%加速度
 					'''
 			}
 
@@ -1089,7 +1089,7 @@ Mods: {
 					'''
 					右键扔出一捆被引燃的炸药
 					射击炸药可提前将其引爆
-					'My business, my rules'
+					'我的事，我来裁决'
 					'''
 			}
 
@@ -1100,29 +1100,29 @@ Mods: {
 
 			CoughDrops: {
 				DisplayName: 止咳糖
-				Tooltip: 当减益消失时，使你获得临时的移动速度和伤害加成
+				Tooltip: 当减益消失时，你获得临时的移动速度和伤害加成
 			}
 
 			CutlassBus: {
 				DisplayName: 弯刀之魂
 				Tooltip:
 					'''
-					egshels update this lol
-					hi its me im egshels im not going to update this lol its debug
+					egshels更新了这个，哈哈哈
+					嗨，是我，我是egshels，我不会再更新这个了，哈哈哈，它是调试物品
 					'''
 			}
 
 			DiceAmmo: {
 				DisplayName: 骰子
-				Tooltip: 每发攻击都具有随机的属性
+				Tooltip: 每次攻击都具有随机的属性
 			}
 
 			DisinfectantKit: {
 				DisplayName: 消毒试剂箱
 				Tooltip:
 					'''
-					消毒湿巾和消毒喷雾的组合效果
-					当至少拥有一种减益时增加10%伤害
+					拥有消毒湿巾和消毒喷雾的组合效果
+					此外，当至少拥有一种减益时增加10%伤害
 					'''
 			}
 
@@ -1130,8 +1130,8 @@ Mods: {
 				DisplayName: 消毒湿巾
 				Tooltip:
 					'''
-					暴击时有10%几率缩短3秒施加于你的减益的持续时间
-					药水疾病减益不会受到影响
+					暴击时有10%几率缩短3秒你的减益的持续时间
+					耐药性减益不会受到影响
 					'''
 			}
 
@@ -1142,17 +1142,17 @@ Mods: {
 
 			DullBlade: {
 				DisplayName: 钝刃
-				Tooltip: Ancient and heavily worn, but still solid. You could forge this into something useful...
+				Tooltip: 古老而破旧，但仍然坚固。你可以把它锻造成一些有用的东西...
 			}
 
 			Earthduster: {
 				Tooltip:
 					'''
-					长按左键发射快速的大地流
+					按住左键发射快速的大地洪流
 					可以使用多种不同类型的方块作为弹药，每种方块都有一种独特的效果
-					33%几率不消化弹药
+					33%的几率不消耗弹药
 					'''
-				DisplayName: Earthduster
+				DisplayName: 大地涤尘炮
 			}
 
 			ElectroArrow: {
@@ -1160,7 +1160,7 @@ Mods: {
 				Tooltip:
 					'''
 					链锁附近的敌人
-					会造成过充减益，大幅度降低敌人的移动速度
+					会对敌人造成过充减益，大幅度降低敌人的移动速度
 					'''
 			}
 
@@ -1184,7 +1184,7 @@ Mods: {
 				Tooltip:
 					'''
 					暴击时会从敌人身上切下肉块
-					吞食肉块会获得治疗和Bloodfrenzy增益
+					吞食肉块会获得吃得好和血液冰封增益
 					'''
 			}
 
@@ -1192,8 +1192,8 @@ Mods: {
 				DisplayName: 煎锅
 				Tooltip:
 					'''
-					在投掷前近距离攻击敌人会用煎锅重重敲打敌人的头部
-					'Evil-looking runes are inscribed on the bottom'
+				        长按左键近距离攻击敌人，之后会用扔出煎锅重重敲打敌人的头部
+					'阴森邪恶的符文刻在底部'
 					'''
 			}
 
@@ -1201,7 +1201,7 @@ Mods: {
 				DisplayName: 晶洞弓
 				Tooltip:
 					'''
-					击中敌人时会在其身上长出晶体
+					击中敌人时会使其身上长出晶体
 					向晶体射击会造成大量伤害
 					'''
 			}
@@ -1211,7 +1211,7 @@ Mods: {
 				Tooltip:
 					'''
 					摧毁附近的墓碑
-					'You like the taste of brains, we don't like zombies'
+					'你喜欢脑子的味道，我们不喜欢僵尸'
 					'''
 			}
 
@@ -1219,7 +1219,7 @@ Mods: {
 				DisplayName: 黄金断头台
 				Tooltip:
 					'''
-					基于敌人已损失的生命值使你的暴击获得力量
+					当你的敌人损失生命时，暴击会增强
 					普通敌人在生命值较低时会被处决
 					'''
 			}
@@ -1227,12 +1227,12 @@ Mods: {
 			Gunchucks.DisplayName: 双截猎枪
 
 			GunstrapBoots: {
-				DisplayName: 绑着枪的靴子
+				DisplayName: 绑枪的靴子
 				Tooltip:
 					'''
 					进行二段跳时会向下方发射子弹
 					使用翅膀飞行时将持续发射子弹
-					'Smells like steak and fries'
+					'闻起来像牛排和薯条的味道'
 					'''
 			}
 
@@ -1242,22 +1242,22 @@ Mods: {
 					'''
 					诅咒
 					大幅度增加移动速度和加速度
-					增加跳跃高度和奔跑速度
-					你无法再使用翅膀
+					增加跳跃高度和最大移动速度
+					你无法使用翅膀
 					'''
 			}
 
 			HolyAmulet: {
 				DisplayName: 神圣护身符
-				Tooltip: 每回复25点生命值便会释放一次追踪神圣能量
+				Tooltip: 每恢复25点生命值便会释放一次追踪的神圣能量
 			}
 
 			HungryStomach: {
 				Tooltip:
 					'''
-					通过伤害敌人来恢复星光
+					通过攻击敌人来恢复星光
 					近战武器会使上述效果翻倍
-					诅咒：禁用自然的星光再生
+					诅咒：星光无法自然再生
 					'''
 				DisplayName: 辘辘饥肠
 			}
@@ -1266,10 +1266,10 @@ Mods: {
 				DisplayName: 冲撞冲锋枪
 				Tooltip:
 					'''
-					长按左键快速发射高速冲击弹，随时间流逝加热
-					松开以将枪械以回旋镖方式投掷
+					按住左键发射高速冲击弹，随时间流逝冲锋枪会变热，一定时间后冲锋枪会过热
+					松开左键将枪械以回旋镖方式投掷
 					在未过热时投掷并击中敌人会使你获得可叠加的增益，增加冲撞冲锋枪的伤害
-					在过热时投掷并击中敌人会消耗所有的增益层数，并产生致命爆炸
+					在过热时投掷并击中敌人会消耗所有层数的增益，并产生致命爆炸
 					'''
 			}
 
@@ -1284,15 +1284,15 @@ Mods: {
 
 			Ironheart: {
 				DisplayName: 钢铁之心
-				Tooltip: 近战伤害会使你获得衰减的屏障和防御
+				Tooltip: 近战伤害会使你获得逐渐衰减的屏障和防御
 			}
 
 			JadeStopwatch: {
-				DisplayName: Jade Stopwatch
+				DisplayName: 碧玉秒表
 				Tooltip:
 					'''
-					时间的流逝速度更快
-					被击中后，时间的流逝速度变慢
+					对你而言，时间流逝速度更快
+					当你被攻击后，时间流逝速度短暂变慢
 					'''
 			}
 
@@ -1303,17 +1303,17 @@ Mods: {
 					+40% Inoculation
 					你会获得你对敌人造成的减益
 					你每获得一个减益，都会增加5%的移动速度和攻击速度
-					诅咒：失去所有减益免疫效果
+					诅咒：失去所有减益的免疫效果
 					'''
 			}
 
 			Magebane: {
 				Tooltip:
 					'''
-					诅咒：你无法再引用魔力药水或其他能够回复魔力值的物品
-					魔法攻击击中敌人时有25%几率使你回复大量等同于此次伤害量的魔力值
+					诅咒：你无法再饮用魔力药水或使用其他能够恢复魔力值的物品
+					魔法攻击击中敌人时有25%的几率使你恢复大量等于此次伤害量的魔力值
 					'''
-				DisplayName: Magebane
+				DisplayName: 法师克星
 			}
 
 			MagmaGun: {
@@ -1326,8 +1326,8 @@ Mods: {
 				Tooltip:
 					'''
 					具有猛虎下山、灵蛇突袭和螳螂剑术的效果
-					+10%近战暴击率
-					‘放弃，不放弃，做面条，不做面条。’
+					+10%近战暴击伤害
+					‘放弃，不放弃...做面条，不做面条。’
 					'''
 			}
 
@@ -1601,7 +1601,7 @@ Mods: {
 			}
 
 			Frostball: {
-				DisplayName: 寒丸
+				DisplayName: 寒霜球
 				Tooltip:
 					'''
 					打击敌人会积蓄极光之力
@@ -2201,12 +2201,12 @@ Mods: {
 			}
 
 			DesertMonolithFlippedItem: {
-				DisplayName: Flipped Desert Monolith
+				DisplayName: 翻转沙漠石柱
 				Tooltip: 放置一部分水平翻转的沙漠石柱
 			}
 
 			DesertMonolithItem: {
-				DisplayName: Desert Monolith
+				DisplayName: 沙漠石柱
 				Tooltip: 放置一部分沙漠石柱
 			}
 
