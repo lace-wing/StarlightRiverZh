@@ -1,3 +1,14 @@
+MasterWarning:
+	'''
+	星光之河的Boss在大师模式下有独特的行为。
+	战斗将会非常困难，并且需要对此Mod和原版的深刻理解。
+	星光之河的大师模式并不适合初次游玩。
+	星光之河的大师模式不保证公平。
+	星光之河的大师模式不会让任何人感到快乐。
+	请记住，身心健康比游戏和其中的任何东西重要得多。
+	第14-A条，由此造成的身心损伤，包括技术问题，我们不负责任。
+	'''
+
 Starsight: {
 	#NPC
 	ForbiddenWindsPickup: A dense conflux of Starlight energy... could this be the tangle Alican mentioned?
