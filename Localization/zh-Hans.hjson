@@ -1333,17 +1333,17 @@ Mods: {
 
 			PandorasDagger: {
 				DisplayName: 潘多拉短剑
-				Tooltip: 擦弹时会释放能够造成可叠加的Volatile减益的失谐弹幕
+				Tooltip: 擦弹时会释放失谐弹幕，该弹幕能够造成可叠加的Volatile减益
 			}
 
 			PandorasShield: {
 				DisplayName: 潘多拉护盾
-				Tooltip: 擦弹时会使你获得部分等同于弹幕伤害量的屏障
+				Tooltip: 擦弹会使你获得等于弹幕伤害值一部分的屏障值
 			}
 
 			PhilosophersMortar: {
 				DisplayName: 哲学家的研钵
-				Tooltip: 拾取红心会缩短10秒药水疾病的持续时间，但治疗量同样会减半
+				Tooltip: 拾取心会缩短10秒耐药性减益的持续时间，但心的治疗量会减半
 			}
 
 			PowerCell: {
@@ -1360,14 +1360,14 @@ Mods: {
 				DisplayName: 节律共振器
 				Tooltip:
 					'''
-					用你的武器有节奏的攻击会逐渐增加伤害和击退
-					禁用自动使用
+					用你的武器有节奏地攻击会逐渐增加伤害和击退
+					禁用自动开火
 					'''
 			}
 
 			SanitizerSpray: {
 				DisplayName: 消毒喷雾
-				Tooltip: 暴击时有25%几率转移部分施加于你的减益至附近的敌人身上
+				Tooltip: 暴击时有25%的几率转移部分你的减益至附近的敌人身上
 			}
 
 			ShockAbsorber: {
@@ -1375,7 +1375,7 @@ Mods: {
 				Tooltip:
 					'''
 					从高处坠落时会产生冲击波
-					无效化摔落伤害
+					免疫摔落伤害
 					'''
 			}
 
@@ -1384,11 +1384,11 @@ Mods: {
 					'''
 					向敌人发射种子、石块和蘑菇
 					种子的速度更快
-					石块的速度更慢但会造成更多的伤害和击退
-					蘑菇会造成更少的伤害，但会造成中毒减益
+					石块的速度更慢但会造成更高的伤害和击退
+					蘑菇会造成更低的伤害，但会造成中毒减益
 					75%几率不消耗弹药
 					'''
-				DisplayName: Sling
+				DisplayName: 弹弓
 			}
 
 			Soilgun: {
@@ -1398,7 +1398,7 @@ Mods: {
 					长按左键充能并发射一排土块
 					释放高速土块
 					可使用不同种类的土块
-					'Soiled it! SOILED IT!'
+					'弄脏它！玷污它！'
 					'''
 			}
 
@@ -1407,7 +1407,7 @@ Mods: {
 				Tooltip:
 					'''
 					增加20%移动速度
-					站定不动时降低50%生命再生速度
+					不移动时降低50%生命再生速度
 					'''
 			}
 
@@ -1416,7 +1416,7 @@ Mods: {
 				Tooltip:
 					'''
 					选择要破坏的物块的范围
-					每个被破坏的物块都会消耗2点魔力值
+					每破坏一个物块都会消耗2点魔力值
 					'''
 			}
 
@@ -1425,8 +1425,8 @@ Mods: {
 				Tooltip:
 					'''
 					青蛙会在死亡时复活，每次复活时都会更加强大。
-					击杀其他动物时有几率揭露它们其实一直是青蛙
-					They will then be resurrected as if they were a frog the whole time, because they wereI'm telling you, don't fuck with the frogs, please, they are stronger than you know
+					击杀其他动物时有几率揭露出它们其实一直是一只青蛙
+					如果其它动物真的一直是一只青蛙，那么它将在死亡时复活，因为它们正如我告诉你的那样，请不要他妈的乱搞青蛙，它们远比你知道的要强大
 					'''
 			}
 
@@ -1445,7 +1445,7 @@ Mods: {
 				Tooltip:
 					'''
 					屏障受到伤害时会反弹给攻击者
-					+20点屏障
+					+20 最大屏障
 					'''
 			}
 
@@ -1456,21 +1456,21 @@ Mods: {
 
 			StaminaRing: {
 				DisplayName: 星光腰带
-				Tooltip: 缓慢的再生星光
+				Tooltip: 小幅度提升星光再生速度
 			}
 
 			TaintedGreataxe: {
 				Tooltip:
 					'''
 					诅咒：造成暴击时会对一名新的、不同的敌人造成聚焦减益
-					右键被嵌入的敌人会使巨斧取消嵌入
+					右键被嵌入巨斧的敌人会使巨斧取消嵌入
 					'''
-				DisplayName: Tainted Greataxe
+				DisplayName: 被玷污的巨斧
 			}
 
 			TarnishedRing: {
-				DisplayName: Tarnished Ring
-				Tooltip: "'Ancient and heavily tarnished, but still solid. You could sculpt this into something useful..."
+				DisplayName: 暗淡的指环
+				Tooltip: "'古老而暗淡。你可以把它雕刻成某种有用的东西..."
 			}
 
 			TinCoil: {
@@ -1479,11 +1479,11 @@ Mods: {
 			}
 
 			Ultrapills: {
-				DisplayName: ULTRAPILLS
+				DisplayName: 终极药丸
 				Tooltip:
 					'''
-					诅咒：你无法通过正常方式再生生命值
-					打击敌人时会偶尔汲血
+					诅咒：你无法通过正常方式进行生命再生
+					攻击敌人时会偶尔会吸血
 					击杀敌人时会爆发出治疗之血
 					'''
 			}
@@ -1493,21 +1493,21 @@ Mods: {
 				Tooltip:
 					'''
 					攻击敌人会用月光能量为法杖充能
-					当最后一击击中地面时，收集的能量会凝聚成月光法球
+					当最后一击击中地面时，充入法杖的能量会凝聚成月光法球
 					'''
 			}
 
 			Datsuzei: {
-				DisplayName: 大津贅沢
-				Tooltip: 释放月亮
+				DisplayName: 达特苏泽
+				Tooltip: 月亮爆发
 			}
 
 			DianesPendant: {
 				DisplayName: 狄阿娜的吊坠
 				Tooltip:
 					'''
-					消耗魔力值为Crescent Guardian充能，完全充能后会电击周围的敌人
-					+20点屏障
+					消耗魔力为新月护卫充能，完全充能后会电击周围的敌人
+					+20 最大屏障
 					'''
 			}
 
@@ -1518,17 +1518,17 @@ Mods: {
 
 			MoonstoneArrow: {
 				DisplayName: 月耀箭
-				Tooltip: 随移动距离获得速度和力量
+				Tooltip: 随箭的移动距离增加获得更高的速度和力量
 			}
 
 			MoonstoneBarItem: {
 				DisplayName: 月长石锭
-				Tooltip: "'Shimmering with twisted starlight'"
+				Tooltip: "'闪烁着转动的星光'"
 			}
 
 			MoonstoneChest: {
 				DisplayName: 月长石胸甲
-				Tooltip: +35点屏障
+				Tooltip: +35 最大屏障
 			}
 
 			MoonstoneHamaxe: {
@@ -1541,7 +1541,7 @@ Mods: {
 				Tooltip:
 					'''
 					增加2%近战暴击率
-					+20点屏障
+					+20 最大屏障
 					'''
 			}
 
@@ -1549,8 +1549,8 @@ Mods: {
 				DisplayName: 月长石护胫
 				Tooltip:
 					'''
-					增加加速度
-					+25点屏障
+					提升加速度
+					+25 最大屏障
 					'''
 			}
 
@@ -1564,8 +1564,8 @@ Mods: {
 				Tooltip:
 					'''
 					投掷一排魔法手里剑
-					每命中一次，投掷数量减少1
-					手里剑数量只剩1时会掷出一个强大的利刃
+					当投出的手里剑全部命中敌人，下次手里剑的投掷数量减少1
+					当投出的手里剑数量为1时会掷出一个强大的利刃
 					'''
 			}
 
@@ -1590,30 +1590,30 @@ Mods: {
 				Tooltip:
 					'''
 					战斗坐骑：召唤一只极光宝座
-					发射鞭类触手抽打敌人
+					伸出鞭类触手抽打敌人
 					右键召唤爆破极光流
 					'''
 			}
 
 			BookOfFrost: {
 				DisplayName: 凄冻之书
-				Tooltip: 近战暴击会造成冰寒爆破
+				Tooltip: 近战暴击会造成寒冰爆破
 			}
 
 			Frostball: {
 				DisplayName: 寒霜球
 				Tooltip:
 					'''
-					打击敌人会积蓄极光之力
-					基于极光之力治疗附近的玩家
-					收回悠悠球时会基于极光之力给予你再生
+					攻击敌人会积蓄极光之力
+					基于极光之力治疗寒霜球附近的玩家
+					收回寒霜球时会基于极光之力给予你生命再生
 					'''
 			}
 
 			Octogun: {
 				Tooltip:
 					'''
-					将火枪子弹转化为极光墨水
+					将火枪子弹转化为极光墨汁弹
 					造成暴击或击杀敌人时会使触手从你的身后长出来
 					'''
 				DisplayName: 墨鱼枪
@@ -1623,8 +1623,8 @@ Mods: {
 				DisplayName: 溢流瓮
 				Tooltip:
 					'''
-					释放寒风激流
-					长时间使用会使其变得不可控
+					按住左键释放寒风急流
+					长时间使用会使其变得失控
 					'''
 			}
 
@@ -1651,16 +1651,16 @@ Mods: {
 
 			TentacleHook: {
 				DisplayName: 腕足钩
-				Tooltip: 移动鼠标，瞄准周围的物块
+				Tooltip: 在钩爪伸出后移动光标，可随光标位置改变将要钩住的物体
 			}
 
 			Tentalance: {
 				Tooltip:
 					'''
 					发射闪光的触手长枪
-					可充能并一次性发射至多5支长枪
+					按住左键可充能，松开左键释放，一次性最多发射5支长枪
 					'''
-				DisplayName: 触须长枪
+				DisplayName: 触手长枪
 			}
 
 			WaterStaff: {
@@ -1677,8 +1677,8 @@ Mods: {
 				DisplayName: 强效屏障药水
 				Tooltip:
 					'''
-					使你获得120点屏障
-					大幅度减缓过量屏障的损失速度5秒
+					使你获得120点逐渐衰减的额外屏障
+					额外屏障衰减的前5秒速度很慢，之后衰减变快
 					'''
 			}
 
@@ -1691,8 +1691,8 @@ Mods: {
 				DisplayName: 弱效屏障药水
 				Tooltip:
 					'''
-					使你获得40点屏障
-					大幅度减缓过量barrier的损失速度4秒
+					使你获得40点逐渐衰减的额外屏障
+					额外屏障衰减的前4秒速度很慢，之后衰减变快
 					'''
 			}
 
@@ -1700,8 +1700,8 @@ Mods: {
 				DisplayName: 屏障药水
 				Tooltip:
 					'''
-					使你获得80点屏障
-					大幅度减缓过量barrier的损失速度3秒
+					使你获得80点逐渐衰减的额外屏障
+					额外屏障衰减的前3秒速度很慢，之后衰减变快
 					'''
 			}
 
@@ -1710,7 +1710,7 @@ Mods: {
 				Tooltip:
 					'''
 					诅咒：你会获得你对敌人造成的减益
-					你所造成的减益的持续时间延长
+					你所造成减益的持续时间延长
 					'''
 			}
 
@@ -1718,29 +1718,29 @@ Mods: {
 				DisplayName: 海蓝宝石吊坠
 				Tooltip:
 					'''
-					+15点屏障
+					+15 最大屏障
 					失去所有屏障时释放寒冰碎片
 					'''
 			}
 
 			MeadHorn: {
 				DisplayName: 角杯蜜酒
-				Tooltip: 药水效果延长50%
+				Tooltip: 药水持续时间延长50%
 			}
 
 			Astroscrap: {
 				DisplayName: 异星合金
-				Tooltip: ‘Alloy salvaged from enigmatic wreckage’
+				Tooltip: ‘从神秘残骸中搜寻到的合金’
 			}
 
 			StarwoodBoomerang: {
 				DisplayName: 星木回旋镖
-				Tooltip: 长按左键引导回旋镖, 使其释放爆炸
+				Tooltip: 按住左键引导回旋镖, 使其释放并爆炸
 			}
 
 			StarwoodBoots: {
 				DisplayName: 星木护胫
-				Tooltip: 左键5%魔法暴击率
+				Tooltip: 增加5%魔法暴击率
 			}
 
 			StarwoodCharm: {
@@ -1777,7 +1777,7 @@ Mods: {
 				Tooltip:
 					'''
 					创造一些小星星
-					小星星击中敌人时会召唤一颗大星星打击敌人
+					当每一颗小星星都击中敌人时会召唤一颗大星星坠落在敌人头上
 					'''
 			}
 
@@ -1790,9 +1790,9 @@ Mods: {
 				DisplayName: 蒸汽圆锯
 				Tooltip:
 					'''
-					打击敌人以积蓄压力
-					松开以释放压力, 并发射锯刃
-					'The right tool for the wrong job'
+					按住左键攻击敌人以积蓄压力
+					松开左键以释放积蓄的压力, 并发射锯刃
+					'正确工具的错误用途'
 					'''
 			}
 
@@ -1800,8 +1800,8 @@ Mods: {
 				DisplayName: 齿轮弹
 				Tooltip:
 					'''
-					可在敌人之间弹跳至多五次
-					每次弹跳都会减半伤害
+					可在敌人之间弹跳最多五次
+					每次弹跳伤害都会减半
 					'''
 			}
 
@@ -1814,8 +1814,8 @@ Mods: {
 				DisplayName: 喷射焊机
 				Tooltip:
 					'''
-					收集伤害敌人时产生的碎片
-					右键消耗碎片并制造机器人
+					攻击敌人时产生碎片，收集这些碎片
+					按住右键时移动光标进行选择，松开右键消耗碎片并制造选中类型的机器人
 					'''
 			}
 
@@ -1844,16 +1844,16 @@ Mods: {
 				Tooltip:
 					'''
 					刺穿敌人
-					射击钢筋会使其更加深入的刺穿敌人
+					射击敌人体内的钢筋会使其更加深入地刺穿敌人
 					'''
 			}
 
 			RuneStaff: {
-				DisplayName: Shine Staff
+				DisplayName: 闪烁法杖
 				Tooltip:
 					'''
 					长按左键搜寻宝藏
-					松开以向光标发射星星
+					松开左键以向光标发射星星
 					'''
 			}
 
@@ -1871,8 +1871,8 @@ Mods: {
 				DisplayName: 真视透镜
 				Tooltip:
 					'''
-					对一名被曝光的敌人造成暴击时会使其周围的敌人曝光
-					被曝光的敌人在被首次命中时会额外受到20%伤害
+					对一名敌人造成暴击时会使其周围的敌人曝光
+					被曝光的敌人在首次受到攻击时会受到20%额外伤害
 					+4%暴击率
 					+10%暴击伤害
 					'''
@@ -1880,20 +1880,20 @@ Mods: {
 
 			TemplePick: {
 				DisplayName: 旋风镐
-				Tooltip: 长按右键充能并释放十字镐冲锋，破坏任何挡路的事物
+				Tooltip: 长按右键充能，松开右键释放十字镐冲锋，破坏任何挡路的物块
 			}
 
 			TempleRune: {
 				DisplayName: 护佑符文
-				Tooltip: +20点屏障
+				Tooltip: +20 最大屏障
 			}
 
 			TempleSpear: {
 				DisplayName: 光点
 				Tooltip:
 					'''
-					打击敌人会使其发光
-					击杀敌人会留下明亮的光
+					长按左键为长矛充能
+					充能后松开左键释放一个激光球
 					'''
 			}
 
@@ -1916,16 +1916,16 @@ Mods: {
 				Tooltip:
 					'''
 					放置于被装备的诅咒物品上以将其摧毁
-					'There's no turning back, most of the time'
+					'大多时候，没有回头路可走'
 					'''
 			}
 
 			AncientStarwoodBoots.DisplayName: 远古星木护胫
 			AncientStarwoodChest.DisplayName: 远古星木长袍
 			AncientStarwoodHat.DisplayName: 远古星木帽
-			MechaChest.DisplayName: 机甲躯
-			MechaHead.DisplayName: 机甲盔
-			MechaLegs.DisplayName: 机甲腿
+			MechaChest.DisplayName: 机甲身躯
+			MechaHead.DisplayName: 机甲战盔
+			MechaLegs.DisplayName: 机甲护腿
 
 			WardenHat: {
 				DisplayName: 监守者兜帽
@@ -1941,8 +1941,8 @@ Mods: {
 				DisplayName: 熔岩护骑霰弹枪
 				Tooltip:
 					'''
-					右键投掷一颗可被连锁引爆的水晶爆弹
-					射击水晶可提前将其引爆，造成更加强烈的后果
+					右键投掷一颗可被连锁引爆的水晶炸弹
+					射击水晶炸弹可提前将其引爆，造成更加猛烈的爆炸效果
 					'How does he manage to corenuke like that?'
 					'''
 			}
@@ -1951,13 +1951,13 @@ Mods: {
 				DisplayName: 聚萤
 				Tooltip:
 					'''
-					充能并发射一排绚烂魔法
-					完全充能时，绚烂魔法会在相聚时汲取魔力
+					按住左键充能，松开左键发射一排绚烂魔法矢
+					完全充能时，绚烂魔法矢会在聚合时汲取魔力
 					'''
 			}
 
 			FacetAndLattice: {
-				DisplayName: 琢面晶格
+				DisplayName: 琢面与晶格
 				Tooltip:
 					'''
 					右键防卫，取决于防卫时机来格挡伤害
@@ -1966,7 +1966,7 @@ Mods: {
 			}
 
 			ForgeMap: {
-				DisplayName: Glassweaver's Map
+				DisplayName: 织璃匠的地图
 				Tooltip:
 					'''
 					Quite a self-explanatory exquisite piece of art isn't it?
@@ -1976,14 +1976,14 @@ Mods: {
 
 			GlassIdol: {
 				DisplayName: 琉璃圣像
-				Tooltip: Used to worship a powerful guardian.
+				Tooltip: 用来祭拜一位强大的守卫。
 			}
 
 			GlassIdolEndless: {
 				DisplayName: 镀金琉璃圣像
 				Tooltip:
 					'''
-					Used to worship a powerful guardian.
+					用来祭拜一位强大的守卫。
 					可无限使用
 					'''
 			}
@@ -1992,71 +1992,71 @@ Mods: {
 				DisplayName: 点火手套
 				Tooltip:
 					'''
-					用你的拳头快速殴打敌人并积蓄起爆充能
-					长按右键消耗充能, 松开后将你以逃逸速度向前推进
-					在飞行时攻击会消耗剩余推进时间并向前释放爆破冲击
-					'Heroes always arrive from the skies'
+					用你的拳头快速殴打敌人并为点火充能
+					长按右键消耗充能，松开后将你以逃逸速度（第三宇宙速度）向前推进
+					在飞行时攻击会减少推进时间并向前释放爆破冲击
+					'英雄总是从天而降'
 					'''
 			}
 
 			MagmaArrow: {
 				DisplayName: 熔岩箭
-				Tooltip: 在飞行过程中会逐渐冷却下来，施加更少的火焰但会造成更多的伤害和击退
+				Tooltip: 在飞行过程中会逐渐冷却下来，冷却后施加更少的着火减益但会造成更高的伤害和击退
 			}
 
 			MagmaCore: {
 				DisplayName: 熔岩核心
-				Tooltip: 很热的东西的样本.
+				Tooltip: 很热的东西的样本。
 			}
 
 			MagmiteBomb: {
 				DisplayName: 熔滴螨炸弹
 				Tooltip:
 					'''
-					一颗可爱的球变成了一个毁灭机械
+					一团可爱的生物变成了一个毁灭性器械
 					你个怪物...
 					'''
 			}
 
 			MagmiteBottle: {
 				DisplayName: 瓶中熔滴螨
-				Tooltip: 你为什么要对他做这个?!
+				Tooltip: 你为什么要对他做这个？！
 			}
 
 			MagmiteVacpack: {
-				Tooltip: 发射会粘附在敌人身上的Magmites并增加召唤标记伤害
-				DisplayName: Magmite Vacpack
+				Tooltip: 发射会粘附在敌人身上的熔滴螨并增加召唤标记伤害
+				DisplayName: 熔滴螨真空枪
 			}
 
 			Needler: {
 				DisplayName: 热熔晶针枪
 				Tooltip:
 					'''
-					扎在敌人身上的尖刺会逐渐加热
-					过热的敌人会发生爆炸, 造成大量伤害
+					扎在敌人身上的尖刺会逐渐升温
+					过热的敌人会发生爆炸，受到大量伤害
 					'''
 			}
 
 			PhoenixStorm: {
 				DisplayName: 凤凰风暴
-				Tooltip: 召唤周期性向敌人俯冲的凤凰风暴
+				Tooltip: 召唤风暴般的凤凰周期性向敌人俯冲
 			}
 
 			RecursiveFocus: {
 				Tooltip:
 					'''
-					召唤一颗地狱晶体
-					地狱晶体会锁定敌人, 伤害会随着时间流逝而逐渐增加
-					右键可使晶体同时瞄准多个敌人, 但伤害不再会随着时间流逝而逐渐增加且造成的伤害减少
+					召唤一个地狱结晶
+					地狱结晶会锁定敌人，造成的伤害会随着时间流逝而逐渐增加
+					右键可使结晶同时瞄准多个敌人，但伤害不会再逐渐增加且造成的伤害减少
 					'''
-				DisplayName: Recursive Focus
+				DisplayName: 递归透镜
 			}
 
 			RefractiveBlade: {
 				DisplayName: 折射尖刃
 				Tooltip:
 					'''
-					长按右键充能并释放一道激光
+					长按右键充能，松开右键释放一道激光
 					被激光击中的敌人的近战曝光增加25%
 					'''
 			}
