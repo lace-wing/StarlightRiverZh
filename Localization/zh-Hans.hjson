@@ -813,14 +813,13 @@ Mods: {
 					'''
 			}
 
-			GeomancerPantsGeomancerPants: {
+			GeomancerPants: {
 				DisplayName: 地卜师的护胫
 				Tooltip: ""
 			}
 
 			GeomancerRobe: {
 				DisplayName: 地卜师的斗篷
-
 				Tooltip: ""
 			}
 
@@ -1203,7 +1202,7 @@ Mods: {
 				DisplayName: 煎锅
 				Tooltip:
 					'''
-				        长按左键近距离攻击敌人，之后会用扔出煎锅重重敲打敌人的头部
+					       长按左键近距离攻击敌人，之后会用扔出煎锅重重敲打敌人的头部
 					'阴森邪恶的符文刻在底部'
 					'''
 			}
@@ -1959,7 +1958,7 @@ Mods: {
 				Tooltip: ""
 			}
 
-			AncientStarwoodHa: {
+			AncientStarwoodHat: {
 				DisplayName: 远古星木帽
 				Tooltip: ""
 			}
@@ -2027,15 +2026,15 @@ Mods: {
 			}
 
 			GlassIdol: {
+				Tooltip: 用来祭拜一名强大的守卫。
 				DisplayName: 琉璃圣像
-				Tooltip: 用来祭拜一位强大的守卫。
 			}
 
 			GlassIdolEndless: {
 				DisplayName: 镀金琉璃圣像
 				Tooltip:
 					'''
-					用来祭拜一位强大的守卫。
+					用来祭拜一名强大的守卫。
 					可无限使用
 					'''
 			}
@@ -3546,6 +3545,7 @@ Mods: {
 			ConstructSpawner.DisplayName: Construct Spawner
 			GauntletSpawner.DisplayName: Gauntlet Spawner
 			SpawnEgg.DisplayName: Spawn Egg
+			// SandscriptBook.DisplayName: Sandscript Book
 		}
 
 		Tiles: {
@@ -3780,6 +3780,7 @@ Mods: {
 
 		NPCs: {
 			Glassweaver.DisplayName: 织璃匠
+
 			GlassweaverWaiting: {
 				DisplayName: 织璃匠
 
@@ -4240,7 +4241,7 @@ Mods: {
 				}
 
 				ScrollingLightingPoll: {
-					Label: Scrolling Lighting Buffer Building
+					Label: 轮换式光照更新
 					Tooltip:
 						'''
 						让光照系统根据轮询速率更新，而不是一次性更新全部。
