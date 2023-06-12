@@ -868,7 +868,7 @@ Mods: {
 
 			Gluttony: {
 				DisplayName: 暴食
-				Tooltip: 吸取敌人的灵魂，使他们对抗曾经的战友
+				Tooltip: 吸取敌人的灵魂，使他们对抗曾经的手足
 			}
 
 			GravediggerItem: {
@@ -2304,7 +2304,7 @@ Mods: {
 				Tooltip:
 					'''
 					加快下方的植物的生长速度
-					Needs a 10 blocks of clear area or transparent blocks above it
+					在它上方要有10块透明区域或者透明方块
 					'''
 			}
 
@@ -2512,7 +2512,7 @@ Mods: {
 			}
 
 			HotspringFountainItem: {
-				DisplayName: Hotspring Source
+				DisplayName: 热泉水源
 				Tooltip: 将附近的水转化为热泉!
 			}
 
@@ -3127,7 +3127,7 @@ Mods: {
 			}
 
 			MonkSpade: {
-				DisplayName: Monk Spade
+				DisplayName: 武僧月牙铲
 				Tooltip: ""
 			}
 
@@ -3162,52 +3162,52 @@ Mods: {
 			}
 
 			GlassArrowhead: {
-				DisplayName: Glass Arrowhead
+				DisplayName: 琉璃箭头
 				Tooltip: ""
 			}
 
 			ForestBerries: {
-				DisplayName: Forest Berries
+				DisplayName: 森林莓
 				Tooltip: ""
 			}
 
 			RedLaserPointer: {
-				DisplayName: Red Laser Pointer
+				DisplayName: 红激光笔
 				Tooltip: ""
 			}
 
 			OrangeLaserPointer: {
-				DisplayName: Orange Laser Pointer
+				DisplayName: 橙激光笔
 				Tooltip: ""
 			}
 
 			YellowLaserPointer: {
-				DisplayName: Yellow Laser Pointer
+				DisplayName: 黄激光笔
 				Tooltip: ""
 			}
 
 			GreenLaserPointer: {
-				DisplayName: Green Laser Pointer
+				DisplayName: 绿激光笔
 				Tooltip: ""
 			}
 
 			BlueLaserPointer: {
-				DisplayName: Blue Laser Pointer
+				DisplayName: 蓝激光笔
 				Tooltip: ""
 			}
 
 			PurpleLaserPointer: {
-				DisplayName: Purple Laser Pointer
+				DisplayName: 紫激光笔
 				Tooltip: ""
 			}
 
 			WhiteLaserPointer: {
-				DisplayName: White Laser Pointer
+				DisplayName: 白激光笔
 				Tooltip: ""
 			}
 
 			PinkLaserPointer: {
-				DisplayName: Pink Laser Pointer
+				DisplayName: 粉激光笔
 				Tooltip: ""
 			}
 		}
@@ -3898,7 +3898,7 @@ Mods: {
 
 			Claustrophobia: {
 				DisplayName: 幽闭恐惧症
-				Description: 困于丝线之中
+				Description: 困于丝线般的狭缝之中
 			}
 
 			CoughDropsBuff: {
@@ -3915,7 +3915,7 @@ Mods: {
 				DisplayName: 滋养
 				Description:
 					'''
-					被丰富的食物滋养, 你将获得:
+					被丰富的食物滋养，你将获得:
 
 					'''
 			}
@@ -3950,7 +3950,7 @@ Mods: {
 			}
 
 			Overcharge: {
-				DisplayName: Dreamwarp
+				DisplayName: 梦境扭曲
 				Description: 大幅减少你的护甲
 			}
 
@@ -3980,7 +3980,7 @@ Mods: {
 			}
 
 			StaticShock: {
-				DisplayName: 静电震击
+				DisplayName: 静电休克
 				Description: 降低防御
 			}
 
@@ -4010,8 +4010,8 @@ Mods: {
 			}
 
 			ArchaeologistsBuff: {
-				DisplayName: Treasure buff
-				Description: 你的召唤物的伤害获得增强
+				DisplayName: 宝藏增益
+				Description: 你仆从的伤害获得增强
 			}
 
 			PerfectlyGenericPetBuff: {
@@ -4026,12 +4026,12 @@ Mods: {
 
 			FleshApparationBuff: {
 				DisplayName: Flesh apparation
-				Description: A chunk of your flesh is following you!
+				Description: 一大块血肉正在跟随你！
 			}
 
 			RadculasRapierCooldown: {
-				DisplayName: Radcula's Teleport Cooldown
-				Description: The rapier's energy seems deminished
+				DisplayName: 拉德库拉的极速冲刺冷却
+				Description: 长剑的能量似乎耗尽了
 			}
 
 			ShovelQuickFall: {
@@ -4046,12 +4046,12 @@ Mods: {
 
 			SoulSuck: {
 				DisplayName: 灵魂汲取
-				Description: You getting sucked
+				Description: 你正在被汲取
 			}
 
 			CorpseflowerBuff: {
-				DisplayName: 尸魔花诅咒
-				Description: 你被尸花诅咒了……
+				DisplayName: 尸花诅咒
+				Description: 你被尸花诅咒了
 			}
 
 			BarbedKnifeBleed: {
@@ -4066,7 +4066,7 @@ Mods: {
 
 			BrokenGlassesBuff: {
 				DisplayName: 碎玻璃
-				Description: 你看不见！loser!
+				Description: 你看不见，loser！
 			}
 
 			CoachDebuff: {
@@ -4076,7 +4076,7 @@ Mods: {
 
 			FiletFrenzyBuff: {
 				DisplayName: 血液冰封
-				Description: Increased melee speed, but decreased crit rate on Filet Knife
+				Description: 使用剔骨刀时提升近战攻击速度，但是降低暴击率
 			}
 
 			ImpactSMGBuff: {
@@ -4086,7 +4086,7 @@ Mods: {
 
 			IronheartBuff: {
 				DisplayName: 钢铁之心
-				Description: you have decaying extra barrier and defense
+				Description: 你拥有额外的逐渐衰减的屏障和防御
 			}
 
 			PlexusChaliceBuff: {
@@ -4096,17 +4096,17 @@ Mods: {
 
 			MoonfuryDebuff: {
 				DisplayName: 梦境炽焰
-				Description: Next Moonfury hit has increased damage
+				Description: 月怒的下一次冲击造成的伤害增加
 			}
 
 			AuroraThroneMountMinionDebuff: {
 				DisplayName: 墨染
-				Description: You take increased damage
+				Description: 你受到的伤害增加
 			}
 
 			UrnFreeze: {
-				DisplayName: Urn Freeze
-				Description: 这口锅已经不受控制了！
+				DisplayName: 瓮之冻结
+				Description: 这个瓮已经不受控制了！
 			}
 
 			InoculationPotionBuff: {
@@ -4115,13 +4115,13 @@ Mods: {
 			}
 
 			NoShieldPot: {
-				DisplayName: Barrier Sickness
-				Description: Cannot consume more barrier potions
+				DisplayName: 耐障性
+				Description: 不能再使用屏障药水
 			}
 
 			ShieldDegenReduction: {
-				DisplayName: Barrier Affinity
-				Description: Barrier sticks to you better
+				DisplayName: 屏障亲和
+				Description: 屏障更好地吸附在你身上
 			}
 
 			CogwheelBuff: {
@@ -4130,13 +4130,13 @@ Mods: {
 			}
 
 			Exposed: {
-				DisplayName: Exposed
-				Description: Taking extra damage!
+				DisplayName: 曝光
+				Description: 受到额外伤害！
 			}
 
 			MagmaBurn: {
-				DisplayName: Magma burn
-				Description: Liquid glass melts away at you!
+				DisplayName: 熔岩灼烧
+				Description: 液态琉璃在你身上融化！
 			}
 
 			PhoenixStormSummonBuff: {
@@ -4146,7 +4146,7 @@ Mods: {
 
 			RefractiveBladeBuff: {
 				DisplayName: 融化
-				Description: Taking additional melee damage!
+				Description: 受到额外的近战伤害！
 			}
 
 			SwelteredDeBuff: {
