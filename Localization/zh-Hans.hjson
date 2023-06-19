@@ -796,7 +796,7 @@ Mods: {
 			}
 
 			GeomancerHood: {
-				DisplayName: DisplayName: 地卜师的兜帽
+				DisplayName: 地卜师的兜帽
 				Tooltip: ""
 			}
 
@@ -2133,12 +2133,12 @@ Mods: {
 
 			TempleEntranceKey: {
 				DisplayName: 锻炉钥匙
-				Tooltip: Opens a door to the Vitric Forge.
+				Tooltip: 用于开启琉璃神庙的门
 			}
 
 			TempleKey: {
 				DisplayName: 小号锻炉钥匙
-				Tooltip: Opens a door inside the Vitric Forge.
+				Tooltip: 用于开启琉璃神庙中的门
 			}
 
 			VitricBossBag: {
@@ -3870,15 +3870,15 @@ Mods: {
 			BerrySlime.DisplayName: 莓果史莱姆
 			TouchstoneWisp.DisplayName: 极光之魂
 			ArenaBlocker.DisplayName: Arena Blocker
-			Auroraborn.DisplayName: Auroraborn
+			Auroraborn.DisplayName: 极光子嗣
 			Auroraling.DisplayName: Auroraling
-			Tentacle.DisplayName: Tentacle
+			Tentacle.DisplayName: 触手
 			TentacleHurtbox.DisplayName: Tentacle Hurtbox
 			StarlightWaterActor.DisplayName: Starlight Water Actor
 			GravityOrbTest.DisplayName: Gravity Orb Test
 			BossRushGoal.DisplayName: Boss Rush Goal
-			Dweller.DisplayName: Dweller
-			Stalker.DisplayName: Stalker
+			Dweller.DisplayName: 栖身者
+			Stalker.DisplayName: 跟踪者
 			Dreambeast.DisplayName: Dreambeast
 			WaterCube.DisplayName: Water Cube
 
@@ -4220,18 +4220,18 @@ Mods: {
 		Compat: {
 			BossChecklist: {
 				Auroracle: {
-					SpawnInfo: Drop a Suspicious Looking Offering into the prismatic waters of the Permafrost Shrine, accessed only through the coldest caves.
-					Despawn: The frozen cathedral falls silent.
+					SpawnInfo: 将一个可疑供品扔进永冻神殿的流光水中，那里只有穿过极寒洞窟才能进入。
+					Despawn: 冰封的教堂重归寂静。
 				}
 
 				Glassweaver: {
-					SpawnInfo: Challenge the glassweaver in his forge, near the edge of the Vitric Desert.
-					Despawn: The Glassweaver claims victory.
+					SpawnInfo: 在琉璃沙漠边缘的锻炉中挑战织璃匠。
+					Despawn: 织璃匠宣告了他的胜利。
 				}
 
 				Ceiros: {
 					SpawnInfo: Use a Glass Idol at the altar atop the Vitric Temple, after breaking the crystal covering it using Forbidden Winds.
-					Despawn: The Vitric Forge falls silent. The Glassweaver is dissapointed.
+					Despawn: 琉璃锻炉重归寂静，织璃匠感到很失望。
 				}
 			}
 		}
