@@ -1535,7 +1535,7 @@ Mods: {
 
 			Moonfury: {
 				DisplayName: 月怒
-				Tooltip: 召唤月长石碎片从天而降，对被击中的敌人造成Dreamfire减益
+				Tooltip: 召唤月长石碎片从天而降，对被击中的敌人造成梦境炽焰减益
 			}
 
 			MoonstoneArrow: {
@@ -1777,7 +1777,7 @@ Mods: {
 					'''
 					暴击时生成魔力星
 					-3%暴击率
-					被Starwood Armor强化后会+3%暴击率
+					被星木盔甲强化后会+3%暴击率
 					'''
 			}
 
@@ -2020,8 +2020,8 @@ Mods: {
 				DisplayName: 织璃匠的地图
 				Tooltip:
 					'''
-					Quite a self-explanatory exquisite piece of art isn't it?
-					Right click on the item to view the map.
+					一件通俗易懂的精美艺术品，不是吗？
+					右键以查看地图。
 					'''
 			}
 
@@ -2215,7 +2215,7 @@ Mods: {
 			}
 
 			CoolmiteItem: {
-				DisplayName: Coolmite
+				DisplayName: 冷滴螨
 				Tooltip: 易碎品! 请小心点.
 			}
 
@@ -3845,21 +3845,21 @@ Mods: {
 			AngryCrescent.DisplayName: 愤怒新月
 			Dreamprism.DisplayName: 梦幻棱晶
 			Crusher.DisplayName: 碾碎机
-			Snoobel.DisplayName: Snoobel
+			Snoobel.DisplayName: 史努贝尔
 			SwordEnemy.DisplayName: Sky Splicer
 			Crow.DisplayName: ???
 			BoomBug.DisplayName: 萤火虫
-			Coolmite.DisplayName: Coolmite
+			Coolmite.DisplayName: 冷滴螨
 			CrystalPopper.DisplayName: 沙漠蝙蝠
 			CrystalSlime.DisplayName: 琉璃史莱姆
 			DesertWisp.DisplayName: Desert Wisp
-			FlyingGruntConstruct.DisplayName: Flying Grunt Construct
-			FlyingPelterConstruct.DisplayName: Flying Pelter Construct
-			GruntConstruct.DisplayName: Grunt Construct
-			JuggernautConstruct.DisplayName: Juggernaut Construct
-			PelterConstruct.DisplayName: Pelter Construct
-			ShieldConstruct.DisplayName: Shield Construct
-			SupporterConstruct.DisplayName: Supporter Construct
+			FlyingGruntConstruct.DisplayName: 璃锻飞行士兵
+			FlyingPelterConstruct.DisplayName: 璃锻飞行射手
+			GruntConstruct.DisplayName: 璃锻士兵
+			JuggernautConstruct.DisplayName: 璃锻主宰者
+			PelterConstruct.DisplayName: 璃锻射手
+			ShieldConstruct.DisplayName: 璃锻防护者
+			SupporterConstruct.DisplayName: 璃锻支援者
 			KettleCreature.DisplayName: Magmortar
 			LesserFirebug.DisplayName: 小萤火虫
 			MagmitePassive.DisplayName: 小熔滴螨
@@ -4230,7 +4230,7 @@ Mods: {
 				}
 
 				Ceiros: {
-					SpawnInfo: Use a Glass Idol at the altar atop the Vitric Temple, after breaking the crystal covering it using Forbidden Winds.
+					SpawnInfo: 在使用禁忌之风击碎覆盖在琉璃神殿顶部祭坛上的水晶后，使用琉璃圣像。
 					Despawn: 琉璃锻炉重归寂静，织璃匠感到很失望。
 				}
 			}
