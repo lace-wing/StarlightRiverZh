@@ -13,11 +13,11 @@ namespace StarlightRiverZh.QuickTranslate {
 
         protected readonly Type TargetType;
         
-        protected void QTType(string method, string origin, string trans, BindingFlags bindingFlags) {
-            QuickTrans(TargetType, method, origin, trans, bindingFlags);
+        protected void TranslateTargetType(string method, string origin, string trans, BindingFlags bindingFlags) {
+            QuickTranslation(TargetType, method, origin, trans, bindingFlags);
         }
-        protected void QTType(MethodInfo? method, string origin, string trans) {
-            QuickTrans(TargetType, method, origin, trans);
+        protected void TranslateTargetType(MethodInfo? method, string origin, string trans) {
+            QuickTranslation(TargetType, method, origin, trans);
         }
 
         public static Type GetSlrType(string type) => StarlightRiverZh.StarlightRiverTypes.FirstOrDefault(t => t.Name == type) ?? throw new Exception($"No type named {type} found in StarlightRiver assembly");

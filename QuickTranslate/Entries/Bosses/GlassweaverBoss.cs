@@ -13,11 +13,11 @@ namespace StarlightRiverZh.QuickTranslate.Entries {
 
         public override void Load() {
             MethodInfo ai = TargetType.GetMethod("AI", BindingFlags.Public | BindingFlags.Instance);
-            QTType(ai, "Glassweaver", Language.GetTextValue("Mods.StarlightRiver.NPCs.Glassweaver.DisplayName"));
-            QTType(ai, "Worker of the Anvil", "锻砧匠人");
+            TranslateTargetType(ai, "Glassweaver", Language.GetTextValue("Mods.StarlightRiver.NPCs.Glassweaver.DisplayName"));
+            TranslateTargetType(ai, "Worker of the Anvil", "锻砧匠人");
 
             MethodInfo gauntletWave0 = TargetType.GetMethod("GauntletWave0", BindingFlags.NonPublic | BindingFlags.Instance);
-            QTType(gauntletWave0, "Begin!", "开始！");
+            TranslateTargetType(gauntletWave0, "Begin!", "开始！");
         }
     }
 }

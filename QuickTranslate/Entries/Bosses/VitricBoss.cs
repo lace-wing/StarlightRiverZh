@@ -12,10 +12,10 @@ namespace StarlightRiverZh.QuickTranslate.Entries.Bosses {
 
         public override void Load() {
             MethodInfo ai = TargetType.GetMethod("AI", BindingFlags.Public | BindingFlags.Instance);
-            QTType(ai, ", Shattered Sentinel", "，碎晶哨卫");
+            TranslateTargetType(ai, ", Shattered Sentinel", "，碎晶哨卫");
 
             MethodInfo spawnAnimation = TargetType.GetMethod("SpawnAnimation", BindingFlags.NonPublic | BindingFlags.Instance);
-            QTType(spawnAnimation, "Shattered Sentinel", "碎晶哨卫");
+            TranslateTargetType(spawnAnimation, "Shattered Sentinel", "碎晶哨卫");
         }
     }
 }

@@ -18,12 +18,12 @@ namespace StarlightRiverZh.QuickTranslate {
         public virtual void Load() {
 
         }
-        public static void QuickTrans(Type type, string method, string origin, string trans, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Public) {
+        public static void QuickTranslation(Type type, string method, string origin, string trans, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Public) {
             MethodInfo me = type.GetMethod(method, bindingFlags);
-            QuickTrans(type, me, origin, trans);
+            QuickTranslation(type, me, origin, trans);
         }
 
-        public static void QuickTrans(Type type, MethodInfo? method, string origin, string trans) {
+        public static void QuickTranslation(Type type, MethodInfo? method, string origin, string trans) {
             if (method is null) {
                 StarlightRiverZh.Instance.Logger.Warn("Fail to get method in type \"" + type.FullName + "\"");
                 return;

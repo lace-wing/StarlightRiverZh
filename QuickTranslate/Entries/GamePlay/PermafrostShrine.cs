@@ -8,8 +8,8 @@ public class PermafrostShrine : MethodEntry
 
     public override void ILLoad()
     {
-        QTTM("Place blocks on", "把方块放置在");
-        QTTM("BLUE", "蓝色");
-        QTTM("squares", "区域");
+        TranslateTargetMethod("Place blocks on", "把方块放置在");
+        TranslateTargetMethod("BLUE", "蓝色");
+        TranslateTargetMethod("squares", "区域");
     }
 }

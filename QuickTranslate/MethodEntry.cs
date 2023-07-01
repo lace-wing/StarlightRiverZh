@@ -27,8 +27,8 @@ namespace StarlightRiverZh.QuickTranslate {
             ILLoad();
         }
 
-        protected void QTTM(string origin, string trans) {
-            QuickTrans(TargetType, method, origin, trans);
+        protected void TranslateTargetMethod(string origin, string trans) {
+            QuickTranslation(TargetType, method, origin, trans);
         }
     }
 }

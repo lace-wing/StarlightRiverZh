@@ -11,12 +11,12 @@ namespace StarlightRiverZh.QuickTranslate.Entries.Bosses {
         public SquidBoss() : base(typeof(StarlightRiver.Content.Bosses.SquidBoss.SquidBoss)) {}
         public override void Load() {
             MethodInfo ai = TargetType.GetMethod("AI", BindingFlags.Public | BindingFlags.Instance);
-            QTType(ai, ", The Venerated", "，冰海崇灵");
+            TranslateTargetType(ai, ", The Venerated", "，冰海崇灵");
 
             MethodInfo spawnAnimation = TargetType.GetMethod("SpawnAnimation", BindingFlags.Public | BindingFlags.Instance);
-            QTType(spawnAnimation, "Jammed Mod", "卡住模组");
-            QTType(spawnAnimation, "The Venerated", "冰海崇灵");
-            QTType(spawnAnimation, "Auroracle", Language.GetTextValue("Mods.StarlightRiver.NPCs.SquidBoss.DisplayName"));
+            TranslateTargetType(spawnAnimation, "Jammed Mod", "卡住模组");
+            TranslateTargetType(spawnAnimation, "The Venerated", "冰海崇灵");
+            TranslateTargetType(spawnAnimation, "Auroracle", Language.GetTextValue("Mods.StarlightRiver.NPCs.SquidBoss.DisplayName"));
         }
     }
 }
