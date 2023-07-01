@@ -17,6 +17,7 @@
 | Starwood | 星木 |  |
 | Ceiros | 塞洛斯 |  |
 | Auroracle (SquidBoss) | 极光之触 |  |
+| (Auroracle, )the Venerated | 冰海崇灵 | 好听一点 | 
 | Squiddite | 拜鱿教徒 |  |
 | Jellysquid | 水母鱿 |
 | Leggings | 护胫 | 与原版保持一致 |
