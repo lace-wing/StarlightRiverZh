@@ -1,0 +1,326 @@
+
+
+			Ivy: {
+				DisplayName: 常青藤
+				Tooltip: 一种常见但有着多种用途的草药
+			}
+
+			IvySeeds: {
+				DisplayName: 常青藤种子
+				Tooltip: 可以种植在吊挂盆中
+			}
+
+
+
+			CutlassBus: {
+				DisplayName: 弯刀之魂
+				Tooltip:
+					'''
+					egshels更新了这个，哈哈哈
+					嗨，是我，我是egshels，我不会再更新这个了，哈哈哈，它是调试物品
+					'''
+			}
+
+
+
+			VitricBossBarrierItem: {
+				DisplayName: VitricBossBarrierItem
+				Tooltip: 调试物品
+			}
+
+			GlassweaverBossBarrierItem: {
+				DisplayName: GlassweaverBossBarrierItem
+				Tooltip: 调试物品
+			}
+
+			BaseBarrierDye: {
+				DisplayName: Base Barrier Dye
+				Tooltip: ""
+			}
+
+			ExampleCombatMountItem: {
+				DisplayName: Example Combat Mount Item
+				Tooltip: ""
+			}
+
+			MonkSpade: {
+				DisplayName: 武僧月牙铲
+				Tooltip: ""
+			}
+
+			RainbowCycleDye: {
+				DisplayName: Rainbow Cycle Dye
+				Tooltip: ""
+			}
+
+			RainbowCycleDye2: {
+				DisplayName: Rainbow Cycle Dye2
+				Tooltip: ""
+			}
+
+			FaeHover: {
+				DisplayName: Fae Hover
+				Tooltip: ""
+			}
+
+			GenericHover: {
+				DisplayName: Generic Hover
+				Tooltip: ""
+			}
+
+			WindsHover: {
+				DisplayName: Winds Hover
+				Tooltip: ""
+			}
+
+			StaminaPickup: {
+				DisplayName: Stamina Pickup
+				Tooltip: ""
+			}
+
+			GlassArrowhead: {
+				DisplayName: 琉璃箭头
+				Tooltip: ""
+			}
+
+			ForestBerries: {
+				DisplayName: 森林莓
+				Tooltip: ""
+			}
+
+			RedLaserPointer: {
+				DisplayName: 红激光笔
+				Tooltip: ""
+			}
+
+			OrangeLaserPointer: {
+				DisplayName: 橙激光笔
+				Tooltip: ""
+			}
+
+			YellowLaserPointer: {
+				DisplayName: 黄激光笔
+				Tooltip: ""
+			}
+
+			GreenLaserPointer: {
+				DisplayName: 绿激光笔
+				Tooltip: ""
+			}
+
+			BlueLaserPointer: {
+				DisplayName: 蓝激光笔
+				Tooltip: ""
+			}
+
+			PurpleLaserPointer: {
+				DisplayName: 紫激光笔
+				Tooltip: ""
+			}
+
+			WhiteLaserPointer: {
+				DisplayName: 白激光笔
+				Tooltip: ""
+			}
+
+			PinkLaserPointer: {
+				DisplayName: 粉激光笔
+				Tooltip: ""
+			}
+
+			CoolmiteLargeItem: {
+				DisplayName: Coolmismer
+				Tooltip: High intensity beauty! Avoid eye and skin exposure.
+			}
+
+			CoolmiteSmolItem: {
+				DisplayName: Coolmini
+				Tooltip: Sharp edges! Watch your fingers.
+			}
+
+			MagmiteLargeItem: {
+				DisplayName: Magmite
+				Tooltip: Admire him!
+			}
+
+			MagmiteSmolItem: {
+				DisplayName: Magmini
+				Tooltip: Nurture him!
+			}
+
+			CoolmitePassiveItem: {
+				Tooltip: Fragile! Please handle with care.
+				DisplayName: Coolmite
+			}
+
+		Compat: {
+			BossChecklist: {
+				Auroracle: {
+					SpawnInfo: 将一个可疑供品扔进永冻神殿的流光水中，那里只有穿过极寒洞窟才能进入。
+					Despawn: 冰封的教堂重归寂静。
+				}
+
+				Glassweaver: {
+					SpawnInfo: 在琉璃沙漠边缘的锻炉中挑战织璃匠。
+					Despawn: 织璃匠宣告了他的胜利。
+				}
+
+				Ceiros: {
+					SpawnInfo: 在使用禁忌之风击碎覆盖在琉璃神殿顶部祭坛上的水晶后，使用琉璃圣像。
+					Despawn: 琉璃锻炉重归寂静，织璃匠感到很失望。
+				}
+			}
+		}
+
+		Configs: {
+			AudioConfig: {
+				DisplayName: 音频配置
+
+				InvSounds: {
+					Label: 特制物品栏音效
+					Tooltip: 修改所有的，特定的或不修改物品的物品栏音效。
+				}
+			}
+
+			CustomSounds: {
+				Tooltip: ""
+				All.Label: 所有
+				Specific.Label: 特定
+				None.Label: 无
+			}
+
+			GraphicsConfig: {
+				DisplayName: 图像配置
+
+				ScreenshakeMult: {
+					Label: 震屏
+					Tooltip: 修改震屏效果的强度。
+				}
+
+				LightingPollRate: {
+					Label: 光照缓冲区轮询速率
+					Tooltip:
+						'''
+						修改光照系统缓冲区轮询数据的速率。
+						值越高，性能越好，但一些物体的光照加载变慢。
+						值越低，光照越顺滑，但性能需求越高。
+						'''
+				}
+
+				ScrollingLightingPoll: {
+					Label: 轮换式光照更新
+					Tooltip:
+						'''
+						让光照系统根据轮询速率更新，而不是一次性更新全部。
+						可能使光照更平滑，但会导致奇怪的光照效果。
+						'''
+				}
+
+				ParticlesActive: {
+					Label: 额外粒子
+					Tooltip:
+						'''
+						开关特殊粒子效果。 
+						若您遇到了性能问题，请关闭。
+						'''
+				}
+
+				HighQualityLighting: {
+					Label: 高质量光照材质
+					Tooltip:
+						'''
+						开关大型材质上的特殊光照。 
+						若您遇到了性能问题，请关闭。
+						'''
+				}
+
+				ReflectionConfig: {
+					Label: 背景反射
+					Tooltip:
+						'''
+						控制背景反射渲染哪些物体。
+						若您遇到了性能问题，请关闭。
+						'''
+				}
+			}
+
+			ReflectionSubConfig: {
+				Tooltip: ""
+
+				ReflectionsOn: {
+					Label: 背景反射
+					Tooltip:
+						'''
+						开关背景反射系统。
+						若关闭，该区域中的其他配置会失效。
+						若您遇到了性能问题，请关闭。
+						'''
+				}
+
+				PlayerReflectionsOn: {
+					Label: 反射玩家
+					Tooltip:
+						'''
+						开关玩家人物的背景反射。
+						对性能的影响小。
+						'''
+				}
+
+				NpcReflectionsOn: {
+					Label: 反射NPC
+					Tooltip:
+						'''
+						开关NPC的背景反射。
+						对性能的影响小。
+						'''
+				}
+
+				ProjReflectionsOn: {
+					Label: 反射射弹
+					Tooltip:
+						'''
+						开关射弹的背景反射。
+						对性能的影响大。
+						'''
+				}
+
+				DustReflectionsOn: {
+					Label: 反射粒子
+					Tooltip:
+						'''
+						开关粒子（Particle 和 Dust）和尸块的背景反射。
+						对性能的影响大。
+						'''
+				}
+			}
+
+			GUIConfig: {
+				DisplayName: 图形交互界面配置
+
+				OverheadStaminaState: {
+					Label: 头顶星光条显示
+					Tooltip: 控制玩家头顶星光条的显示时机。
+				}
+
+				KeywordStyle: {
+					Label: 关键词样式
+					Tooltip: 控制关键词在物品描述中的样式。
+				}
+			}
+
+			OverlayState: {
+				Tooltip: ""
+				AlwaysOn.Label: 始终
+				WhileNotFull.Label: 仅未满时
+				WhileUsing.Label: 仅使用时
+				Never.Label: 永不
+			}
+
+			KeywordStyle: {
+				Tooltip: ""
+				Colors.Label: 上色
+				Brackets.Label: 带括号
+				Both.Label: 两者皆有
+				Neither.Label: 两者皆无
+			}
+		}
