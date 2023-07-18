@@ -122,15 +122,6 @@ Mods: {
 					'''
 			}
 
-			SaltCogs: {
-				DisplayName: Salt Cogs
-				Tooltip:
-					'''
-					Your sentries fire twice as fast for two seconds after placing them
-					100% increased sentry placement speed
-					'''
-			}
-
 			SeaglassRing: {
 				DisplayName: Seaglass Ring
 				Tooltip:
@@ -581,12 +572,12 @@ Mods: {
 				DisplayName: Effects of different gems:
 				Tooltip:
 					'''
-					[i/s1:5663]: Critical strikes partially ignore armor, with increased chance for missing enemy HP 
-					[i/s1:5671]: +100 barrier. Gain a shield that points to your cursor and blocks attacks, consuming barrier 
-					[i/s1:5664]: Immediately heal 20 hp. Hits have a chance to create a 5 HP life heart 
-					[i/s1:5670]: Immediately refill mana. Hits have a chance to create 1 to 3 mana stars 
-					[i/s1:5662]: All strikes inflict Toxic Amethyst, a stacking poison debuff 
-					[i/s1:5669]: Hits have a chance to summon a Ruby Dagger to seek the struck enemy for 20% of the hit's damage
+					[i/s1:5662]: Critical strikes partially ignore armor, with increased chance for missing enemy HP 
+					[i/s1:5670]: +100 barrier. Gain a shield that points to your cursor and blocks attacks, consuming barrier 
+					[i/s1:5663]: Immediately heal 20 hp. Hits have a chance to create a 5 HP life heart 
+					[i/s1:5669]: Immediately refill mana. Hits have a chance to create 1 to 3 mana stars 
+					[i/s1:5661]: All strikes inflict Toxic Amethyst, a stacking poison debuff 
+					[i/s1:5668]: Hits have a chance to summon a Ruby Dagger to seek the struck enemy for 20% of the hit's damage
 					'''
 			}
 
@@ -2628,6 +2619,16 @@ Mods: {
 				Tooltip: ""
 			}
 
+			VitricBossBarrierItem: {
+				DisplayName: VitricBossBarrierItem
+				Tooltip: debug item
+			}
+
+			GlassweaverBossBarrierItem: {
+				DisplayName: GlassweaverBossBarrierItem
+				Tooltip: debug item
+			}
+
 			VitricBathtub: {
 				DisplayName: Vitric Bathtub
 				Tooltip: ""
@@ -2711,16 +2712,6 @@ Mods: {
 			VitricDoorClosed: {
 				DisplayName: Vitric Door
 				Tooltip: ""
-			}
-
-			VitricBossBarrierItem: {
-				DisplayName: VitricBossBarrierItem
-				Tooltip: debug item
-			}
-
-			GlassweaverBossBarrierItem: {
-				DisplayName: GlassweaverBossBarrierItem
-				Tooltip: debug item
 			}
 
 			CombatShrineBarrierItem: {
@@ -2906,6 +2897,15 @@ Mods: {
 			VitricSandPlainItem: {
 				DisplayName: Soft Sand
 				Tooltip: ""
+			}
+
+			SaltCogs: {
+				DisplayName: Salt Cogs
+				Tooltip:
+					'''
+					Your sentries fire twice as fast for two seconds after placing them
+					100% increased sentry placement speed
+					'''
 			}
 		}
 
@@ -3252,6 +3252,7 @@ Mods: {
 			WitShrine.MapEntry: Mysterious Shrine
 			DashBarrier.MapEntry: ""
 			JarTall.MapEntry: Stamina Jar
+			ManabondTile.MapEntry: Manabond
 			TempleChestSimple.MapEntry: ""
 			TempleLootBubble.MapEntry: ""
 			VerletBanner.MapEntry: ""
@@ -3469,7 +3470,9 @@ Mods: {
 			InfusionSlotPickup.DisplayName: Unnerving Device
 			BerrySlime.DisplayName: Slimeberry
 			TouchstoneWisp.DisplayName: Aurora Spirit
+			SoulNibbler.DisplayName: Soul Nibbler
 			LootWraith.DisplayName: Loot Wraith
+			GloomSlime.DisplayName: Gloom Slime
 		}
 
 		Buffs: {
@@ -3778,6 +3781,25 @@ Mods: {
 			StaminaPrefix2.DisplayName: Shining
 			StaminaPrefix3.DisplayName: Glowing
 			StaminaPrefix4.DisplayName: Radiant
+		}
+
+		Compat: {
+			BossChecklist: {
+				Auroracle: {
+					SpawnInfo: Drop a Suspicious Looking Offering into the prismatic waters of the Permafrost Shrine, accessed only through the coldest caves.
+					Despawn: The frozen cathedral falls silent.
+				}
+
+				Glassweaver: {
+					SpawnInfo: Challenge the glassweaver in his forge, near the edge of the Vitric Desert.
+					Despawn: The Glassweaver claims victory.
+				}
+
+				Ceiros: {
+					SpawnInfo: Use a Glass Idol at the altar atop the Vitric Temple, after breaking the crystal covering it using Forbidden Winds.
+					Despawn: The Vitric Forge falls silent. The Glassweaver is dissapointed.
+				}
+			}
 		}
 	}
 }
