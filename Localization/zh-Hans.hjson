@@ -108,6 +108,28 @@ Mods: {
 					'''
 				DisplayName: 搅拌棒
 			}
+			
+			ArtilleryLicense: {
+				DisplayName: Artillery License
+				Tooltip:
+					'''
+					增加1格最大哨兵栏位
+					`Totally not forged`
+					'''
+			}
+
+			DefenseSystem: {
+				DisplayName: Arms Dealer's Defense System
+				Tooltip:
+					'''
+					召唤一架携带枪械的炮塔
+					右键在不同的枪械之间循环切换
+					[i/s1:95] Modest damage with good range
+					[i/s1:964] Great damage with short range
+					[i/s1:98] Light damage with great fire rate
+
+					'''
+			}
 
 			MoonstoneBarrierDye: {
 				DisplayName: 月长石染剂
@@ -126,6 +148,15 @@ Mods: {
 					使屏障能够模仿碎晶哨卫的护盾效果
 					可装备
 					装饰性物品
+					'''
+			}
+
+			SaltCogs: {
+				DisplayName: Salt Cogs
+				Tooltip:
+					'''
+					你的哨兵在被放置后的两秒内会以两倍速度攻击
+					增加100%哨兵放置速度
 					'''
 			}
 
@@ -793,12 +824,12 @@ Mods: {
 				DisplayName: 不同宝石的效果：
 				Tooltip:
 					'''
-					[i/s1:5662]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
-					[i/s1:5670]：+100点屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
-					[i/s1:5663]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
-					[i/s1:5669]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
-					[i/s1:5661]：使用攻击都会造成可叠加的剧毒紫晶减益
-					[i/s1:5668]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
+					[i/s1:5667]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
+					[i/s1:5675]：+100点屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
+					[i/s1:5668]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
+					[i/s1:5674]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
+					[i/s1:5666]：使用攻击都会造成可叠加的剧毒紫晶减益
+					[i/s1:5673]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
 					'''
 			}
 
@@ -3194,15 +3225,6 @@ Mods: {
 				DisplayName: 软沙块
 				Tooltip: ""
 			}
-
-			SaltCogs: {
-				DisplayName: Salt Cogs
-				Tooltip:
-					'''
-					你的哨兵在被放置后的两秒内会以两倍速度攻击
-					增加100%哨兵放置速度
-					'''
-			}
 		}
 
 		Projectiles: {
@@ -3226,6 +3248,9 @@ Mods: {
 			GlassSpike.DisplayName: 琉璃尖刺
 			LavaDart.DisplayName: 熔岩弹丸
 			TelegraphedGlassSpike.DisplayName: 琉璃尖刺
+			MinigunTurret.DisplayName: Gun turret
+			PistolTurret.DisplayName: Gun turret
+			ShotgunTurret.DisplayName: Gun turret
 			BreachCannonSentry.DisplayName: Breach Cannon
 			ExplosiveFlare.DisplayName: Explosive Flare
 			FlareShrapnel.DisplayName: Explosive Shrapnel
@@ -3479,6 +3504,9 @@ Mods: {
 			VitricOreFloatDummy.DisplayName: ""
 			VitricSmallDummy.DisplayName: ""
 			VitricBannerDummy.DisplayName: ""
+			MinigunTurret.DisplayName: Gun turret
+			PistolTurret.DisplayName: Gun turret
+			ShotgunTurret.DisplayName: Gun turret
 		}
 
 		Tiles: {
@@ -3730,17 +3758,20 @@ Mods: {
 			VitricBossPlatformUp.DisplayName: ""
 			VitricBossPlatformUpSmall.DisplayName: ""
 			BossRushOrb.DisplayName: ???
+			SoulNibbler.DisplayName: Soul Nibbler
 			CrescentCaster.DisplayName: 新月法师
 			Blover.DisplayName: 三叶草
 			TreeBat.DisplayName: 树蝠
 			Warbanner.DisplayName: Haunted Warbanner
 			Fogbinder.DisplayName: 雾影锁魔
+			LootWraith.DisplayName: Loot Wraith
 			AngryCrescent.DisplayName: 愤怒新月
 			Dreamprism.DisplayName: 梦幻棱晶
 			Crusher.DisplayName: 碾碎机
 			Snoobel.DisplayName: 史努贝尔
 			SwordEnemy.DisplayName: Sky Splicer
 			Crow.DisplayName: ???
+			GloomSlime.DisplayName: Gloom Slime
 			BoomBug.DisplayName: 萤火虫
 			CoolmiteLarge.DisplayName: Coolmismer
 			Coolmite.DisplayName: 冷滴螨
@@ -3766,9 +3797,6 @@ Mods: {
 			InfusionSlotPickup.DisplayName: Unnerving Device
 			BerrySlime.DisplayName: 莓果史莱姆
 			TouchstoneWisp.DisplayName: 极光之魂
-			SoulNibbler.DisplayName: Soul Nibbler
-			LootWraith.DisplayName: Loot Wraith
-			GloomSlime.DisplayName: Gloom Slime
 		}
 
 		Buffs: {
