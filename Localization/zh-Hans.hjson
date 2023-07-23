@@ -3245,6 +3245,11 @@ Mods: {
 				DisplayName: 软沙块
 				Tooltip: ""
 			}
+
+			HeartStatueSentryItem: {
+				DisplayName: Heart Statue?
+				Tooltip: 召唤一个由你的敌人的灵魂驱动的心形雕像
+			}
 		}
 
 		Projectiles: {
@@ -3525,6 +3530,7 @@ Mods: {
 			VitricOreFloatDummy.DisplayName: ""
 			VitricSmallDummy.DisplayName: ""
 			VitricBannerDummy.DisplayName: ""
+			HeartStatueSentry.DisplayName: Heart Statue?
 		}
 
 		Tiles: {
@@ -4109,6 +4115,11 @@ Mods: {
 					增加挖掘速度
 					'''
 			}
+
+			HeartStatueDrain: {
+				DisplayName: Heart Siphon
+				Description: ""
+			}
 		}
 
 		Prefixes: {
@@ -4139,7 +4150,7 @@ Mods: {
 
 				Ceiros: {
 					SpawnInfo: 在使用禁忌之风击碎覆盖在琉璃神殿顶部祭坛上的水晶后，使用琉璃圣像。
-					Despawn:琉璃锻炉重归寂静，织璃匠感到很失望。
+					Despawn: 琉璃锻炉重归寂静，织璃匠感到很失望。
 				}
 			}
 		}
