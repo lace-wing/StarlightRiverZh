@@ -3250,6 +3250,16 @@ Mods: {
 				DisplayName: Heart Statue?
 				Tooltip: 召唤一个由你的敌人的灵魂驱动的心形雕像
 			}
+
+			ManEaterPot: {
+				DisplayName: Man Eater Pot
+				Tooltip:
+					'''
+					使食人花从你的脑袋中发芽
+					食人花会消耗拾取的红心来强化自己
+					被消耗的红心会在短暂延迟后治疗你
+					'''
+			}
 		}
 
 		Projectiles: {
@@ -3531,6 +3541,7 @@ Mods: {
 			VitricSmallDummy.DisplayName: ""
 			VitricBannerDummy.DisplayName: ""
 			HeartStatueSentry.DisplayName: Heart Statue?
+			ManEaterPotMinion.DisplayName: Tamed Man Eater
 		}
 
 		Tiles: {
@@ -4119,6 +4130,11 @@ Mods: {
 			HeartStatueDrain: {
 				DisplayName: Heart Siphon
 				Description: ""
+			}
+
+			ManEaterPotBuff: {
+				DisplayName: Man Eaters
+				Description: Quite the hairdo you have!
 			}
 		}
 
