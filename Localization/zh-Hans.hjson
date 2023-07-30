@@ -3260,6 +3260,53 @@ Mods: {
 					被消耗的红心会在短暂延迟后治疗你
 					'''
 			}
+
+			EchochainWhip: {
+				DisplayName: Echochain
+				Tooltip:
+					'''
+					链锁敌人，使其共享受到的召唤伤害
+					长按并松开右键以将你附近的敌人链缚在地面上，并链锁受影响的敌人
+					'''
+			}
+
+			HauntedDaggerStaff: {
+				DisplayName: Haunted Dagger Staff
+				Tooltip:
+					'''
+					召唤会嵌入在敌人体内的萦魂匕首
+					更改召唤目标或用鞭子击打它们会使匕首从敌人身上撕裂下来
+					'These aren't enchanted... they're haunted!'
+					'It's different?'
+					'It's different.'
+					'''
+			}
+
+			VengefulSpirit: {
+				DisplayName: Vengeful Spirit
+				Tooltip: "'I don't think it likes you'"
+				"Drop Rule": 在击败史莱姆王、克苏鲁之眼或极光之触后掉落
+			}
+			WatchBattery: {
+				DisplayName: Watch Battery
+				Tooltip: 你的哨兵在被放置后会电击附近的敌人
+			}
+
+			SeaglassLens: {
+				DisplayName: Seaglass Lens
+				Tooltip: 你的哨兵可以造成暴击
+			}
+
+			ExoticTimepiece: {
+				DisplayName: Exotic Timepiece
+				Tooltip:
+					'''
+					你的哨兵的攻击速度更快且在被放置后会电击附近的敌人
+					你的仆从和哨兵偶尔会造成额外伤害
+					额外伤害视为造成一次暴击
+					增加200%哨兵放置速度
+					'''
+			}
 		}
 
 		Projectiles: {
@@ -3540,6 +3587,79 @@ Mods: {
 			VitricOreFloatDummy.DisplayName: ""
 			VitricSmallDummy.DisplayName: ""
 			VitricBannerDummy.DisplayName: ""
+			HintText.DisplayName: Hint Text
+			BurningGround.DisplayName: Burning Ground
+			GlassJavelin.DisplayName: Glass Javelin
+			GlassweaverDoor.DisplayName: Glassweaver Door
+			Glint.DisplayName: Glint
+			AuroraWaterSplash.DisplayName: Aurora Water Splash
+			DoorBomb.DisplayName: Door Bomb
+			Laser.DisplayName: Laser
+			CrystalWave.DisplayName: Crystal Wave
+			FireCone.DisplayName: Fire Cone
+			FireRingHostile.DisplayName: Fire Ring Hostile
+			FireRing.DisplayName: Fire Ring
+			GlassVolley.DisplayName: Glass Volley
+			GlassVolleyShard.DisplayName: Glass Volley Shard
+			SpikeMine.DisplayName: Spike Mine
+			VitricBomb.DisplayName: Vitric Bomb
+			LightningNode.DisplayName: Lightning Node
+			ScrapshotHook.DisplayName: Scrapshot Hook
+			AztecDeathSaxophoneSoundwave.DisplayName: Aztec Death Saxophone Soundwave
+			SandSlash.DisplayName: Sand Slash
+			TwistSwordProjectile.DisplayName: Twist Sword Projectile
+			Acorn.DisplayName: Acorn
+			MonkSpadeProjectile.DisplayName: Monk Spade Projectile
+			GeoAmethystProj.DisplayName: Geo Amethyst Proj
+			GeoDiamondProj.DisplayName: Geo Diamond Proj
+			GeoEmeraldProj.DisplayName: Geo Emerald Proj
+			GeoRubyProj.DisplayName: Geo Ruby Proj
+			GeoSapphireProj.DisplayName: Geo Sapphire Proj
+			GeoTopazProj.DisplayName: Geo Topaz Proj
+			ThunderbussBall.DisplayName: Thunderbuss Ball
+			AxeBookProjectile.DisplayName: Axe Book Projectile
+			BizarreLightning.DisplayName: Bizarre Lightning
+			BizarreLightningOrb.DisplayName: Bizarre Lightning Orb
+			BizarrePotionPoisonCloud.DisplayName: Bizarre Potion Poison Cloud
+			FryingPanThrownProj.DisplayName: Frying Pan Thrown Proj
+			GuillotineVFX.DisplayName: Guillotine V F X
+			HolyAmuletOrb.DisplayName: Holy Amulet Orb
+			SorcerwrenchProjectile.DisplayName: Sorcerwrench Projectile
+			SpearBookProjectile.DisplayName: Spear Book Projectile
+			SwordBookParry.DisplayName: Sword Book Parry
+			SwordBookProjectile.DisplayName: Sword Book Projectile
+			ThrownAxeProjectile.DisplayName: Thrown Axe Projectile
+			UltrapillBlood.DisplayName: Ultrapill Blood
+			DatsuzeiProjectile.DisplayName: Datsuzei Projectile
+			StarGlaive.DisplayName: Star Glaive
+			StarShuriken.DisplayName: Star Shuriken
+			AuroraThroneMountMinion.DisplayName: Aurora Throne Mount Minion
+			FrostballProjectile.DisplayName: Frostball Projectile
+			FrostExplosion.DisplayName: Frost Explosion
+			TentalanceProjectile.DisplayName: Tentalance Projectile
+			StarwoodSlingshotProj.DisplayName: Starwood Slingshot Proj
+			TemplePickProjectile.DisplayName: Temple Pick Projectile
+			TempleSpearLight.DisplayName: Temple Spear Light
+			LaserPointerProjectile.DisplayName: Laser Pointer Projectile
+			CoachGunUpgradeExplosion.DisplayName: Coach Gun Upgrade Explosion
+			MagmaBottleBurn.DisplayName: Magma Bottle Burn
+			MagmiteBombProjectile.DisplayName: Magmite Bomb Projectile
+			MagmiteBottleProjectile.DisplayName: Magmite Bottle Projectile
+			RefractiveBladeLaser.DisplayName: Refractive Blade Laser
+			RefractiveBladeProj.DisplayName: Refractive Blade Proj
+			VitricBowProjectile.DisplayName: Vitric Bow Projectile
+			VitricBowShard.DisplayName: Vitric Bow Shard
+			BossRushOrbGoreProjectile.DisplayName: Boss Rush Orb Gore Projectile
+			ConstructSpawner.DisplayName: Construct Spawner
+			GauntletSpawner.DisplayName: Gauntlet Spawner
+			SpawnEgg.DisplayName: Spawn Egg
+			SandscriptBook.DisplayName: Sandscript Book
+			RecursiveFocusLaser.DisplayName: Infernal Laser
+			GlassShard.DisplayName: Glass Shard
+			EchochainWhipProjectile.DisplayName: Echochain
+			HauntedDaggerProjectile.DisplayName: Haunted Dagger
+			EchochainWhipAltProjectile.DisplayName: Magmite Vacpack
+			EchochainWhipAltProjectileChain.DisplayName: Echo Chain
 			HeartStatueSentry.DisplayName: Heart Statue?
 			ManEaterPotMinion.DisplayName: Tamed Man Eater
 		}
@@ -4125,6 +4245,21 @@ Mods: {
 					下面是什么？
 					增加挖掘速度
 					'''
+			}
+
+			HauntedDaggerSummonBuff: {
+				DisplayName: Haunted Daggers
+				Description: Death by a hundred cuts
+			}
+
+			StarlightRiver/Assets/Invisible: {
+				DisplayName: Taking Damage
+				Description: Chained up...
+			}
+
+			EchochainDamageBuff: {
+				DisplayName: Taking Damage
+				Description: Chained up...
 			}
 
 			HeartStatueDrain: {
