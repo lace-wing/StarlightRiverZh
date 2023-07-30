@@ -119,14 +119,14 @@ Mods: {
 			}
 
 			DefenseSystem: {
-				DisplayName: Arms Dealer's Defense System
+				DisplayName: 军火商的防御系统
 				Tooltip:
 					'''
 					召唤一架携带枪械的炮塔
 					右键在不同的枪械之间循环切换
-					[i/s1:95] Modest damage with good range
-					[i/s1:964] Great damage with short range
-					[i/s1:98] Light damage with great fire rate
+					[i/s1:95] 良好的射程，中等伤害
+					[i/s1:964] 短射程，巨额伤害
+					[i/s1:98] 高射速，低伤害
 
 					'''
 			}
@@ -1903,7 +1903,7 @@ Mods: {
 			}
 
 			StarwoodScepter: {
-				DisplayName: Starwood Scepter
+				DisplayName: 星木权杖
 				Tooltip:
 					'''
 					召唤一颗有意识的星星的两半
