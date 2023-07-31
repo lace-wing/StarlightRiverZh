@@ -110,7 +110,7 @@ Mods: {
 			}
 			
 			ArtilleryLicense: {
-				DisplayName: Artillery License
+				DisplayName: 炮兵执照
 				Tooltip:
 					'''
 					增加1格最大哨兵栏位
@@ -152,7 +152,7 @@ Mods: {
 			}
 
 			SaltCogs: {
-				DisplayName: Salt Cogs
+				DisplayName: 盐齿轮
 				Tooltip:
 					'''
 					你的哨兵在被放置后的两秒内会以两倍速度攻击
@@ -774,7 +774,7 @@ Mods: {
 			}
 
 			SlimePrinceChest: {
-				DisplayName: Slime Prince's Curiass
+				DisplayName: 史莱姆王子的胸甲
 				Tooltip:
 					'''
 					增加5%召唤伤害
@@ -783,12 +783,12 @@ Mods: {
 			}
 
 			SlimePrinceHead: {
-				DisplayName: Slime Prince's Crown
+				DisplayName: 史莱姆王子的王冠
 				Tooltip: 增加10%召唤伤害
 			}
 
 			SlimePrinceLegs: {
-				DisplayName: Slime Prince's Tassets
+				DisplayName: 史莱姆王子的腿甲
 				Tooltip: 仆从施加5%的曝光
 			}
 
@@ -985,7 +985,7 @@ Mods: {
 			}
 
 			HauntedDaggerStaff: {
-				DisplayName: Haunted Dagger Staff
+				DisplayName: 萦魂匕首法杖
 				Tooltip:
 					'''
 					召唤会嵌入在敌人体内的萦魂匕首
@@ -1054,7 +1054,7 @@ Mods: {
 			}
 
 			BasicManabond: {
-				DisplayName: Manabond
+				DisplayName: 魔力契约
 				Tooltip:
 					'''
 					你的仆从能够储存40点魔力值
