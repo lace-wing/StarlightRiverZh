@@ -426,6 +426,16 @@ Mods: {
 					'''
 			}
 
+			StoneOfTheDrowned: {
+				DisplayName: Stone of the Drowned
+				Tooltip:
+					'''
+					+30 屏障
+					当你没有屏障时增加2格最大仆从栏位
+					当你的屏障降至0时自动召唤占据2格仆从栏位的召唤物
+					'''
+					}
+
 			ThousandthDegree: {
 				Tooltip:
 					'''
@@ -844,12 +854,12 @@ Mods: {
 				DisplayName: 不同宝石的效果：
 				Tooltip:
 					'''
-					[i/s1:5668]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
-					[i/s1:5676]：+100点屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
-					[i/s1:5669]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
-					[i/s1:5675]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
-					[i/s1:5667]：使用攻击都会造成可叠加的剧毒紫晶减益
-					[i/s1:5674]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
+					[i/s1:7681]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
+					[i/s1:7689]：+100点屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
+					[i/s1:7682]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
+					[i/s1:7688]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
+					[i/s1:7680]：使用攻击都会造成可叠加的剧毒紫晶减益
+					[i/s1:7687]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
 					'''
 			}
 
@@ -948,7 +958,7 @@ Mods: {
 				DisplayName: 拉德库拉长剑
 				Tooltip:
 					'''
-					快速戳刺敌人，造成可堆叠的流血减益
+					快速戳刺敌人，造成可叠加的流血减益
 					右键极速冲刺至光标位置，收割路径上流血减益的敌人以造成高伤害和吸血效果
 					极速冲刺时击中多个敌人会缩短下一次冲刺的冷却时间
 					'''
@@ -982,18 +992,6 @@ Mods: {
 					你无法再造成暴击
 					'''
 				DisplayName: 尸花
-			}
-
-			HauntedDaggerStaff: {
-				DisplayName: 萦魂匕首法杖
-				Tooltip:
-					'''
-					召唤会嵌入在敌人体内的萦魂匕首
-					更改召唤目标或用鞭子击打它们会使匕首从敌人身上撕裂下来
-					'These aren't enchanted... they're haunted!'
-					'It's different?'
-					'It's different.'
-					'''
 			}
 
 			Slitherring: {
@@ -1265,6 +1263,15 @@ Mods: {
 					'''
 					链锁附近的敌人
 					会对敌人造成过充减益，大幅度降低敌人的移动速度
+					'''
+			}
+
+			EnchantedWateringCan: {
+				DisplayName: Enchanted Watering Can
+				Tooltip:
+					'''
+					将树苗催长成大树苗
+					加速大树苗的生长
 					'''
 			}
 
@@ -2424,6 +2431,11 @@ Mods: {
 				Tooltip: 放置一个史莱姆莓丛
 			}
 
+			ThickTreeAcorn: {
+				DisplayName: Large Acorn
+				Tooltip: ""
+			}
+
 			AncientFruit: {
 				DisplayName: 上古水果
 				Tooltip: " "
@@ -3270,6 +3282,15 @@ Mods: {
 					'''
 			}
 
+			HauntedAmethyst: {
+				DisplayName: Haunted Amethyst
+				Tooltip:
+					'''
+					当生命值低于50%时增加1格最大仆从栏位
+					如果你的物品栏中有可用的召唤武器时，自动召唤一个仆从
+					'''
+			}
+
 			HauntedDaggerStaff: {
 				DisplayName: Haunted Dagger Staff
 				Tooltip:
@@ -3294,7 +3315,11 @@ Mods: {
 
 			SeaglassLens: {
 				DisplayName: Seaglass Lens
-				Tooltip: 你的哨兵可以造成暴击
+				Tooltip:
+					'''
+					你的仆从和哨兵偶尔会造成额外伤害
+					额外伤害视为造成一次暴击
+					'''
 			}
 
 			ExoticTimepiece: {

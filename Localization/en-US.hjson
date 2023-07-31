@@ -416,6 +416,16 @@ Mods: {
 					'''
 			}
 
+			StoneOfTheDrowned: {
+				DisplayName: Stone of the Drowned
+				Tooltip:
+					'''
+					+30 barrier
+					Increases your max number of minions by 2 when you have no barrier
+					Automatically re-summons two slots worth of minions when you reach 0 barrier
+					'''
+					}
+
 			ThousandthDegree.Tooltip:
 				'''
 				Melts through enemies to build up heat
@@ -622,12 +632,12 @@ Mods: {
 				DisplayName: Effects of different gems:
 				Tooltip:
 					'''
-					[i/s1:5668]: Critical strikes partially ignore armor, with increased chance for missing enemy HP 
-					[i/s1:5676]: +100 barrier. Gain a shield that points to your cursor and blocks attacks, consuming barrier 
-					[i/s1:5669]: Immediately heal 20 hp. Hits have a chance to create a 5 HP life heart 
-					[i/s1:5675]: Immediately refill mana. Hits have a chance to create 1 to 3 mana stars 
-					[i/s1:5667]: All strikes inflict Toxic Amethyst, a stacking poison debuff 
-					[i/s1:5674]: Hits have a chance to summon a Ruby Dagger to seek the struck enemy for 20% of the hit's damage
+					[i/s1:7681]: Critical strikes partially ignore armor, with increased chance for missing enemy HP 
+					[i/s1:7689]: +100 barrier. Gain a shield that points to your cursor and blocks attacks, consuming barrier 
+					[i/s1:7682]: Immediately heal 20 hp. Hits have a chance to create a 5 HP life heart 
+					[i/s1:7688]: Immediately refill mana. Hits have a chance to create 1 to 3 mana stars 
+					[i/s1:7680]: All strikes inflict Toxic Amethyst, a stacking poison debuff 
+					[i/s1:7687]: Hits have a chance to summon a Ruby Dagger to seek the struck enemy for 20% of the hit's damage
 					'''
 			}
 
@@ -1030,6 +1040,15 @@ Mods: {
 					'''
 					Chains to nearby enemies
 					Inflicts Overcharged, greatly lowering enemy defense
+					'''
+			}
+
+			EnchantedWateringCan: {
+				DisplayName: Enchanted Watering Can
+				Tooltip:
+					'''
+					Grows saplings into large saplings
+					Speeds up the growth of large saplings
 					'''
 			}
 
@@ -2127,6 +2146,11 @@ Mods: {
 				Tooltip: Places a slimeberry bush
 			}
 
+			ThickTreeAcorn: {
+				DisplayName: Large Acorn
+				Tooltip: ""
+			}
+
 			AncientFruit: {
 				DisplayName: Ancient Fruit
 				Tooltip: " "
@@ -2973,6 +2997,15 @@ Mods: {
 					'''
 			}
 
+			HauntedAmethyst: {
+				DisplayName: Haunted Amethyst
+				Tooltip:
+					'''
+					Increases your number of max minions by 1 when below 50% life
+					Automatically summons a minion if there is a valid weapon in your inventory
+					'''
+			}
+
 			HauntedDaggerStaff: {
 				DisplayName: Haunted Dagger Staff
 				Tooltip:
@@ -2997,7 +3030,11 @@ Mods: {
 
 			SeaglassLens: {
 				DisplayName: Seaglass Lens
-				Tooltip: Your sentries can critically strike
+				Tooltip:
+				'''
+				Your minions and sentries occasionally deal extra damage
+				This extra damage counts as a critical strike
+				'''
 			}
 
 			ExoticTimepiece: {
