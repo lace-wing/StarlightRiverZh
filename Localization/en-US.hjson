@@ -4000,7 +4000,8 @@ Mods: {
 			EchochainDamageBuff: {
 				DisplayName: Taking Damage
 				Description: Chained up...
-				
+			}
+
 			HeartStatueDrain: {
 				DisplayName: Heart Siphon
 				Description: ""
