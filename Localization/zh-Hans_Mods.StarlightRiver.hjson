@@ -124,7 +124,7 @@ Items: {
 			右键在不同的枪械之间循环切换
 			[i/s1:95] 良好的射程，中等伤害
 			[i/s1:964] 短射程，巨额伤害
-			[i/s1:98] 高射程，低伤害
+			[i/s1:98] 高射速，低伤害
 
 			'''
 	}
@@ -1101,7 +1101,7 @@ Items: {
 			'''
 			在锥形范围发射强大的闪电
 			右键发射一个爆炸性闪电球，它会吸引并强化你发射的闪电
-			'Crush the path of most resistance'
+			'粉碎最具抗性之道'
 			'''
 	}
 
@@ -2329,7 +2329,7 @@ Items: {
 		Tooltip:
 			'''
 			受到伤害时释放燃火环
-			'Meet your foes head-on, and give them a scorching embrace'
+			'直面你的敌人，给它们一个炽热的拥抱'
 			'''
 	}
 
@@ -2447,7 +2447,7 @@ Items: {
 	}
 
 	MagmiteSmolItem: {
-		DisplayName: Magmini
+		DisplayName: 迷你螨
 		Tooltip: 养育他！
 	}
 
@@ -2516,7 +2516,7 @@ Items: {
 	}
 
 	ThickTreeAcorn: {
-		DisplayName: Large Acorn
+		DisplayName: 大橡子
 		Tooltip: ""
 	}
 
