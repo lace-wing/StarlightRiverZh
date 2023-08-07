@@ -112,7 +112,7 @@ Items: {
 		Tooltip:
 			'''
 			增加1格最大哨兵栏位
-			`Totally not forged`
+			`货真价实`
 			'''
 	}
 
@@ -124,7 +124,7 @@ Items: {
 			右键在不同的枪械之间循环切换
 			[i/s1:95] 良好的射程，中等伤害
 			[i/s1:964] 短射程，巨额伤害
-			[i/s1:98] 高射速，低伤害
+			[i/s1:98] 高射程，低伤害
 
 			'''
 	}
@@ -150,12 +150,12 @@ Items: {
 	}
 
 	ExoticTimepiece: {
-		DisplayName: Exotic Timepiece
+		DisplayName: 奇异机械表
 		Tooltip:
 			'''
 			你的哨兵的攻击速度更快且在被放置后会电击附近的敌人
 			你的仆从和哨兵偶尔会造成额外伤害
-			额外伤害视为造成一次暴击
+			该额外伤害视为一次暴击
 			增加200%哨兵放置速度
 			'''
 	}
@@ -170,11 +170,11 @@ Items: {
 	}
 
 	SeaglassLens: {
-		DisplayName: Seaglass Lens
+		DisplayName: 海玻璃透镜
 		Tooltip:
 			'''
 			你的仆从和哨兵偶尔会造成额外伤害
-			额外伤害视为造成一次暴击
+			该额外伤害视为一次暴击
 			'''
 	}
 
@@ -397,7 +397,7 @@ Items: {
 		Tooltip:
 			'''
 			挥洒刃形沙
-			`The actual words are lost to time...`
+			`真实的话语流逝于时间之中...`
 			'''
 	}
 
@@ -445,7 +445,7 @@ Items: {
 	}
 
 	StoneOfTheDrowned: {
-		DisplayName: Stone of the Drowned
+		DisplayName: 溺亡者之石
 		Tooltip:
 			'''
 			+30 屏障
@@ -664,7 +664,7 @@ Items: {
 
 	BlastoffShake: {
 		Tooltip: "\n\n"
-		DisplayName: Blastoff奶昔
+		DisplayName: 升空奶昔
 	}
 
 	BrandedCoffee: {
@@ -802,7 +802,7 @@ Items: {
 	}
 
 	SlimePrinceChest: {
-		DisplayName: 史莱姆王子的胸甲
+		DisplayName: 史莱姆王子胸甲
 		Tooltip:
 			'''
 			增加5%召唤伤害
@@ -811,12 +811,12 @@ Items: {
 	}
 
 	SlimePrinceHead: {
-		DisplayName: 史莱姆王子的王冠
+		DisplayName: 史莱姆王子王冠
 		Tooltip: 增加10%召唤伤害
 	}
 
 	SlimePrinceLegs: {
-		DisplayName: 史莱姆王子的腿甲
+		DisplayName: 史莱姆王子腿甲
 		Tooltip: 仆从施加5%的曝光
 	}
 
@@ -974,16 +974,16 @@ Items: {
 	}
 
 	EchochainWhip: {
-		DisplayName: Echochain
+		DisplayName: 共鸣锁链
 		Tooltip:
 			'''
 			链锁敌人，使其共享受到的召唤伤害
-			长按并松开右键以将你附近的敌人链缚在地面上，并链锁受影响的敌人
+			长按右键并松开以将你附近的敌人链缚在地面上，并链锁受影响的敌人
 			'''
 	}
 
 	HauntedAmethyst: {
-		DisplayName: Haunted Amethyst
+		DisplayName: 作祟紫水晶
 		Tooltip:
 			'''
 			当生命值低于50%时增加1格最大仆从栏位
@@ -992,14 +992,14 @@ Items: {
 	}
 
 	HauntedDaggerStaff: {
-		DisplayName: Haunted Dagger Staff
+		DisplayName: 作祟匕首法杖
 		Tooltip:
 			'''
 			召唤会嵌入在敌人体内的萦魂匕首
-			更改召唤目标或用鞭子击打它们会使匕首从敌人身上撕裂下来
-			'These aren't enchanted... they're haunted!'
-			'It's different?'
-			'It's different.'
+			更改召唤目标或用鞭子击打匕首会使匕首从敌人身上撕扯下来
+			'它们不是附魔了... 它们闹鬼了!'
+			'有什么区别吗？'
+			'有区别。'
 			'''
 	}
 
@@ -1032,8 +1032,8 @@ Items: {
 	}
 
 	VengefulSpirit: {
-		DisplayName: Vengeful Spirit
-		Tooltip: "'I don't think it likes you'"
+		DisplayName: 复仇之魂
+		Tooltip: "'我不认为它喜欢你'"
 		"Drop Rule": 在击败史莱姆王、克苏鲁之眼或极光之触后掉落
 	}
 
@@ -1058,12 +1058,12 @@ Items: {
 	}
 
 	ManEaterPot: {
-		DisplayName: Man Eater Pot
+		DisplayName: 食人怪陶盆
 		Tooltip:
 			'''
-			使食人花从你的脑袋中发芽
-			食人花会消耗拾取的红心来强化自己
-			被消耗的红心会在短暂延迟后治疗你
+			使食人怪从你的脑袋中发芽
+			食人怪会消耗拾取的心来强化自己
+			被消耗的心会在短暂延迟后治疗你
 			'''
 	}
 
@@ -1115,12 +1115,12 @@ Items: {
 	}
 
 	WatchBattery: {
-		DisplayName: Watch Battery
+		DisplayName: 手表电池
 		Tooltip: 你的哨兵在被放置后会电击附近的敌人
 	}
 
 	AquaticManabond: {
-		DisplayName: Aquatic Manabond
+		DisplayName: 水流魔力契约
 		Tooltip:
 			'''
 			你的仆从能够储存40点魔力值
@@ -1140,7 +1140,7 @@ Items: {
 	}
 
 	DruidicManabond: {
-		DisplayName: Druidic Manabond
+		DisplayName: 德鲁伊魔力契约
 		Tooltip:
 			'''
 			你的仆从能够储存40点魔力值
@@ -1150,7 +1150,7 @@ Items: {
 	}
 
 	InfernalManabond: {
-		DisplayName: Infernal Manabond
+		DisplayName: 地狱魔力契约
 		Tooltip:
 			'''
 			你的仆从能够储存40点魔力值
@@ -1160,7 +1160,7 @@ Items: {
 	}
 
 	ShockingManabond: {
-		DisplayName: Shocking Manabond
+		DisplayName: 电击魔力契约
 		Tooltip:
 			'''
 			你的仆从能够储存40点魔力值
@@ -1345,7 +1345,7 @@ Items: {
 	}
 
 	EnchantedWateringCan: {
-		DisplayName: Enchanted Watering Can
+		DisplayName: 作祟浇水壶
 		Tooltip:
 			'''
 			将树苗催长成大树苗
@@ -1429,7 +1429,7 @@ Items: {
 	}
 
 	HeartStatueSentryItem: {
-		DisplayName: Heart Statue?
+		DisplayName: 心形雕像？
 		Tooltip: 召唤一个由你的敌人的灵魂驱动的心形雕像
 	}
 
@@ -1440,7 +1440,7 @@ Items: {
 			诅咒
 			大幅度增加移动速度和加速度
 			增加跳跃高度和最大移动速度
-			Works with boots
+			在装备靴子时生效
 			你无法使用翅膀
 			'''
 	}
@@ -1679,7 +1679,7 @@ Items: {
 	}
 
 	Ultrapills: {
-		DisplayName: 终极药丸
+		DisplayName: [终极药丸]
 		Tooltip:
 			'''
 			诅咒：你无法通过正常方式进行生命再生
@@ -1950,8 +1950,8 @@ Items: {
 	}
 
 	DormantScepter: {
-		DisplayName: Dormant Scepter
-		Tooltip: The scepter lies dormant, waning for mystical energy
+		DisplayName: 沉睡的权杖
+		Tooltip: 这把权杖正在沉睡， 神秘能量正在衰减
 	}
 
 	StarwoodBoomerang: {
@@ -2468,7 +2468,7 @@ Items: {
 
 	CookStationItem: {
 		DisplayName: 灶台
-		Tooltip: 右键准备餐食
+		Tooltip: 右键以准备餐食
 	}
 
 	InfuserItem: {
@@ -2501,7 +2501,7 @@ Items: {
 	}
 
 	LeafWallItem: {
-		DisplayName: Flowing leaf wall
+		DisplayName: 流动树叶墙
 		Tooltip: ""
 	}
 
@@ -2584,12 +2584,12 @@ Items: {
 
 	JellyShroomItem: {
 		DisplayName: 蓝色果冻菇
-		Tooltip: Boing!
+		Tooltip: 啵嘤！
 	}
 
 	LumishroomItem: {
 		DisplayName: 荧光蘑菇
-		Tooltip: Glowy...
+		Tooltip: 发光...
 	}
 
 	VibeshroomItem: {
@@ -2668,7 +2668,7 @@ Items: {
 	}
 
 	EndOfTimePaintingItem: {
-		DisplayName: End of Time
+		DisplayName: 时间的尽头
 		Tooltip: "'K. Ra'"
 	}
 
@@ -3408,42 +3408,42 @@ Items: {
 	}
 
 	RedLaserPointer: {
-		DisplayName: Red Laser Pointer
+		DisplayName: 红色激光笔
 		Tooltip: ""
 	}
 
 	OrangeLaserPointer: {
-		DisplayName: Orange Laser Pointer
+		DisplayName: 橙色激光笔
 		Tooltip: ""
 	}
 
 	YellowLaserPointer: {
-		DisplayName: Yellow Laser Pointer
+		DisplayName: 黄色激光笔
 		Tooltip: ""
 	}
 
 	GreenLaserPointer: {
-		DisplayName: Green Laser Pointer
+		DisplayName: 绿色激光笔
 		Tooltip: ""
 	}
 
 	BlueLaserPointer: {
-		DisplayName: Blue Laser Pointer
+		DisplayName: 蓝色激光笔
 		Tooltip: ""
 	}
 
 	PurpleLaserPointer: {
-		DisplayName: Purple Laser Pointer
+		DisplayName: 紫色激光笔
 		Tooltip: ""
 	}
 
 	WhiteLaserPointer: {
-		DisplayName: White Laser Pointer
+		DisplayName: 白色激光笔
 		Tooltip: ""
 	}
 
 	PinkLaserPointer: {
-		DisplayName: Pink Laser Pointer
+		DisplayName: 粉色激光笔
 		Tooltip: ""
 	}
 }
