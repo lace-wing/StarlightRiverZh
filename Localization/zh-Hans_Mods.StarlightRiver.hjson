@@ -699,7 +699,7 @@ Items: {
 
 	MushroomSteak: {
 		Tooltip: "\n\n"
-		DisplayName: Mushroom Steak
+		DisplayName: 煎菇排
 	}
 
 	Salad: {
@@ -1476,7 +1476,7 @@ Items: {
 		Tooltip:
 			'''
 			将所有的飞行时间转化为能量爆发
-			'At least 30 OSHA violations, in the palm of your hand'
+			'在你的掌心中，至少有30条触犯OSHA条例的地方'
 			'''
 	}
 
@@ -1625,8 +1625,8 @@ Items: {
 			'''
 			青蛙会在死亡时复活，每次复活时都会更加强大。
 			击杀其他动物时有几率揭露出它们其实一直是一只青蛙
-			They will then be resurrected as if they were a frog the whole time, because they were
-			I'm telling you, don't fuck with the frogs, please, they are stronger than you know
+			如果它们一直是青蛙的话，它们便会复活，因为它们真的是青蛙
+			我都告诉你了，请你，不要他妈的乱搞青蛙，它们远比你了解的强大
 			'''
 	}
 
@@ -2427,12 +2427,12 @@ Items: {
 	}
 
 	CoolmitePassiveItem: {
-		DisplayName: Coolmite
+		DisplayName: 萃晶螨
 		Tooltip: 易碎品！小心轻放。
 	}
 
 	CoolmiteSmolItem: {
-		DisplayName: Coolmini
+		DisplayName: 迷你萃晶螨
 		Tooltip: 边缘锋利！小心你的手指。
 	}
 
@@ -2447,7 +2447,7 @@ Items: {
 	}
 
 	MagmiteSmolItem: {
-		DisplayName: 迷你螨
+		DisplayName: 迷你熔滴螨
 		Tooltip: 养育他！
 	}
 
@@ -2501,7 +2501,7 @@ Items: {
 	}
 
 	LeafWallItem: {
-		DisplayName: 流动树叶墙
+		DisplayName: 流动叶墙
 		Tooltip: ""
 	}
 
@@ -2598,7 +2598,7 @@ Items: {
 	}
 
 	BlueTorchOvergrowItem: {
-		DisplayName: 蓝仙女火把
+		DisplayName: 蓝仙灵火把
 		Tooltip: 闪光的! 并且是蓝的!
 	}
 
@@ -2614,7 +2614,7 @@ Items: {
 
 	OvergrowthLivingWoodItem: {
 		DisplayName: 繁茂生命木
-		Tooltip: "[PH]把这个变成魔杖和法杖"
+		Tooltip: "[PH] 用这个制成魔棒和法杖"
 	}
 
 	Rock2x2Item: {
@@ -2628,7 +2628,7 @@ Items: {
 	}
 
 	TorchOvergrowItem: {
-		DisplayName: 仙女火把
+		DisplayName: 仙灵火把
 		Tooltip: 闪光的!
 	}
 
@@ -2698,7 +2698,7 @@ Items: {
 	}
 
 	AuroraBrickWallItem: {
-		DisplayName: 极光砖墙 Dangerous
+		DisplayName: 危险极光砖墙
 		Tooltip: 哦哦哦……美滴很
 	}
 
@@ -2803,8 +2803,8 @@ Items: {
 	}
 
 	DestructableGlassItem: {
-		DisplayName: Breakable vitric crystal
-		Tooltip: A chunk of vitric crystal susceptible to the force of forbidden winds
+		DisplayName: 可破坏琉璃晶体
+		Tooltip: 一大块易被禁忌之风破坏的琉璃晶体
 	}
 
 	ForgeDoorItem: {
@@ -2834,7 +2834,7 @@ Items: {
 
 	DoorGearsItem: {
 		DisplayName: Gear Puzzle Temple Door
-		Tooltip: 神殿门, 但如果是水平的呢?
+		Tooltip: 神殿门， 但如果是水平的呢？
 	}
 
 	DoorLasersItem: {
@@ -2844,7 +2844,7 @@ Items: {
 
 	DoorVerticalItem: {
 		DisplayName: Vertical Temple Door
-		Tooltip: 神殿门, 但如果是垂直的呢?
+		Tooltip: 神殿门， 但如果是垂直的呢？
 	}
 
 	EntranceDoorItem: {
@@ -3283,7 +3283,7 @@ Items: {
 	}
 
 	LeafOvergrowItem: {
-		DisplayName: 妖精叶
+		DisplayName: 仙灵叶
 		Tooltip: ""
 	}
 
@@ -3298,7 +3298,7 @@ Items: {
 	}
 
 	SpringstoneItem: {
-		DisplayName: 温泉石
+		DisplayName: 热泉石
 		Tooltip: ""
 	}
 
@@ -3454,25 +3454,25 @@ Tiles: {
 	FaeflamePickupTile.MapEntry: ""
 	ForbiddenWindsPickupTile.MapEntry: ""
 	StaminaShardTile.MapEntry: ""
-	CookStation.MapEntry: Cooking Station
-	Infuser.MapEntry: Infuser
-	CrashPod.MapEntry: Crashed Pod
+	CookStation.MapEntry: 烹饪站
+	Infuser.MapEntry: 注魔器
+	CrashPod.MapEntry: 失事的吊舱
 	AnkhChest.MapEntry: 十字箱
 	DesertMonolith.MapEntry: ""
 	DesertMonolithFlipped.MapEntry: ""
-	TwistSwordTile.MapEntry: Twisted Greatsword
+	TwistSwordTile.MapEntry: 环旋重剑
 	PinkSeaSalt.MapEntry: ""
 	TableSalt.MapEntry: ""
 	ForestBerryBush.MapEntry: ""
-	MonkSpear.MapEntry: Monk's Spade
+	MonkSpear.MapEntry: 武僧的月牙铲
 	SlimeberryBush.MapEntry: ""
-	ThickTree.MapEntry: Large Tree
+	ThickTree.MapEntry: 巨大树
 	ThickTreeBase.MapEntry: ""
 	ThickTreeSapling.MapEntry: Large sapling
-	TallAncientFruit.MapEntry: Ancient Fruit
-	TallGoldenRice.MapEntry: Golden Rice
+	TallAncientFruit.MapEntry: 上古水果
+	TallGoldenRice.MapEntry: 黄金稻米
 	TallRice.MapEntry: Rice
-	GreenhouseGlass.MapEntry: Greenhouse Glass
+	GreenhouseGlass.MapEntry: 温室玻璃
 	Bouncer.MapEntry: ""
 	StaminaGem.MapEntry: ""
 	DisplayCase.MapEntry: Relic Case
@@ -3480,7 +3480,7 @@ Tiles: {
 	PatreonPlaque.MapEntry: ""
 	RatTent.MapEntry: Strange Tent
 	MoonstoneBar.MapEntry: Metal Bar
-	MoonstoneOre.MapEntry: Moonstone Ore
+	MoonstoneOre.MapEntry: 月长石矿
 	JellyShroom.MapEntry: Jelly Shroom
 	Lumishroom.MapEntry: ""
 	Vibeshroom.MapEntry: ""
@@ -3574,8 +3574,8 @@ Tiles: {
 	// VitricLargeCrystal.MapEntry: ""
 	VitricLootBox.MapEntry: ""
 	// VitricMediumCrystal.MapEntry: ""
-	VitricOre.MapEntry: Vitric Ore
-	VitricOreFloat.MapEntry: Vitric Ore
+	VitricOre.MapEntry: 琉璃矿
+	VitricOreFloat.MapEntry: 琉璃矿
 	VitricRoundCactus.MapEntry: ""
 	VitricSmallCactus.MapEntry: ""
 	// VitricSmallCrystal.MapEntry: ""
@@ -3599,8 +3599,8 @@ Tiles: {
 	VitricDoorClosed.MapEntry: ""
 	VitricDoorOpen.MapEntry: ""
 	TempleChair.MapEntry: Chair
-	TempleLargeVase.MapEntry: Large Vase
-	TempleLargeVaseCrystal.MapEntry: Large Vase
+	TempleLargeVase.MapEntry: 巨大花瓶
+	TempleLargeVaseCrystal.MapEntry: 巨大花瓶
 	TempleWorkbench.MapEntry: Workbench
 	TempleThrone.MapEntry: Throne
 	TempleFloorWeaponRack.MapEntry: Weapon Rack
@@ -3643,7 +3643,7 @@ Projectiles: {
 	GlassBubbleFragment.DisplayName: 玻璃碎片
 	GlassHammer.DisplayName: 编织之锤
 	GlassRaiseSpike.DisplayName: Raised Glass Structure
-	GlassSpear.DisplayName: Woven Hammer
+	GlassSpear.DisplayName: 编织之锤
 	GlassSword.DisplayName: 琉璃剑
 	LavaLob.DisplayName: Hot Lob
 	Whirlwind.DisplayName: 旋刃
@@ -3658,43 +3658,43 @@ Projectiles: {
 	GlassSpike.DisplayName: 琉璃尖刺
 	LavaDart.DisplayName: 熔岩弹丸
 	TelegraphedGlassSpike.DisplayName: 琉璃尖刺
-	MinigunTurret.DisplayName: Gun turret
-	PistolTurret.DisplayName: Gun turret
-	ShotgunTurret.DisplayName: Gun turret
-	BreachCannonSentry.DisplayName: Breach Cannon
+	MinigunTurret.DisplayName: 枪械炮塔
+	PistolTurret.DisplayName: 枪械炮塔
+	ShotgunTurret.DisplayName: 枪械炮塔
+	BreachCannonSentry.DisplayName: 破坏者加农炮
 	ExplosiveFlare.DisplayName: Explosive Flare
 	FlareShrapnel.DisplayName: Explosive Shrapnel
-	OrbitalStrike.DisplayName: Orbital Strike
-	OrbitalStrikeRing.DisplayName: Orbital Strike
+	OrbitalStrike.DisplayName: 轨道打击
+	OrbitalStrikeRing.DisplayName: 轨道打击
 	ScrappodProjectile.DisplayName: Scrappod
 	ScrappodScrapnel.DisplayName: Scrapnel
 	ScrapshotShrapnel.DisplayName: Explosive Shrapnel
-	SpotterDrone.DisplayName: Breacher Drone
-	SupplyBeaconProj.DisplayName: Supply Beacon
-	ArchaeologistsWhip_Whip.DisplayName: Archaeologist's Whip
-	AztecDeathSaxophoneHoldout.DisplayName: Aztec Death Saxophone
+	SpotterDrone.DisplayName: 破坏者无人机
+	SupplyBeaconProj.DisplayName: 补给信标
+	ArchaeologistsWhip_Whip.DisplayName: 考古学家的鞭子
+	AztecDeathSaxophoneHoldout.DisplayName: 阿兹台克死亡萨克斯
 	PerfectlyGenericPet.DisplayName: 完美通用物品
-	SandscriptBook.DisplayName: Sandscript
-	CloudstrikeShot.DisplayName: Electro Shock
-	SkullBomb.DisplayName: Skull Bomb
-	SkullBusterBullet.DisplayName: Bullet
-	SkullBusterProj.DisplayName: Skull Buster
-	SkullBusterReload.DisplayName: Skull Buster
-	SkullbusterSkull.DisplayName: Skullbomb
-	ThousandthDegreeProjectile.DisplayName: Thousandth Degree
-	ThousandthDegreeProjectileFired.DisplayName: Blazing Wheel
-	FeralWolfMountBite.DisplayName: Crushing Jaws
-	SlimePrinceMinion.DisplayName: Slime Prince
-	AmethystShard.DisplayName: Amethyst Shard
-	RubyDagger.DisplayName: Ruby Dagger
-	SparklingBulletProj.DisplayName: Sparkling Bullet
-	TopazShard.DisplayName: Topaz Shard
-	TopazShield.DisplayName: Topaz Shield
-	TopazShieldFade.DisplayName: Topaz Shield
+	SandscriptBook.DisplayName: 沙痕
+	CloudstrikeShot.DisplayName: 电击
+	SkullBomb.DisplayName: 颅骨炸弹
+	SkullBusterBullet.DisplayName: 子弹
+	SkullBusterProj.DisplayName: 颅骨破坏者
+	SkullBusterReload.DisplayName: 颅骨破坏者
+	SkullbusterSkull.DisplayName: 颅骨炸弹
+	ThousandthDegreeProjectile.DisplayName: 千度火轮
+	ThousandthDegreeProjectileFired.DisplayName: 炽热火轮
+	FeralWolfMountBite.DisplayName: 碾压性下颚
+	SlimePrinceMinion.DisplayName: 史莱姆王子
+	AmethystShard.DisplayName: 紫水晶碎片
+	RubyDagger.DisplayName: 红玉匕首
+	SparklingBulletProj.DisplayName: 闪耀弹
+	TopazShard.DisplayName: 黄玉碎片
+	TopazShield.DisplayName: 黄玉护盾
+	TopazShieldFade.DisplayName: 黄玉护盾
 	BloodAmuletBolt.DisplayName: 食尸鬼
-	BloodBolt.DisplayName: Blood Bolt
-	BloodBolterExplosion.DisplayName: Blood Bolter
-	BloodBolterHeldProj.DisplayName: Blood bolter
+	BloodBolt.DisplayName: 血爆
+	BloodBolterExplosion.DisplayName: 血爆
+	BloodBolterHeldProj.DisplayName: 血爆
 	FleshApparation.DisplayName: Flesh apparation
 	GluttonyGhoul.DisplayName: Ghoul
 	GluttonyHandle.DisplayName: Gluttony
@@ -4016,27 +4016,27 @@ NPCs: {
 	VitricBossPlatformUp.DisplayName: ""
 	VitricBossPlatformUpSmall.DisplayName: ""
 	BossRushOrb.DisplayName: ???
-	SoulNibbler.DisplayName: Soul Nibbler
+	SoulNibbler.DisplayName: 灵魂啃噬者
 	CrescentCaster.DisplayName: 新月法师
 	Blover.DisplayName: 三叶草
 	TreeBat.DisplayName: 树蝠
-	Warbanner.DisplayName: Haunted Warbanner
+	Warbanner.DisplayName: 闹鬼的战旗
 	Fogbinder.DisplayName: 雾影锁魔
-	LootWraith.DisplayName: Loot Wraith
+	LootWraith.DisplayName: 劫掠幽灵
 	AngryCrescent.DisplayName: 愤怒新月
 	Dreamprism.DisplayName: 梦幻棱晶
 	Crusher.DisplayName: 碾碎机
 	Snoobel.DisplayName: 史努贝尔
 	SwordEnemy.DisplayName: Sky Splicer
 	Crow.DisplayName: ???
-	GloomSlime.DisplayName: Gloom Slime
+	GloomSlime.DisplayName: 阴郁史莱姆
 	BoomBug.DisplayName: 萤火虫
 	CoolmiteLarge.DisplayName: Coolmismer
 	Coolmite.DisplayName: 冷滴螨
 	CoolmiteSmol.DisplayName: Coolmini
 	CrystalPopper.DisplayName: 沙漠蝙蝠
 	CrystalSlime.DisplayName: 琉璃史莱姆
-	DesertWisp.DisplayName: Desert Wisp
+	DesertWisp.DisplayName: 沙漠飘烟
 	FlyingGruntConstruct.DisplayName: 璃锻飞行士兵
 	FlyingPelterConstruct.DisplayName: 璃锻飞行射手
 	GruntConstruct.DisplayName: 璃锻士兵
@@ -4044,7 +4044,7 @@ NPCs: {
 	PelterConstruct.DisplayName: 璃锻射手
 	ShieldConstruct.DisplayName: 璃锻防护者
 	SupporterConstruct.DisplayName: 璃锻支援者
-	KettleCreature.DisplayName: Magmortar
+	KettleCreature.DisplayName: 岩浆迫击炮
 	LesserFirebug.DisplayName: 小萤火虫
 	MagmiteLarge.DisplayName: Magmificent
 	MagmitePassive.DisplayName: 小熔滴螨
@@ -4197,8 +4197,8 @@ Buffs: {
 	}
 
 	StarwoodSummonBuff: {
-		DisplayName: Starwood Minion
-		Description: The sentient stars shall protect you!
+		DisplayName: 星木仆从
+		Description: 有意识的星星会保护你的！
 	}
 
 	SupplyBeaconDamage: {
@@ -4262,8 +4262,8 @@ Buffs: {
 	}
 
 	ManEaterPotBuff: {
-		DisplayName: Man Eaters
-		Description: Quite the hairdo you have!
+		DisplayName: 食人怪
+		Description: 你的发型相当好！
 	}
 
 	BarbedKnifeBleed: {
