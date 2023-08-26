@@ -4016,8 +4016,8 @@ NPCs: {
 	Crow.DisplayName: ???
 	GloomSlime.DisplayName: 阴郁史莱姆
 	BoomBug.DisplayName: 萤火虫
-	CoolmiteLarge.DisplayName: Coolmismer
-	// CoolmitePassive.DisplayName: Coolmite
+	CoolmiteLarge.DisplayName: 大冷滴螨
+	CoolmitePassive.DisplayName: 冷滴螨
 	CoolmiteSmol.DisplayName: Coolmini
 	CrystalPopper.DisplayName: 沙漠蝙蝠
 	CrystalSlime.DisplayName: 琉璃史莱姆
