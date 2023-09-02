@@ -133,7 +133,7 @@ Items: {
 		DisplayName: 月长石染剂
 		Tooltip:
 			'''
-			使屏障能够反射月光
+			使{{屏障}}能够反射月光
 			可装备
 			装饰性物品
 			'''
@@ -143,7 +143,7 @@ Items: {
 		DisplayName: 哨卫染剂
 		Tooltip:
 			'''
-			使屏障能够模仿碎晶哨卫的护盾效果
+			使{{屏障}}能够模仿碎晶哨卫的护盾效果
 			可装备
 			装饰性物品
 			'''
@@ -182,8 +182,8 @@ Items: {
 		DisplayName: 海玻璃指环
 		Tooltip:
 			'''
-			+30 最大屏障
-			小幅度增加屏障开始再生的速度
+			+30 最大{{屏障}}
+			小幅度增加{{屏障}}开始再生的速度
 			‘汹涌的海浪并没有削减它的光芒’
 			'''
 	}
@@ -373,7 +373,7 @@ Items: {
 
 	DebugModerEnabler: {
 		DisplayName: 调试模式
-		Tooltip: 启用调试模式
+		Tooltip: 启用{{调试}}模式
 	}
 
 	DebugStick: {
@@ -384,10 +384,10 @@ Items: {
 	DefiledAnkh: {
 		Tooltip:
 			'''
-			诅咒：你的屏障的伤害吸收减少25%
-			当屏障存在时，增加100% Inoculation
-			当屏障存在时，使你免疫大多数减益
-			+40 最大屏障
+			诅咒：你的{{屏障}}的伤害吸收减少25%
+			当{{屏障}}存在时，增加100%{{免疫力}}
+			当{{屏障}}存在时，使你免疫大多数减益
+			+40 最大{{屏障}}
 			'''
 		DisplayName: 亵渎十字章
 	}
@@ -406,7 +406,7 @@ Items: {
 		Tooltip:
 			'''
 			屏障伤害吸收增加15%
-			+20 最大屏障
+			+20 最大{{屏障}}
 			'''
 	}
 
@@ -438,9 +438,9 @@ Items: {
 		DisplayName: 星光吊坠
 		Tooltip:
 			'''
-			基于你当前的屏障增加魔力再生速度
-			消耗魔力时会增加屏障再生速度
-			-10 最大屏障
+			基于你当前的{{屏障}}增加魔力再生速度
+			消耗魔力时会增加{{屏障}}再生速度
+			-10 最大{{屏障}}
 			'''
 	}
 
@@ -448,9 +448,9 @@ Items: {
 		DisplayName: 溺亡者之石
 		Tooltip:
 			'''
-			+30 屏障
-			当你没有屏障时增加2格最大仆从栏位
-			当你的屏障降至0时自动召唤占据2格仆从栏位的召唤物
+			+30 {{屏障}}
+			当你没有{{屏障}}时增加2格最大仆从栏位
+			当你的{{屏障}}降至0时自动召唤占据2格仆从栏位的仆从
 			'''
 	}
 
@@ -477,9 +477,9 @@ Items: {
 		DisplayName: 格挡锁甲
 		Tooltip:
 			'''
-			屏障受到伤害时会反弹给攻击者
-			屏障的伤害吸收增加10%
-			+40 最大屏障
+			{{屏障}}受到伤害时会反弹给攻击者
+			{{屏障}}的伤害吸收增加10%
+			+40 最大{{屏障}}
 			'''
 	}
 
@@ -487,7 +487,7 @@ Items: {
 		DisplayName: 复制细胞
 		Tooltip:
 			'''
-			+15% Inoculation
+			+15%{{免疫力}}
 			小幅度增加生命开始再生的速度
 			'''
 	}
@@ -817,7 +817,7 @@ Items: {
 
 	SlimePrinceLegs: {
 		DisplayName: 史莱姆王子腿甲
-		Tooltip: 仆从施加5%的曝光
+		Tooltip: 仆从施加5%的{{曝光}}
 	}
 
 	Trowel: {
@@ -872,12 +872,12 @@ Items: {
 		DisplayName: 不同宝石的效果：
 		Tooltip:
 			'''
-			[i/s1:5686]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
-			[i/s1:5694]：+100点屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
-			[i/s1:5687]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
-			[i/s1:5693]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
-			[i/s1:5685]：使用攻击都会造成可叠加的剧毒紫晶减益
-			[i/s1:5692]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
+			[i/s1:5671]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
+			[i/s1:5679]：+100点屏障。获得一个指向你光标方向的护盾，消耗{{屏障}}来抵挡伤害
+			[i/s1:5672]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
+			[i/s1:5678]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
+			[i/s1:5670]：使用攻击都会造成可叠加的剧毒紫晶减益
+			[i/s1:5677]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
 			'''
 	}
 
@@ -958,7 +958,7 @@ Items: {
 		Tooltip:
 			'''
 			快速戳刺敌人，造成可叠加的流血减益
-			右键极速冲刺至光标位置，收割路径上流血减益的敌人以造成高伤害和吸血效果
+			右键极速冲刺至光标位置，{{收割}}路径上流血减益的敌人以造成高伤害和吸血效果
 			极速冲刺时击中多个敌人会缩短下一次冲刺的冷却时间
 			'''
 	}
@@ -967,7 +967,7 @@ Items: {
 		DisplayName: 自我献祭之杖
 		Tooltip:
 			'''
-			消耗40点生命值以召唤血肉恐惧
+			{{暂存}}40点生命值以召唤血肉恐惧
 			血肉恐惧会增加生命再生速度
 			当血肉恐惧攻击敌人时，会进一步提升生命再生速度
 			'''
@@ -1008,7 +1008,7 @@ Items: {
 		Tooltip:
 			'''
 			增加5%魔法伤害
-			+15% Inoculation
+			+15%{{免疫力}}
 			'''
 	}
 
@@ -1025,7 +1025,7 @@ Items: {
 	TaintedGreataxe: {
 		Tooltip:
 			'''
-			诅咒：造成暴击时会对一名新的、不同的敌人造成聚焦减益
+			诅咒：造成暴击时会对一名新的、不同的敌人造成{{聚焦}}减益
 			右键被嵌入巨斧的敌人会使巨斧取消嵌入
 			'''
 		DisplayName: 被玷污的巨斧
@@ -1189,7 +1189,7 @@ Items: {
 		Tooltip:
 			'''
 			将战斧技艺传授与你，所有斧类武器获得新的连击招式
-			连击的最后一击会撕裂敌人的护甲
+			连击的最后一击会{{撕裂}}敌人的护甲
 			右键扔出你的斧子
 			'''
 	}
@@ -1233,10 +1233,10 @@ Items: {
 		DisplayName: 无血战士的护符
 		Tooltip:
 			'''
-			+100 最大屏障
-			屏障会吸收所有伤害并且重新开始充能的速度会变得更快
+			+100 最大{{屏障}}
+			{{屏障}}会吸收所有伤害并且重新开始充能的速度会变得更快
 			你不再受到持续伤害的影响
-			诅咒：你拥有0点生命值。治疗会使你获得一个逐渐减弱的伤害增益，而非恢复生命值
+			你拥有0点生命值。治疗会使你获得一个逐渐减弱的伤害增益，而非恢复生命值
 			‘抛弃你的肉体吧，你所需要的只是愤怒’
 			'''
 	}
@@ -1248,7 +1248,7 @@ Items: {
 
 	BuffChalice: {
 		DisplayName: 强化圣杯
-		Tooltip: 造成减益时会短暂增加你的Inoculation
+		Tooltip: 造成减益时会短暂增加你的{{免疫力}}
 	}
 
 	CasualMirror: {
@@ -1482,7 +1482,7 @@ Items: {
 
 	Ironheart: {
 		DisplayName: 钢铁之心
-		Tooltip: 近战伤害会使你获得逐渐衰减的屏障和防御
+		Tooltip: 近战伤害会使你获得逐渐衰减的{{屏障}}和防御
 	}
 
 	JadeStopwatch: {
@@ -1499,7 +1499,7 @@ Items: {
 		DisplayName: 遗失的颈圈
 		Tooltip:
 			'''
-			+40% Inoculation
+			+40%{{免疫力}}
 			你会获得你对敌人造成的减益
 			你每获得一个减益，都会增加5%的移动速度和攻击速度
 			诅咒：失去所有减益的免疫效果
@@ -1537,7 +1537,7 @@ Items: {
 
 	PandorasShield: {
 		DisplayName: 潘多拉护盾
-		Tooltip: 擦弹会使你获得等于弹幕伤害值一部分的屏障值
+		Tooltip: "{{擦弹}}会使你获得等于弹幕伤害值一部分的{{屏障}}值"
 	}
 
 	PhilosophersMortar: {
@@ -1644,8 +1644,8 @@ Items: {
 		DisplayName: 尖刺锁甲
 		Tooltip:
 			'''
-			屏障受到伤害时会反弹给攻击者
-			+20 最大屏障
+			{{屏障}}受到伤害时会反弹给攻击者
+			+20 最大{{屏障}}
 			'''
 	}
 
@@ -1656,7 +1656,7 @@ Items: {
 
 	StaminaRing: {
 		DisplayName: 星光腰带
-		Tooltip: +2星光再生速度
+		Tooltip: +2{{星光}}再生速度
 	}
 
 	SwordBook: {
@@ -1707,13 +1707,13 @@ Items: {
 		Tooltip:
 			'''
 			消耗魔力为新月护卫充能，完全充能后会电击周围的敌人
-			+20 最大屏障
+			+20 最大{{屏障}}
 			'''
 	}
 
 	Moonfury: {
 		DisplayName: 月怒
-		Tooltip: 召唤月长石碎片从天而降，对被击中的敌人造成梦境炽焰减益
+		Tooltip: 召唤月长石碎片从天而降，对被击中的敌人造成{{梦境炽焰}}减益
 	}
 
 	MoonstoneArrow: {
@@ -1728,7 +1728,7 @@ Items: {
 
 	MoonstoneChest: {
 		DisplayName: 月长石胸甲
-		Tooltip: +35 最大屏障
+		Tooltip: +35 最大{{屏障}}
 	}
 
 	MoonstoneHamaxe: {
@@ -1741,7 +1741,7 @@ Items: {
 		Tooltip:
 			'''
 			增加2%近战暴击率
-			+20 最大屏障
+			+20 最大{{屏障}}
 			'''
 	}
 
@@ -1750,7 +1750,7 @@ Items: {
 		Tooltip:
 			'''
 			提升加速度
-			+25 最大屏障
+			+25 最大{{屏障}}
 			'''
 	}
 
@@ -1893,22 +1893,22 @@ Items: {
 		DisplayName: 强效屏障药水
 		Tooltip:
 			'''
-			使你获得120点逐渐衰减的额外屏障
-			额外屏障衰减的前5秒速度很慢，之后衰减变快
+			使你获得120点逐渐衰减的额外{{屏障}}
+			额外{{屏障}}衰减的前5秒速度很慢，之后衰减变快
 			'''
 	}
 
 	InoculationPotion: {
-		DisplayName: 疫苗药水
-		Tooltip: +30% Inoculation
+		DisplayName: "{{免疫力}}药水"
+		Tooltip: +30%{{免疫力}}
 	}
 
 	LesserBarrierPotion: {
 		DisplayName: 弱效屏障药水
 		Tooltip:
 			'''
-			使你获得40点逐渐衰减的额外屏障
-			额外屏障衰减的前4秒速度很慢，之后衰减变快
+			使你获得40点逐渐衰减的额外{{屏障}}
+			额外{{屏障}}衰减的前4秒速度很慢，之后衰减变快
 			'''
 	}
 
@@ -1916,8 +1916,8 @@ Items: {
 		DisplayName: 屏障药水
 		Tooltip:
 			'''
-			使你获得80点逐渐衰减的额外屏障
-			额外屏障衰减的前3秒速度很慢，之后衰减变快
+			使你获得80点逐渐衰减的额外{{屏障}}
+			额外{{屏障}}衰减的前3秒速度很慢，之后衰减变快
 			'''
 	}
 
@@ -1934,8 +1934,8 @@ Items: {
 		DisplayName: 海蓝宝石吊坠
 		Tooltip:
 			'''
-			+15 最大屏障
-			失去所有屏障时释放寒冰碎片
+			+15 最大{{屏障}}
+			失去所有{{屏障}}时释放寒冰碎片
 			'''
 	}
 
@@ -2102,7 +2102,7 @@ Items: {
 		Tooltip:
 			'''
 			对一名敌人造成暴击时会使其周围的敌人曝光
-			被曝光的敌人在首次受到攻击时会受到20%额外伤害
+			被{{曝光}}的敌人在首次受到攻击时会受到20%额外伤害
 			+2%暴击率
 			+20%暴击伤害
 			'''
@@ -2115,7 +2115,7 @@ Items: {
 
 	TempleRune: {
 		DisplayName: 护佑符文
-		Tooltip: +50 屏障
+		Tooltip: +50 {{屏障}}
 	}
 
 	TempleSpear: {
@@ -2315,7 +2315,7 @@ Items: {
 		Tooltip:
 			'''
 			长按右键充能，松开右键释放一道激光
-			被激光击中的敌人的近战曝光增加25%
+			被激光击中的敌人的近战{{曝光}}增加25%
 			'''
 	}
 
@@ -2334,8 +2334,8 @@ Items: {
 	}
 
 	StaminaUp: {
-		DisplayName: 琉璃耐力容器
-		Tooltip: 增加1点最大耐力
+		DisplayName: 琉璃{{星光}}容器
+		Tooltip: 增加1点最大{{星光}}
 	}
 
 	TempleEntranceKey: {
@@ -2453,17 +2453,17 @@ Items: {
 
 	FaeflameTileItem: {
 		DisplayName: 火焰
-		Tooltip: Debug placer for ability pickup
+		Tooltip: "用于能力拾取的{{调试}}放置器"
 	}
 
 	StaminaShardTileItem: {
 		DisplayName: 星光碎片
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	WindsTileItem: {
 		DisplayName: 禁忌之风
-		Tooltip: Debug placer for ability pickup
+		Tooltip: "用于能力拾取的{{调试}}放置器"
 	}
 
 	CookStationItem: {
@@ -2609,7 +2609,7 @@ Items: {
 
 	NoxiousNodeItem: {
 		DisplayName: 剧毒茎节
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	OvergrowthLivingWoodItem: {
@@ -2644,17 +2644,17 @@ Items: {
 
 	WindowSmallItem: {
 		DisplayName: 小窗
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	WispAltarLItem: {
 		DisplayName: Wisp Altar L Placer
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	WispAltarRItem: {
 		DisplayName: Wisp Altar R Placer
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	AuroraclePaintingItem: {
@@ -2683,7 +2683,7 @@ Items: {
 	}
 
 	AuroraBrickDoorItem: {
-		DisplayName: Debug Brick Placer
+		DisplayName: "{{调试}}砖块放置器"
 		Tooltip: ""
 	}
 
@@ -2703,7 +2703,7 @@ Items: {
 	}
 
 	DoorBombShooterItem: {
-		DisplayName: Debug Shooter Placer
+		DisplayName: "{{调试}}发射器放置器"
 		Tooltip: ""
 	}
 
@@ -2734,7 +2734,7 @@ Items: {
 
 	CombatShrineItem: {
 		DisplayName: Combat shrine placer
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	HotspringFountainItem: {
@@ -2749,12 +2749,12 @@ Items: {
 
 	DashBarrierItem: {
 		DisplayName: Dash Barrier
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	JarTallItem: {
 		DisplayName: Stamina Jar Placer (Tall)
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	TempleChestPlacer: {
@@ -2774,12 +2774,12 @@ Items: {
 
 	TestBubble: {
 		DisplayName: 泡泡
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	VerletBannerItem: {
 		DisplayName: Verlet banner
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	AncientSandstonePillarWallItem: {
@@ -2809,17 +2809,17 @@ Items: {
 
 	ForgeDoorItem: {
 		DisplayName: 锻炉门
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	ForgeInnerDoorItem: {
 		DisplayName: 锻炉内门
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	RedBannerShortItem: {
 		DisplayName: 短飘带
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	CrystalSlimeSpawnerItem: {
@@ -2829,7 +2829,7 @@ Items: {
 
 	DashableDoorItem: {
 		DisplayName: DashableDoor
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	DoorGearsItem: {
@@ -2849,37 +2849,37 @@ Items: {
 
 	EntranceDoorItem: {
 		DisplayName: 外门
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	GearPuzzleOriginPlacer: {
 		DisplayName: 齿轮谜题原点
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	GearTilePlacer: {
 		DisplayName: 解谜用齿轮
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	ObjectiveGearItem: {
 		DisplayName: 齿轮谜题定位点
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	LightActorItem: {
 		DisplayName: Light actor placer
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	LensItem: {
 		DisplayName: Reflector Lens
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	ReflectorItem: {
 		DisplayName: 反射镜
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	LowWindBannerItem: {
@@ -2889,7 +2889,7 @@ Items: {
 
 	MainForgeItem: {
 		DisplayName: Main forge
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	NPCSpawnerItem: {
@@ -2899,22 +2899,22 @@ Items: {
 
 	OldCeirosShrineItem: {
 		DisplayName: 老旧的塞洛斯神龛
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	TallWindowCrystalItem: {
 		DisplayName: Crystal Window Actor
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	TallWindowItem: {
 		DisplayName: Window Actor
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	TallWindowLavaItem: {
 		DisplayName: Lava Window Actor
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	TempleCandleCrystalItem: {
@@ -2939,12 +2939,12 @@ Items: {
 
 	TutorialDoor1Item: {
 		DisplayName: 教程用门1
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	TutorialDoor2Item: {
 		DisplayName: 教程用门2
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	VitricPillarWallCrystalItem: {
@@ -2979,7 +2979,7 @@ Items: {
 
 	WindsRoomActorItem: {
 		DisplayName: Winds Room Actor
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	VitricBannerSmallItem: {
@@ -2989,17 +2989,17 @@ Items: {
 
 	VitricBossAltarItem: {
 		DisplayName: 塞洛斯祭坛
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	VitricBreakableVaseItem: {
 		DisplayName: 琉璃花瓶
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	VitricFountainItem: {
 		DisplayName: 琉璃喷泉
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	VitricGiantCrystalItem: {
@@ -3014,7 +3014,7 @@ Items: {
 
 	VitricLargeFountainItem: {
 		DisplayName: 大型琉璃喷泉
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	VitricLootBoxItem: {
@@ -3064,22 +3064,22 @@ Items: {
 
 	CombatShrineBarrierItem: {
 		DisplayName: CombatShrineBarrierItem
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	EvasionShrineBarrierItem: {
 		DisplayName: EvasionShrineBarrierItem
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	VitricBossBarrierItem: {
 		DisplayName: VitricBossBarrierItem
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	GlassweaverBossBarrierItem: {
 		DisplayName: GlassweaverBossBarrierItem
-		Tooltip: 调试物品
+		Tooltip: "{{调试}}物品"
 	}
 
 	VitricBathtub: {
@@ -3259,11 +3259,6 @@ Items: {
 
 	MinibossItem: {
 		DisplayName: 八音盒（织璃匠）
-		Tooltip: ""
-	}
-
-	OvergrowItem: {
-		DisplayName: 八音盒 (繁茂之地)
 		Tooltip: ""
 	}
 
@@ -3486,7 +3481,6 @@ Tiles: {
 	Vibeshroom.MapEntry: ""
 	BlueTorchOvergrow.MapEntry: ""
 	OvergrowthLivingWoodTile.MapEntry: Overgrown Living Wood
-	Overgrow.MapEntry: 音乐盒
 	Rock2x2.MapEntry: ""
 	SetpieceAltar.MapEntry: ""
 	SkeletonBrickTile.MapEntry: Skeleton Brick
@@ -4293,7 +4287,7 @@ Buffs: {
 
 	PlexusChaliceBuff: {
 		DisplayName: Plexus Resistance
-		Description: +30% Inoculation
+		Description: +30%{{免疫力}}
 	}
 
 	MoonfuryDebuff: {
@@ -4313,7 +4307,7 @@ Buffs: {
 
 	InoculationPotionBuff: {
 		DisplayName: Inoculated
-		Description: +30% Inoculation
+		Description: +30%{{免疫力}}
 	}
 
 	NoShieldPot: {
