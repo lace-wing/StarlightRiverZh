@@ -1,0 +1,350 @@
+ArmorSet: {
+	Breacher: 
+		'''
+		A spotter drone follows you, building energy with kills
+		Double tap DOWN to consume it and call down an orbital strike on an enemy
+		'''
+
+	Geomancer: 
+		'''
+		Kills and critical strikes with magic have a chance to drop magic gems
+		Each gem activates a different effect when picked up
+		Obtaining another gem stores the previous effect
+		Collecting all briefly activates every effect at once
+		'''
+
+	Moonstone: 
+		'''
+		Accumulate lunar energy by dealing melee damage
+		Double tap DOWN to summon the legendary spear Datsuzei
+		Datsuzei consumes this lunar energy and dissapears at zero
+		'''
+
+	Haunted: 
+		'''
+		Double tap DOWN with a magic weapon to haunt or unhaunt it, or with an empty hand to unhaunt all
+		Haunted weapons float around you and attack automatically, but {{Reserve}} mana
+		Haunted weapons become disinterested in non-magic users and can't be used while haunted
+		'''
+	HauntedBored: Your haunted weapons seem bored...
+
+	Forest: 
+		'''
+		A slime prince follows you around
+		Double tap DOWN to fuse with the prince
+		You can control the prince during this time
+		The prince takes damage instead of you during this time
+		'''
+
+	Starwood: 
+		'''
+		Picking up mana stars empowers Starwood items, temporarily granting them new effects
+		All enemies have a chance of dropping mana stars on death
+		'''
+
+	Vitric: 
+		'''
+		Accumulate powerful glass shards over time
+		Double tap DOWN to load these shards into your bow
+		Shards fired from bows have high velocity and damage
+		'''
+}
+
+Buff: {
+	HotspringHeal: An evil presence prevents you from relaxing in the hot springs!
+
+	Claustrophobia: couldn't maintain their form.
+	
+	ImpactSMGBuff1: "The Impact SMG deals "
+	ImpactSMGBuff2: "% "
+	ImpactSMGBuff3: "increased damage"
+}
+
+Item: {
+	DefenseSystem: "{0}'s Defense System"
+
+	RelicItem1: Twice
+	RelicItem2: Cannot be reforged
+
+	MultiAmmoWeapon: "Current Ammo: [i:{0}]{1}"
+
+	Ingredient1: adds
+	Ingredient2: seconds duration to food
+
+	Ingredient3: Main Course
+	Ingredient4: Side Dish
+	Ingredient5: Seasonings
+	Ingredient6: Bonus Effects
+
+	Meal1: " with "
+	Meal2: " and "
+	Meal3: " seconds duration"
+	Meal4: " seconds fullness"
+
+	GeomancerHood: hold UP for buff info
+	MoonstoneHead: hold UP for Datsuzei stats
+
+	VengefulSpirit: Dropped after beating either King Slime, Eye of Cthulhu, or Auroracle
+
+	CasualMirrorPlayer: " didn't read the tooltip"
+
+	GuillotineVFX: Ouch!
+
+	JadeStopwatch: "Obtained by beating {0} in {1}"
+
+	SwordBookParry1: Parry
+	SwordBookParry2: Cant block!
+
+	ElectroArrow1: Deals 25% bow damage
+	ElectroArrow2: Cannot critically strike
+
+	SoilgunGlobalItem: This item can be used as ammo for the Soilgun and Earthduster
+
+	SoilgunGlobalItemTip: {
+		1:
+			'''
+			When used with the Soilgun or Earthduster, it will fire out blocks of glassy sand, that cause crystals to grow out of enemies
+			For each crystal an enemy has, they take 2 damage per second, plus a base damage of 4, up to a maximum of 10 crystals
+			If an enemy has had 10 crystals on them for more than 4 seconds, all crystals become charged, exploding shorty after
+			'''
+		2: When used with the Soilgun or Earthduster, it will fire out blocks of sand that split into many grains of sand upon death
+		3: When used with the Soilgun or Earthduster, it will fire out blocks of Crimsand that steal life from hit enemies
+		4: When used with the Soilgun or Earthduster, it will fire out blocks of Ebonsand that apply stacks of Haunted to enemies
+		5: When used with the Soilgun or Earthduster, it will fire out blocks of Pearlsand that home in on enemies
+		6: When used with the Soilgun or Earthduster, it will fire out blocks of dirt
+		7: When used with the Soilgun or Earthduster, it will fire out blocks of silt, that spawn coins upon hitting enemies
+		8:
+			'''
+			When used with the Soilgun or Earthduster, it will fire out blocks of slush that cause hit enemies to have icicles impale them
+			Hitting and enemy with more than 10 icicles causes all icicles to shatter, causing large amounts of damage
+			'''
+		9: When used with the Soilgun or Earthduster, it will fire out blocks of mud that bounce off tiles and enemies
+	}
+
+	Shaker: Snail Speed
+
+	OverflowingUrn1: damage over time
+	OverflowingUrn2: Cannot critically strike
+
+	ArmorBag1: No helmet
+	ArmorBag2: No chestplate
+	ArmorBag3: No leggings
+	ArmorBag4:
+		'''
+		Right click to equip stored armor
+		Right click with armor to add it to the bag
+		"Ctrl-Right click to empty the bag
+		'''
+
+	ChefBag: Ingredient added to chefs bag
+
+	GlassReplica: "Replica "
+
+	ForgeMap1: Glassweaver's... Map?
+	ForgeMap2: Erm... This doesn't look quit right...
+	ForgeMap3: Glassweaver's Great Map of the Grand Forge Temple
+
+	Coalescence: Slow charge
+
+	FacetAndLattice: 50 shield life
+}
+
+Archaeology: {
+	Artifact: Artifact
+}
+
+CustomHooks: {
+	AstralMeteor: A shard of the moon has landed!
+
+	PrehardmodeWarningThank: Thank you for playing!
+	PrehardmodeWarning: You've reached the current end of Starlight River. Hardmode content is planned and under development, follow us on social media for spoilers and future updates.
+}
+
+Events: {
+	TravelerArrived: A strange traveler has arrived...
+
+	Wanderer1: Wanderer, I await you at the place you entered this strange world...
+	Wanderer2: Wanderer, do not keep me waiting...
+	Wanderer3: Wanderer, I brought a gift... and ice cream...
+}
+
+Keys: {
+	OvergrowKey: "Got: Overgrowth Key"
+}
+
+Pickups: {
+	ForbiddenWindsPickup: {
+		1: "Press W/A/S/D + "
+		2: " to dash."
+		3: "Press W/A/S/D + [Please Bind a Key] to dash."
+		Hint: "A dense conflux of Starlight energy... could this be the tangle Alican mentioned?"
+	}
+
+	InfusionSlotPickup: {
+		1: Mysterious Technology
+		2: What has it done to you?
+	}
+
+	StaminaShardPickup: {
+		1: Starlight Vessel
+		2: Your maximum starlight has increased by 1
+		3: Starlight Vessel Shard
+		4: "Collect "
+		5: " more to increase your maximum starlight"
+	}
+
+	StaminaShardTile: "pickup set to stamina shard number "
+}
+
+Npc: {
+	StarlightWaterActor: Something went wrong with item conversion: item turning into air!
+
+	BossRushGoal1: Boss rush
+	BossRushGoal2: Boss blitz
+	BossRushGoal3: Starlight showdown
+	BossRushGoal4: Invalid
+
+	CrystalSlime2: Dash into me first!
+	CrystalSlime3: Blocked!
+
+	NpcHint: {
+		Stalker: Theres... nothing there. An illusion.
+		Dweller: There's something here.
+		CrescentCaster: It somehow shields nearby foes...
+		Warbanner: It somehow bolsters nearby foes...
+		Fogbinder: Disrupted with prolonged contact...
+		Dreambeast: It's not real. It's not real. It's not real. IT'S NOT REAL. IT'S NOT REAL. IT'S NOT REAL.
+		Crusher: Watch your step.
+		Snoobel: Extremely ugly. so Fucking ugly.
+		CoolmitePassive: Even cuter in crystal!
+		CoolmiteSmol: Even smoller in crystal!
+		CoolmiteLarge: Even more mesmerizing in crystal!
+	}
+
+	NpcBestiary: {
+		Dweller: They have evolved to camoflauge themselves as trees, and use this ability to ambush unsuspecting victims in comical fashion. The laugh just sells the point.
+		SoulNibbler: These tiny pests take after their larger bretheren, floating eerily and swarming any foolish enough to come near their tiny, but awfully sharp, fangs.
+		CrescentCaster: As the first in a long line of dead wizards, this one has had ample time to practice magic. Using its crescent staff, this fiend generates Barrier for all nearby foes - but is immobile while doing so.
+		Warbanner: An artifact from battles past, this cursed sign still inspires others with the enraging spirit of battle to this day.
+		Blover: Blovers are clover-based plants that harness the ambient mana during particularly windy days to spin their fan-shaped leaves at approaching creatures. They are immobile, and would serve as a good form of defense if one were to discover a way to move or perhaps plant one.
+		Fogbinder: They call it... The fogbinder. Appearing during thunderstorms, this being is very Spooky, Demented, Demonic, Hellish, and Evil.
+		LootWraith: The tortured souls of adventurers obsessed with treasure, forever cursed in death to protect the only thing they cared about in life
+		Dreamprism: These anomalous beings are a collection of previously lifeless rocks possessed by the hopes and dreams of the collective subconscious.
+		AngryCrescent: A chunk of the moon possessed with hatred for you. These creatures will stop at nothing to protect their home.
+		Snoobel: A curious but cruel creature, the snoobel wanders the frozen caverns, using its trunk as an instrument of absolute death.
+		GloomSlime: These drab dribbling droplets descend devilishly after dusk, deep in the depths of doom.
+		CrystalSlime: An extremely elusive specimen. It's taken in a large amount of crystals and Starlight energy, forming a priceless coating over its membrane. Anyone that finds an intact one should be extremely careful not to break it, for it's likely they will never encounter it again.
+		DesertWisp: A tangle of Starlight energy that can be considered alive, if only barely.
+		KettleCreature: A construct built by an unknown people, seemingly harvesting crystal and processing it internally. It can be assumed that it has run out of storage after an extremely long amount of time unmaintained, so it uses its excess molten crystal as an automatic defense mechanism.
+		MagmitePassive: A barely-sentient bundle of magma, closely related to slimes. Harbors absolutely zero animosity towards anything ever, and would get along well with just about any creature if it weren't for its body being thousands of degrees hotter than they would prefer.
+		MagmiteSmol: A tiny sentient drop of magma freshly born from the pools of molten glass. Harbors endless curiosity towards everything and everyone it comes across, but it doesn't yet realize that its body is hundreds of degrees hotter than most living things can bear.
+		MagmiteLarge: A matured magmite, covered with intricate patterns and swirls from the slow cooling of its body. Most creatures dare not approach to admire its magnificence, as it still still brilliantly burns thousands of degrees.
+		Snake: A territorial species found nesting in the sands of the Vitric Desert. Approach with caution - they are passive only until one encroaches upon their territory.
+		BoomBug: A swarming insect found in the Vitric Desert. Rapidly calls forth its lesser bretheren as a means of attack, flying close to their target before detonating their molten nectar to burn and cook their prey
+		LesserFirebug: A lesser form of the Firebug, these are at the bottom of the nest's heirarchy. They are regularly sent to their deaths in order to detonate their own bodys to help the hive hunt.
+		CoolmitePassive: Through the power of Shimmer, this form of Magmite has magically cooled down to safe temperatures without rendering itself immobile. Unfortunately, this is a rather chilly temperature for a creature used to being submerged in lava, so they go to great lengths to heat themselves back up.
+		CoolmiteSmol: Through the power of Shimmer, this form of Magmite has been cooled into a crystalized shard of sentient magma. Even though this leaves the magmite harmless to other creatures, this rigid form actually hinders its endless curiosity as it can no longer fit itself into small spaces.
+		CoolmiteLarge: Even through the power of Shimmer, this form of Magmite is so hot that its heat is partially retained. Although its rotund crystal body remains mesmerizing to all that behold it, it seems quite perturbed that it has lost its magnificent swirls.
+		CrystalPopper: A territorial bat, related to the Sandviper. It launches itself into the air when startled, accompanied with a burst of its nesting crystals towards any nearby foes.
+		GruntConstruct: One of the Glassweaver's constructs. Uses its small stature and curved blade to menace challengers up close.
+		JuggernautConstruct: One of the Glassweaver's constructs. This sturdy brute will often use its allies as projectiles when out of smashing range.
+		PelterConstruct: One of the Glassweaver's constructs. Relatively fragile, it draws intricate arrows from its own molten body.
+		ShieldConstruct: One of the Glassweaver's constructs. Once its spiked shield is dug into the ground, this stalwart protector is immovable.
+		SupporterConstruct: One of the Glassweaver's constructs. Channels its power to strengthen its allies' glass bodies. This may result in a power surge.
+		FlyingGruntConstruct: One of the Glassweaver's constructs. An already formidable duelist, made airborne - speed is war.
+		FlyingPelterConstruct: One of the Glassweaver's constructs. Shares its ground variant's fragility, but it's wings grant it unparalleled vantage.
+	}
+
+	ConditionDescription: {
+		TempleCondition: When killed inside the vitric forge
+	}
+}
+
+Abilities: {
+	ImplementObjectives: Implement Objectives
+	StrikeFoes: Strike Foes
+	LootFallenStars: Loot Fallen Stars
+
+	Complete: "Objectives Complete! You've obtained: "
+	Imprinted: "Imprinted slate: "
+	Transform: Complete objectives to transform into an infusion
+
+	Hint: {
+		HintToDisplay1: Nothing interesting here...
+		HintToDisplay2: "It's my good friend, {0}!"
+		HintToDisplay3: "Thats {0}! Focus!"
+		HintToDisplay4: "It's just a {0}."
+		HintToDisplay5: "It's just some {0}..."
+	}
+}
+
+GUI: {
+	SP: "{0}    {1} SP"
+	Tincture: Barrier Tincture
+
+	Retry: Retry?
+	GiveUp: Give Up?
+	Score: "Final score: "
+
+	Armillary: Armillary Trial
+	Back: Back
+
+	ScoreN: "Score: {0}"
+	NoScore: No score!
+
+	Done: Done
+
+	Results: Results
+	ResultDamage: "Damage: {0}"
+	ResultKill: "Kills: {0}"
+	ResultTime: "Time: {0}"
+	ResultTaken: "{0} Hits taken: {1}"
+	ResultMultiplier: "Multiplier: {0}"
+	ResultTotal: "Total score: {0}"
+
+	Locked: Locked
+
+	Cooking1:
+		'''
+		lace a Main Course in
+		the top slot to start
+		cooking
+		'''
+	Cooking2: " seconds duration"
+	Cooking3: " seconds fullness"
+	Cooking4: "Place [c/"
+	Cooking5: ":"
+	Cooking6: "] here"
+
+	Inoculation:
+		'''
+		
+		{0}% {{Inoculation}}
+		'''
+	
+	Loot: {
+		1: Loot?
+		2: Loot!
+		3: Shiny treasures!
+		4: Shinies!
+		5: Treasure!
+		6: For your troubles...
+		7: This looks valuable...
+		8: Not a mimic!
+		9: Shiny!
+
+		Get: "You get:"
+		Pick: "Pick two:"
+
+		L: " ("
+		R: )
+	}
+
+	Stamina: "Starlight: {0}/{1}"
+
+	Dummy:
+		'''
+		{Dummy}
+
+		'''
+}

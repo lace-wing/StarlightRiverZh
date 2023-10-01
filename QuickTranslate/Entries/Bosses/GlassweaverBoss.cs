@@ -18,6 +18,9 @@ namespace StarlightRiverZh.QuickTranslate.Entries {
 
             MethodInfo gauntletWave0 = TargetType.GetMethod("GauntletWave0", BindingFlags.NonPublic | BindingFlags.Instance);
             TranslateTargetType(gauntletWave0, "Begin!", "开始！");
+
+            MethodInfo gethint = TargetType.GetMethod("GetHint", BindingFlags.Public | BindingFlags.Instance);
+            TranslateTargetType(gethint, "Now he's getting serious.", "Now he's getting serious.");
         }
     }
 }
