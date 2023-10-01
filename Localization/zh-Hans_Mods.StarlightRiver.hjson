@@ -1,3 +1,18 @@
+GUI: {
+	BossRush: {
+		Retry: Retry?
+		Quit: Give Up?
+		DeathScore: "Final Score: "
+		Button: Armillary Trial
+		NormalName: Boss Rush
+		ExpertName: Boss Blitz
+		MasterName: Starlight Showdown
+		NormalRules: " - Fight all Starlight River bosses in order! NEWBLOCK - Normal difficulty NEWBLOCK - Full heal between bosses"
+		ExpertRules: " - Fight all Starlight River bosses in order! NEWBLOCK - Expert difficulty NEWBLOCK - Heal 200 life between bosses NEWBLOCK - Game moves at 1.25x speed NEWBLOCK - 2x Score multiplier"
+		MasterRules: " - Theoretically Possible! NEWBLOCK - Master difficulty NEWBLOCK - No healing between bosses NEWBLOCK - Game moves at 1.5x speed NEWBLOCK - Healing potions disabled NEWBLOCK - Teleportation disabled NEWBLOCK - 3x Score multiplier"
+	}
+}
+
 Keybinds: {
 	Starsight.DisplayName: 星灵之视
 	"Forbidden Winds.DisplayName": 禁忌之风
@@ -4542,5 +4557,24 @@ Configs: {
 		Brackets.Label: 带括号
 		Both.Label: 两者皆有
 		Neither.Label: 两者皆无
+	}
+}
+
+Compat: {
+	BossChecklist: {
+		Auroracle: {
+			SpawnInfo: Drop a Suspicious Looking Offering into the prismatic waters of the Permafrost Shrine, accessed only through the coldest caves.
+			Despawn: The frozen cathedral falls silent.
+		}
+
+		Glassweaver: {
+			SpawnInfo: Challenge the glassweaver in his forge, near the edge of the Vitric Desert.
+			Despawn: The Glassweaver claims victory.
+		}
+
+		Ceiros: {
+			SpawnInfo: Use a Glass Idol at the altar atop the Vitric Temple, after breaking the crystal covering it using Forbidden Winds.
+			Despawn: The Vitric Forge falls silent. The Glassweaver is dissapointed.
+		}
 	}
 }
