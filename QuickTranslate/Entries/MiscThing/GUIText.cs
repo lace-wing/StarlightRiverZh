@@ -30,46 +30,6 @@ namespace StarlightRiverZh.QuickTranslate.MiscThing {
         }
     }
 
-    public class BossRushDeathScreen : TypeEntry {
-        public BossRushDeathScreen() : base(typeof(StarlightRiver.Content.GUI.BossRushDeathScreen)) {}
-
-        public override void Load() {
-            MethodInfo BarrierDyeSlotElement = TargetType.GetMethod("OnInitialize", BindingFlags.Public | BindingFlags.Instance);
-            TranslateTargetType(BarrierDyeSlotElement,
-            "Retry?",
-            Language.GetText("Mods.StarlightRiverZh.MiscText.GUI.Retry").Value);
-            TranslateTargetType(BarrierDyeSlotElement,
-            "Give Up?",
-            Language.GetText("Mods.StarlightRiverZh.MiscText.GUI.GiveUp").Value);
-
-            MethodInfo BarrierDyeSlotElement2 = TargetType.GetMethod("Draw", BindingFlags.Public | BindingFlags.Instance);
-            TranslateTargetType(BarrierDyeSlotElement2,
-            "Final score: ",
-            Language.GetText("Mods.StarlightRiverZh.MiscText.GUI.Score").Value);
-        }
-    }
-
-    public class BossRushButton : TypeEntry {
-        public BossRushButton() : base(typeof(StarlightRiver.Content.GUI.BossRushButton)) {}
-
-        public override void Load() {
-            MethodInfo BarrierDyeSlotElement = TargetType.GetMethod("OnInitialize", BindingFlags.Public | BindingFlags.Instance);
-            TranslateTargetType(BarrierDyeSlotElement,
-            "Armillary Trial",
-            Language.GetText("Mods.StarlightRiverZh.MiscText.GUI.Armillary").Value);
-            // TODO: 我不确定
-            // TranslateTargetType(BarrierDyeSlotElement,
-            // "Auroracle",
-            // Language.GetText("Mods.StarlightRiverZh.MiscText.GUI.Auroracle").Value);
-            // TranslateTargetType(BarrierDyeSlotElement,
-            // "Glassweaver",
-            // Language.GetText("Mods.StarlightRiverZh.MiscText.GUI.Glassweaver").Value);
-            // TranslateTargetType(BarrierDyeSlotElement,
-            // "Ceiros",
-            // Language.GetText("Mods.StarlightRiverZh.MiscText.GUI.Ceiros").Value);
-        }
-    }
-
     public class BossRushMenu : TypeEntry {
         public BossRushMenu() : base(typeof(StarlightRiver.Content.GUI.BossRushButton)) {}
 

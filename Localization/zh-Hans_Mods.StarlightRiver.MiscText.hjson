@@ -282,11 +282,6 @@ GUI: {
 	SP: "{0}    {1} SP"
 	Tincture: Barrier Tincture
 
-	Retry: Retry?
-	GiveUp: Give Up?
-	Score: "Final score: "
-
-	Armillary: Armillary Trial
 	Back: Back
 
 	ScoreN: "Score: {0}"
