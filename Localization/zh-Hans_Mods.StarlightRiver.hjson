@@ -3456,6 +3456,16 @@ Items: {
 		DisplayName: 粉色激光笔
 		Tooltip: ""
 	}
+
+	WarriorKingsCrown: {
+		DisplayName: Warrior King's Crown
+		Tooltip:
+			'''
+			诅咒：转化你所有的召唤栏位，每格仆从栏位提供2%召唤暴击率，每格哨兵栏位提供20%召唤伤害
+			增加200%召唤伤害
+			缩短30%战斗坐骑的冷却时间
+			'''
+	}
 }
 
 Tiles: {
