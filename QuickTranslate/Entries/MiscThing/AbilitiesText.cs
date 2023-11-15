@@ -1,4 +1,4 @@
-using StarlightRiverZh.Core.Interface;
+/* using StarlightRiverZh.Core.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -85,4 +85,4 @@ namespace StarlightRiverZh.QuickTranslate.MiscThing {
             Language.GetText("Mods.StarlightRiverZh.MiscText.Abilities.Transform").Value);
         }
     }
-}
+} */
