@@ -1,21 +1,3 @@
-		Compat: {
-			BossChecklist: {
-				Auroracle: {
-					SpawnInfo: 将一个可疑供品扔进永冻神殿的流光水中，那里只有穿过极寒洞窟才能进入。
-					Despawn: 冰封的教堂重归寂静。
-				}
-
-				Glassweaver: {
-					SpawnInfo: 在琉璃沙漠边缘的锻炉中挑战织璃匠。
-					Despawn: 织璃匠宣告了他的胜利。
-				}
-
-				Ceiros: {
-					SpawnInfo: 在使用禁忌之风击碎覆盖在琉璃神殿顶部祭坛上的水晶后，使用琉璃圣像。
-					Despawn: 琉璃锻炉重归寂静，织璃匠感到很失望。
-				}
-			}
-		}
 
 		Configs: {
 			AudioConfig: {

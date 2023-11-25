@@ -3469,7 +3469,7 @@ Items: {
 }
 
 Tiles: {
-	CauldronTile.MapEntry: Alchemic Cauldron
+	CauldronTile.MapEntry: 炼金坩埚
 	SeaglassRingTile.MapEntry: ""
 	FaeflamePickupTile.MapEntry: ""
 	ForbiddenWindsPickupTile.MapEntry: ""
@@ -3488,7 +3488,7 @@ Tiles: {
 	SlimeberryBush.MapEntry: ""
 	ThickTree.MapEntry: 巨大树
 	ThickTreeBase.MapEntry: ""
-	ThickTreeSapling.MapEntry: Large sapling
+	ThickTreeSapling.MapEntry: 大树苗
 	TallAncientFruit.MapEntry: 上古水果
 	TallGoldenRice.MapEntry: 黄金稻米
 	TallRice.MapEntry: Rice
@@ -3498,50 +3498,50 @@ Tiles: {
 	DisplayCase.MapEntry: Relic Case
 	DisplayCaseFriendly.MapEntry: Relic Case
 	PatreonPlaque.MapEntry: ""
-	RatTent.MapEntry: Strange Tent
-	MoonstoneBar.MapEntry: Metal Bar
+	RatTent.MapEntry: 奇怪的帐篷
+	MoonstoneBar.MapEntry: 金属锭
 	MoonstoneOre.MapEntry: 月长石矿
-	JellyShroom.MapEntry: Jelly Shroom
+	JellyShroom.MapEntry: 果冻菇
 	Lumishroom.MapEntry: ""
 	Vibeshroom.MapEntry: ""
 	BlueTorchOvergrow.MapEntry: ""
-	OvergrowthLivingWoodTile.MapEntry: Overgrown Living Wood
+	OvergrowthLivingWoodTile.MapEntry: 繁茂生命木
 	Rock2x2.MapEntry: ""
 	SetpieceAltar.MapEntry: ""
-	SkeletonBrickTile.MapEntry: Skeleton Brick
+	SkeletonBrickTile.MapEntry: 骨砖
 	TorchOvergrow.MapEntry: ""
 	WindowSmall.MapEntry: ""
 	WispAltarL.MapEntry: ""
 	WispAltarR.MapEntry: ""
-	AuroraclePainting.MapEntry: Painting
-	EggCodexPainting.MapEntry: Painting
-	EndOfTimePainting.MapEntry: Painting
-	RatKingPainting.MapEntry: Painting
+	AuroraclePainting.MapEntry: 画作
+	EggCodexPainting.MapEntry: 画作
+	EndOfTimePainting.MapEntry: 画作
+	RatKingPainting.MapEntry: 画作
 	AuroraBrick.MapEntry: ""
 	AuroraBrickDoor.MapEntry: ""
 	AuroraIce.MapEntry: ""
 	DoorBombShooter.MapEntry: ""
 	PermafrostIce.MapEntry: ""
-	Touchstone.MapEntry: Touchstone
+	Touchstone.MapEntry: 引光冰石
 	TouchstoneLootbox.MapEntry: ""
 	AuroracleTrophy.MapEntry: 纪念章
 	Auroracle.MapEntry: 音乐盒
 	CeirosTrophy.MapEntry: 纪念章
-	CombatShrine.MapEntry: Mysterious Shrine
-	EvasionShrine.MapEntry: Mysterious Shrine
+	CombatShrine.MapEntry: 神秘神龛
+	EvasionShrine.MapEntry: 神秘神龛
 	HotspringFountain.MapEntry: ""
 	MagmiteShrine.MapEntry: The Boi
-	WitShrine.MapEntry: Mysterious Shrine
+	WitShrine.MapEntry: 神秘神龛
 	DashBarrier.MapEntry: ""
 	JarTall.MapEntry: Stamina Jar
-	ManabondTile.MapEntry: Manabond
+	ManabondTile.MapEntry: 魔力契约
 	TempleChestSimple.MapEntry: ""
 	TempleLootBubble.MapEntry: ""
 	VerletBanner.MapEntry: ""
 	DestructableGlass.MapEntry: ""
 	ForgeActor.MapEntry: ""
-	ForgeDoor.MapEntry: Forge Door
-	ForgeInnerDoor.MapEntry: Forge Door
+	ForgeDoor.MapEntry: 锻炉门
+	ForgeInnerDoor.MapEntry: 锻炉门
 	RedBannerShort.MapEntry: ""
 	SandstoneDoor.MapEntry: ""
 	CrystalSlimeSpawner.MapEntry: ""
@@ -3549,7 +3549,7 @@ Tiles: {
 	DoorGears.MapEntry: ""
 	DoorLasers.MapEntry: ""
 	DoorVertical.MapEntry: ""
-	EntranceDoor.MapEntry: Vitric Temple Door
+	EntranceDoor.MapEntry: 琉璃神庙门
 	DynamicGear.MapEntry: ""
 	GearPuzzleOrigin.MapEntry: ""
 	ObjectiveGear.MapEntry: ""
@@ -3560,7 +3560,7 @@ Tiles: {
 	LightGoal.MapEntry: ""
 	Reflector.MapEntry: ""
 	LowWindBanner.MapEntry: ""
-	MainForge.MapEntry: Vitric Forgeheart
+	MainForge.MapEntry: 琉璃锻心
 	NPCSpawner.MapEntry: ""
 	OldCeirosShrine.MapEntry: ""
 	TallWindow.MapEntry: ""
@@ -3620,11 +3620,11 @@ Tiles: {
 	TempleChair.MapEntry: Chair
 	TempleLargeVase.MapEntry: 巨大花瓶
 	TempleLargeVaseCrystal.MapEntry: 巨大花瓶
-	TempleWorkbench.MapEntry: Workbench
-	TempleThrone.MapEntry: Throne
-	TempleFloorWeaponRack.MapEntry: Weapon Rack
-	TempleTable.MapEntry: Table
-	TempleTableCrystal.MapEntry: Table
+	TempleWorkbench.MapEntry: 工作台
+	TempleThrone.MapEntry: 王座
+	TempleFloorWeaponRack.MapEntry: 武器架
+	TempleTable.MapEntry: 桌子
+	TempleTableCrystal.MapEntry: 桌子
 	TempleWeaponRack0.MapEntry: 武器架
 	TempleWeaponRack1.MapEntry: 武器架
 	TempleWeaponRack2.MapEntry: 武器架
@@ -3650,10 +3650,10 @@ Tiles: {
 	VitricSand.MapEntry: ""
 	VitricSoftSand.MapEntry: ""
 	VitricSandPlain.MapEntry: ""
-	VitricGiantCrystal.MapEntry: Vitric Giant Crystal
-	VitricLargeCrystal.MapEntry: Vitric Large Crystal
-	VitricMediumCrystal.MapEntry: Vitric Medium Crystal
-	VitricSmallCrystal.MapEntry: Vitric Small Crystal
+	VitricGiantCrystal.MapEntry: 巨型琉璃晶
+	VitricLargeCrystal.MapEntry: 大型琉璃晶
+	VitricMediumCrystal.MapEntry: 中型琉璃晶
+	VitricSmallCrystal.MapEntry: 小型琉璃晶
 }
 
 Projectiles: {
@@ -4296,7 +4296,7 @@ Buffs: {
 	}
 
 	HeartStatueDrain: {
-		DisplayName: Heart Siphon
+		DisplayName: 心之虹吸
 		Description: ""
 	}
 
@@ -4381,8 +4381,8 @@ Buffs: {
 	}
 
 	Fogbinded: {
-		DisplayName: Fogbound
-		Description: Bound to the Fogbinder
+		DisplayName: 雾缚
+		Description: 与雾影锁魔绑定
 	}
 
 	TouchstoneWispBuff: {
@@ -4573,18 +4573,18 @@ Configs: {
 Compat: {
 	BossChecklist: {
 		Auroracle: {
-			SpawnInfo: Drop a Suspicious Looking Offering into the prismatic waters of the Permafrost Shrine, accessed only through the coldest caves.
-			Despawn: The frozen cathedral falls silent.
+			SpawnInfo: 将一个可疑供品扔进永冻神殿的流光水中，那里只有穿过极寒洞窟才能进入。
+			Despawn: 冰封的教堂重归寂静。
 		}
 
 		Glassweaver: {
-			SpawnInfo: Challenge the glassweaver in his forge, near the edge of the Vitric Desert.
-			Despawn: The Glassweaver claims victory.
+			SpawnInfo: 在琉璃沙漠边缘的锻炉中挑战织璃匠。
+			Despawn: 织璃匠宣告了他的胜利。
 		}
 
 		Ceiros: {
-			SpawnInfo: Use a Glass Idol at the altar atop the Vitric Temple, after breaking the crystal covering it using Forbidden Winds.
-			Despawn: The Vitric Forge falls silent. The Glassweaver is dissapointed.
+			SpawnInfo: 在使用禁忌之风击碎覆盖在琉璃神殿顶部祭坛上的水晶后，使用琉璃圣像。
+			Despawn: 琉璃锻炉重归寂静，织璃匠感到很失望。
 		}
 	}
 }
