@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+## macOS ignores
+
+# macOS folder cache
+.DS_Store
