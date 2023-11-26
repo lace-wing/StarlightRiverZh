@@ -464,7 +464,7 @@ Items: {
 		Tooltip:
 			'''
 			+30 {{屏障}}
-			当你没有{{屏障}}时增加2格最大仆从栏位
+			当你没有{{屏障}}时增加2格仆从栏位
 			当你的{{屏障}}降至0时自动召唤占据2格仆从栏位的仆从
 			'''
 	}
@@ -998,11 +998,11 @@ Items: {
 	}
 
 	HauntedAmethyst: {
-		DisplayName: 作祟紫水晶
+		DisplayName: 作祟紫晶
 		Tooltip:
 			'''
-			当生命值低于50%时增加1格最大仆从栏位
-			如果你的物品栏中有可用的召唤武器时，自动召唤一个仆从
+			当生命值低于50%时增加1格仆从栏位
+			如果你的背包中有可用的召唤武器，自动召唤一个仆从
 			'''
 	}
 
@@ -1010,11 +1010,11 @@ Items: {
 		DisplayName: 作祟匕首法杖
 		Tooltip:
 			'''
-			召唤会嵌入在敌人体内的萦魂匕首
-			更改召唤目标或用鞭子击打匕首会使匕首从敌人身上撕扯下来
-			'它们不是附魔了... 它们闹鬼了!'
-			'有什么区别吗？'
-			'有区别。'
+			召唤会嵌入敌人体内的作祟匕首
+			更改仆从目标或用鞭子抽打，狠狠地把它们从敌人身上撕扯下来
+			“它们不是附魔了……它们是闹鬼了！”
+			“有区别吗？”
+			“有区别。”
 			'''
 	}
 
@@ -1033,15 +1033,15 @@ Items: {
 	}
 
 	PoltergeistLegs: {
-		DisplayName: 作祟袍靴
-		Tooltip: +40 最大魔力
+		DisplayName: 作祟长袍
+		Tooltip: +40最大魔力
 	}
 
 	TaintedGreataxe: {
 		Tooltip:
 			'''
-			诅咒：造成暴击时会对一名新的、不同的敌人造成{{聚焦}}减益
-			右键被嵌入巨斧的敌人会使巨斧取消嵌入
+			诅咒：造成暴击时会对另一名敌人造成{{聚焦}}减益
+			巨斧嵌在敌人身上时，右键它以将其拔出
 			'''
 		DisplayName: 被玷污的巨斧
 	}
@@ -1053,7 +1053,7 @@ Items: {
 	}
 
 	CharonsObol: {
-		DisplayName: 卡戎的银币
+		DisplayName: 卡戎的钱币
 		Tooltip:
 			'''
 			将附近掉落的所有钱币转化为古老钱币，命中钱币的弹幕会被反弹
@@ -1263,7 +1263,7 @@ Items: {
 
 	BuffChalice: {
 		DisplayName: Plexus 圣杯
-		Tooltip: 造成减益时会短暂增加你的{{免疫力}}
+		Tooltip: 造成减益时会暂时增加你的{{免疫力}}
 	}
 
 	CasualMirror: {
@@ -1337,7 +1337,7 @@ Items: {
 
 	DullBlade: {
 		DisplayName: 钝刃
-		Tooltip: 古老而破旧，但仍然坚固。你可以把它锻造成一些有用的东西……
+		Tooltip: 古老而残破，但仍然坚固。你可以把它锻造成有用的东西……
 	}
 
 	Earthduster: {
@@ -1354,8 +1354,8 @@ Items: {
 		DisplayName: 电弧箭
 		Tooltip:
 			'''
-			链锁附近的敌人
-			会对敌人造成过充减益，大幅度降低敌人的移动速度
+			电击附近的敌人
+			会对敌人造成过充减益，大幅度降低敌人的防御
 			'''
 	}
 
@@ -1363,7 +1363,7 @@ Items: {
 		DisplayName: 附魔水壶
 		Tooltip:
 			'''
-			将树苗催长成大树苗
+			将树苗催成大树苗
 			加速大树苗的生长
 			'''
 	}
@@ -3725,14 +3725,14 @@ Projectiles: {
 	EchochainWhipAltProjectileChain.DisplayName: 共鸣锁链
 	EchochainWhipProjectile.DisplayName: 共鸣锁链
 	HauntedDaggerProjectile.DisplayName: 作祟匕首
-	PoltergeistMinion.DisplayName: 萦魂武器
+	PoltergeistMinion.DisplayName: 作祟诡兵
 	TaintedGreataxeProjectile.DisplayName: 空灵巨斧
-	CopperObol.DisplayName: 铜币
-	GoldObol.DisplayName: 金币
-	ObolImpact.DisplayName: 银币星星
-	PlatinumObol.DisplayName: 铂金币
-	SilverObol.DisplayName: 银币
-	ManEaterPotMinion.DisplayName: 食人怪
+	CopperObol.DisplayName: 古钱币
+	GoldObol.DisplayName: 古钱币
+	ObolImpact.DisplayName: 钱币星
+	PlatinumObol.DisplayName: 古钱币
+	SilverObol.DisplayName: 古钱币
+	ManEaterPotMinion.DisplayName: 驯服的食人怪
 	SlitherringWhip.DisplayName: 蛇鞭
 	GrayGooProj.DisplayName: 灰色粘质
 	ThunderBeadsProj.DisplayName: 雷电珠
@@ -4024,7 +4024,7 @@ NPCs: {
 	CrescentCaster.DisplayName: 新月法师
 	Blover.DisplayName: 三叶草
 	TreeBat.DisplayName: 树蝠
-	Warbanner.DisplayName: 闹鬼的战旗
+	Warbanner.DisplayName: 作祟战旗
 	Fogbinder.DisplayName: 雾影锁魔
 	LootWraith.DisplayName: 劫掠幽灵
 	AngryCrescent.DisplayName: 愤怒新月
@@ -4192,7 +4192,7 @@ Buffs: {
 
 	HauntedDaggerSummonBuff: {
 		DisplayName: 作祟匕首
-		Description: 千切百斩
+		Description: 千穿百刺
 	}
 
 	PalestoneSummonBuff: {
