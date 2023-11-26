@@ -2468,7 +2468,7 @@ Items: {
 
 	FaeflameTileItem: {
 		DisplayName: 火焰
-		Tooltip: "用于能力拾取的{{调试}}放置器"
+		Tooltip: 用于能力拾取的{{调试}}放置器
 	}
 
 	StaminaShardTileItem: {
@@ -2478,7 +2478,7 @@ Items: {
 
 	WindsTileItem: {
 		DisplayName: 禁忌之风
-		Tooltip: "用于能力拾取的{{调试}}放置器"
+		Tooltip: 用于能力拾取的{{调试}}放置器
 	}
 
 	CookStationItem: {

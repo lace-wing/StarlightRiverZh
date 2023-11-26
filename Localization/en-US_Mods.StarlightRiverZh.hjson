@@ -5,6 +5,15 @@ Notifications: {
 		The game language is not set to Chinese!
 		If there is a bug, try disabling experimental features in mod config.
 		'''
+	Info:
+		'''
+		- mod: Starlight River Chinese Patch
+		- version: {0}
+		- target mod: Starlight River
+		- developer: Team Starlight Boat
+		For bugs, try turning off non-Starlight-River mods, this mod's experimental features or itself.
+		For feedback, leave a comment in Steam workshop or join our Discord: discord.gg/99Rg4qS9hb
+		'''
 	InfoHint: For more info, use chat command '/slrzh'.
 	Changelog:
 		'''

@@ -68,7 +68,10 @@ namespace StarlightRiverZh.ModInfo
             log = log == string.Empty
                 ? Text.GetTaggedText(Text.NotifPath + "NoChangelog", Text.InfoColor, new object[] { Mod.Version })
                 : Text.GetTaggedText(Text.NotifPath + "Changelog", Text.VersionColor, new object[] { Mod.Version, log });
-            Main.NewTextMultiline("---\n" + log + "\n---", true);
+            Main.NewTextMultiline("\n---\n" + log + "\n---", true);
+        }
+        public void PopInfo(){
+            Main.NewTextMultiline("\n---\n" + Text.GetTaggedText(Text.NotifPath + "Info", Text.InfoColor, new object[]{ Mod.Version }) + "\n---", true);
         }
     }
 }

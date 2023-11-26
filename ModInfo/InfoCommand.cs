@@ -52,6 +52,8 @@ namespace StarlightRiverZh.ModInfo
                         notif.PopChangelog();
                         break;
                     case Option.Info:
+                        notif.PopInfo();
+                        break;
                     default: break;
                 }
             }
