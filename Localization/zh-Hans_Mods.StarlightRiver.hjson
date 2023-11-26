@@ -1262,7 +1262,7 @@ Items: {
 	}
 
 	BuffChalice: {
-		DisplayName: 强化圣杯
+		DisplayName: Plexus 圣杯
 		Tooltip: 造成减益时会短暂增加你的{{免疫力}}
 	}
 
@@ -1360,7 +1360,7 @@ Items: {
 	}
 
 	EnchantedWateringCan: {
-		DisplayName: 作祟浇水壶
+		DisplayName: 附魔水壶
 		Tooltip:
 			'''
 			将树苗催长成大树苗
@@ -2036,7 +2036,7 @@ Items: {
 		Tooltip:
 			'''
 			按住左键攻击敌人以积蓄压力
-			松开左键以释放积蓄的压力, 并发射锯刃
+			松开左键以释放积蓄的压力，并发射锯刃
 			‘正确工具的错误用途’
 			'''
 	}
@@ -2318,9 +2318,9 @@ Items: {
 	RecursiveFocus: {
 		Tooltip:
 			'''
-			召唤一个地狱结晶
-			地狱结晶会锁定敌人，造成的伤害会随着时间流逝而逐渐增加
-			右键可使结晶同时瞄准多个敌人，但伤害不会再逐渐增加且造成的伤害减少
+			召唤一颗地狱晶体
+			地狱晶体会锁定敌人，且造成的伤害会逐渐增加
+			右键可使晶体同时瞄准多个敌人，但伤害不会再逐渐增加且造成的伤害降低
 			'''
 		DisplayName: 递归透镜
 	}
@@ -3278,7 +3278,7 @@ Items: {
 	}
 
 	AuroracleItem: {
-		DisplayName: 八音盒 （极光之触）
+		DisplayName: 八音盒（极光之触）
 		Tooltip: ""
 	}
 
@@ -3661,12 +3661,12 @@ Projectiles: {
 	GlassBubble.DisplayName: 不稳定泡泡
 	GlassBubbleFragment.DisplayName: 玻璃碎片
 	GlassHammer.DisplayName: 编织之锤
-	GlassRaiseSpike.DisplayName: Raised Glass Structure
+	GlassRaiseSpike.DisplayName: 凸起的琉璃构造
 	GlassSpear.DisplayName: 编织之锤
 	GlassSword.DisplayName: 琉璃剑
 	LavaLob.DisplayName: Hot Lob
 	Whirlwind.DisplayName: 旋刃
-	Whirl.DisplayName: Whirl
+	Whirl.DisplayName: 旋风
 	InkBlob.DisplayName: 虹墨
 	InkBlobGravity.DisplayName: 虹墨
 	SpewBlob.DisplayName: 极光碎片
@@ -3681,13 +3681,13 @@ Projectiles: {
 	PistolTurret.DisplayName: 枪械炮塔
 	ShotgunTurret.DisplayName: 枪械炮塔
 	BreachCannonSentry.DisplayName: 破坏者加农炮
-	ExplosiveFlare.DisplayName: Explosive Flare
-	FlareShrapnel.DisplayName: Explosive Shrapnel
+	ExplosiveFlare.DisplayName: 爆破性照明弹
+	FlareShrapnel.DisplayName: 爆破性弹片
 	OrbitalStrike.DisplayName: 轨道打击
 	OrbitalStrikeRing.DisplayName: 轨道打击
-	ScrappodProjectile.DisplayName: Scrappod
-	ScrappodScrapnel.DisplayName: Scrapnel
-	ScrapshotShrapnel.DisplayName: Explosive Shrapnel
+	ScrappodProjectile.DisplayName: 破片弹
+	ScrappodScrapnel.DisplayName: 破片弹破片
+	ScrapshotShrapnel.DisplayName: 爆破性弹片
 	SpotterDrone.DisplayName: 破坏者无人机
 	SupplyBeaconProj.DisplayName: 补给信标
 	ArchaeologistsWhip_Whip.DisplayName: 考古学家的鞭子
@@ -3714,246 +3714,246 @@ Projectiles: {
 	BloodBolt.DisplayName: 血爆
 	BloodBolterExplosion.DisplayName: 血爆
 	BloodBolterHeldProj.DisplayName: 血爆
-	FleshApparation.DisplayName: Flesh apparation
-	GluttonyGhoul.DisplayName: Ghoul
-	GluttonyHandle.DisplayName: Gluttony
-	GravediggerSlam.DisplayName: Grave digger
-	GravediggerSwing.DisplayName: Grave digger
-	RadculasRapierSwungBlade.DisplayName: Radculas Rapier
-	RadculasRapierTeleport.DisplayName: Radculas Rapier
-	EchochainWhipAltProjectile.DisplayName: Echochain Aura
-	EchochainWhipAltProjectileChain.DisplayName: Echo Chain
-	EchochainWhipProjectile.DisplayName: Echochain
-	HauntedDaggerProjectile.DisplayName: Haunted Dagger
-	PoltergeistMinion.DisplayName: Haunted Weapon
-	TaintedGreataxeProjectile.DisplayName: Ethereal Greataxe
+	FleshApparation.DisplayName: 血肉幽影
+	GluttonyGhoul.DisplayName: 尸鬼
+	GluttonyHandle.DisplayName: 暴食
+	GravediggerSlam.DisplayName: 掘墓者
+	GravediggerSwing.DisplayName: 掘墓者
+	RadculasRapierSwungBlade.DisplayName: 拉德库拉长剑
+	RadculasRapierTeleport.DisplayName: 拉德库拉长剑
+	EchochainWhipAltProjectile.DisplayName: 共鸣锁链光环
+	EchochainWhipAltProjectileChain.DisplayName: 共鸣锁链
+	EchochainWhipProjectile.DisplayName: 共鸣锁链
+	HauntedDaggerProjectile.DisplayName: 作祟匕首
+	PoltergeistMinion.DisplayName: 萦魂武器
+	TaintedGreataxeProjectile.DisplayName: 空灵巨斧
 	CopperObol.DisplayName: 铜币
 	GoldObol.DisplayName: 金币
-	ObolImpact.DisplayName: Obol Star
+	ObolImpact.DisplayName: 银币星星
 	PlatinumObol.DisplayName: 铂金币
 	SilverObol.DisplayName: 银币
-	ManEaterPotMinion.DisplayName: Tamed Man Eater
-	SlitherringWhip.DisplayName: Slither Whip
-	GrayGooProj.DisplayName: Gray Goo
-	ThunderBeadsProj.DisplayName: Thunder Beads
-	ThunderbussShot.DisplayName: Electro Shock
-	AquaticBolt.DisplayName: Waterbolt
-	DruidThorn.DisplayName: Enchanted Thorn
-	Fireball.DisplayName: Fireball
-	MagicBolt.DisplayName: Magical bolt
-	Shock.DisplayName: Shock Bolt
-	BalloonGunBalloon.DisplayName: Balloon
-	BizarreIce.DisplayName: Bizarre Potion
-	BizarrePotionProj.DisplayName: Bizarre Potion
-	BladesawSwungBlade.DisplayName: Bladesaw
-	CoachGunBomb.DisplayName: Dynamite
-	CoachGunEmber.DisplayName: Ember
-	CoachGunMuzzleFlash.DisplayName: Muzzle Flash
-	CoachGunRing.DisplayName: Coach Bomb
-	CoilStaticShock.DisplayName: Static Shock
-	CopperCoilWhip.DisplayName: Copper Coil
-	DiceProj.DisplayName: Dice
-	DiscordantBolt.DisplayName: Discordant Bolt
-	DualCrossHeld.DisplayName: Double Cross
-	EarthdusterHoldout.DisplayName: Earthduster
-	EarthdusterRing.DisplayName: Ring
-	ElectroArrowProjectile.DisplayName: Electro Arrow
-	EnchantedWateringCanProj.DisplayName: Enchanted Watering Can
-	FiletSlash.DisplayName: Slash
+	ManEaterPotMinion.DisplayName: 食人怪
+	SlitherringWhip.DisplayName: 蛇鞭
+	GrayGooProj.DisplayName: 灰色粘质
+	ThunderBeadsProj.DisplayName: 雷电珠
+	ThunderbussShot.DisplayName: 电击
+	AquaticBolt.DisplayName: 水矢
+	DruidThorn.DisplayName: 附魔荆棘
+	Fireball.DisplayName: 火球
+	MagicBolt.DisplayName: 魔法矢
+	Shock.DisplayName: 电击矢
+	BalloonGunBalloon.DisplayName: 气球
+	BizarreIce.DisplayName: 奇异药水
+	BizarrePotionProj.DisplayName: 奇异药水
+	BladesawSwungBlade.DisplayName: 刃锯
+	CoachGunBomb.DisplayName: 炸药
+	CoachGunEmber.DisplayName: 余烬
+	CoachGunMuzzleFlash.DisplayName: 枪口闪光
+	CoachGunRing.DisplayName: 护骑炸弹
+	CoilStaticShock.DisplayName: 静电震击
+	CopperCoilWhip.DisplayName: 铜质线圈
+	DiceProj.DisplayName: 骰子
+	DiscordantBolt.DisplayName: 失谐弹幕
+	DualCrossHeld.DisplayName: 双发十字弩
+	EarthdusterHoldout.DisplayName: 大地涤尘炮
+	EarthdusterRing.DisplayName: 地之环
+	ElectroArrowProjectile.DisplayName: 电弧箭
+	EnchantedWateringCanProj.DisplayName: 附魔水壶
+	FiletSlash.DisplayName: 剔骨斩
 	FryingPanBonk.DisplayName: 煎锅
 	FryingPanProj.DisplayName: 煎锅
-	GeodeBowExplosion.DisplayName: Geode Explosion
-	GeodeBowGrowth.DisplayName: Geode Growth
-	GeodeBowProj.DisplayName: Geode Bow
-	GeodeBowShrapnel.DisplayName: Geode Shrapnel
-	GraveBusterHeld.DisplayName: Grave Buster
+	GeodeBowExplosion.DisplayName: 晶洞爆破
+	GeodeBowGrowth.DisplayName: 晶洞增生
+	GeodeBowProj.DisplayName: 晶洞弓
+	GeodeBowShrapnel.DisplayName: 晶洞破片
+	GraveBusterHeld.DisplayName: 坟墓破坏者
 	GraveSlash.DisplayName: Slash
-	GunchuckProj.DisplayName: Sanguine Flayer
-	HeartStatueSentry.DisplayName: Heart Statue?
-	ImpactSMGExplosion.DisplayName: Explosion
-	ImpactSMGHoldout.DisplayName: Impact SMG
-	ImpactSMGShot.DisplayName: Impact SMG Shot
-	MagmaGunPhantomProj.DisplayName: Magma Glob
-	SlingHeldProjectile.DisplayName: Sling
-	SlingMushroomProjectile.DisplayName: Shroom
-	SlingSeedProjectile.DisplayName: Seed
-	SlingStoneProjectile.DisplayName: Stone
-	HauntedSoul.DisplayName: Soul
-	SoilgunCoinsProjectile.DisplayName: Coin
-	SoilgunCrimsandSoil.DisplayName: Soil
-	SoilgunDirtSoil.DisplayName: Soil
-	SoilgunEbonsandSoil.DisplayName: Soil
-	SoilgunExplosion.DisplayName: Explosion
-	SoilgunHoldout.DisplayName: Soilgun
-	SoilgunIcicleProj.DisplayName: Icicle
-	SoilgunLifeSteal.DisplayName: Lifesteal Orb
-	SoilgunMudSoil.DisplayName: Soil
-	SoilgunPearlsandSoil.DisplayName: Soil
-	SoilgunSandGrain.DisplayName: Sand Grain
-	SoilgunSandSoil.DisplayName: Soil
-	SoilgunSiltSoil.DisplayName: Soil
-	SoilgunSlushSoil.DisplayName: Soil
-	SoilgunVitricCrystals.DisplayName: Volatile Crystal
-	SoilgunVitricSandSoil.DisplayName: Soil
-	ThrusterEmber.DisplayName: Thruster
-	TinCoilWhip.DisplayName: Tin Coil
-	CrescentOrb.DisplayName: Lunar Orb
-	CrescentQuarterstaffProj.DisplayName: Crescent Quarterstaff
-	DianeCrescant.DisplayName: Crescant
-	MoonfuryProj.DisplayName: Moonfury Spike
-	MoonfuryRing.DisplayName: Orbital Strike
-	MoonstoneArrowProj.DisplayName: Moonlit Arrow
-	MoonstoneArrowRing.DisplayName: Orbital Strike
-	MoonstoneHamaxeHoldout.DisplayName: Moonstone Hamaxe
-	MoonstoneHamaxeRing.DisplayName: Explosion
-	ShakerBall.DisplayName: Shaker
-	PaleKnight.DisplayName: Pale Knight
-	PalestoneDummy.DisplayName: Pale Slash
-	PalestoneSlash.DisplayName: Pale Slash
-	AuroraBellProj.DisplayName: Aurora Bell
-	AuroraBellRing.DisplayName: Aurora Bell
-	AuroraBellRingSmall.DisplayName: Aurora Bell
-	AuroracleInkBullet.DisplayName: Auroracle Ink
-	AuroraThroneMountWhip.DisplayName: Tentacle
-	OctogunTentapistol.DisplayName: Tentapistol
-	OverflowingUrnProj.DisplayName: Overflowing Urn
-	TentacleHookProj.DisplayName: Tentacle Hook
-	StarwoodBoomerangProjectile.DisplayName: Starwood Boomerang
-	StarwoodScepterSummonEmpowered.DisplayName: Empowered Star
-	StarwoodScepterSummonSplit.DisplayName: Split Star
-	StarwoodSlingshotFragment.DisplayName: Star Fragment
-	StarwoodSlingshotStar.DisplayName: Shooting Star
-	StarwoodStaffFallingStar.DisplayName: Falling Star
-	StarwoodStaffProjectile.DisplayName: Starshot
-	BuzzsawBlood1.DisplayName: Buzzsaw
-	BuzzsawProj.DisplayName: Steamsaw
-	BuzzsawProj2.DisplayName: Buzzsaw
-	CogAmmoProjectile.DisplayName: Cog
-	CogwheelHitbox.DisplayName: Cogwheel
-	JetwelderCrawler.DisplayName: Crawler
-	JetwelderFinal.DisplayName: Bomber
-	JetwelderFinalMissle.DisplayName: Rocket
-	JetwelderFlame.DisplayName: Jetwelder
-	JetwelderGatler.DisplayName: Gatler
-	JetwelderJumper.DisplayName: Jumper
-	JetwelderJumperExplosion.DisplayName: Rocket
-	JetwelderJumperMissle.DisplayName: Grenade
-	JetwelderSelector.DisplayName: Jetwelder
-	PhantomBuzzsaw.DisplayName: Buzzsaw
-	RebarProj.DisplayName: Rebar
-	RuneStaffHoldout.DisplayName: Shine Staff
-	RuneStaffHoldoutFlash.DisplayName: Shine Staff
-	RuneStaffProjectile.DisplayName: Shine Star
-	TempleSpearLaser.DisplayName: Point of Light
-	TempleSpearProjectile.DisplayName: Point of Light
-	ArrowMagma.DisplayName: Magma Arrow
-	CoachGunUpgradeBomb.DisplayName: Crystal Bomb
-	CoachGunUpgradeShards.DisplayName: Crystal Shards
-	FacetProjectile.DisplayName: Facet
-	GlassShard.DisplayName: Glass Spike
-	IgnitionGauntletCharge.DisplayName: Ignition Gauntlets
-	IgnitionGauntletCone.DisplayName: Ignition Gauntlets
-	IgnitionGauntletLaunch.DisplayName: Ignition Gauntlets
-	IgnitionGauntletsImpactRing.DisplayName: Ignition Gauntlets
-	IgnitionPunch.DisplayName: Ignition Gauntlets
-	IgnitionPunchPhantom.DisplayName: Ignition Gauntlets
-	LatticeProjectile.DisplayName: Lattice
-	MagmaArrowProj.DisplayName: Magma Arrow
-	MagmiteVacpackHoldout.DisplayName: Magmite Vacpack
-	MagmiteVacpackProjectile.DisplayName: Bouncy Magmite
-	NeedlerEmber.DisplayName: Needle
-	NeedlerExplosion.DisplayName: Needle
-	NeedlerProj.DisplayName: Needle
-	PhoenixStormMinion.DisplayName: Phoenix
-	RecursiveFocusLaser.DisplayName: Infernal Laser
-	RecursiveFocusProjectile.DisplayName: Infernal Crystal
-	VitricArmorProjectile.DisplayName: Enchanted Glass
-	VitricArmorProjectileIdle.DisplayName: Enchanted Glass
-	VitricBookProjectile.DisplayName: Vitric Book 1
-	VitricBookProjectiletileCheck.DisplayName: Vitric Book 2
-	VitricBookSpikeTrap.DisplayName: Vitric Spike Trap
-	VitricBulletCrystalExplosion.DisplayName: Explosion
-	VitricBulletCrystalProjectile.DisplayName: Vitric Crystal
-	VitricBulletProjectile.DisplayName: Vitric Bullet
-	VitricSwordProjectile.DisplayName: Enchanted Glass
-	EnemyMagnetShot.DisplayName: Electro Shock
-	AngryCrescentDeathProjectile.DisplayName: Crescent Shard
-	DreamprismSlam.DisplayName: Slam
-	SnoobelCollider.DisplayName: Snoobel
-	FirebugMagma.DisplayName: Molten glass
-	ConstructRing.DisplayName: Explosion
-	PelterConstructArrow.DisplayName: Glass Arrow
-	PelterConstructArrowLarge.DisplayName: Glass Arrow
-	KettleMortar.DisplayName: Magma Shot
-	SnakeSpit.DisplayName: Molten glass
-	PinkSeaSaltProjectile.DisplayName: Sea Salt
-	TableSaltProjectile.DisplayName: Table Salt
-	Dart.DisplayName: Cursed Dart
-	SawbladeSmall.DisplayName: Cursed Sawblade
-	Spear.DisplayName: Cursed Spear
-	HintText.DisplayName: Hint Text
-	BurningGround.DisplayName: Burning Ground
-	GlassJavelin.DisplayName: Glass Javelin
-	GlassweaverDoor.DisplayName: Glassweaver Door
-	Glint.DisplayName: Glint
-	AuroraWaterSplash.DisplayName: Aurora Water Splash
-	DoorBomb.DisplayName: Door Bomb
-	Laser.DisplayName: Laser
-	CrystalWave.DisplayName: Crystal Wave
-	FireCone.DisplayName: Fire Cone
-	FireRingHostile.DisplayName: Fire Ring Hostile
-	FireRing.DisplayName: Fire Ring
-	GlassVolley.DisplayName: Glass Volley
-	GlassVolleyShard.DisplayName: Glass Volley Shard
-	SpikeMine.DisplayName: Spike Mine
-	VitricBomb.DisplayName: Vitric Bomb
-	LightningNode.DisplayName: Lightning Node
-	ScrapshotHook.DisplayName: Scrapshot Hook
-	AztecDeathSaxophoneSoundwave.DisplayName: Aztec Death Saxophone Soundwave
-	SandSlash.DisplayName: Sand Slash
-	TwistSwordProjectile.DisplayName: Twist Sword Projectile
-	Acorn.DisplayName: Acorn
-	MonkSpadeProjectile.DisplayName: Monk Spade Projectile
-	SlimeThorn.DisplayName: Slime Thorn
-	GeoAmethystProj.DisplayName: Geo Amethyst Proj
-	GeoDiamondProj.DisplayName: Geo Diamond Proj
-	GeoEmeraldProj.DisplayName: Geo Emerald Proj
-	GeoRubyProj.DisplayName: Geo Ruby Proj
-	GeoSapphireProj.DisplayName: Geo Sapphire Proj
-	GeoTopazProj.DisplayName: Geo Topaz Proj
-	ThunderbussBall.DisplayName: Thunderbuss Ball
-	AxeBookProjectile.DisplayName: Axe Book Projectile
-	BizarreLightning.DisplayName: Bizarre Lightning
-	BizarreLightningOrb.DisplayName: Bizarre Lightning Orb
-	BizarrePotionPoisonCloud.DisplayName: Bizarre Potion Poison Cloud
-	FryingPanThrownProj.DisplayName: Frying Pan Thrown Proj
-	GuillotineVFX.DisplayName: Guillotine V F X
-	HolyAmuletOrb.DisplayName: Holy Amulet Orb
-	SorcerwrenchProjectile.DisplayName: Sorcerwrench Projectile
-	SpearBookProjectile.DisplayName: Spear Book Projectile
-	SwordBookParry.DisplayName: Sword Book Parry
-	SwordBookProjectile.DisplayName: Sword Book Projectile
-	ThrownAxeProjectile.DisplayName: Thrown Axe Projectile
-	UltrapillBlood.DisplayName: Ultrapill Blood
-	DatsuzeiProjectile.DisplayName: Datsuzei Projectile
-	StarGlaive.DisplayName: Star Glaive
-	StarShuriken.DisplayName: Star Shuriken
-	AuroraThroneMountMinion.DisplayName: Aurora Throne Mount Minion
-	FrostballProjectile.DisplayName: Frostball Projectile
-	FrostExplosion.DisplayName: Frost Explosion
-	TentalanceProjectile.DisplayName: Tentalance Projectile
-	StarwoodSlingshotProj.DisplayName: Starwood Slingshot Proj
-	TemplePickProjectile.DisplayName: Temple Pick Projectile
-	TempleSpearLight.DisplayName: Temple Spear Light
-	LaserPointerProjectile.DisplayName: Laser Pointer Projectile
-	CoachGunUpgradeExplosion.DisplayName: Coach Gun Upgrade Explosion
-	MagmaBottleBurn.DisplayName: Magma Bottle Burn
-	MagmiteBombProjectile.DisplayName: Magmite Bomb Projectile
-	MagmiteBottleProjectile.DisplayName: Magmite Bottle Projectile
-	RefractiveBladeLaser.DisplayName: Refractive Blade Laser
-	RefractiveBladeProj.DisplayName: Refractive Blade Proj
-	VitricBowProjectile.DisplayName: Vitric Bow Projectile
-	VitricBowShard.DisplayName: Vitric Bow Shard
+	GunchuckProj.DisplayName: 血红剥皮者
+	HeartStatueSentry.DisplayName: 心形雕像？
+	ImpactSMGExplosion.DisplayName: 爆炸
+	ImpactSMGHoldout.DisplayName: 冲撞冲锋枪
+	ImpactSMGShot.DisplayName: 冲撞冲锋枪射击
+	MagmaGunPhantomProj.DisplayName: 熔岩滴液
+	SlingHeldProjectile.DisplayName: 弹弓
+	SlingMushroomProjectile.DisplayName: 蘑菇
+	SlingSeedProjectile.DisplayName: 种子
+	SlingStoneProjectile.DisplayName: 石块
+	HauntedSoul.DisplayName: 灵魂
+	SoilgunCoinsProjectile.DisplayName: 硬币
+	SoilgunCrimsandSoil.DisplayName: 土块
+	SoilgunDirtSoil.DisplayName: 土块
+	SoilgunEbonsandSoil.DisplayName: 土块
+	SoilgunExplosion.DisplayName: 爆炸
+	SoilgunHoldout.DisplayName: 土块枪
+	SoilgunIcicleProj.DisplayName: 冰柱
+	SoilgunLifeSteal.DisplayName: 汲血珠
+	SoilgunMudSoil.DisplayName: 土块
+	SoilgunPearlsandSoil.DisplayName: 土块
+	SoilgunSandGrain.DisplayName: 砂粒
+	SoilgunSandSoil.DisplayName: 土块
+	SoilgunSiltSoil.DisplayName: 土块
+	SoilgunSlushSoil.DisplayName: 土块
+	SoilgunVitricCrystals.DisplayName: 挥发性结晶体
+	SoilgunVitricSandSoil.DisplayName: 土块
+	ThrusterEmber.DisplayName: 推进器
+	TinCoilWhip.DisplayName: 锡质线圈
+	CrescentOrb.DisplayName: 月光法球
+	CrescentQuarterstaffProj.DisplayName: 新月四分杖
+	DianeCrescant.DisplayName: 新月
+	MoonfuryProj.DisplayName: 月怒尖刺
+	MoonfuryRing.DisplayName: 轨道打击
+	MoonstoneArrowProj.DisplayName: 月耀箭
+	MoonstoneArrowRing.DisplayName: 轨道打击
+	MoonstoneHamaxeHoldout.DisplayName: 月长石斧
+	MoonstoneHamaxeRing.DisplayName: 爆炸
+	ShakerBall.DisplayName: 震颤者
+	PaleKnight.DisplayName: 苍白骑士
+	PalestoneDummy.DisplayName: 苍白斩
+	PalestoneSlash.DisplayName: 苍白斩
+	AuroraBellProj.DisplayName: 极光钟
+	AuroraBellRing.DisplayName: 极光钟
+	AuroraBellRingSmall.DisplayName: 极光钟
+	AuroracleInkBullet.DisplayName: 极光墨汁
+	AuroraThroneMountWhip.DisplayName: 触手
+	OctogunTentapistol.DisplayName: 触手
+	OverflowingUrnProj.DisplayName: 溢流瓮
+	TentacleHookProj.DisplayName: 腕足钩
+	StarwoodBoomerangProjectile.DisplayName: 星木回旋镖
+	StarwoodScepterSummonEmpowered.DisplayName: 增幅星星
+	StarwoodScepterSummonSplit.DisplayName: 裂星
+	StarwoodSlingshotFragment.DisplayName: 碎星
+	StarwoodSlingshotStar.DisplayName: 流星
+	StarwoodStaffFallingStar.DisplayName: 落星
+	StarwoodStaffProjectile.DisplayName: 击星
+	BuzzsawBlood1.DisplayName: 嗡鸣圆锯
+	BuzzsawProj.DisplayName: 蒸汽圆锯
+	BuzzsawProj2.DisplayName: 嗡鸣圆锯
+	CogAmmoProjectile.DisplayName: 齿轮
+	CogwheelHitbox.DisplayName: 齿轮车
+	JetwelderCrawler.DisplayName: 爬行机
+	JetwelderFinal.DisplayName: 轰炸机
+	JetwelderFinalMissle.DisplayName: 火箭
+	JetwelderFlame.DisplayName: 喷射焊机
+	JetwelderGatler.DisplayName: 盖特机
+	JetwelderJumper.DisplayName: 跃进机
+	JetwelderJumperExplosion.DisplayName: 火箭
+	JetwelderJumperMissle.DisplayName: 手雷
+	JetwelderSelector.DisplayName: 喷射焊机
+	PhantomBuzzsaw.DisplayName: 嗡鸣圆锯
+	RebarProj.DisplayName: 钢筋
+	RuneStaffHoldout.DisplayName: 闪烁法杖
+	RuneStaffHoldoutFlash.DisplayName: 闪烁法杖
+	RuneStaffProjectile.DisplayName: 闪烁之星
+	TempleSpearLaser.DisplayName: 光点
+	TempleSpearProjectile.DisplayName: 光点
+	ArrowMagma.DisplayName: 熔岩箭
+	CoachGunUpgradeBomb.DisplayName: 水晶炸弹
+	CoachGunUpgradeShards.DisplayName: 水晶裂片
+	FacetProjectile.DisplayName: 多面体
+	GlassShard.DisplayName: 琉璃刺
+	IgnitionGauntletCharge.DisplayName: 点火手套
+	IgnitionGauntletCone.DisplayName: 点火手套
+	IgnitionGauntletLaunch.DisplayName: 点火手套
+	IgnitionGauntletsImpactRing.DisplayName: 点火手套
+	IgnitionPunch.DisplayName: 点火手套
+	IgnitionPunchPhantom.DisplayName: 点火手套
+	LatticeProjectile.DisplayName: 晶格
+	MagmaArrowProj.DisplayName: 熔岩箭
+	MagmiteVacpackHoldout.DisplayName: 熔滴螨真空枪
+	MagmiteVacpackProjectile.DisplayName: 弹跳熔滴螨
+	NeedlerEmber.DisplayName: 针刺
+	NeedlerExplosion.DisplayName: 针刺
+	NeedlerProj.DisplayName: 针刺
+	PhoenixStormMinion.DisplayName: 菲尼克斯
+	RecursiveFocusLaser.DisplayName: 地狱激光
+	RecursiveFocusProjectile.DisplayName: 地狱晶体
+	VitricArmorProjectile.DisplayName: 附魔琉璃
+	VitricArmorProjectileIdle.DisplayName: 附魔琉璃
+	VitricBookProjectile.DisplayName: 琉璃之书1
+	VitricBookProjectiletileCheck.DisplayName: 琉璃之书2
+	VitricBookSpikeTrap.DisplayName: 琉璃之刺陷阱
+	VitricBulletCrystalExplosion.DisplayName: 爆炸
+	VitricBulletCrystalProjectile.DisplayName: 琉璃晶
+	VitricBulletProjectile.DisplayName: 琉璃弹
+	VitricSwordProjectile.DisplayName: 附魔琉璃
+	EnemyMagnetShot.DisplayName: 电击
+	AngryCrescentDeathProjectile.DisplayName: 新月碎片
+	DreamprismSlam.DisplayName: 猛击
+	SnoobelCollider.DisplayName: 史努贝尔
+	FirebugMagma.DisplayName: 熔璃
+	ConstructRing.DisplayName: 爆炸
+	PelterConstructArrow.DisplayName: 琉璃箭
+	PelterConstructArrowLarge.DisplayName: 琉璃箭
+	KettleMortar.DisplayName: 熔岩弹丸
+	SnakeSpit.DisplayName: 熔璃
+	PinkSeaSaltProjectile.DisplayName: 海盐
+	TableSaltProjectile.DisplayName: 食盐
+	Dart.DisplayName: 诅咒飞镖
+	SawbladeSmall.DisplayName: 诅咒锯刃
+	Spear.DisplayName: 诅咒矛
+	HintText.DisplayName: 提示文本
+	BurningGround.DisplayName: 燃烧的地面
+	GlassJavelin.DisplayName: 琉璃标枪
+	GlassweaverDoor.DisplayName: 织璃匠门
+	Glint.DisplayName: 闪烁
+	AuroraWaterSplash.DisplayName: 极光水溅
+	DoorBomb.DisplayName: 门炸弹
+	Laser.DisplayName: 极光
+	CrystalWave.DisplayName: 水晶波
+	FireCone.DisplayName: 火椎
+	FireRingHostile.DisplayName: 火焰之环
+	FireRing.DisplayName: 火焰之环
+	GlassVolley.DisplayName: 琉璃弹
+	GlassVolleyShard.DisplayName: 琉璃弹片
+	SpikeMine.DisplayName: 尖刺地雷
+	VitricBomb.DisplayName: 琉璃炸弹
+	LightningNode.DisplayName: 闪电节点
+	ScrapshotHook.DisplayName: 锈迹钩爪
+	AztecDeathSaxophoneSoundwave.DisplayName: 阿兹台克死亡萨克斯声波
+	SandSlash.DisplayName: 沙斩
+	TwistSwordProjectile.DisplayName: 环旋重剑
+	Acorn.DisplayName: 橡子
+	MonkSpadeProjectile.DisplayName: 武僧月牙铲
+	SlimeThorn.DisplayName: 史莱姆荆棘
+	GeoAmethystProj.DisplayName: 紫水晶
+	GeoDiamondProj.DisplayName: 钻石
+	GeoEmeraldProj.DisplayName: 绿宝石
+	GeoRubyProj.DisplayName: 红玉
+	GeoSapphireProj.DisplayName: 蓝宝石
+	GeoTopazProj.DisplayName: 黄水晶
+	ThunderbussBall.DisplayName: 雷筒球
+	AxeBookProjectile.DisplayName: 猛虎下山
+	BizarreLightning.DisplayName: 奇异闪电
+	BizarreLightningOrb.DisplayName: 奇异闪电球
+	BizarrePotionPoisonCloud.DisplayName: 奇异药水毒云
+	FryingPanThrownProj.DisplayName: 煎锅
+	GuillotineVFX.DisplayName: 断头台
+	HolyAmuletOrb.DisplayName: 神圣护身符法球
+	SorcerwrenchProjectile.DisplayName: 巫师扳手
+	SpearBookProjectile.DisplayName: 灵蛇突袭
+	SwordBookParry.DisplayName: 螳螂剑术格挡
+	SwordBookProjectile.DisplayName: 螳螂剑术
+	ThrownAxeProjectile.DisplayName: 投斧
+	UltrapillBlood.DisplayName: 终极药丸血液
+	DatsuzeiProjectile.DisplayName: 大津贅沢
+	StarGlaive.DisplayName: 星之利刃
+	StarShuriken.DisplayName: 星之手里剑
+	AuroraThroneMountMinion.DisplayName: 极光坐骑
+	FrostballProjectile.DisplayName: 寒霜球
+	FrostExplosion.DisplayName: 寒霜爆破
+	TentalanceProjectile.DisplayName: 触手长枪
+	StarwoodSlingshotProj.DisplayName: 星木弹弓
+	TemplePickProjectile.DisplayName: 旋风镐冲锋
+	TempleSpearLight.DisplayName: 神庙之矛光
+	LaserPointerProjectile.DisplayName: 激光指示器
+	CoachGunUpgradeExplosion.DisplayName: 护骑霰弹枪升级爆炸
+	MagmaBottleBurn.DisplayName: 熔岩瓶烧灼
+	MagmiteBombProjectile.DisplayName: 熔滴螨炸弹
+	MagmiteBottleProjectile.DisplayName: 熔滴螨瓶
+	RefractiveBladeLaser.DisplayName: 折射尖刃极光
+	RefractiveBladeProj.DisplayName: 折射尖刃
+	VitricBowProjectile.DisplayName: 琉璃弓
+	VitricBowShard.DisplayName: 琉璃弓碎片
 	BossRushOrbGoreProjectile.DisplayName: Boss Rush Orb Gore Projectile
 	ConstructSpawner.DisplayName: Construct Spawner
 	GauntletSpawner.DisplayName: Gauntlet Spawner
@@ -3963,42 +3963,42 @@ Projectiles: {
 Biomes: {
 	HotspringBiome: {
 		DisplayName: 热泉
-		TownNPCDialogueName: the Hotspring Biome
+		TownNPCDialogueName: 热泉
 	}
 
 	MoonstoneBiome: {
 		DisplayName: 月光岩地
-		TownNPCDialogueName: the Moonstone Biome
+		TownNPCDialogueName: 月光岩地
 	}
 
 	OvergrowBiome: {
 		DisplayName: "[PH]繁茂之地"
-		TownNPCDialogueName: the Overgrow Biome
+		TownNPCDialogueName: 繁茂之地
 	}
 
 	PermafrostTempleBiome: {
 		DisplayName: 极光神殿
-		TownNPCDialogueName: the Permafrost Temple Biome
+		TownNPCDialogueName: 极寒神殿
 	}
 
 	VitricDesertBiome: {
 		DisplayName: 琉璃荒漠
-		TownNPCDialogueName: the Vitric Desert Biome
+		TownNPCDialogueName: 琉璃荒漠
 	}
 
 	VitricTempleBiome: {
 		DisplayName: 琉璃锻炉
-		TownNPCDialogueName: the Vitric Temple Biome
+		TownNPCDialogueName: 琉璃神庙
 	}
 
 	CombatShrineBiome: {
 		DisplayName: 战斗之地
-		TownNPCDialogueName: the Combat Shrine Biome
+		TownNPCDialogueName: 战斗之地
 	}
 
 	EvasionShrineBiome: {
 		DisplayName: 闪躲之地
-		TownNPCDialogueName: the Evasion Shrine Biome
+		TownNPCDialogueName: 闪躲之地
 	}
 }
 
@@ -4191,8 +4191,8 @@ Buffs: {
 	}
 
 	HauntedDaggerSummonBuff: {
-		DisplayName: Haunted Daggers
-		Description: Death by a hundred cuts
+		DisplayName: 作祟匕首
+		Description: 千切百斩
 	}
 
 	PalestoneSummonBuff: {
@@ -4236,7 +4236,7 @@ Buffs: {
 	}
 
 	FleshApparationBuff: {
-		DisplayName: Flesh apparation
+		DisplayName: 血肉幽影
 		Description: 一大块血肉正在跟随你！
 	}
 
@@ -4389,7 +4389,7 @@ Buffs: {
 		DisplayName: 极光奇遇
 		Description:
 			'''
-			下面是什么？
+			下面有着什么？
 			增加挖掘速度
 			'''
 	}
