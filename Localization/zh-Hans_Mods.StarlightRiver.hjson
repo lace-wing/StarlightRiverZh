@@ -1552,7 +1552,7 @@ Items: {
 
 	PandorasShield: {
 		DisplayName: 潘多拉护盾
-		Tooltip: "擦弹会使你获得等于弹幕伤害值一部分的屏障值"
+		Tooltip: 擦弹会使你获得等于弹幕伤害值一部分的屏障值
 	}
 
 	PhilosophersMortar: {
@@ -1914,7 +1914,7 @@ Items: {
 	}
 
 	InoculationPotion: {
-		DisplayName: "免疫力药水"
+		DisplayName: 免疫力药水
 		Tooltip: +30%免疫力
 	}
 
@@ -2473,7 +2473,7 @@ Items: {
 
 	StaminaShardTileItem: {
 		DisplayName: 星光碎片
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	WindsTileItem: {
@@ -2624,7 +2624,7 @@ Items: {
 
 	NoxiousNodeItem: {
 		DisplayName: 剧毒茎节
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	OvergrowthLivingWoodItem: {
@@ -2659,17 +2659,17 @@ Items: {
 
 	WindowSmallItem: {
 		DisplayName: 小窗
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	WispAltarLItem: {
 		DisplayName: Wisp Altar L Placer
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	WispAltarRItem: {
 		DisplayName: Wisp Altar R Placer
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	AuroraclePaintingItem: {
@@ -2698,7 +2698,7 @@ Items: {
 	}
 
 	AuroraBrickDoorItem: {
-		DisplayName: "调试砖块放置器"
+		DisplayName: 调试砖块放置器
 		Tooltip: ""
 	}
 
@@ -2718,7 +2718,7 @@ Items: {
 	}
 
 	DoorBombShooterItem: {
-		DisplayName: "调试发射器放置器"
+		DisplayName: 调试发射器放置器
 		Tooltip: ""
 	}
 
@@ -2749,7 +2749,7 @@ Items: {
 
 	CombatShrineItem: {
 		DisplayName: Combat shrine placer
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	HotspringFountainItem: {
@@ -2764,12 +2764,12 @@ Items: {
 
 	DashBarrierItem: {
 		DisplayName: Dash Barrier
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	JarTallItem: {
 		DisplayName: Stamina Jar Placer (Tall)
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	TempleChestPlacer: {
@@ -2789,12 +2789,12 @@ Items: {
 
 	TestBubble: {
 		DisplayName: 泡泡
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	VerletBannerItem: {
 		DisplayName: Verlet banner
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	AncientSandstonePillarWallItem: {
@@ -2824,17 +2824,17 @@ Items: {
 
 	ForgeDoorItem: {
 		DisplayName: 锻炉门
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	ForgeInnerDoorItem: {
 		DisplayName: 锻炉内门
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	RedBannerShortItem: {
 		DisplayName: 短飘带
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	CrystalSlimeSpawnerItem: {
@@ -2844,7 +2844,7 @@ Items: {
 
 	DashableDoorItem: {
 		DisplayName: DashableDoor
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	DoorGearsItem: {
@@ -2864,37 +2864,37 @@ Items: {
 
 	EntranceDoorItem: {
 		DisplayName: 外门
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	GearPuzzleOriginPlacer: {
 		DisplayName: 齿轮谜题原点
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	GearTilePlacer: {
 		DisplayName: 解谜用齿轮
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	ObjectiveGearItem: {
 		DisplayName: 齿轮谜题定位点
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	LightActorItem: {
 		DisplayName: Light actor placer
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	LensItem: {
 		DisplayName: Reflector Lens
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	ReflectorItem: {
 		DisplayName: 反射镜
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	LowWindBannerItem: {
@@ -2904,7 +2904,7 @@ Items: {
 
 	MainForgeItem: {
 		DisplayName: Main forge
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	NPCSpawnerItem: {
@@ -2914,22 +2914,22 @@ Items: {
 
 	OldCeirosShrineItem: {
 		DisplayName: 老旧的塞洛斯神龛
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	TallWindowCrystalItem: {
 		DisplayName: Crystal Window Actor
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	TallWindowItem: {
 		DisplayName: Window Actor
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	TallWindowLavaItem: {
 		DisplayName: Lava Window Actor
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	TempleCandleCrystalItem: {
@@ -2954,12 +2954,12 @@ Items: {
 
 	TutorialDoor1Item: {
 		DisplayName: 教程用门1
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	TutorialDoor2Item: {
 		DisplayName: 教程用门2
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	VitricPillarWallCrystalItem: {
@@ -2994,7 +2994,7 @@ Items: {
 
 	WindsRoomActorItem: {
 		DisplayName: Winds Room Actor
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	VitricBannerSmallItem: {
@@ -3004,17 +3004,17 @@ Items: {
 
 	VitricBossAltarItem: {
 		DisplayName: 塞洛斯祭坛
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	VitricBreakableVaseItem: {
 		DisplayName: 琉璃花瓶
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	VitricFountainItem: {
 		DisplayName: 琉璃喷泉
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	VitricGiantCrystalItem: {
@@ -3029,7 +3029,7 @@ Items: {
 
 	VitricLargeFountainItem: {
 		DisplayName: 大型琉璃喷泉
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	VitricLootBoxItem: {
@@ -3079,22 +3079,22 @@ Items: {
 
 	CombatShrineBarrierItem: {
 		DisplayName: CombatShrineBarrierItem
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	EvasionShrineBarrierItem: {
 		DisplayName: EvasionShrineBarrierItem
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	VitricBossBarrierItem: {
 		DisplayName: VitricBossBarrierItem
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	GlassweaverBossBarrierItem: {
 		DisplayName: GlassweaverBossBarrierItem
-		Tooltip: "调试物品"
+		Tooltip: 调试物品
 	}
 
 	VitricBathtub: {
