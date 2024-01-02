@@ -1,15 +1,15 @@
 GUI: {
 	BossRush: {
-		Retry: Retry?
-		Quit: Give Up?
-		DeathScore: "Final Score: "
+		Retry: 重试?
+		Quit: 放弃?
+		DeathScore: "最终分数: "
 		Button: Armillary Trial
 		NormalName: Boss Rush
 		ExpertName: Boss Blitz
 		MasterName: Starlight Showdown
-		NormalRules: " - Fight all Starlight River bosses in order! NEWBLOCK - Normal difficulty NEWBLOCK - Full heal between bosses"
-		ExpertRules: " - Fight all Starlight River bosses in order! NEWBLOCK - Expert difficulty NEWBLOCK - Heal 200 life between bosses NEWBLOCK - Game moves at 1.25x speed NEWBLOCK - 2x Score multiplier"
-		MasterRules: " - Theoretically Possible! NEWBLOCK - Master difficulty NEWBLOCK - No healing between bosses NEWBLOCK - Game moves at 1.5x speed NEWBLOCK - Healing potions disabled NEWBLOCK - Teleportation disabled NEWBLOCK - 3x Score multiplier"
+		NormalRules: " - 按顺序与星光之河的所有Boss进行战斗! NEWBLOCK - 普通难度 NEWBLOCK - Boss轮换时完全治疗"
+		ExpertRules: " - 按顺序与星光之河的所有Boss进行战斗! NEWBLOCK - 专家难度 NEWBLOCK - Boss轮换时治疗200点生命值 NEWBLOCK - 游戏会以1.25倍的速度进行 NEWBLOCK - 2倍得分"
+		MasterRules: " - 理论可行! NEWBLOCK - 大师难度 NEWBLOCK - Boss轮换时无治疗 NEWBLOCK - 游戏会以1.5倍的速度进行 NEWBLOCK - 禁用治疗药水 NEWBLOCK - 禁用传送 NEWBLOCK - 3倍得分"
 	}
 }
 
