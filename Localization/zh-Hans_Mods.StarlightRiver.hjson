@@ -3958,6 +3958,8 @@ Projectiles: {
 	ConstructSpawner.DisplayName: Construct Spawner
 	GauntletSpawner.DisplayName: Gauntlet Spawner
 	SpawnEgg.DisplayName: Spawn Egg
+	DreambeastProj.DisplayName: Dream Shard
+	DreambeastProjHome.DisplayName: Dream Essence
 }
 
 Biomes: {
@@ -4392,6 +4394,11 @@ Buffs: {
 			下面有着什么？
 			增加挖掘速度
 			'''
+	}
+
+	Dreamwarp: {
+		DisplayName: Dreamwarp
+		Description: Cuckoo for cocao puffs
 	}
 }
 
