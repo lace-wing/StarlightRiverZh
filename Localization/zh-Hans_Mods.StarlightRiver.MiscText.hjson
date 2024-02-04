@@ -1,21 +1,21 @@
 ArmorSet: {
 	Breacher:
 		'''
-		A spotter drone follows you, building energy with kills
-		Double tap DOWN to consume it and call down an orbital strike on an enemy
+		一架侦察无人机将会跟着你，在玩家造成伤害时补充电量
+		双击下键将会消耗所有电量，对敌人造成一次轨道打击
 		'''
 	Geomancer:
 		'''
-		Kills and critical strikes with magic have a chance to drop magic gems
-		Each gem activates a different effect when picked up
-		Obtaining another gem stores the previous effect
-		Collecting all briefly activates every effect at once
+		由魔法造成击杀或暴击有概率掉落魔法宝石
+		每颗宝石在拾取时都会获得不同的效果
+		获得其他宝石时会保留先前的效果
+		收集到全部宝石时，所有效果都会暂时地激活
 		'''
 	Moonstone:
 		'''
-		Accumulate lunar energy by dealing melee damage
-		Double tap DOWN to summon the legendary spear Datsuzei
-		Datsuzei consumes this lunar energy and dissapears at zero
+		造成近战伤害将会累积月之能量
+		双击下键召唤传奇长枪“达特苏泽”
+		“达特苏泽”将会消耗月之能量，并在能量为零时消失
 		'''
 	Haunted:
 		'''
@@ -23,7 +23,7 @@ ArmorSet: {
 		Haunted weapons float around you and attack automatically, but {{Reserve}} mana
 		Haunted weapons become disinterested in non-magic users and can't be used while haunted
 		'''
-	HauntedBored: Your haunted weapons seem bored...
+	HauntedBored: 你的作祟武器似乎疲惫不堪......
 	Forest:
 		'''
 		A slime prince follows you around
@@ -114,7 +114,7 @@ Item: {
 		'''
 	ChefBag: Ingredient added to chefs bag
 	GlassReplica: "Replica "
-	ForgeMap1: Glassweaver's... Map?
+	ForgeMap1: 织璃匠的......地图？
 	ForgeMap2: Erm... This doesn't look quit right...
 	ForgeMap3: Glassweaver's Great Map of the Grand Forge Temple
 	Coalescence: Slow charge
