@@ -3466,6 +3466,11 @@ Items: {
 			降低30%战斗坐骑的冷却时间
 			'''
 	}
+
+	CommonVegetablesItem: {
+		DisplayName: Common Vegetable Seeds
+		Tooltip: 种植蔬菜
+	}
 }
 
 Tiles: {
@@ -3654,6 +3659,7 @@ Tiles: {
 	VitricLargeCrystal.MapEntry: 大型琉璃晶
 	VitricMediumCrystal.MapEntry: 中型琉璃晶
 	VitricSmallCrystal.MapEntry: 小型琉璃晶
+	CommonVegetables.MapEntry: ""
 }
 
 Projectiles: {
@@ -4091,6 +4097,7 @@ NPCs: {
 
 	DesertWisp2.DisplayName: Desert Wisp2
 	StaminaShardPickup.DisplayName: Stamina Shard Pickup
+	EscapePlatform.DisplayName: ""
 }
 
 Buffs: {
