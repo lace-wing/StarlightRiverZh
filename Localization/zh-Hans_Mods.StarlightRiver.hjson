@@ -3471,6 +3471,11 @@ Items: {
 		DisplayName: Common Vegetable Seeds
 		Tooltip: 种植蔬菜
 	}
+
+	MoonstoneMonolithItem: {
+		DisplayName: Moonstone monolith
+		Tooltip: Dreamifies the skies
+	}
 }
 
 Tiles: {
@@ -3660,6 +3665,7 @@ Tiles: {
 	VitricMediumCrystal.MapEntry: 中型琉璃晶
 	VitricSmallCrystal.MapEntry: 小型琉璃晶
 	CommonVegetables.MapEntry: ""
+	MoonstoneMonolith.MapEntry: Moonstone Monolith
 }
 
 Projectiles: {
