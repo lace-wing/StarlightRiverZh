@@ -2,14 +2,14 @@ GUI: {
 	BossRush: {
 		Retry: 重试？
 		Quit: 放弃？
-		DeathScore: "最终分数："
+		DeathScore: 最终分数：
 		Button: 天浑试炼
 		NormalName: Boss 连战
 		ExpertName: Boss 闪击
 		MasterName: 星光对决
 		NormalRules: " - 按顺序同所有星光之河的 Boss 战斗！ NEWBLOCK - 普通难度 NEWBLOCK - 切换 Boss 时回复所有生命"
 		ExpertRules: " - 按顺序同所有星光之河的 Boss 战斗！ NEWBLOCK - 专家难度 NEWBLOCK - 切换 Boss 时回复200点生命 NEWBLOCK - 游戏以1.25倍速运行 NEWBLOCK - 2倍得分"
-		MasterRules: " - 理论可行！ NEWBLOCK - 大师难度 NEWBLOCK - 切换 Boss 时不回复生命 NEWBLOCK - 游戏以1.5倍度运行 NEWBLOCK - 禁用治疗药水 NEWBLOCK - 禁用传送 NEWBLOCK - 3倍得分"
+		MasterRules: " - 理论可行！ NEWBLOCK - 大师难度 NEWBLOCK - 切换 Boss 时不回复生命 NEWBLOCK - 游戏以1.5倍速运行 NEWBLOCK - 禁用治疗药水 NEWBLOCK - 禁用传送 NEWBLOCK - 3倍得分"
 	}
 }
 
@@ -1685,7 +1685,7 @@ Items: {
 
 	TarnishedRing: {
 		DisplayName: 暗淡的指环
-		Tooltip: "“古老而暗淡。你可以把它雕刻成某种有用的东西……”"
+		Tooltip: “古老而暗淡。你可以把它雕刻成某种有用的东西……”
 	}
 
 	TinCoil: {
