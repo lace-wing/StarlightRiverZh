@@ -1,15 +1,15 @@
 GUI: {
 	BossRush: {
-		Retry: 重试?
-		Quit: 放弃?
-		DeathScore: "最终分数: "
-		Button: Armillary Trial
-		NormalName: Boss Rush
-		ExpertName: Boss Blitz
-		MasterName: Starlight Showdown
-		NormalRules: " - 按顺序与星光之河的所有Boss进行战斗! NEWBLOCK - 普通难度 NEWBLOCK - Boss轮换时完全治疗"
-		ExpertRules: " - 按顺序与星光之河的所有Boss进行战斗! NEWBLOCK - 专家难度 NEWBLOCK - Boss轮换时治疗200点生命值 NEWBLOCK - 游戏会以1.25倍的速度进行 NEWBLOCK - 2倍得分"
-		MasterRules: " - 理论可行! NEWBLOCK - 大师难度 NEWBLOCK - Boss轮换时无治疗 NEWBLOCK - 游戏会以1.5倍的速度进行 NEWBLOCK - 禁用治疗药水 NEWBLOCK - 禁用传送 NEWBLOCK - 3倍得分"
+		Retry: 重试？
+		Quit: 放弃？
+		DeathScore: "最终分数："
+		Button: 天浑试炼
+		NormalName: Boss 连战
+		ExpertName: Boss 闪击
+		MasterName: 星光对决
+		NormalRules: " - 按顺序同所有星光之河的 Boss 战斗！ NEWBLOCK - 普通难度 NEWBLOCK - 切换 Boss 时回复所有生命"
+		ExpertRules: " - 按顺序同所有星光之河的 Boss 战斗！ NEWBLOCK - 专家难度 NEWBLOCK - 切换 Boss 时回复200点生命 NEWBLOCK - 游戏以1.25倍速运行 NEWBLOCK - 2倍得分"
+		MasterRules: " - 理论可行！ NEWBLOCK - 大师难度 NEWBLOCK - 切换 Boss 时不回复生命 NEWBLOCK - 游戏以1.5倍度运行 NEWBLOCK - 禁用治疗药水 NEWBLOCK - 禁用传送 NEWBLOCK - 3倍得分"
 	}
 }
 
@@ -117,7 +117,7 @@ Items: {
 		Tooltip:
 			'''
 			搅拌棒
-			用这个来完成炼金配方并制作它们。
+			用这个来完成炼金配方并制作它们
 			'''
 		DisplayName: 搅拌棒
 	}
@@ -127,7 +127,7 @@ Items: {
 		Tooltip:
 			'''
 			增加1格最大哨兵栏位
-			`货真价实`
+			“货真价实”
 			'''
 	}
 
@@ -199,7 +199,7 @@ Items: {
 			'''
 			+30 最大屏障
 			小幅度增加屏障开始再生的速度
-			‘汹涌的海浪并没有削减它的光芒’
+			“汹涌的海浪并没有削减它的光芒”
 			'''
 	}
 
@@ -237,7 +237,7 @@ Items: {
 		Tooltip:
 			'''
 			在多次受到伤害后获得短暂的伤害抗性
-			‘防护激活，但是只有在……反复触发以后。’
+			“防护激活，但是只有在……反复触发以后。”
 			'''
 	}
 
@@ -372,7 +372,7 @@ Items: {
 		Tooltip:
 			'''
 			右键打开
-			‘争相追寻了几个世纪’
+			“争相追寻了几个世纪”
 			'''
 	}
 
@@ -412,7 +412,7 @@ Items: {
 		Tooltip:
 			'''
 			挥洒刃形沙
-			`真实的话语流逝于时间之中...`
+			“真实的话语流逝于时间之中……”
 			'''
 	}
 
@@ -431,13 +431,13 @@ Items: {
 			'''
 			不攻击时积蓄电能
 			下次射击的伤害和距离会随着电能的积蓄而增加
-			‘迎接这场声势浩大的风暴，直到雷霆的冲击归于沉寂’
+			“迎接这场声势浩大的风暴，直到雷霆的冲击归于沉寂”
 			'''
 	}
 
 	InertStaff: {
 		DisplayName: 失效的新月法杖
-		Tooltip: ‘仍然保留着一些潜在的星体能量……’
+		Tooltip: “仍然保留着一些潜在的星体能量……”
 	}
 
 	SkullBuster: {
@@ -474,7 +474,7 @@ Items: {
 			'''
 			按住左键融化与之接触的敌人并以此为火轮加热
 			松开左键以发射炽热火轮
-			‘撕裂并撕碎’
+			“撕裂并撕碎”
 			'''
 		DisplayName: 千度火轮
 	}
@@ -759,7 +759,7 @@ Items: {
 
 	VertebrateNuggets: {
 		Tooltip: "\n\n"
-		DisplayName: Vertebrate Nuggets
+		DisplayName: 脊肉块
 	}
 
 	Vinegar: {
@@ -793,7 +793,7 @@ Items: {
 			+20 最大生命
 			+20 最大魔力
 			暴击率乘0.8
-			‘一件古老的传家宝，上面刻有遗失在时光中的文字’
+			“一件古老的传家宝，上面刻有遗失在时光中的文字”
 			'''
 	}
 
@@ -812,7 +812,7 @@ Items: {
 		Tooltip:
 			'''
 			+1 任何伤害
-			'该死的，你为什么要磨刀？！'
+			“该死的，你为什么要磨刀？！”
 			'''
 	}
 
@@ -854,7 +854,7 @@ Items: {
 			延伸物块的方向基于你光标的方向
 			按住SHIFT键翻转方向
 			拥有40格物块放置距离
-			‘每一个令人尊敬的桥梁建筑师都拥有的绝佳工具！’
+			“每一个令人尊敬的桥梁建筑师都拥有的绝佳工具！”
 			'''
 	}
 
@@ -965,7 +965,7 @@ Items: {
 
 	LivingBlood: {
 		DisplayName: 不死之血
-		Tooltip: ‘血月之光的异常脉冲’
+		Tooltip: “血月之光的异常脉冲”
 	}
 
 	RadculasRapier: {
@@ -1058,7 +1058,7 @@ Items: {
 			'''
 			将附近掉落的所有钱币转化为古老钱币，命中钱币的弹幕会被反弹
 			古老钱币会在接触任何物块表面时失去它的效果
-			‘很快，一位摆渡人可能就要来了……’
+			“很快，一位摆渡人可能就要来了……”
 			'''
 	}
 
@@ -1089,7 +1089,7 @@ Items: {
 
 	ChargedMagnet: {
 		DisplayName: 带电磁体
-		Tooltip: ‘磁力脉冲’
+		Tooltip: “磁力脉冲”
 	}
 
 	GrayGoo: {
@@ -1097,7 +1097,7 @@ Items: {
 		Tooltip:
 			'''
 			召唤纳米机器群吞噬你的敌人
-			‘念台词，阿姆斯特朗！’
+			“念台词，阿姆斯特朗！”
 			'''
 	}
 
@@ -1116,7 +1116,7 @@ Items: {
 			'''
 			在锥形范围发射强大的闪电
 			右键发射一个爆炸性闪电球，它会吸引并强化你发射的闪电
-			'粉碎最具抗性之道'
+			“粉碎最具抗性之道”
 			'''
 	}
 
@@ -1252,7 +1252,7 @@ Items: {
 			屏障会吸收所有伤害并且重新开始充能的速度会变得更快
 			你不再受到持续伤害的影响
 			你拥有0点生命值。治疗会使你获得一个逐渐减弱的伤害增益，而非恢复生命值
-			‘抛弃你的肉体吧，你所需要的只是愤怒’
+			“抛弃你的肉体吧，你所需要的只是愤怒”
 			'''
 	}
 
@@ -1293,7 +1293,7 @@ Items: {
 			'''
 			右键扔出一捆被引燃的炸药
 			射击炸药可提前将其引爆
-			‘我的事，我来裁决’
+			“我的事，我来裁决”
 			'''
 	}
 
@@ -1397,7 +1397,7 @@ Items: {
 		Tooltip:
 			'''
 			长按左键近距离攻击敌人，之后会用扔出煎锅重重敲打敌人的头部
-			‘阴森邪恶的符文刻在底部’
+			“阴森邪恶的符文刻在底部”
 			'''
 	}
 
@@ -1415,7 +1415,7 @@ Items: {
 		Tooltip:
 			'''
 			摧毁附近的墓碑
-			‘你喜欢脑子的味道，我们不喜欢僵尸’
+			“你喜欢脑子的味道，我们不喜欢僵尸”
 			'''
 	}
 
@@ -1439,7 +1439,7 @@ Items: {
 			'''
 			进行二段跳时会向下方发射子弹
 			使用翅膀飞行时将持续发射子弹
-			‘闻起来像牛排和薯条的味道’
+			“闻起来像牛排和薯条的味道”
 			'''
 	}
 
@@ -1491,7 +1491,7 @@ Items: {
 		Tooltip:
 			'''
 			将所有的飞行时间转化为能量爆发
-			'在你的掌心中，至少有30条触犯OSHA条例的地方'
+			“在你的掌心中，至少有30条触犯OSHA条例的地方”
 			'''
 	}
 
@@ -1541,7 +1541,7 @@ Items: {
 			'''
 			具有猛虎下山、灵蛇突袭和螳螂剑术的效果
 			+10%近战暴击伤害
-			‘放弃，不放弃……做面条，不做面条。’
+			“放弃，不放弃……做面条，不做面条。”
 			'''
 	}
 
@@ -1612,7 +1612,7 @@ Items: {
 			长按左键充能并发射一排土块
 			释放高速土块
 			可使用不同种类的土块
-			‘弄脏它！玷污它！’
+			“弄脏它！玷污它！”
 			'''
 	}
 
@@ -1685,7 +1685,7 @@ Items: {
 
 	TarnishedRing: {
 		DisplayName: 暗淡的指环
-		Tooltip: "'古老而暗淡。你可以把它雕刻成某种有用的东西……"
+		Tooltip: "“古老而暗淡。你可以把它雕刻成某种有用的东西……”"
 	}
 
 	TinCoil: {
@@ -1738,7 +1738,7 @@ Items: {
 
 	MoonstoneBarItem: {
 		DisplayName: 月长石锭
-		Tooltip: ‘闪烁着转动的星光’
+		Tooltip: “闪烁着转动的星光”
 	}
 
 	MoonstoneChest: {
@@ -2037,7 +2037,7 @@ Items: {
 			'''
 			按住左键攻击敌人以积蓄压力
 			松开左键以释放积蓄的压力，并发射锯刃
-			‘正确工具的错误用途’
+			“正确工具的错误用途”
 			'''
 	}
 
@@ -2147,7 +2147,7 @@ Items: {
 		Tooltip:
 			'''
 			储存盔甲以快速使用
-			包含:
+			包含：
 			'''
 	}
 
@@ -2161,7 +2161,7 @@ Items: {
 		Tooltip:
 			'''
 			放置于被装备的诅咒物品上以将其摧毁
-			‘大多时候，没有回头路可走’
+			“大多时候，没有回头路可走”
 			'''
 	}
 
@@ -2268,7 +2268,7 @@ Items: {
 			用你的拳头快速殴打敌人并为点火充能
 			长按右键消耗充能，松开后将你以逃逸速度（第三宇宙速度）向前推进
 			在飞行时攻击会减少推进时间并向前释放爆破冲击
-			‘英雄总是从天而降’
+			“英雄总是从天而降”
 			'''
 	}
 
@@ -2344,7 +2344,7 @@ Items: {
 		Tooltip:
 			'''
 			受到伤害时释放燃火环
-			'直面你的敌人，给它们一个炽热的拥抱'
+			“直面你的敌人，给它们一个炽热的拥抱”
 			'''
 	}
 
@@ -2501,7 +2501,7 @@ Items: {
 		Tooltip:
 			'''
 			放置一部分水平翻转的沙漠石柱
-			'就连文本也是翻转的!'
+			“就连文本也是翻转的！”
 			'''
 	}
 
@@ -2754,12 +2754,12 @@ Items: {
 
 	HotspringFountainItem: {
 		DisplayName: 热泉水源
-		Tooltip: 将附近的水转化为热泉!
+		Tooltip: 将附近的水转化为热泉！
 	}
 
 	MagmiteShrineItem: {
 		DisplayName: The Boi
-		Tooltip: 是他!
+		Tooltip: 是他！
 	}
 
 	DashBarrierItem: {
@@ -2849,7 +2849,7 @@ Items: {
 
 	DoorGearsItem: {
 		DisplayName: Gear Puzzle Temple Door
-		Tooltip: 神殿门， 但如果是水平的呢？
+		Tooltip: 神殿门，但如果是水平的呢？
 	}
 
 	DoorLasersItem: {
@@ -2859,7 +2859,7 @@ Items: {
 
 	DoorVerticalItem: {
 		DisplayName: Vertical Temple Door
-		Tooltip: 神殿门， 但如果是垂直的呢？
+		Tooltip: 神殿门，但如果是垂直的呢？
 	}
 
 	EntranceDoorItem: {
@@ -3069,7 +3069,7 @@ Items: {
 
 	VitricSpikeItem: {
 		DisplayName: 琉璃刺
-		Tooltip: 好痛!
+		Tooltip: 好痛！
 	}
 
 	VitricBannerItem: {
@@ -4131,7 +4131,7 @@ Buffs: {
 		DisplayName: 滋养
 		Description:
 			'''
-			被丰富的食物滋养，你将获得:
+			被丰富的食物滋养，你将获得：
 
 			'''
 	}
@@ -4297,7 +4297,7 @@ Buffs: {
 
 	BrokenGlassesBuff: {
 		DisplayName: 碎玻璃
-		Description: 你看不见，loser！
+		Description: 你看不见，Loser！
 	}
 
 	CoachDebuff: {
