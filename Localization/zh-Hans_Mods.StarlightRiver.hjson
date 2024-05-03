@@ -5,92 +5,19 @@ Keybinds: {
 }
 
 Items: {
-	TestWhip: {
-		DisplayName: "[PH]测试用鞭"
-		Tooltip:
-			'''
-			[PH]鞭子灌注
-			无效果
-			'''
-	}
-
-	TestWhipImprint: {
-		DisplayName: "[PH]测试用鞭"
-		Tooltip: 无效果
-	}
-
-	Astral: {
-		DisplayName: 彗星冲刺I
-		Tooltip:
-			'''
-			禁忌之风灌注
-			冲刺的距离更远且保留较多速度
-			星光消耗提升至1.3
-			'''
-	}
-
-	Astral2: {
-		DisplayName: 彗星冲刺II
+	StellarRushItem: {
+		DisplayName: Stellar Rush
 		Tooltip:
 			'''
 			禁忌之风灌注
 			冲刺的距离更远且保留更多速度
-			星光消耗提升至1.6
+			星光消耗提升至1.5
 			'''
-	}
-
-	Astral3: {
-		DisplayName: 彗星冲刺III
-		Tooltip:
-			'''
-			禁忌之风灌注
-			冲刺的距离更远且保留最多速度
-			星光消耗提升至2
-			'''
-	}
-
-	AstralImprint: {
-		DisplayName: 彗星冲刺
-		Tooltip: 冲刺的距离更远且保留更多速度
-	}
-
-	Blink: {
-		DisplayName: 闪现
-		Tooltip:
-			'''
-			禁忌之风灌注
-			立即传送到前方一小段距离，闪避敌人及其攻击
-			'''
-	}
-
-	BlinkImprint: {
-		DisplayName: 闪现
-		Tooltip: 立即传送到前方一小段距离，闪避敌人及其攻击
-	}
-
-	Pulse: {
-		DisplayName: 脉冲
-		Tooltip:
-			'''
-			禁忌之风灌注
-			冲刺会被一种短暂、频繁且强力的速度爆发替代
-			星光消耗减少0.25
-			'''
-	}
-
-	PulseImprint: {
-		DisplayName: 脉冲
-		Tooltip: 冲刺会被一种短暂、频繁且强力的速度爆发替代
 	}
 
 	BasicInfusion: {
 		DisplayName: 空白石板
-		Tooltip:
-			'''
-			可以在灌注站刻印挑战
-			完成挑战后会转化为灌注
-			随着进度的推进，你可以使用新的灌注
-			'''
+		Tooltip: 用于刻印灌注
 	}
 
 	CauldronItem: {
@@ -879,12 +806,12 @@ Items: {
 		DisplayName: 不同宝石的效果：
 		Tooltip:
 			'''
-			[i/s1:5683]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
-			[i/s1:5691]：+100点屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
-			[i/s1:5684]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
-			[i/s1:5690]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
-			[i/s1:5682]：使用攻击都会造成可叠加的剧毒紫晶减益
-			[i/s1:5689]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
+			[i/s1:5674]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
+			[i/s1:5682]：+100点屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
+			[i/s1:5675]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
+			[i/s1:5681]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
+			[i/s1:5673]：使用攻击都会造成可叠加的剧毒紫晶减益
+			[i/s1:5680]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
 			'''
 	}
 
@@ -1818,12 +1745,12 @@ Items: {
 	}
 
 	Octogun: {
+		DisplayName: Glocktopus
 		Tooltip:
 			'''
 			将火枪子弹转化为极光墨汁弹
 			造成暴击或击杀敌人时会使触手从你的身后长出来
 			'''
-		DisplayName: Glocktopus
 	}
 
 	OverflowingUrn: {
@@ -2446,9 +2373,19 @@ Items: {
 		Tooltip: 右键以准备餐食
 	}
 
-	InfuserItem: {
-		DisplayName: "[PH]注魔器"
-		Tooltip: 用于刻印灌注
+	BonemineItem: {
+		DisplayName: Bone mine
+		Tooltip: Doyoyouuyuuhuyhh *BRRPT* *Anyuerism*
+	}
+
+	DendriteItem: {
+		DisplayName: Dendrite
+		Tooltip: Doyoyouuyuuhuyhh *BRRPT* *Anyuerism*
+	}
+
+	GrayMatterItem: {
+		DisplayName: Gray Matter
+		Tooltip: You can see it thinking
 	}
 
 	AnkhChestItem: {
@@ -2887,6 +2824,11 @@ Items: {
 		Tooltip: 调试物品
 	}
 
+	SoundPuzzleDoorItem: {
+		DisplayName: Sound Puzzle Temple Door
+		Tooltip:神殿门，声音谜题解开后开启
+	}
+
 	TallWindowCrystalItem: {
 		DisplayName: Crystal Window Actor
 		Tooltip: 调试物品
@@ -3022,6 +2964,11 @@ Items: {
 		Tooltip: ""
 	}
 
+	VitricPylonItem: {
+		DisplayName: Vitric Pylon
+		Tooltip: You shouldn't have this!
+	}
+
 	VitricRockItem: {
 		DisplayName: 琉璃岩
 		Tooltip: ""
@@ -3045,6 +2992,16 @@ Items: {
 	VitricBannerItem: {
 		DisplayName: 长飘带
 		Tooltip: ""
+	}
+
+	VitricBossBarrierItem: {
+		DisplayName: VitricBossBarrierItem
+		Tooltip: 调试物品
+	}
+
+	GlassweaverBossBarrierItem: {
+		DisplayName: GlassweaverBossBarrierItem
+		Tooltip: 调试物品
 	}
 
 	VitricBathtub: {
@@ -3130,16 +3087,6 @@ Items: {
 	VitricDoorClosed: {
 		DisplayName: 琉璃门
 		Tooltip: ""
-	}
-
-	VitricBossBarrierItem: {
-		DisplayName: VitricBossBarrierItem
-		Tooltip: 调试物品
-	}
-
-	GlassweaverBossBarrierItem: {
-		DisplayName: GlassweaverBossBarrierItem
-		Tooltip: 调试物品
 	}
 
 	CombatShrineBarrierItem: {
@@ -3331,36 +3278,6 @@ Items: {
 		DisplayName: 软沙块
 		Tooltip: ""
 	}
-
-	StellarRush: {
-		DisplayName: Stellar Rush
-		Tooltip:
-			'''
-			禁忌之风灌注
-			冲刺的距离更远且保留更多速度
-			星光消耗提升至1.5
-			'''
-	}
-
-	StellarRushItem: {
-		DisplayName: Stellar Rush
-		Tooltip:
-			'''
-			禁忌之风灌注
-			冲刺的距离更远且保留更多速度
-			星光消耗提升至1.5
-			'''
-	}
-
-	VitricPylonItem: {
-		DisplayName: Vitric Pylon
-		Tooltip: You shouldn't have this!
-	}
-
-	SoundPuzzleDoorItem: {
-		DisplayName: Sound Puzzle Temple Door
-		Tooltip:神殿门，声音谜题解开后开启
-	}
 }
 
 Tiles: {
@@ -3370,7 +3287,6 @@ Tiles: {
 	ForbiddenWindsPickupTile.MapEntry: ""
 	StaminaShardTile.MapEntry: ""
 	CookStation.MapEntry: 烹饪站
-	Infuser.MapEntry: 注魔器
 	CrashPod.MapEntry: 失事的吊舱
 	AnkhChest.MapEntry: 十字箱
 	DesertMonolith.MapEntry: ""
@@ -3460,6 +3376,7 @@ Tiles: {
 	MainForge.MapEntry: 琉璃锻心
 	NPCSpawner.MapEntry: ""
 	OldCeirosShrine.MapEntry: ""
+	SoundPuzzleDoor.MapEntry: ""
 	TallWindow.MapEntry: ""
 	TallWindowCrystal.MapEntry: ""
 	TallWindowLava.MapEntry: ""
@@ -3492,6 +3409,7 @@ Tiles: {
 	// VitricMediumCrystal.MapEntry: ""
 	VitricOre.MapEntry: 琉璃矿
 	VitricOreFloat.MapEntry: 琉璃矿
+	VitricPylon.MapEntry: 琉璃晶塔
 	VitricRoundCactus.MapEntry: ""
 	VitricSmallCactus.MapEntry: ""
 	// VitricSmallCrystal.MapEntry: ""
@@ -3550,16 +3468,12 @@ Tiles: {
 	// VitricGiantCrystal.MapEntry: ""
 	// VitricLargeCrystal.MapEntry: ""
 	// VitricMediumCrystal.MapEntry: ""
-	VitricPylon.MapEntry: Vitric Pylon
-	SoundPuzzleDoor.MapEntry: ""
-	// VitricGiantCrystal.MapEntry: ""
-	// VitricLargeCrystal.MapEntry: ""
-	// VitricMediumCrystal.MapEntry: ""
 	// VitricSmallCrystal.MapEntry: ""
 }
 
 Projectiles: {
 	ArtifactItemProj.DisplayName: 人工制品
+	VeinSpear.DisplayName: Vein Spear
 	GlassBubble.DisplayName: 不稳定泡泡
 	GlassBubbleFragment.DisplayName: 玻璃碎片
 	GlassHammer.DisplayName: 编织之锤
@@ -3797,6 +3711,11 @@ Projectiles: {
 }
 
 Biomes: {
+	GraymatterBiome: {
+		DisplayName: Graymatter Biome
+		TownNPCDialogueName: the Graymatter Biome
+	}
+
 	HotspringBiome: {
 		DisplayName: 热泉
 		TownNPCDialogueName: 热泉
@@ -3839,6 +3758,8 @@ Biomes: {
 }
 
 NPCs: {
+	Glassweaver.DisplayName: 织璃匠
+	HorrifyingVisage.DisplayName: Horrifying Visage
 	Glassweaver.DisplayName: 织璃匠
 	GlassweaverWaiting.DisplayName: 织璃匠
 	ArenaActor.DisplayName: ""
@@ -3912,6 +3833,11 @@ Buffs: {
 	CoughDropsBuff: {
 		DisplayName: 止咳糖浆
 		Description: 你的速度和伤害得到提升
+	}
+
+	CrimsonHallucination: {
+		DisplayName: Hallucinating
+		Description: Is any of this real?
 	}
 
 	Dreamwarp: {

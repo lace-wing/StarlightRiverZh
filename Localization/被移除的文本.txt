@@ -647,3 +647,85 @@ Compat: {
 		MasterRules: " - 理论可行！ NEWBLOCK - 大师难度 NEWBLOCK - 切换 Boss 时不回复生命 NEWBLOCK - 游戏以1.5倍速运行 NEWBLOCK - 禁用治疗药水 NEWBLOCK - 禁用传送 NEWBLOCK - 3倍得分"
 	}
 }
+
+
+
+	TestWhip: {
+		DisplayName: "[PH]测试用鞭"
+		Tooltip:
+			'''
+			[PH]鞭子灌注
+			无效果
+			'''
+	}
+
+	TestWhipImprint: {
+		DisplayName: "[PH]测试用鞭"
+		Tooltip: 无效果
+	}
+
+	
+
+	Astral: {
+		DisplayName: 彗星冲刺I
+		Tooltip:
+			'''
+			禁忌之风灌注
+			冲刺的距离更远且保留较多速度
+			星光消耗提升至1.3
+			'''
+	}
+
+	Astral2: {
+		DisplayName: 彗星冲刺II
+		Tooltip:
+			'''
+			禁忌之风灌注
+			冲刺的距离更远且保留更多速度
+			星光消耗提升至1.6
+			'''
+	}
+
+	Astral3: {
+		DisplayName: 彗星冲刺III
+		Tooltip:
+			'''
+			禁忌之风灌注
+			冲刺的距离更远且保留最多速度
+			星光消耗提升至2
+			'''
+	}
+
+	AstralImprint: {
+		DisplayName: 彗星冲刺
+		Tooltip: 冲刺的距离更远且保留更多速度
+	}
+
+	Blink: {
+		DisplayName: 闪现
+		Tooltip:
+			'''
+			禁忌之风灌注
+			立即传送到前方一小段距离，闪避敌人及其攻击
+			'''
+	}
+
+	BlinkImprint: {
+		DisplayName: 闪现
+		Tooltip: 立即传送到前方一小段距离，闪避敌人及其攻击
+	}
+
+	Pulse: {
+		DisplayName: 脉冲
+		Tooltip:
+			'''
+			禁忌之风灌注
+			冲刺会被一种短暂、频繁且强力的速度爆发替代
+			星光消耗减少0.25
+			'''
+	}
+
+	PulseImprint: {
+		DisplayName: 脉冲
+		Tooltip: 冲刺会被一种短暂、频繁且强力的速度爆发替代
+	}
