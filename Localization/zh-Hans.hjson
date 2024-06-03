@@ -1003,7 +1003,7 @@ Mods: {
 				DisplayName: Infernal Harvest
 				Tooltip:
 					'''
-					挥舞丰收之镰，并收割敌人的魔力
+					挥舞能够收集敌人魔力的丰收之镰
 					右键消耗99点魔力值，投掷带有火痕的镰刀
 					'''
 			}
