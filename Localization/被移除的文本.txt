@@ -92,90 +92,6 @@
 	Glassweaver.DisplayName: 织璃匠
 	GlassweaverWaiting.DisplayName: 织璃匠
 
-
-	
-	DreamprismSlam.DisplayName: 猛击
-	SnoobelCollider.DisplayName: 史努贝尔
-	FirebugMagma.DisplayName: 熔璃
-	ConstructRing.DisplayName: 爆炸
-	PelterConstructArrow.DisplayName: 琉璃箭
-	PelterConstructArrowLarge.DisplayName: 琉璃箭
-	KettleMortar.DisplayName: 熔岩弹丸
-	SnakeSpit.DisplayName: 熔璃
-	PinkSeaSaltProjectile.DisplayName: 海盐
-	TableSaltProjectile.DisplayName: 食盐
-	Dart.DisplayName: 诅咒飞镖
-	SawbladeSmall.DisplayName: 诅咒锯刃
-	Spear.DisplayName: 诅咒矛
-	HintText.DisplayName: 提示文本
-	BurningGround.DisplayName: 燃烧的地面
-	GlassJavelin.DisplayName: 琉璃标枪
-	GlassweaverDoor.DisplayName: 织璃匠门
-	Glint.DisplayName: 闪烁
-	AuroraWaterSplash.DisplayName: 极光水溅
-	DoorBomb.DisplayName: 门炸弹
-	Laser.DisplayName: 极光
-	CrystalWave.DisplayName: 水晶波
-	FireCone.DisplayName: 火椎
-	FireRingHostile.DisplayName: 火焰之环
-	FireRing.DisplayName: 火焰之环
-	GlassVolley.DisplayName: 琉璃弹
-	GlassVolleyShard.DisplayName: 琉璃弹片
-	SpikeMine.DisplayName: 尖刺地雷
-	VitricBomb.DisplayName: 琉璃炸弹
-	LightningNode.DisplayName: 闪电节点
-	ScrapshotHook.DisplayName: 锈迹钩爪
-	AztecDeathSaxophoneSoundwave.DisplayName: 阿兹台克死亡萨克斯声波
-	SandSlash.DisplayName: 沙斩
-	TwistSwordProjectile.DisplayName: 环旋重剑
-	Acorn.DisplayName: 橡子
-	MonkSpadeProjectile.DisplayName: 武僧月牙铲
-	SlimeThorn.DisplayName: 史莱姆荆棘
-	GeoAmethystProj.DisplayName: 紫水晶
-	GeoDiamondProj.DisplayName: 钻石
-	GeoEmeraldProj.DisplayName: 绿宝石
-	GeoRubyProj.DisplayName: 红玉
-	GeoSapphireProj.DisplayName: 蓝宝石
-	GeoTopazProj.DisplayName: 黄水晶
-	ThunderbussBall.DisplayName: 雷筒球
-	AxeBookProjectile.DisplayName: 猛虎下山
-	BizarreLightning.DisplayName: 奇异闪电
-	BizarreLightningOrb.DisplayName: 奇异闪电球
-	BizarrePotionPoisonCloud.DisplayName: 奇异药水毒云
-	FryingPanThrownProj.DisplayName: 煎锅
-	GuillotineVFX.DisplayName: 断头台
-	HolyAmuletOrb.DisplayName: 神圣护身符法球
-	SorcerwrenchProjectile.DisplayName: 巫师扳手
-	SpearBookProjectile.DisplayName: 灵蛇突袭
-	SwordBookParry.DisplayName: 螳螂剑术格挡
-	SwordBookProjectile.DisplayName: 螳螂剑术
-	ThrownAxeProjectile.DisplayName: 投斧
-	UltrapillBlood.DisplayName: 终极药丸血液
-	DatsuzeiProjectile.DisplayName: 大津贅沢
-	StarGlaive.DisplayName: 星之利刃
-	StarShuriken.DisplayName: 星之手里剑
-	AuroraThroneMountMinion.DisplayName: 极光坐骑
-	FrostballProjectile.DisplayName: 寒霜球
-	FrostExplosion.DisplayName: 寒霜爆破
-	TentalanceProjectile.DisplayName: 触手长枪
-	StarwoodSlingshotProj.DisplayName: 星木弹弓
-	TemplePickProjectile.DisplayName: 旋风镐冲锋
-	TempleSpearLight.DisplayName: 神庙之矛光
-	LaserPointerProjectile.DisplayName: 激光指示器
-	CoachGunUpgradeExplosion.DisplayName: 护骑霰弹枪升级爆炸
-	MagmaBottleBurn.DisplayName: 熔岩瓶烧灼
-	MagmiteBombProjectile.DisplayName: 熔滴螨炸弹
-	MagmiteBottleProjectile.DisplayName: 熔滴螨瓶
-	RefractiveBladeLaser.DisplayName: 折射尖刃极光
-	RefractiveBladeProj.DisplayName: 折射尖刃
-	VitricBowProjectile.DisplayName: 琉璃弓
-	VitricBowShard.DisplayName: 琉璃弓碎片
-	BossRushOrbGoreProjectile.DisplayName: Boss Rush Orb Gore Projectile
-	ConstructSpawner.DisplayName: Construct Spawner
-	GauntletSpawner.DisplayName: Gauntlet Spawner
-	SpawnEgg.DisplayName: Spawn Egg
-
-	
 	GUI: {
 	BossRush: {
 		Retry: 重试？
@@ -190,8 +106,6 @@
 		MasterRules: " - 理论可行！ NEWBLOCK - 大师难度 NEWBLOCK - 切换 Boss 时不回复生命 NEWBLOCK - 游戏以1.5倍速运行 NEWBLOCK - 禁用治疗药水 NEWBLOCK - 禁用传送 NEWBLOCK - 3倍得分"
 	}
 }
-
-	
 	DesertWisp.DisplayName: 沙漠飘烟
 	FaeflamePickup.DisplayName: 妖精火焰
 	ForbiddenWindsPickup.DisplayName: 禁忌之风
