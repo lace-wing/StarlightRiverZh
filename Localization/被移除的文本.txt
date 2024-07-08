@@ -89,6 +89,8 @@
 
 					'''
 			}
+	Glassweaver.DisplayName: 织璃匠
+	GlassweaverWaiting.DisplayName: 织璃匠
 
 
 	
@@ -194,30 +196,3 @@
 	FaeflamePickup.DisplayName: 妖精火焰
 	ForbiddenWindsPickup.DisplayName: 禁忌之风
 	InfusionSlotPickup.DisplayName: Unnerving Device
-
-	
-
-	GlassArrowhead: {
-		DisplayName: 琉璃箭头
-		Tooltip: 造成暴击时会使箭矢破裂成琉璃碎块
-	}
-
-	CommonVegetablesItem: {
-		DisplayName: Common Vegetable Seeds
-		Tooltip: 用于种植你自己的蔬菜
-	}
-
-	MoonstoneMonolithItem: {
-		DisplayName: Moonstone Monolith
-		Tooltip: "'Dreamifies the skies'"
-	}
-
-	SoundPuzzleDoorItem: {
-		DisplayName: Sound Puzzle Temple Door
-		Tooltip:神殿门，声音谜题解开后开启
-	}
-
-	VitricPylonItem: {
-		DisplayName: Vitric Pylon
-		Tooltip: You shouldn't have this!
-	}
