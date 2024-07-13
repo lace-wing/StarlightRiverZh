@@ -1727,8 +1727,8 @@ Items: {
 	}
 
 	MoonstoneHamaxe: {
-		Tooltip: 长按右键充能，松开以挥舞，能够摧毁大范围内的墙壁
 		DisplayName: 月长石斧
+		Tooltip: 长按右键充能，松开以挥舞，能够摧毁大范围内的墙壁
 	}
 
 	MoonstoneHead: {
@@ -2272,8 +2272,8 @@ Items: {
 	}
 
 	MagmiteVacpack: {
-		Tooltip: 发射会粘附在敌人身上的熔滴螨并增加召唤标记伤害
 		DisplayName: 熔滴螨真空枪
+		Tooltip: 发射会粘附在敌人身上的熔滴螨并增加召唤标记伤害
 	}
 
 	Needler: {
@@ -3936,12 +3936,12 @@ Projectiles: {
 	GlowingObsidianSpike.DisplayName: Glowing Obsidian Spike
 	InfernalHarvestFree.DisplayName: Infernal Harvest Free
 	InfernalHarvestPaid.DisplayName: Infernal Harvest Paid
-	FirePillar.DisplayName:火柱
+	FirePillar.DisplayName: 火柱
 }
 
 Tiles: {
 	Infuser.MapEntry: Infuser
-	Overgrow.MapEntry:音乐盒
+	Overgrow.MapEntry: 音乐盒
 	BossGate.MapEntry: ""
 	VitricGiantCrystal.MapEntry: 巨型琉璃晶
 	VitricLargeCrystal.MapEntry: 大型琉璃晶
@@ -4792,8 +4792,8 @@ Compat: {
 		}
 
 		Glassweaver: {
-		SpawnInfo: 在琉璃沙漠边缘的锻炉中挑战织璃匠。
-		Despawn: 织璃匠宣告了他的胜利。
+			SpawnInfo: 在琉璃沙漠边缘的锻炉中挑战织璃匠。
+			Despawn: 织璃匠宣告了他的胜利。
 		}
 
 		Ceiros: {
