@@ -32,9 +32,8 @@ namespace StarlightRiverZh.QuickTranslate {
             method,
             new ILContext.Manipulator(il => {
                 var cursor = new ILCursor(il);
-                if (!cursor.TryGotoNext(i => i.MatchLdstr(origin)))
+                if (!cursor.TryGotoNext(MoveType.After, i => i.MatchLdstr(origin)))
                     StarlightRiverZh.Instance.Logger.Warn("Fail to locate string \"" + origin + "\" in method \"" + method.Name + "\" in type \"" + type.FullName + "\"");
-                cursor.Index++;
                 cursor.EmitDelegate<Func<string, string>>((orig) => trans);
             })));
         }
