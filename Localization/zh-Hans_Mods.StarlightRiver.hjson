@@ -2462,7 +2462,7 @@ Items: {
 	}
 
 	InfuserItem: {
-		DisplayName: "[PH]Infuser"
+		DisplayName: "[PH]灌注站"
 		Tooltip: 用于刻印灌注
 	}
 
@@ -2823,17 +2823,17 @@ Items: {
 	}
 
 	DoorGearsItem: {
-		DisplayName: Gear Puzzle Temple Door
+		DisplayName: 齿轮谜题神殿门
 		Tooltip: 神殿门，齿轮谜题解开后开启
 	}
 
 	DoorLasersItem: {
-		DisplayName: Laser Puzzle Temple Door
+		DisplayName: 激光谜题神殿门
 		Tooltip: 神殿门，激光谜题解开后开启
 	}
 
 	DoorVerticalItem: {
-		DisplayName: Vertical Temple Door
+		DisplayName: 琉璃神殿门
 		Tooltip: 神殿门，但如果是垂直的呢？
 	}
 
@@ -2938,7 +2938,7 @@ Items: {
 	}
 
 	VitricPillarWallCrystalItem: {
-		DisplayName: Crystal Vitric Forge Pillar
+		DisplayName: 水晶琉璃锻炉支柱
 		Tooltip: Sturdy
 	}
 
@@ -2948,7 +2948,7 @@ Items: {
 	}
 
 	VitricPillarWallLavaItem: {
-		DisplayName: Lava Vitric Forge Pillar
+		DisplayName: 熔岩琉璃锻炉支柱
 		Tooltip: Sturdy
 	}
 
@@ -2963,7 +2963,7 @@ Items: {
 	}
 
 	VitricTempleWallSafeItem: {
-		DisplayName: Vitric Forge Brick Wall (Safe)
+		DisplayName: 琉璃锻炉砖墙（安全）
 		Tooltip: Sturdy
 	}
 
@@ -3223,7 +3223,7 @@ Items: {
 	}
 
 	TempleBrickItem: {
-		DisplayName: Ancient Bricks
+		DisplayName: 远古砖
 		Tooltip: ""
 	}
 
@@ -3253,7 +3253,7 @@ Items: {
 	}
 
 	OvergrowItem: {
-		DisplayName: Music Box (Overgrow)
+		DisplayName: 音乐盒（繁茂）
 		Tooltip: ""
 	}
 
@@ -3378,8 +3378,8 @@ Items: {
 	}
 
 	GlassArrowhead: {
-		DisplayName: Glass Arrowhead
-		Tooltip: Critical strikes cause arrows to shatter into glass shards
+		DisplayName: 琉璃箭头
+		Tooltip: 暴击时会碎裂成琉璃碎片
 	}
 
 	ForestBerries: {
@@ -3433,7 +3433,7 @@ Items: {
 	}
 
 	GatheringWindsItem: {
-		DisplayName: Gathering Winds
+		DisplayName: 聚风
 		Tooltip:
 			'''
 			禁忌之风灌注
@@ -3445,7 +3445,7 @@ Items: {
 	}
 
 	StellarRushItem: {
-		DisplayName: Stellar Rush
+		DisplayName: 恒星冲刺
 		Tooltip:
 			'''
 			禁忌之风灌注
@@ -3455,17 +3455,17 @@ Items: {
 	}
 
 	WellspringItem: {
-		DisplayName: Wellspring
+		DisplayName: 源泉
 		Tooltip:
 			'''
 			星灵之视灌注
-			在空中使用星灵之视时会生成一个恢复性井泉
+			在空中使用星灵之视时会生成一个恢复性源泉
 			消耗2星光
 			'''
 	}
 
 	WarriorKingsCrown: {
-		DisplayName: Warrior King's Crown
+		DisplayName: 武士之王的王冠
 		Tooltip:
 			'''
 			诅咒：转化所有召唤位，每1仆从位提供2%召唤暴击率，每1哨兵位提供30%召唤伤害
@@ -3475,7 +3475,7 @@ Items: {
 	}
 
 	FuryInABottle: {
-		DisplayName: Fury in a Bottle
+		DisplayName: 瓶中怒
 		Tooltip:
 			'''
 			使你获得短暂的二段跳
@@ -3484,7 +3484,7 @@ Items: {
 	}
 
 	GlowingObsidian: {
-		DisplayName: Glowing Obsidian
+		DisplayName: 发光黑曜石
 		Tooltip:
 			'''
 			造成可叠加的燃烧减益
@@ -3493,7 +3493,7 @@ Items: {
 	}
 
 	InfernalCatalyst: {
-		DisplayName: Infernal Catalyst
+		DisplayName: 地狱水晶
 		Tooltip:
 			'''
 			嬗变地狱熔岩
@@ -3503,7 +3503,7 @@ Items: {
 	}
 
 	InfernalHarvest: {
-		DisplayName: Infernal Harvest
+		DisplayName: 地狱丰收
 		Tooltip:
 			'''
 			挥舞能够收集敌人魔力的丰收之镰
@@ -3512,7 +3512,7 @@ Items: {
 	}
 
 	GloomGauntlet: {
-		DisplayName: Gloom Gauntlet
+		DisplayName: 阴郁手套
 		Tooltip:
 			'''
 			基于手持的武器获得近战伤害加成
@@ -3521,28 +3521,28 @@ Items: {
 	}
 
 	GloomGel: {
-		DisplayName: Gloom Gel
+		DisplayName: 阴郁凝胶
 		Tooltip: ""
 	}
 
 	MeteorForcer: {
-		DisplayName: Prayer for Meteorite
+		DisplayName: 陨石祷文
 		Tooltip: 使下个坠落的星体必定为陨石
 	}
 
 	MoonstoneForcer: {
-		DisplayName: Prayer for Moonstone
+		DisplayName: 月长石祷文
 		Tooltip: 使下个坠落的星体必定为月长石
 	}
 
 	CommonVegetablesItem: {
-		DisplayName: Common Vegetable Seeds
+		DisplayName: 普通蔬菜种子
 		Tooltip: 种植蔬菜
 	}
 
 	MoonstoneMonolithItem: {
-		DisplayName: Moonstone Monolith
-		Tooltip: "'Dreamifies the skies'"
+		DisplayName: 月长石石柱
+		Tooltip: "'天空梦幻化'"
 	}
 
 	GlorchItem: {
@@ -3555,22 +3555,22 @@ Items: {
 	}
 
 	SoundPuzzleDoorItem: {
-		DisplayName: Sound Puzzle Temple Door
+		DisplayName: 声音谜题神殿门
 		Tooltip: 神殿门，声音谜题解开后开启
 	}
 
 	VitricPylonItem: {
-		DisplayName: Vitric Pylon
+		DisplayName: 琉璃晶塔
 		Tooltip: You shouldn't have this!
 	}
 
 	AuroracleRelicItem: {
-		DisplayName: Auroracle Relic
+		DisplayName: 极光之触圣物
 		Tooltip: ""
 	}
 
 	CeirosRelicItem: {
-		DisplayName: Ceiros Relic
+		DisplayName: 塞洛斯圣物
 		Tooltip: ""
 	}
 }
@@ -3804,7 +3804,7 @@ Projectiles: {
 	GeodeBowProj.DisplayName: 晶洞弓
 	GeodeBowShrapnel.DisplayName: 晶洞破片
 	GraveBusterHeld.DisplayName: 坟墓破坏者
-	GraveSlash.DisplayName: Slash
+	GraveSlash.DisplayName: 斩击
 	GunchuckProj.DisplayName: 血红剥皮者
 	HeartStatueSentry.DisplayName: 心形雕像？
 	ImpactSMGExplosion.DisplayName: 爆炸
@@ -3929,18 +3929,18 @@ Projectiles: {
 	TableSaltProjectile.DisplayName: 食盐
 	Dart.DisplayName: 诅咒飞镖
 	SawbladeSmall.DisplayName: 诅咒锯刃
-	GatheringWindsWhirl.DisplayName: Gathering Winds Whirl
-	WellspringProjectile.DisplayName: Wellspring Projectile
+	GatheringWindsWhirl.DisplayName: 聚风旋
+	WellspringProjectile.DisplayName: 源泉
 	BurnTrail.DisplayName: 火痕
-	GlowingObsidianSlash.DisplayName: Glowing Obsidian Slash
-	GlowingObsidianSpike.DisplayName: Glowing Obsidian Spike
+	GlowingObsidianSlash.DisplayName: 发光黑曜石斩击
+	GlowingObsidianSpike.DisplayName: 发光黑曜石尖刺
 	InfernalHarvestFree.DisplayName: Infernal Harvest Free
 	InfernalHarvestPaid.DisplayName: Infernal Harvest Paid
 	FirePillar.DisplayName: 火柱
 }
 
 Tiles: {
-	Infuser.MapEntry: Infuser
+	Infuser.MapEntry: 灌注站
 	Overgrow.MapEntry: 音乐盒
 	BossGate.MapEntry: ""
 	VitricGiantCrystal.MapEntry: 巨型琉璃晶
@@ -3966,16 +3966,16 @@ Tiles: {
 	ThickTreeSapling.MapEntry: 大树苗
 	TallAncientFruit.MapEntry: 上古水果
 	TallGoldenRice.MapEntry: 黄金稻米
-	TallRice.MapEntry: Rice
+	TallRice.MapEntry: 稻米
 	GreenhouseGlass.MapEntry: 温室玻璃
 	Bouncer.MapEntry: ""
 	StaminaGem.MapEntry: ""
-	DisplayCase.MapEntry: Relic Case
-	DisplayCaseFriendly.MapEntry: Relic Case
+	DisplayCase.MapEntry: 展示柜
+	DisplayCaseFriendly.MapEntry: 展示柜
 	PatreonPlaque.MapEntry: ""
 	RatTent.MapEntry: 奇怪的帐篷
 	MoonstoneBar.MapEntry: 金属锭
-	MoonstoneMonolith.MapEntry: Moonstone Monolith
+	MoonstoneMonolith.MapEntry: 月长石石柱
 	MoonstoneOre.MapEntry: 月长石矿
 	JellyShroom.MapEntry: 果冻菇
 	Lumishroom.MapEntry: ""
@@ -4025,7 +4025,7 @@ Tiles: {
 	DoorGears.MapEntry: ""
 	DoorLasers.MapEntry: ""
 	DoorVertical.MapEntry: ""
-	EntranceDoor.MapEntry: 琉璃神庙门
+	EntranceDoor.MapEntry: 琉璃神殿门
 	DynamicGear.MapEntry: ""
 	GearPuzzleOrigin.MapEntry: ""
 	ObjectiveGear.MapEntry: ""
@@ -4345,7 +4345,7 @@ Buffs: {
 	}
 
 	Overcharge: {
-		DisplayName: 梦境扭曲
+		DisplayName: 过载
 		Description: 大幅减少你的护甲
 	}
 
@@ -4450,8 +4450,8 @@ Buffs: {
 	}
 
 	SoulSuck: {
-		DisplayName: Soul Suck
-		Description: You getting sucked
+		DisplayName: 灵魂虹吸
+		Description: 你被吸了
 	}
 
 	CorpseflowerBuff: {
@@ -4525,7 +4525,7 @@ Buffs: {
 	}
 
 	InoculationPotionBuff: {
-		DisplayName: Inoculated
+		DisplayName: 接种
 		Description: +30%免疫力
 	}
 
@@ -4589,20 +4589,20 @@ Buffs: {
 	}
 
 	Dreamwarp: {
-		DisplayName: Dreamwarp
-		Description: Cuckoo for cocao puffs
+		DisplayName: 梦境扭曲
+		Description: 杜鹃要可可泡芙
 	}
 
 	GlowingObsidianFire: {
-		DisplayName: Infernal flames
-		Description: Burning up!
+		DisplayName: 地狱之火
+		Description: 燃尽吧！
 	}
 }
 
 Prefixes: {
-	Feral.DisplayName: Feral
-	Jumpy.DisplayName: Jumpy
-	Tanklike.DisplayName: Tanklike
+	Feral.DisplayName: 野性的
+	Jumpy.DisplayName: 跳跃的
+	Tanklike.DisplayName: 坚守的
 	DefensivePrefix.DisplayName: 守备的
 	DoTResistPrefix1.DisplayName: 健康的
 	DoTResistPrefix2.DisplayName: 防护的
