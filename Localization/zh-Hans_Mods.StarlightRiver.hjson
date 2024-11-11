@@ -3573,6 +3573,15 @@ Items: {
 		DisplayName: 塞洛斯圣物
 		Tooltip: ""
 	}
+
+	HeavyFlail: {
+		DisplayName: Heavy Flail
+		Tooltip:
+			'''
+			长按挥舞一颗巨大的金属球
+			`We've got the biggest balls of them all!`
+			'''
+	}
 }
 
 Projectiles: {
