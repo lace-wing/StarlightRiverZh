@@ -1819,7 +1819,7 @@ Items: {
 	}
 
 	Octogun: {
-		DisplayName: Glocktopus
+		DisplayName: 八爪霸枪
 		Tooltip:
 			'''
 			将火枪子弹转化为极光墨汁弹
@@ -3575,7 +3575,7 @@ Items: {
 	}
 
 	HeavyFlail: {
-		DisplayName: Heavy Flail
+		DisplayName: 重型链枷
 		Tooltip:
 			'''
 			长按挥舞一颗巨大的金属球
@@ -4197,15 +4197,15 @@ NPCs: {
 	ArenaBlocker.DisplayName: Arena Blocker
 	Auroraborn.DisplayName: Auroraborn
 	Auroraling.DisplayName: Auroraling
-	Tentacle.DisplayName: Tentacle
+	Tentacle.DisplayName: 触手
 	TentacleHurtbox.DisplayName: Tentacle Hurtbox
 	StarlightWaterActor.DisplayName: Starlight Water Actor
 	GravityOrbTest.DisplayName: Gravity Orb Test
 	BossRushGoal.DisplayName: Boss Rush Goal
-	Dweller.DisplayName: Dweller
-	Stalker.DisplayName: Stalker
-	Dreambeast.DisplayName: Dreambeast
-	WaterCube.DisplayName: Water Cube
+	Dweller.DisplayName: 栖身者
+	Stalker.DisplayName: 追猎者
+	Dreambeast.DisplayName: 梦幻之兽
+	WaterCube.DisplayName: 水立方
 
 	EnchantNPC: {
 		DisplayName: Enchant N P C
@@ -4267,13 +4267,13 @@ NPCs: {
 	Dreamprism.DisplayName: 梦幻棱晶
 	Crusher.DisplayName: 碾碎机
 	Snoobel.DisplayName: 史努贝尔
-	SwordEnemy.DisplayName: Sky Splicer
+	SwordEnemy.DisplayName: 太空焊接者
 	Crow.DisplayName: ???
 	GloomSlime.DisplayName: 阴郁史莱姆
 	BoomBug.DisplayName: 萤火虫
-	CoolmiteLarge.DisplayName: 大冷滴螨
-	CoolmitePassive.DisplayName: 冷滴螨
-	CoolmiteSmol.DisplayName: Coolmini
+	CoolmiteLarge.DisplayName: 大冷凝螨
+	CoolmitePassive.DisplayName: 冷凝螨
+	CoolmiteSmol.DisplayName: 小冷凝螨
 	CrystalPopper.DisplayName: 沙漠蝙蝠
 	CrystalSlime.DisplayName: 琉璃史莱姆
 	FlyingGruntConstruct.DisplayName: 璃锻飞行士兵
@@ -4285,10 +4285,10 @@ NPCs: {
 	SupporterConstruct.DisplayName: 璃锻支援者
 	KettleCreature.DisplayName: 岩浆迫击炮
 	LesserFirebug.DisplayName: 小萤火虫
-	MagmiteLarge.DisplayName: Magmificent
-	MagmitePassive.DisplayName: 小熔滴螨
-	MagmiteSmol.DisplayName: Magmini
-	Snake.DisplayName: Sandviper
+	MagmiteLarge.DisplayName: 大熔滴螨
+	MagmitePassive.DisplayName: 熔滴螨
+	MagmiteSmol.DisplayName: 小熔滴螨
+	Snake.DisplayName: 沙漠蝰蛇
 	BerrySlime.DisplayName: 莓果史莱姆
 	TouchstoneWisp.DisplayName: 极光之魂
 	HellLavaActor.DisplayName: Hell Lava Actor
@@ -4549,8 +4549,8 @@ Buffs: {
 	}
 
 	StarstruckDebuff: {
-		DisplayName: Starstruck
-		Description: Reach for the stars
+		DisplayName: 追星
+		Description: 摘下星辰
 	}
 
 	CogwheelBuff: {
