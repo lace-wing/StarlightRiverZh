@@ -1,4 +1,88 @@
 
+
+	TestWhip: {
+		DisplayName: "[PH]测试用鞭"
+		Tooltip:
+			'''
+			[PH]鞭子灌注
+			无效果
+			'''
+	}
+
+	TestWhipImprint: {
+		DisplayName: "[PH]测试用鞭"
+		Tooltip: 无效果
+	}
+
+	Astral: {
+		DisplayName: 彗星冲刺I
+		Tooltip:
+			'''
+			禁忌之风灌注
+			冲刺的距离更远且保留较多速度
+			星光消耗提升至1.3
+			'''
+	}
+
+	Astral2: {
+		DisplayName: 彗星冲刺II
+		Tooltip:
+			'''
+			禁忌之风灌注
+			冲刺的距离更远且保留更多速度
+			星光消耗提升至1.6
+			'''
+	}
+
+	Astral3: {
+		DisplayName: 彗星冲刺III
+		Tooltip:
+			'''
+			禁忌之风灌注
+			冲刺的距离更远且保留最多速度
+			星光消耗提升至2
+			'''
+	}
+
+	AstralImprint: {
+		DisplayName: 彗星冲刺
+		Tooltip: 冲刺的距离更远且保留更多速度
+	}
+
+	Blink: {
+		DisplayName: 闪现
+		Tooltip:
+			'''
+			禁忌之风灌注
+			立即传送到前方一小段距离，闪避敌人及其攻击
+			'''
+	}
+
+	BlinkImprint: {
+		DisplayName: 闪现
+		Tooltip: 立即传送到前方一小段距离，闪避敌人及其攻击
+	}
+
+	Pulse: {
+		DisplayName: 脉冲
+		Tooltip:
+			'''
+			禁忌之风灌注
+			冲刺会被一种短暂、频繁且强力的速度爆发替代
+			星光消耗减少0.25
+			'''
+	}
+
+	PulseImprint: {
+		DisplayName: 脉冲
+		Tooltip: 冲刺会被一种短暂、频繁且强力的速度爆发替代
+	}
+
+	InfuserItem: {
+		DisplayName: "[PH]灌注站"
+		Tooltip: 用于刻印灌注
+	}
+
 	Ivy: {
 		DisplayName: 常青藤
 		Tooltip: 一种常见但有着多种用途的草药
@@ -7,6 +91,11 @@
 	IvySeeds: {
 		DisplayName: 常青藤种子
 		Tooltip: 可以种植在吊挂盆中
+	}
+
+	OvergrowItem: {
+		DisplayName: 音乐盒（繁茂）
+		Tooltip: ""
 	}
 
 
@@ -31,7 +120,26 @@
 		DisplayName: GlassweaverBossBarrierItem
 		Tooltip: 调试物品
 	}
+	Infuser.MapEntry: 灌注站
+	Overgrow.MapEntry: 音乐盒
+	BossGate.MapEntry: ""
+Compat: {
+	BossChecklist: {
+		Auroracle: {
+			SpawnInfo: 将一个可疑供品扔进永冻神殿的流光水中，那里只有穿过极寒洞窟才能进入。
+			Despawn: 冰封的教堂重归寂静。
+		}
 
+		Glassweaver: {
+			SpawnInfo: 在琉璃沙漠边缘的锻炉中挑战织璃匠。
+			Despawn: 织璃匠宣告了他的胜利。
+		}
+
+		Ceiros: {
+			SpawnInfo: 在使用禁忌之风击碎覆盖在琉璃神殿顶部祭坛上的水晶后，使用琉璃圣像。
+			Despawn: 琉璃锻炉重归寂静，织璃匠感到很失望。
+		}
+	}
 
 
 	CoolmiteLargeItem: {
