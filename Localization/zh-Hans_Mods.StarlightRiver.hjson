@@ -4561,14 +4561,14 @@ Buffs: {
 }
 
 Prefixes: {
-	Carnal.DisplayName: Carnal
-	Crystalline.DisplayName: Crystalline
-	Eldritch.DisplayName: Eldritch
-	Ephemeral.DisplayName: Ephemeral
-	Occult.DisplayName: Occult
-	Reckless.DisplayName: Reckless
-	Sapping.DisplayName: Sapping
-	Unfaithful.DisplayName: Unfaithful
+	Carnal.DisplayName: 世俗的
+	Crystalline.DisplayName: 晶化的
+	Eldritch.DisplayName: 怪异的
+	Ephemeral.DisplayName: 瞬逝的
+	Occult.DisplayName: 神秘的
+	Reckless.DisplayName: 鲁莽的
+	Sapping.DisplayName: 渐弱的
+	Unfaithful.DisplayName: 不忠的
 	DefensivePrefix.DisplayName: 守备的
 	DoTResistPrefix1.DisplayName: 健康的
 	DoTResistPrefix2.DisplayName: 防护的
