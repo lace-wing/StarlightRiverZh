@@ -3577,6 +3577,23 @@ Items: {
 		DisplayName: 粉色激光笔
 		Tooltip: ""
 	}
+
+	ImaginaryTissue: {
+		DisplayName: Imaginary Tissue
+		Tooltip: As long as you focus on it, its real
+	}
+
+	ThinkerTrophyItem: {
+		DisplayName: 思考者纪念章
+		Tooltip: ""
+	}
+
+	ThinkerRelicItem: {
+		DisplayName: 思考者圣物
+		Tooltip: ""
+	}
+
+	ThinkerBossBag.DisplayName:  宝藏袋（思考者）
 }
 
 Tiles: {
@@ -3773,6 +3790,7 @@ Tiles: {
 	VitricLargeCrystal.MapEntry: 大型琉璃晶
 	VitricMediumCrystal.MapEntry: 中型琉璃晶
 	VitricSmallCrystal.MapEntry: 小型琉璃晶
+	ThinkerTrophy.MapEntry: 纪念章
 }
 
 Projectiles: {
@@ -4143,6 +4161,11 @@ Biomes: {
 	EvasionShrineBiome: {
 		DisplayName: 闪躲之地
 		TownNPCDialogueName: 闪躲之地
+	}
+
+	BossRushBiome: {
+		DisplayName: Boss rush
+		TownNPCDialogueName: Boss rush
 	}
 }
 
