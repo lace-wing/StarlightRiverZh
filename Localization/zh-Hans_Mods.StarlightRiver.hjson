@@ -3594,6 +3594,24 @@ Items: {
 	}
 
 	ThinkerBossBag.DisplayName:  宝藏袋（思考者）
+
+	BearPoker: {
+		DisplayName: Bear Poker
+		Tooltip:
+			'''
+			这根针锋利到足以刺穿思考者的茧
+			这是个可怕的想法
+			'''
+	}
+
+	BearPokerEndless: {
+		DisplayName: Bear Poker
+		Tooltip:
+			'''
+			这根针锋利到足以刺穿思考者的茧
+			这是个可怕的想法
+			'''
+	}
 }
 
 Tiles: {
