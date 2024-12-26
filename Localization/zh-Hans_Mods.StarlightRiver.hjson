@@ -43,17 +43,17 @@ Items: {
 	}
 
 	CauldronItem: {
-		DisplayName: 坩埚
 		Tooltip: 放置炼金坩埚
+		DisplayName: 坩埚
 	}
 
 	MixingStick: {
-		DisplayName: 搅拌棒
 		Tooltip:
 			'''
 			搅拌棒
 			用它来炼金吧
 			'''
+		DisplayName: 搅拌棒
 	}
 
 	ArtilleryLicense: {
@@ -316,7 +316,7 @@ Items: {
 		DisplayName: 武士之王的王冠
 		Tooltip:
 			'''
-			诅咒：转化所有召唤位，每个仆从位提供2%召唤暴击率
+			转化所有召唤位，每个仆从位提供2%召唤暴击率
 			每个哨兵位提供30%召唤伤害
 			增加40%召唤伤害
 			降低30%战斗坐骑的冷却时间
@@ -359,13 +359,13 @@ Items: {
 	}
 
 	DefiledAnkh: {
-		DisplayName: 亵渎十字章
 		Tooltip:
 			'''
-			诅咒：你的屏障的伤害吸收减少25%
+			你的屏障的伤害吸收减少25%
 			当屏障存在时，增加100%免疫力并使你免疫大多数减益
 			+40 最大屏障
 			'''
+		DisplayName: 亵渎十字章
 	}
 
 	Sandscript: {
@@ -432,13 +432,13 @@ Items: {
 	}
 
 	ThousandthDegree: {
-		DisplayName: 千度火轮
 		Tooltip:
 			'''
 			按住左键融化与之接触的敌人并以此为火轮加热
 			松开左键以发射炽热火轮
 			“撕裂并撕碎”
 			'''
+		DisplayName: 千度火轮
 	}
 
 	TwistSword: {
@@ -470,143 +470,143 @@ Items: {
 	}
 
 	BlackPepper: {
-		DisplayName: 黑胡椒粉
 		Tooltip: "\n\n"
+		DisplayName: 黑胡椒粉
 	}
 
 	BrusselSprouts: {
-		DisplayName: 球芽甘蓝
 		Tooltip: "\n\n"
+		DisplayName: 球芽甘蓝
 	}
 
 	Butter: {
-		DisplayName: 黄油
 		Tooltip: "\n\n"
+		DisplayName: 黄油
 	}
 
 	Cabbage: {
-		DisplayName: 卷心菜
 		Tooltip: "\n\n"
+		DisplayName: 卷心菜
 	}
 
 	Carrot: {
-		DisplayName: 胡萝卜
 		Tooltip: "\n\n"
+		DisplayName: 胡萝卜
 	}
 
 	Cashews: {
-		DisplayName: 腰果
 		Tooltip: "\n\n"
+		DisplayName: 腰果
 	}
 
 	Cherry: {
-		DisplayName: 樱桃
 		Tooltip: "\n\n"
+		DisplayName: 樱桃
 	}
 
 	ChocolateGlaze: {
-		DisplayName: 巧克力涂饰酱
 		Tooltip: "\n\n"
+		DisplayName: 巧克力涂饰酱
 	}
 
 	CoffeeBeans: {
-		DisplayName: 咖啡豆
 		Tooltip: "\n\n"
+		DisplayName: 咖啡豆
 	}
 
 	CrimsonSteak: {
-		DisplayName: 深红牛排
 		Tooltip: "\n\n"
+		DisplayName: 深红牛排
 	}
 
 	DicedMushrooms: {
-		DisplayName: 蘑菇丁
 		Tooltip: "\n\n"
+		DisplayName: 蘑菇丁
 	}
 
 	Dough: {
-		DisplayName: 面团
 		Tooltip: "\n\n"
+		DisplayName: 面团
 	}
 
 	Dressing: {
-		DisplayName: 沙拉酱
 		Tooltip: "\n\n"
+		DisplayName: 沙拉酱
 	}
 
 	EaterSteak: {
-		DisplayName: 吞噬怪肉排
 		Tooltip: "\n\n"
+		DisplayName: 吞噬怪肉排
 	}
 
 	Entrails: {
-		DisplayName: 内脏
 		Tooltip: "\n\n"
+		DisplayName: 内脏
 	}
 
 	Eye: {
-		DisplayName: 眼球
 		Tooltip: "\n\n"
+		DisplayName: 眼球
 	}
 
 	FaceSteak: {
-		DisplayName: 脸怪肉排
 		Tooltip: "\n\n"
+		DisplayName: 脸怪肉排
 	}
 
 	Flour: {
-		DisplayName: 面粉
 		Tooltip: "\n\n"
+		DisplayName: 面粉
 	}
 
 	Gelatine: {
-		DisplayName: 明胶
 		Tooltip: "\n\n"
+		DisplayName: 明胶
 	}
 
 	GelBerry: {
-		DisplayName: 胶莓
 		Tooltip: "\n\n"
+		DisplayName: 胶莓
 	}
 
 	GiantMushroom: {
-		DisplayName: 巨大蘑菇
 		Tooltip: "\n\n"
+		DisplayName: 巨大蘑菇
 	}
 
 	HealthExtract: {
-		DisplayName: 生命精华
 		Tooltip: "\n\n"
+		DisplayName: 生命精华
 	}
 
 	HoneySyrup: {
-		DisplayName: 蜂蜜糖浆
 		Tooltip: "\n\n"
+		DisplayName: 蜂蜜糖浆
 	}
 
 	IvySalad: {
-		DisplayName: 常青藤沙拉
 		Tooltip: "\n\n"
+		DisplayName: 常青藤沙拉
 	}
 
 	JumboShrimp: {
-		DisplayName: 大虾
 		Tooltip: "\n\n"
+		DisplayName: 大虾
 	}
 
 	Lettuce: {
-		DisplayName: 生菜
 		Tooltip: "\n\n"
+		DisplayName: 生菜
 	}
 
 	MahoganyRoot: {
-		DisplayName: 红木根
 		Tooltip: "\n\n"
+		DisplayName: 红木根
 	}
 
 	ManaExtract: {
-		DisplayName: 魔力精华
 		Tooltip: "\n\n"
+		DisplayName: 魔力精华
 	}
 
 	Meal: {
@@ -615,123 +615,123 @@ Items: {
 	}
 
 	Milk: {
-		DisplayName: 牛奶
 		Tooltip: "\n\n"
+		DisplayName: 牛奶
 	}
 
 	Rabbit: {
-		DisplayName: 兔肉
 		Tooltip: "\n\n"
+		DisplayName: 兔肉
 	}
 
 	RocketFuel: {
-		DisplayName: 火箭燃料
 		Tooltip: "\n\n"
+		DisplayName: 火箭燃料
 	}
 
 	SeaSalt: {
-		DisplayName: 海盐
 		Tooltip: "\n\n"
+		DisplayName: 海盐
 	}
 
 	SkySprinkles: {
-		DisplayName: 天空彩糖碎
 		Tooltip: "\n\n"
+		DisplayName: 天空彩糖碎
 	}
 
 	BlastoffShake: {
-		DisplayName: 升空奶昔
 		Tooltip: "\n\n"
+		DisplayName: 升空奶昔
 	}
 
 	BrandedCoffee: {
-		DisplayName: 品牌咖啡
 		Tooltip: "\n\n"
+		DisplayName: 品牌咖啡
 	}
 
 	ButterPancakes: {
-		DisplayName: 黄油煎饼
 		Tooltip: "\n\n"
+		DisplayName: 黄油煎饼
 	}
 
 	CherryBrownie: {
-		DisplayName: 莓果巧克力蛋糕
 		Tooltip: "\n\n"
+		DisplayName: 莓果巧克力蛋糕
 	}
 
 	CreamySoup: {
-		DisplayName: 浓汤
 		Tooltip: "\n\n"
+		DisplayName: 浓汤
 	}
 
 	CrimsonKebab: {
-		DisplayName: 深红腌肉串
 		Tooltip: "\n\n"
+		DisplayName: 深红腌肉串
 	}
 
 	JungleSalad: {
-		DisplayName: 雨林沙拉
 		Tooltip: "\n\n"
+		DisplayName: 雨林沙拉
 	}
 
 	MushroomSteak: {
-		DisplayName: 煎菇排
 		Tooltip: "\n\n"
+		DisplayName: 煎菇排
 	}
 
 	Salad: {
-		DisplayName: 沙拉
 		Tooltip: "\n\n"
+		DisplayName: 沙拉
 	}
 
 	ShrimpSandwich: {
-		DisplayName: 虾仁三明治
 		Tooltip: "\n\n"
+		DisplayName: 虾仁三明治
 	}
 
 	Slimejelly: {
-		DisplayName: 史莱姆果冻
 		Tooltip: "\n\n"
+		DisplayName: 史莱姆果冻
 	}
 
 	SupportCookies: {
-		DisplayName: 疗愈曲奇
 		Tooltip: "\n\n"
+		DisplayName: 疗愈曲奇
 	}
 
 	StarlightWater: {
-		DisplayName: 星光之水
 		Tooltip: "\n\n"
+		DisplayName: 星光之水
 	}
 
 	Sugar: {
-		DisplayName: 白砂糖
 		Tooltip: "\n\n"
+		DisplayName: 白砂糖
 	}
 
 	TableSalt: {
-		DisplayName: 食盐
 		Tooltip: "\n\n"
+		DisplayName: 食盐
 	}
 
 	Toast: {
-		DisplayName: 烤面包片
 		Tooltip: "\n\n"
+		DisplayName: 烤面包片
 	}
 
 	VertebrateNuggets: {
-		DisplayName: 脊块
 		Tooltip: "\n\n"
+		DisplayName: 脊块
 	}
 
 	Vinegar: {
-		DisplayName: 醋
 		Tooltip: "\n\n"
+		DisplayName: 醋
 	}
 
 	WhippedCream: {
-		DisplayName: 掼奶油
 		Tooltip: "\n\n"
+		DisplayName: 掼奶油
 	}
 
 	AcornSprout: {
@@ -1009,12 +1009,12 @@ Items: {
 	}
 
 	TaintedGreataxe: {
-		DisplayName: 被玷污的巨斧
 		Tooltip:
 			'''
-			诅咒：造成暴击时会对另一名敌人造成聚焦减益
+			造成暴击时会对另一名敌人造成聚焦减益
 			巨斧嵌在敌人身上时，右键它以将其拔出
 			'''
+		DisplayName: 被玷污的巨斧
 	}
 
 	VengefulSpirit: {
@@ -1071,13 +1071,13 @@ Items: {
 	}
 
 	Corpseflower: {
-		DisplayName: 尸花
 		Tooltip:
 			'''
 			你造成的所有伤害会转化为持续伤害
 			初始伤害降低，但受到持续伤害相关饰品的影响
 			你无法再造成暴击
 			'''
+		DisplayName: 尸花
 	}
 
 	ManEaterPot: {
@@ -1198,7 +1198,7 @@ Items: {
 		Tooltip:
 			'''
 			在资源较低时，对应的资源药水会更加有效（资源指生命，魔力等）
-			诅咒：延长15秒耐药性减益的时间
+			延长15秒耐药性减益的时间
 			'''
 	}
 
@@ -1278,7 +1278,7 @@ Items: {
 		DisplayName: 因果镜
 		Tooltip:
 			'''
-			诅咒：你的持续伤害和生命再生效果反转。
+			你的持续伤害和生命再生效果反转。
 			当你受到持续伤害时会再生生命。
 			当你再生生命时会受到持续伤害。
 			这包括自然的生命再生！
@@ -1349,13 +1349,13 @@ Items: {
 	}
 
 	Earthduster: {
-		DisplayName: 大地涤尘炮
 		Tooltip:
 			'''
 			按住左键发射快速的大地洪流
 			可以使用多种不同类型的方块作为弹药，每种方块都有一种独特的效果
 			33%的几率不消耗弹药
 			'''
+		DisplayName: 大地涤尘炮
 	}
 
 	ElectroArrow: {
@@ -1525,17 +1525,17 @@ Items: {
 			+40%免疫力
 			你会获得你对敌人造成的减益
 			你每获得一个减益，都会增加5%的移动速度和攻击速度
-			诅咒：失去所有减益的免疫效果
+			失去所有减益的免疫效果
 			'''
 	}
 
 	Magebane: {
-		DisplayName: 法师克星
 		Tooltip:
 			'''
-			诅咒：你无法再饮用魔力药水或使用其他能够恢复魔力值的物品
+			你无法再饮用魔力药水或使用其他能够恢复魔力值的物品
 			魔法攻击击中敌人时有25%的几率使你恢复大量等于此次伤害量的魔力值
 			'''
+		DisplayName: 法师克星
 	}
 
 	MagmaGun: {
@@ -1602,7 +1602,6 @@ Items: {
 	}
 
 	Sling: {
-		DisplayName: 弹弓
 		Tooltip:
 			'''
 			向敌人发射种子、石块和蘑菇
@@ -1611,6 +1610,7 @@ Items: {
 			蘑菇会造成更低的伤害，但会造成中毒减益
 			75%几率不消耗弹药
 			'''
+		DisplayName: 弹弓
 	}
 
 	Soilgun: {
@@ -1705,7 +1705,7 @@ Items: {
 		DisplayName: "[终极药丸]"
 		Tooltip:
 			'''
-			诅咒：你无法通过正常方式进行生命再生
+			你无法通过正常方式进行生命再生
 			攻击敌人时会偶尔会吸血
 			击杀敌人时会爆发出治疗之血
 			'''
@@ -1755,8 +1755,8 @@ Items: {
 	}
 
 	MoonstoneHamaxe: {
-		DisplayName: 月长石斧
 		Tooltip: 长按右键充能，松开以挥舞，能够摧毁大范围内的墙壁
+		DisplayName: 月长石斧
 	}
 
 	MoonstoneHead: {
@@ -1894,12 +1894,12 @@ Items: {
 	}
 
 	Tentalance: {
-		DisplayName: 触手长枪
 		Tooltip:
 			'''
 			发射闪光的触手长枪
 			按住左键可充能，松开左键释放，一次性最多发射5支长枪
 			'''
+		DisplayName: 触手长枪
 	}
 
 	WaterStaff: {
@@ -1948,7 +1948,7 @@ Items: {
 		DisplayName: 血晶
 		Tooltip:
 			'''
-			诅咒：你会获得你对敌人造成的减益
+			你会获得你对敌人造成的减益
 			你所造成减益的持续时间延长
 			'''
 	}
@@ -2295,8 +2295,8 @@ Items: {
 	}
 
 	GlassIdol: {
-		DisplayName: 琉璃圣像
 		Tooltip: 用来祭拜一名强大的守卫。
+		DisplayName: 琉璃圣像
 	}
 
 	GlassIdolEndless: {
@@ -2344,8 +2344,8 @@ Items: {
 	}
 
 	MagmiteVacpack: {
-		DisplayName: 熔滴螨真空枪
 		Tooltip: 发射会粘附在敌人身上的熔滴螨并增加召唤标记伤害
+		DisplayName: 熔滴螨真空枪
 	}
 
 	Needler: {
@@ -2363,13 +2363,13 @@ Items: {
 	}
 
 	RecursiveFocus: {
-		DisplayName: 递归透镜
 		Tooltip:
 			'''
 			召唤一颗地狱晶体
 			地狱晶体会锁定敌人，且造成的伤害会逐渐增加
 			右键可使晶体同时瞄准多个敌人，但伤害不会再逐渐增加且造成的伤害降低
 			'''
+		DisplayName: 递归透镜
 	}
 
 	RefractiveBlade: {
@@ -3593,7 +3593,7 @@ Items: {
 		Tooltip: ""
 	}
 
-	ThinkerBossBag.DisplayName:  宝藏袋（思考者）
+	ThinkerBossBag.DisplayName: 宝藏袋（思考者）
 
 	BearPoker: {
 		DisplayName: Bear Poker
@@ -4075,7 +4075,7 @@ Projectiles: {
 	GraySlash.DisplayName: 灰斩
 	LobotomizerFastProjectile.DisplayName: 加速Lobotomizer
 	LobotomizerHallucination.DisplayName: Lobotomizer幻觉
-	LobotomizerProjectile.DisplayName: Lobotomizer 
+	LobotomizerProjectile.DisplayName: Lobotomizer
 	MyelinSlash.DisplayName: 髓鞘质斩击
 	SandSlash.DisplayName: 沙斩
 	TwistSwordProjectile.DisplayName: 环旋重剑
