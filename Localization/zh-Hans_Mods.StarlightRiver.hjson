@@ -3701,6 +3701,7 @@ Tiles: {
 	// VitricGiantCrystal.MapEntry: ""
 	// VitricLargeCrystal.MapEntry: ""
 	VitricLootBox.MapEntry: ""
+	// VitricMediumCrystal.MapEntry: ""
 	VitricOre.MapEntry: 琉璃矿
 	VitricOreFloat.MapEntry: 琉璃矿
 	VitricPylon.MapEntry: 琉璃晶塔
@@ -3867,7 +3868,7 @@ Projectiles: {
 	CoachGunEmber.DisplayName: 余烬
 	CoachGunMuzzleFlash.DisplayName: 枪口闪光
 	CoachGunRing.DisplayName: 护骑炸弹
-	CoilStaticShock.DisplayName: 静电震击
+	CoilStaticShock.DisplayName: 静电休克
 	CopperCoilWhip.DisplayName: 铜质线圈
 	DiceProj.DisplayName: 骰子
 	DiscordantBolt.DisplayName: 失谐弹幕
