@@ -4404,7 +4404,7 @@ Buffs: {
 
 	ShieldDegenReduction: {
 		DisplayName: 屏障亲和
-		Description: 超过最大屏障的屏障流失速度更慢
+		Description: 超过最大屏障的屏障衰减速度更慢
 	}
 
 	StarstruckDebuff: {
