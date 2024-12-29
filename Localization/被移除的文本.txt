@@ -547,37 +547,6 @@ Compat: {
 		Tooltip: Fragile! Please handle with care.
 		DisplayName: Coolmite
 	}
-	
-			SaltCogs: {
-				DisplayName: Salt Cogs
-				Tooltip:
-					'''
-					你的哨兵在被放置后的两秒内会以两倍速度攻击
-					增加100%哨兵放置速度
-					'''
-			}
-
-			ArtilleryLicense: {
-				DisplayName: Artillery License
-				Tooltip:
-					'''
-					增加1格最大哨兵栏位
-					`Totally not forged`
-					'''
-			}
-
-			DefenseSystem: {
-				DisplayName: Arms Dealer's Defense System
-				Tooltip:
-					'''
-					召唤一架携带枪械的炮塔
-					右键在不同的枪械之间循环切换
-					[i/s1:95] Modest damage with good range
-					[i/s1:964] Great damage with short range
-					[i/s1:98] Light damage with great fire rate
-
-					'''
-			}
 	Glassweaver.DisplayName: 织璃匠
 	GlassweaverWaiting.DisplayName: 织璃匠
 
