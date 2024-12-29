@@ -1,7 +1,7 @@
 中暑 | Deals 20 DPS. | 255 | 100 | 35
 Shredded | Inflicted enemies have their defense decreased by 2 and take 2 DoT per stack. Caps at 5 stacks. | 90 | 20 | 20
 Vulnerability | Increases the amount of damage a target takes by their Vulnerability stacks. | 150 | 30 | 30
-曝光 | Multiplies the amount of damage a target takes by their Exposure value before consuming the effect. | 175 | 35 | 35
+暴露 | Multiplies the amount of damage a target takes by their Exposure value before consuming the effect. | 175 | 35 | 35
 聚焦 | Afflicted enemies have double the chance to be critically striked, however you cannot critically strike any other enemy besides the Focused enemy. | 85 | 220 | 55
 作祟 | Afflicted enemies take 1 DPS per Haunted stack. When an enemy has 20 Haunted stacks, they will cause haunted apparitions to exorcise from them, removing all their Haunted stacks. | 180 | 0 | 255
 Volatile | Afflicted enemies take 7% more damage and deal 3% more damage for every stack of Volatile. Caps at 5 stacks. | 220 | 205 | 140

@@ -381,7 +381,7 @@ Items: {
 		Tooltip:
 			'''
 			使用剑类武器保持不攻击2秒后会使下次攻击变为强力的思维斩击
-			思维斩击会造成5层？可叠加？{{BUFF:Neurosis}}或{{BUFF:Psychosis}}减益
+			思维斩击会造成5层{{BUFF:Neurosis}}或{{BUFF:Psychosis}}减益
 			'''
 	}
 
@@ -848,7 +848,7 @@ Items: {
 
 	SlimePrinceLegs: {
 		DisplayName: 史莱姆王子腿甲
-		Tooltip: 仆从施加5%的曝光
+		Tooltip: 仆从施加5%的暴露
 	}
 
 	Trowel: {
@@ -2203,7 +2203,7 @@ Items: {
 		DisplayName: 真视透镜
 		Tooltip:
 			'''
-			暴击时会对周围的敌人造成{{BUFF:Exposed}}减益，并增加其曝光
+			暴击时会对周围的敌人造成{{BUFF:Exposed}}减益，并增加其暴露
 			+2%暴击率
 			+20%暴击伤害
 			'''
@@ -2446,7 +2446,7 @@ Items: {
 		Tooltip:
 			'''
 			长按右键充能，松开右键释放一道激光
-			激光会造成{{BUFF:RefractiveBladeBuff}}减益，并增加25%近战曝光
+			激光会造成{{BUFF:RefractiveBladeBuff}}减益，并增加25%近战暴露
 			'''
 	}
 
@@ -4211,7 +4211,7 @@ Buffs: {
 
 	Psychosis: {
 		DisplayName: Psychosis
-		Description: 每秒造成4点伤害并增加1%曝光
+		Description: 每秒造成4点伤害并增加1%暴露
 	}
 
 	Rage: {
@@ -4420,7 +4420,7 @@ Buffs: {
 
 	Exposed: {
 		DisplayName: 曝光
-		Description: 受影响的实体具有20%伤害曝光
+		Description: 受影响的单位获得20%全伤害类型暴露
 	}
 
 	MagmaBurn: {
@@ -4435,7 +4435,7 @@ Buffs: {
 
 	RefractiveBladeBuff: {
 		DisplayName: 融化
-		Description: 受影响的实体具有25%近战伤害曝光，并且折射尖刃会对其额外造成50%伤害
+		Description: 受影响的单位获得20%近战伤害类型暴露，并且折射尖刃会对其额外造成50%伤害
 	}
 
 	SwelteredDeBuff: {
