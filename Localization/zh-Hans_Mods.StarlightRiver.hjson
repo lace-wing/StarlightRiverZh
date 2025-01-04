@@ -103,9 +103,9 @@ Items: {
 		Tooltip:
 			'''
 			你的哨兵攻击速度更快且放置后会电击附近的敌人
-			你的仆从和哨兵偶尔会造成额外伤害
-			该额外伤害视为一次暴击
+			你的仆从和哨兵偶尔会造成暴击
 			增加200%哨兵放置速度
+			“如此复杂，以至于你都不确定你是怎么造出来它的”
 			'''
 	}
 
@@ -115,7 +115,7 @@ Items: {
 			'''
 			你的哨兵放置后两秒内会以两倍速度攻击
 			增加100%哨兵放置速度
-			'Not edible. Probably.'
+			“不可食用。大概吧。”
 			'''
 	}
 
@@ -353,7 +353,7 @@ Items: {
 	}
 
 	Lobotomizer: {
-		DisplayName: Lobotomizer
+		DisplayName: 脑叶切除者
 		Tooltip:
 			'''
 			右键投掷一柄幻觉之矛
@@ -368,7 +368,7 @@ Items: {
 	}
 
 	MirageBow: {
-		DisplayName: Mirage bow
+		DisplayName: 幻象弓
 		Tooltip:
 			'''
 			暴击时会在光标的相对位置生成镜像克隆体
@@ -428,7 +428,7 @@ Items: {
 			'''
 			屏障的伤害吸收增加15%
 			+20点屏障
-			'Its depths shimmer like waves'
+			“它的深处闪烁着波光”
 			'''
 	}
 
@@ -819,7 +819,7 @@ Items: {
 		Tooltip:
 			'''
 			长按挥舞一颗巨大的金属球
-			`We've got the biggest balls of them all!`
+			“我们得到了它们当中最大的球！”
 			'''
 	}
 
@@ -827,7 +827,7 @@ Items: {
 		DisplayName: 老旧的磨刀石
 		Tooltip:
 			'''
-			+1 任何伤害
+			+1点任何伤害
 			“该死的，你为什么要磨刀？！”
 			'''
 	}
@@ -894,10 +894,7 @@ Items: {
 		Tooltip: 你不应该看见这个
 	}
 
-	GeomancerHood: {
-		DisplayName: 地卜师的兜帽
-		Tooltip: ""
-	}
+	GeomancerHood.DisplayName: 地卜师的兜帽
 
 	GeomancerItemDummy: {
 		DisplayName: 不同宝石的效果：
@@ -912,15 +909,8 @@ Items: {
 			'''
 	}
 
-	GeomancerPants: {
-		DisplayName: 地卜师的护胫
-		Tooltip: ""
-	}
-
-	GeomancerRobe: {
-		DisplayName: 地卜师的斗篷
-		Tooltip: ""
-	}
+	GeomancerPants.DisplayName: 地卜师的护胫
+	GeomancerRobe.DisplayName: 地卜师的斗篷
 
 	GeoRuby: {
 		DisplayName: 红宝石
@@ -1320,7 +1310,7 @@ Items: {
 	}
 
 	BuffChalice: {
-		DisplayName: Plexus 圣杯
+		DisplayName: 丛结圣杯
 		Tooltip:
 			'''
 			造成减益时会暂时增加你的免疫力
@@ -1494,10 +1484,7 @@ Items: {
 			'''
 	}
 
-	Gunchucks: {
-		DisplayName: 双截猎枪
-		Tooltip: ""
-	}
+	Gunchucks.DisplayName: 双截猎枪
 
 	GunstrapBoots: {
 		DisplayName: 绑枪的靴子
@@ -1850,10 +1837,7 @@ Items: {
 			'''
 	}
 
-	Shaker: {
-		DisplayName: 震颤者
-		Tooltip: ""
-	}
+	Shaker.DisplayName: 震颤者
 
 	PalestoneNail: {
 		DisplayName: 苍白骨钉
@@ -1937,7 +1921,7 @@ Items: {
 		Tooltip:
 			'''
 			扔进流光水，召唤拜鱿教徒们所崇敬之物
-			无限使用
+			可无限使用
 			'''
 	}
 
@@ -2271,35 +2255,12 @@ Items: {
 		Tooltip: 使下个坠落的星体必定为月长石
 	}
 
-	AncientStarwoodBoots: {
-		DisplayName: 远古星木护胫
-		Tooltip: ""
-	}
-
-	AncientStarwoodChest: {
-		DisplayName: 远古星木长袍
-		Tooltip: ""
-	}
-
-	AncientStarwoodHat: {
-		DisplayName: 远古星木帽
-		Tooltip: ""
-	}
-
-	MechaChest: {
-		DisplayName: 机甲身躯
-		Tooltip: ""
-	}
-
-	MechaHead: {
-		DisplayName: 机甲战盔
-		Tooltip: ""
-	}
-
-	MechaLegs: {
-		DisplayName: 机甲护腿
-		Tooltip: ""
-	}
+	AncientStarwoodBoots.DisplayName: 远古星木护胫
+	AncientStarwoodChest.DisplayName: 远古星木长袍
+	AncientStarwoodHat.DisplayName: 远古星木帽
+	MechaChest.DisplayName: 机甲身躯
+	MechaHead.DisplayName: 机甲战盔
+	MechaLegs.DisplayName: 机甲护腿
 
 	WardenHat: {
 		DisplayName: 监守者兜帽
@@ -2331,7 +2292,7 @@ Items: {
 	}
 
 	DendriteBar: {
-		DisplayName: Dendrite Bar
+		DisplayName: 树突锭
 		Tooltip: 这块树突可能比你还聪明……
 	}
 
@@ -2384,8 +2345,8 @@ Items: {
 	}
 
 	ImaginaryTissue: {
-		DisplayName: Imaginary Tissue
-		Tooltip: As long as you focus on it, its real
+		DisplayName: 虚想组织
+		Tooltip: 只要你专注于它，它就是真实的。
 	}
 
 	MagmaArrow: {
@@ -2600,17 +2561,17 @@ Items: {
 	}
 
 	BonemineItem: {
-		DisplayName: Bone mine
+		DisplayName: 骨矿
 		Tooltip: Doyoyouuyuuhuyhh *BRRPT* *Anyuerism*
 	}
 
 	DendriteItem: {
-		DisplayName: Dendrite
+		DisplayName: 树突
 		Tooltip: Doyoyouuyuuhuyhh *BRRPT* *Anyuerism*
 	}
 
 	GrayMatterItem: {
-		DisplayName: Gray Matter
+		DisplayName: 灰质
 		Tooltip: 你可以看到他在思考
 	}
 
@@ -3565,7 +3526,7 @@ Items: {
 	}
 
 	PsychoticManabond: {
-		DisplayName: Psychotic Manabond
+		DisplayName: 精神病魔力契约
 		Tooltip:
 			'''
 			你的仆从能够储存40点魔力值
@@ -4014,11 +3975,11 @@ Projectiles: {
 }
 
 Biomes: {
-
 	BossRushBiome: {
 		DisplayName: Boss连战
 		TownNPCDialogueName: Boss连战
 	}
+
 	GraymatterBiome: {
 		DisplayName: 灰质
 		TownNPCDialogueName: 灰质
