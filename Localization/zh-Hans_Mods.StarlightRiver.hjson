@@ -4144,7 +4144,8 @@ NPCs: {
 	Snake.DisplayName: 沙漠蝰蛇
 	BerrySlime.DisplayName: 莓果史莱姆
 	TouchstoneWisp.DisplayName: 极光之魂
-	
+	WeakPoint.DisplayName: 思考者
+	BrainPlatform.DisplayName: ""
 }
 
 Buffs: {
