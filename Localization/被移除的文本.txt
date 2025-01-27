@@ -219,20 +219,6 @@
 
 	DesertWisp2.DisplayName: Desert Wisp2
 
-	
-
-	Full: {
-		DisplayName: 饱腹
-		Description: Mods.StarlightRiver.Buffs.Full.Description
-	}
-
-	
-	Feral.DisplayName: 野性的
-	Jumpy.DisplayName: 跳跃的
-	Tanklike.DisplayName: 坚守的
-
-	
-
 Configs: {
 	AudioConfig: {
 		DisplayName: 音频配置
