@@ -3694,6 +3694,11 @@ Items: {
 		DisplayName: Mindbreaker Pickaxe
 		Tooltip: 可以挖掘灰质
 	}
+
+	DebugStick2: {
+		Tooltip: Has whatever effects are needed
+		DisplayName: Debug Stick 2
+	}
 }
 
 Tiles: {
@@ -3891,6 +3896,7 @@ Tiles: {
 	VitricLargeCrystal.MapEntry: 大型琉璃晶
 	VitricMediumCrystal.MapEntry: 中型琉璃晶
 	VitricSmallCrystal.MapEntry: 小型琉璃晶
+	BigSpike.MapEntry: ""
 }
 
 Projectiles: {
