@@ -136,7 +136,7 @@ Items: {
 
 	BrainSpawner: {
 		DisplayName: Thinker Test
-		Tooltip: 使你武装起来并生成思考者
+		Tooltip: 将你传送并生成思考者
 	}
 
 	BreachCannon: {
@@ -362,6 +362,11 @@ Items: {
 			'''
 	}
 
+	MindbreakerPickaxe: {
+		DisplayName: Mindbreaker Pickaxe
+		Tooltip: 可以挖掘灰质
+	}
+
 	MindCloak: {
 		DisplayName: Cloak of the Mind
 		Tooltip: 增加的最大魔力值同样会增加最大屏障
@@ -375,15 +380,6 @@ Items: {
 			松开会碾碎圆圈内所有的敌人
 			圈内的敌人每拥有1点防御，便会额外受到2点伤害
 			造成5层{{BUFF:Neurosis}}减益
-			'''
-	}
-
-	MirageBow: {
-		DisplayName: 幻象弓
-		Tooltip:
-			'''
-			暴击时会在光标的相对位置生成镜像克隆体
-			镜像克隆体持续5秒后消失
 			'''
 	}
 
@@ -424,6 +420,11 @@ Items: {
 
 	DebugStick: {
 		DisplayName: 调试棒
+		Tooltip: 功能应有尽有
+	}
+
+	DebugStick2: {
+		DisplayName: 调试棒2
 		Tooltip: 功能应有尽有
 	}
 
@@ -927,12 +928,12 @@ Items: {
 		DisplayName: 不同宝石的效果：
 		Tooltip:
 			'''
-			[i/s1:5684]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
-			[i/s1:5692]：+100点最大屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
-			[i/s1:5685]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
-			[i/s1:5691]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
-			[i/s1:5683]：使用攻击都会造成可叠加的剧毒紫晶减益
-			[i/s1:5690]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
+			[i/s1:7686]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
+			[i/s1:7694]：+100点最大屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
+			[i/s1:7687]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
+			[i/s1:7693]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
+			[i/s1:7685]：使用攻击都会造成可叠加的剧毒紫晶减益
+			[i/s1:7692]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
 			'''
 	}
 
@@ -1110,6 +1111,11 @@ Items: {
 			使你获得短暂的二段跳
 			造成100点伤害后重新充能
 			'''
+	}
+
+	Misery: {
+		DisplayName: Misery's Company
+		Tooltip: 附近敌人的防御力和免疫力等同于你的防御力和免疫力
 	}
 
 	GlowingObsidian: {
@@ -1687,9 +1693,6 @@ Items: {
 		Tooltip:
 			'''
 			向敌人发射种子、石块和蘑菇
-			种子的速度更快
-			石块的速度更慢但会造成更高的伤害和击退
-			蘑菇会造成更低的伤害，但会造成中毒减益
 			75%几率不消耗弹药
 			'''
 		DisplayName: 弹弓
@@ -1699,9 +1702,9 @@ Items: {
 		DisplayName: 土块枪
 		Tooltip:
 			'''
-			长按左键充能并发射一排土块
-			释放高速土块
-			可使用不同种类的土块
+			长按左键为一排土块充能
+			释放以发射土块
+			完全充能时释放一团高速土堆
 			“弄脏它！玷污它！”
 			'''
 	}
@@ -1780,7 +1783,11 @@ Items: {
 
 	TinCoil: {
 		DisplayName: 锡质线圈
-		Tooltip: 用静电打击附近的敌人
+		Tooltip: 
+			'''
+			用静电打击附近的敌人
+			造成{{BUFF:StaticShock}}减益
+			'''
 	}
 
 	Ultrapills: {
@@ -2036,8 +2043,9 @@ Items: {
 		DisplayName: 血晶
 		Tooltip:
 			'''
-			你会获得你对敌人造成的减益
-			你所造成减益的持续时间延长
+			击中敌人时，其每拥有一种减益便会造成一层{{BUFF:BloodCrystalBuff}}减益
+			你会获得等量层数的{{BUFF:BloodCrystalBuff}}减益
+
 			'''
 	}
 
@@ -3275,6 +3283,26 @@ Items: {
 		Tooltip: ""
 	}
 
+	CombatShrineBarrierItem: {
+		DisplayName: CombatShrineBarrierItem
+		Tooltip: 调试物品
+	}
+
+	EvasionShrineBarrierItem: {
+		DisplayName: EvasionShrineBarrierItem
+		Tooltip: 调试物品
+	}
+
+	VitricBossBarrierItem: {
+		DisplayName: VitricBossBarrierItem
+		Tooltip: 调试物品
+	}
+
+	GlassweaverBossBarrierItem: {
+		DisplayName: GlassweaverBossBarrierItem
+		Tooltip: 调试物品
+	}
+
 	VitricBathtub: {
 		DisplayName: 琉璃浴缸
 		Tooltip: ""
@@ -3358,26 +3386,6 @@ Items: {
 	VitricDoorClosed: {
 		DisplayName: 琉璃门
 		Tooltip: ""
-	}
-
-	CombatShrineBarrierItem: {
-		DisplayName: CombatShrineBarrierItem
-		Tooltip: 调试物品
-	}
-
-	EvasionShrineBarrierItem: {
-		DisplayName: EvasionShrineBarrierItem
-		Tooltip: 调试物品
-	}
-
-	VitricBossBarrierItem: {
-		DisplayName: VitricBossBarrierItem
-		Tooltip: 调试物品
-	}
-
-	GlassweaverBossBarrierItem: {
-		DisplayName: GlassweaverBossBarrierItem
-		Tooltip: 调试物品
 	}
 
 	VitricBoss1Item: {
@@ -3594,111 +3602,6 @@ Items: {
 		DisplayName: 软沙块
 		Tooltip: ""
 	}
-
-	BaseBarrierDye: {
-		DisplayName: Base Barrier Dye
-		Tooltip: ""
-	}
-
-	ExampleCombatMountItem: {
-		DisplayName: Example Combat Mount Item
-		Tooltip: ""
-	}
-
-	MonkSpade: {
-		DisplayName: 武僧月牙铲
-		Tooltip: ""
-	}
-
-	RainbowCycleDye: {
-		DisplayName: Rainbow Cycle Dye
-		Tooltip: ""
-	}
-
-	RainbowCycleDye2: {
-		DisplayName: Rainbow Cycle Dye2
-		Tooltip: ""
-	}
-
-	FaeHover: {
-		DisplayName: Fae Hover
-		Tooltip: ""
-	}
-
-	GenericHover: {
-		DisplayName: Generic Hover
-		Tooltip: ""
-	}
-
-	WindsHover: {
-		DisplayName: Winds Hover
-		Tooltip: ""
-	}
-
-	StaminaPickup: {
-		DisplayName: Stamina Pickup
-		Tooltip: ""
-	}
-
-	ForestBerries: {
-		DisplayName: 森林莓
-		Tooltip: ""
-	}
-
-	MaterialIndicatorIcon: {
-		DisplayName: Material Indicator Icon
-		Tooltip: ""
-	}
-
-	RedLaserPointer: {
-		DisplayName: 红色激光笔
-		Tooltip: ""
-	}
-
-	OrangeLaserPointer: {
-		DisplayName: 橙色激光笔
-		Tooltip: ""
-	}
-
-	YellowLaserPointer: {
-		DisplayName: 黄色激光笔
-		Tooltip: ""
-	}
-
-	GreenLaserPointer: {
-		DisplayName: 绿色激光笔
-		Tooltip: ""
-	}
-
-	BlueLaserPointer: {
-		DisplayName: 蓝色激光笔
-		Tooltip: ""
-	}
-
-	PurpleLaserPointer: {
-		DisplayName: 紫色激光笔
-		Tooltip: ""
-	}
-
-	WhiteLaserPointer: {
-		DisplayName: 白色激光笔
-		Tooltip: ""
-	}
-
-	PinkLaserPointer: {
-		DisplayName: 粉色激光笔
-		Tooltip: ""
-	}
-
-	MindbreakerPickaxe: {
-		DisplayName: Mindbreaker Pickaxe
-		Tooltip: 可以挖掘灰质
-	}
-
-	DebugStick2: {
-		Tooltip: Has whatever effects are needed
-		DisplayName: Debug Stick 2
-	}
 }
 
 Tiles: {
@@ -3706,6 +3609,7 @@ Tiles: {
 	SeaglassRingTile.MapEntry: ""
 	CookStation.MapEntry: 烹饪站
 	CrashPod.MapEntry: 失事的吊舱
+	BigSpike.MapEntry: ""
 	EyeBoulder.MapEntry: ""
 	Tooth.MapEntry: ""
 	AnkhChest.MapEntry: 十字箱
@@ -3714,9 +3618,12 @@ Tiles: {
 	TwistSwordTile.MapEntry: 环旋重剑
 	PinkSeaSalt.MapEntry: ""
 	TableSalt.MapEntry: ""
+	ChainVine.MapEntry: ""
 	CommonVegetables.MapEntry: ""
 	ForestBerryBush.MapEntry: ""
 	MonkSpear.MapEntry: 武僧的月牙铲
+	RiggedTree.MapEntry: 大树
+	RiggedTreeBase.MapEntry: ""
 	SlimeberryBush.MapEntry: ""
 	ThickTree.MapEntry: 巨大树
 	ThickTreeBase.MapEntry: ""
@@ -3896,7 +3803,6 @@ Tiles: {
 	VitricLargeCrystal.MapEntry: 大型琉璃晶
 	VitricMediumCrystal.MapEntry: 中型琉璃晶
 	VitricSmallCrystal.MapEntry: 小型琉璃晶
-	BigSpike.MapEntry: ""
 }
 
 Projectiles: {
@@ -3912,7 +3818,6 @@ Projectiles: {
 	GlassSword.DisplayName: 琉璃剑
 	LavaLob.DisplayName: Hot Lob
 	Whirlwind.DisplayName: 旋刃
-	Whirl.DisplayName: 风旋
 	InkBlob.DisplayName: 虹墨
 	InkBlobGravity.DisplayName: 虹墨
 	SpewBlob.DisplayName: 极光碎片
@@ -4001,8 +3906,17 @@ Projectiles: {
 	DiceProj.DisplayName: 骰子
 	DiscordantBolt.DisplayName: 失谐弹幕
 	DualCrossHeld.DisplayName: 双发十字弩
+	EarthdusterAshShot.DisplayName: 大地涤尘
+	EarthdusterCrimsandShot.DisplayName: 大地涤尘
+	EarthdusterDirtShot.DisplayName: 大地涤尘
+	EarthdusterEbonsandShot.DisplayName: 大地涤尘
 	EarthdusterHoldout.DisplayName: 大地涤尘炮
-	EarthdusterRing.DisplayName: 地之环
+	EarthdusterMudShot.DisplayName: 大地涤尘
+	EarthdusterPearlsandShot.DisplayName: 大地涤尘
+	EarthdusterSandShot.DisplayName: 大地涤尘
+	EarthdusterSiltShot.DisplayName: 大地涤尘
+	EarthdusterSlushShot.DisplayName: 大地涤尘
+	EarthdusterVitricSandShot.DisplayName: 大地涤尘
 	ElectroArrowProjectile.DisplayName: 电弧箭
 	EnchantedWateringCanProj.DisplayName: 附魔水壶
 	FiletSlash.DisplayName: 剔骨斩
@@ -4024,22 +3938,27 @@ Projectiles: {
 	SlingMushroomProjectile.DisplayName: 蘑菇
 	SlingSeedProjectile.DisplayName: 种子
 	SlingStoneProjectile.DisplayName: 石块
-	HauntedSoul.DisplayName: 灵魂
-	SoilgunCoinsProjectile.DisplayName: 硬币
+	SoilgunAshClump.DisplayName: 土块
+	SoilgunAshSoil.DisplayName: 土块
+	SoilgunCrimsandClump.DisplayName: 土块
 	SoilgunCrimsandSoil.DisplayName: 土块
+	SoilgunDirtClump.DisplayName: 土块
 	SoilgunDirtSoil.DisplayName: 土块
+	SoilgunEbonsandClump.DisplayName: 土块
 	SoilgunEbonsandSoil.DisplayName: 土块
-	SoilgunExplosion.DisplayName: 爆炸
 	SoilgunHoldout.DisplayName: 土块枪
-	SoilgunIcicleProj.DisplayName: 冰柱
-	SoilgunLifeSteal.DisplayName: 汲血珠
+	SoilgunMudClump.DisplayName: 土块
 	SoilgunMudSoil.DisplayName: 土块
+	SoilgunPearlsandClump.DisplayName: 土块
 	SoilgunPearlsandSoil.DisplayName: 土块
-	SoilgunSandGrain.DisplayName: 砂粒
+	SoilgunSandClump.DisplayName: 土块
+	SoilgunSandExplosion.DisplayName: 沙块
 	SoilgunSandSoil.DisplayName: 土块
+	SoilgunSiltClump.DisplayName: 土块
 	SoilgunSiltSoil.DisplayName: 土块
+	SoilgunSlushClump.DisplayName: 土块
 	SoilgunSlushSoil.DisplayName: 土块
-	SoilgunVitricCrystals.DisplayName: 挥发性结晶体
+	SoilgunVitricSandClump.DisplayName: 土块
 	SoilgunVitricSandSoil.DisplayName: 土块
 	ThrusterEmber.DisplayName: 推进器
 	TinCoilWhip.DisplayName: 锡质线圈
@@ -4108,7 +4027,8 @@ Projectiles: {
 	MagmiteVacpackHoldout.DisplayName: 熔滴螨真空枪
 	MagmiteVacpackProjectile.DisplayName: 弹跳熔滴螨
 	NeedlerEmber.DisplayName: 针刺
-	NeedlerExplosion.DisplayName: 针刺
+	NeedlerExplosion.DisplayName: 狱火爆破
+	NeedlerHoldout.DisplayName: 针刺
 	NeedlerProj.DisplayName: 针刺
 	PhoenixStormMinion.DisplayName: 菲尼克斯
 	RecursiveFocusLaser.DisplayName: 地狱激光
@@ -4139,97 +4059,6 @@ Projectiles: {
 	Dart.DisplayName: 诅咒飞镖
 	SawbladeSmall.DisplayName: 诅咒锯刃
 	Spear.DisplayName: 诅咒矛
-	GatheringWindsWhirl.DisplayName: 聚风旋
-	HintText.DisplayName: 提示文本
-	WellspringProjectile.DisplayName: 源泉
-	FakeMindMine.DisplayName: Fake Mind Mine
-	ThinkerMindMine.DisplayName: Thinker Mind Mine
-	BurningGround.DisplayName: 燃烧的地面
-	GlassJavelin.DisplayName: 琉璃标枪
-	GlassweaverDoor.DisplayName: 织璃匠门
-	Glint.DisplayName: 闪烁
-	AuroraWaterSplash.DisplayName: 极光水溅
-	DoorBomb.DisplayName: 门炸弹
-	Laser.DisplayName: 极光
-	CrystalWave.DisplayName: 水晶波
-	FireCone.DisplayName: 火椎
-	FireRingHostile.DisplayName: 火焰之环
-	FireRing.DisplayName: 火焰之环
-	GlassVolley.DisplayName: 琉璃弹
-	GlassVolleyShard.DisplayName: 琉璃弹片
-	SpikeMine.DisplayName: 尖刺地雷
-	VitricBomb.DisplayName: 琉璃炸弹
-	ScrapshotHook.DisplayName: 锈迹钩爪
-	AztecDeathSaxophoneSoundwave.DisplayName: 阿兹台克死亡萨克斯声波
-	BearPokerEndlessProjectile.DisplayName: Bear Poker Endless Projectile
-	BearPokerProjectile.DisplayName: Bear Poker Projectile
-	GraySlash.DisplayName: 灰斩
-	LobotomizerFastProjectile.DisplayName: 加速脑叶切除者
-	LobotomizerHallucination.DisplayName: 脑叶切除者幻觉
-	LobotomizerProjectile.DisplayName: 脑叶切除者
-	MindCursherProjectile.DisplayName: Mind Cursher Projectile
-	MirageBowClone.DisplayName: 幻象弓克隆体
-	MyelinSlash.DisplayName: 髓鞘质斩击
-	PsychosisAura.DisplayName: 精神错乱光环
-	SandSlash.DisplayName: 沙斩
-	TwistSwordProjectile.DisplayName: 环旋重剑
-	Acorn.DisplayName: 橡子
-	HeavyFlailCrack.DisplayName: 重型链枷爆裂
-	HeavyFlailProjectile.DisplayName: 重型链枷
-	MonkSpadeProjectile.DisplayName: 武僧月牙铲
-	SlimeThorn.DisplayName: 史莱姆荆棘
-	GeoAmethystProj.DisplayName: 紫水晶
-	GeoDiamondProj.DisplayName: 钻石
-	GeoEmeraldProj.DisplayName: 绿宝石
-	GeoRubyProj.DisplayName: 红玉
-	GeoSapphireProj.DisplayName: 蓝宝石
-	GeoTopazProj.DisplayName: 黄水晶
-	BurnTrail.DisplayName: 火痕
-	GlowingObsidianSlash.DisplayName: 发光黑曜石斩击
-	GlowingObsidianSpike.DisplayName: 发光黑曜石尖刺
-	InfernalHarvestFree.DisplayName: 地狱丰收
-	InfernalHarvestPaid.DisplayName: 地狱丰收
-	ThunderbussBall.DisplayName: 雷筒球
-	AxeBookProjectile.DisplayName: 猛虎下山
-	BizarreLightning.DisplayName: 奇异闪电
-	BizarreLightningOrb.DisplayName: 奇异闪电球
-	BizarrePotionPoisonCloud.DisplayName: 奇异药水毒云
-	FryingPanThrownProj.DisplayName: 煎锅
-	GuillotineVFX.DisplayName: 断头台
-	HolyAmuletOrb.DisplayName: 神圣护身符法球
-	SorcerwrenchProjectile.DisplayName: 巫师扳手
-	SpearBookProjectile.DisplayName: 灵蛇突袭
-	SwordBookParry.DisplayName: 螳螂剑术格挡
-	SwordBookProjectile.DisplayName: 螳螂剑术
-	ThrownAxeProjectile.DisplayName: 投斧
-	UltrapillBlood.DisplayName: 终极药丸血液
-	DatsuzeiProjectile.DisplayName: 大津贅沢
-	StarGlaive.DisplayName: 星之利刃
-	StarShuriken.DisplayName: 星之手里剑
-	AuroraThroneMountMinion.DisplayName: 极光坐骑
-	FrostballProjectile.DisplayName: 寒霜球
-	FrostExplosion.DisplayName: 寒霜爆破
-	TentalanceProjectile.DisplayName: 触手长枪
-	FrostFlailCrack.DisplayName: 冰霜链枷爆裂
-	FrostFlailProjectile.DisplayName: 冰霜链枷
-	FrostFlailShard.DisplayName: 冰霜链枷碎片
-	StarwoodSlingshotProj.DisplayName: 星木弹弓
-	TemplePickProjectile.DisplayName: 旋风镐冲锋
-	TempleSpearLight.DisplayName: 神庙之矛光
-	LaserPointerProjectile.DisplayName: 激光指示器
-	CoachGunUpgradeExplosion.DisplayName: 护骑霰弹枪升级爆炸
-	MagmaBottleBurn.DisplayName: 熔岩瓶烧灼
-	MagmiteBombProjectile.DisplayName: 熔滴螨炸弹
-	MagmiteBottleProjectile.DisplayName: 熔滴螨瓶
-	RefractiveBladeLaser.DisplayName: 折射尖刃极光
-	RefractiveBladeProj.DisplayName: 折射尖刃
-	VitricBowProjectile.DisplayName: 琉璃弓
-	VitricBowShard.DisplayName: 琉璃弓碎片
-	FirePillar.DisplayName: 火柱
-	BossRushOrbGoreProjectile.DisplayName: Boss Rush Orb Gore Projectile
-	ConstructSpawner.DisplayName: Construct Spawner
-	GauntletSpawner.DisplayName: Gauntlet Spawner
-	SpawnEgg.DisplayName: Spawn Egg
 }
 
 Biomes: {
@@ -4285,8 +4114,10 @@ Biomes: {
 }
 
 NPCs: {
+	BrainPlatform.DisplayName: ""
 	HallucinationBlock.DisplayName: ""
 	HorrifyingVisage.DisplayName: Horrifying Visage
+	WeakPoint.DisplayName: 思考者
 	Glassweaver.DisplayName: 织璃者
 	GlassweaverWaiting.DisplayName: 织璃者
 	ArenaActor.DisplayName: ""
@@ -4342,42 +4173,6 @@ NPCs: {
 	Snake.DisplayName: 沙漠蝰蛇
 	BerrySlime.DisplayName: 莓果史莱姆
 	TouchstoneWisp.DisplayName: 极光之魂
-	WeakPoint.DisplayName: 思考者
-	BrainPlatform.DisplayName: ""
-	CutsceneFakeThinker.DisplayName: Cutscene Fake Thinker
-	DeadBrain.DisplayName: 死脑
-	Neurysm.DisplayName: Neurysm
-	TheThinker.DisplayName: 思考者
-	ArenaBlocker.DisplayName: Arena Blocker
-	Auroraborn.DisplayName: Auroraborn
-	Auroraling.DisplayName: Auroraling
-	Tentacle.DisplayName: 触手
-	TentacleHurtbox.DisplayName: Tentacle Hurtbox
-	HellLavaActor.DisplayName: Hell Lava Actor
-	StarlightWaterActor.DisplayName: Starlight Water Actor
-	GravityOrbTest.DisplayName: Gravity Orb Test
-	BossRushGoal.DisplayName: Boss Rush Goal
-	Dweller.DisplayName: 栖身者
-	Stalker.DisplayName: 追猎者
-	Dreambeast.DisplayName: 梦幻之兽
-	WaterCube.DisplayName: 水立方
-
-	EnchantNPC: {
-		DisplayName: Enchant N P C
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-	}
-
-	DesertWisp2.DisplayName: Desert Wisp2
 }
 
 Buffs: {
@@ -4633,6 +4428,11 @@ Buffs: {
 		Description: +30%免疫力
 	}
 
+	EbonsandDebuff: {
+		DisplayName: Weakened
+		Description: 受到的伤害增加15%
+	}
+
 	MoonfuryDebuff: {
 		DisplayName: 梦境炽焰
 		Description: 月怒的下一次冲击造成的伤害增加
@@ -4661,6 +4461,11 @@ Buffs: {
 	ShieldDegenReduction: {
 		DisplayName: 屏障亲和
 		Description: 超过最大屏障的屏障衰减速度更慢
+	}
+
+	BloodCrystalBuff: {
+		DisplayName: 血液共鸣
+		Description: 免疫力降低3%，每秒造成5点伤害，伤害效果不受层数影响
 	}
 
 	StarstruckDebuff: {
@@ -4715,11 +4520,6 @@ Buffs: {
 			挖掘速度增加
 			'''
 	}
-
-	Full: {
-		DisplayName: 饱腹
-		Description: Mods.StarlightRiver.Buffs.Full.Description
-	}
 }
 
 Prefixes: {
@@ -4742,166 +4542,4 @@ Prefixes: {
 	StaminaPrefix2.DisplayName: 明亮的
 	StaminaPrefix3.DisplayName: 炽灼的
 	StaminaPrefix4.DisplayName: 光耀的
-	Feral.DisplayName: 野性的
-	Jumpy.DisplayName: 跳跃的
-	Tanklike.DisplayName: 坚守的
-}
-
-Configs: {
-	AudioConfig: {
-		DisplayName: 音频配置
-
-		InvSounds: {
-			Label: 特制物品栏音效
-			Tooltip: 修改所有的，特定的或不修改物品的物品栏音效。
-		}
-	}
-
-	CustomSounds: {
-		Tooltip: ""
-		All.Label: 所有
-		Specific.Label: 特定
-		None.Label: 无
-	}
-
-	GraphicsConfig: {
-		DisplayName: 图像配置
-
-		ScreenshakeMult: {
-			Label: 震屏
-			Tooltip: 修改震屏效果的强度。
-		}
-
-		LightingPollRate: {
-			Label: 光照缓冲区轮询速率
-			Tooltip:
-				'''
-				修改光照系统缓冲区轮询数据的速率。
-				值越高，性能越好，但一些物体的光照加载变慢。
-				值越低，光照越顺滑，但性能需求越高。
-				'''
-		}
-
-		ParticlesActive: {
-			Label: 额外粒子
-			Tooltip:
-				'''
-				开关特殊粒子效果。
-				若您遇到了性能问题，请关闭。
-				'''
-		}
-
-		HighQualityLighting: {
-			Label: 高质量光照材质
-			Tooltip:
-				'''
-				开关大型材质上的特殊光照。
-				若您遇到了性能问题，请关闭。
-				'''
-		}
-
-		ReflectionConfig: {
-			Label: 背景反射
-			Tooltip:
-				'''
-				控制背景反射渲染哪些物体。
-				D若您遇到了性能问题，请关闭。
-				'''
-		}
-	}
-
-	ReflectionSubConfig: {
-		Tooltip: ""
-
-		ReflectionsOn: {
-			Label: 背景反射
-			Tooltip:
-				'''
-				开关背景反射系统。
-				若关闭，该区域中的其他配置会失效。
-				若您遇到了性能问题，请关闭。
-				'''
-		}
-
-		PlayerReflectionsOn: {
-			Label: 反射玩家
-			Tooltip:
-				'''
-				开关玩家人物的背景反射。
-				对性能的影响小。
-				'''
-		}
-
-		NpcReflectionsOn: {
-			Label: 反射NPC
-			Tooltip:
-				'''
-				开关NPC的背景反射。
-				对性能的影响小。
-				'''
-		}
-
-		ProjReflectionsOn: {
-			Label: 反射射弹
-			Tooltip:
-				'''
-				开关射弹的背景反射。
-				对性能的影响大。
-				'''
-		}
-
-		DustReflectionsOn: {
-			Label: 反射粒子
-			Tooltip:
-				'''
-				开关粒子（Particle 和 Dust）和尸块的背景反射。
-				对性能的影响大。
-				'''
-		}
-	}
-
-	GUIConfig: {
-		DisplayName: 图形交互界面配置
-
-		OverheadStaminaState: {
-			Label: 头顶星光条显示
-			Tooltip: 控制玩家头顶星光条的显示时机。
-		}
-
-		KeywordStyle: {
-			Label: 关键词样式
-			Tooltip: 控制关键词在物品描述中的样式。
-		}
-
-		ObviousArmorCharge: {
-			Label: Numeric Set Bonus Indicators
-			Tooltip: Adds a numeric display to various armor set bonuses over the player
-		}
-
-		AddMaterialIndicator: {
-			Label: Indicate Items with Added Recipes
-			Tooltip: Displays a star icon in vanilla item tooltips if used in Starlight River crafting recipes
-		}
-
-		AbilityIconPosition: {
-			Label: Ability icon positon
-			Tooltip: Where the ability icons should be shown while the inventory is open
-		}
-	}
-
-	OverlayState: {
-		Tooltip: ""
-		AlwaysOn.Label: 始终
-		WhileNotFull.Label: 仅未满时
-		WhileUsing.Label: 仅使用时
-		Never.Label: 永不
-	}
-
-	KeywordStyle: {
-		Tooltip: ""
-		Colors.Label: 上色
-		Brackets.Label: 带括号
-		Both.Label: 两者皆有
-		Neither.Label: 两者皆无
-	}
 }
