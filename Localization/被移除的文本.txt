@@ -13,6 +13,15 @@
 		Tooltip: 无效果
 	}
 
+	MirageBow: {
+		DisplayName: 幻象弓
+		Tooltip:
+			'''
+			暴击时会在光标的相对位置生成镜像克隆体
+			镜像克隆体持续5秒后消失
+			'''
+	}
+
 	Astral: {
 		DisplayName: 彗星冲刺I
 		Tooltip:
@@ -20,23 +29,6 @@
 			禁忌之风灌注
 			冲刺的距离更远且保留较多速度
 			星光消耗提升至1.3
-			'''
-	}
-
-	DebugStick2: {
-		Tooltip: Has whatever effects are needed
-		DisplayName: Debug Stick 2
-	}
-
-	
-
-
-	MirageBow: {
-		DisplayName: 幻象弓
-		Tooltip:
-			'''
-			暴击时会在光标的相对位置生成镜像克隆体
-			镜像克隆体持续5秒后消失
 			'''
 	}
 
@@ -125,20 +117,6 @@
 			'''
 	}
 
-
-
-	VitricBossBarrierItem: {
-		DisplayName: VitricBossBarrierItem
-		Tooltip: 调试物品
-	}
-
-	GlassweaverBossBarrierItem: {
-		DisplayName: GlassweaverBossBarrierItem
-		Tooltip: 调试物品
-	}
-	Infuser.MapEntry: 灌注站
-	Overgrow.MapEntry: 音乐盒
-	BossGate.MapEntry: ""
 Compat: {
 	BossChecklist: {
 		Auroracle: {
@@ -156,7 +134,7 @@ Compat: {
 			Despawn: 琉璃锻炉重归寂静，织璃匠感到很失望。
 		}
 	}
-
+}
 
 	CoolmiteLargeItem: {
 		DisplayName: Coolmismer
@@ -182,6 +160,7 @@ Compat: {
 		Tooltip: Fragile! Please handle with care.
 		DisplayName: Coolmite
 	}
+
 	Glassweaver.DisplayName: 织璃匠
 	GlassweaverWaiting.DisplayName: 织璃匠
 

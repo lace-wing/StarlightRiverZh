@@ -363,17 +363,17 @@ Items: {
 	}
 
 	MindbreakerPickaxe: {
-		DisplayName: Mindbreaker Pickaxe
+		DisplayName: 思维破坏者镐
 		Tooltip: 可以挖掘灰质
 	}
 
 	MindCloak: {
-		DisplayName: Cloak of the Mind
+		DisplayName: 心灵披风
 		Tooltip: 增加的最大魔力值同样会增加最大屏障
 	}
 
 	MindCrusher: {
-		DisplayName: Mind crusher
+		DisplayName: 思维碾碎者
 		Tooltip:
 			'''
 			长按以创建一个不断扩大的圆圈
@@ -1015,7 +1015,7 @@ Items: {
 			'''
 			快速戳刺敌人，造成{{BUFF:RadculasRapierBleed}}减益
 			右键向光标位置冲刺
-			冲刺击中具有流血减益的敌人时会消耗流血以造成额外伤害并治疗你
+			冲刺击中流血的敌人时会消耗流血以造成额外伤害并治疗你
 			冲刺击中多个敌人时会缩短下一次冲刺的冷却时间
 			'''
 	}
@@ -1114,7 +1114,7 @@ Items: {
 	}
 
 	Misery: {
-		DisplayName: Misery's Company
+		DisplayName: 痛苦伙伴
 		Tooltip: 附近敌人的防御力和免疫力等同于你的防御力和免疫力
 	}
 
@@ -2614,7 +2614,7 @@ Items: {
 	}
 
 	MagmiteLargeItem: {
-		DisplayName: Magmificent
+		DisplayName: 炽华熔滴螨
 		Tooltip: 欣赏他！
 	}
 
@@ -2683,7 +2683,7 @@ Items: {
 	}
 
 	CommonVegetablesItem: {
-		DisplayName: Common Vegetable Seeds
+		DisplayName: 普通蔬菜种子
 		Tooltip: 用于种植你自己的蔬菜
 	}
 
@@ -2943,7 +2943,7 @@ Items: {
 		DisplayName: Glorch
 		Tooltip:
 			'''
-			Does a lamp give off light... or suck up the dark?
+			灯是发出光芒……还是吸收黑暗？
 			削减附近的光照
 			'''
 	}
@@ -3484,32 +3484,32 @@ Items: {
 	}
 
 	GraymatterDeco1x4Item: {
-		DisplayName: Gray Nerve (1x4)
+		DisplayName: 灰色神经 (1x4)
 		Tooltip: ""
 	}
 
 	GraymatterDeco2x3Item: {
-		DisplayName: Gray Nerve (2x3)
+		DisplayName: 灰色神经 (2x3)
 		Tooltip: ""
 	}
 
 	GraymatterDeco2x2Item: {
-		DisplayName: Gray Nerve (2x2)
+		DisplayName: 灰色神经 (2x2)
 		Tooltip: ""
 	}
 
 	GraymatterDeco1x2Item: {
-		DisplayName: Gray Nerve (1x2)
+		DisplayName: 灰色神经 (1x2)
 		Tooltip: ""
 	}
 
 	GraymatterDeco3x3Item: {
-		DisplayName: Gray Nerve (3x3)
+		DisplayName: 灰色神经 (3x3)
 		Tooltip: ""
 	}
 
 	GraymatterDeco1x1Item: {
-		DisplayName: Gray Nerve (1x1)
+		DisplayName: 灰色神经 (1x1)
 		Tooltip: ""
 	}
 
@@ -3604,7 +3604,7 @@ Items: {
 	}
 
 	BaseBarrierDye: {
-		DisplayName: Base Barrier Dye
+		DisplayName: 基础屏障染料
 		Tooltip: ""
 	}
 
@@ -3624,12 +3624,12 @@ Items: {
 	}
 
 	RainbowCycleDye: {
-		DisplayName: Rainbow Cycle Dye
+		DisplayName: 循环彩虹染料
 		Tooltip: ""
 	}
 
 	RainbowCycleDye2: {
-		DisplayName: Rainbow Cycle Dye2
+		DisplayName: 循环彩虹染料2
 		Tooltip: ""
 	}
 
@@ -4466,7 +4466,7 @@ Buffs: {
 	}
 
 	Neurosis: {
-		DisplayName: Neurosis
+		DisplayName: 神经症
 		Description: 造成的伤害降低2%
 	}
 
@@ -4566,7 +4566,7 @@ Buffs: {
 	}
 
 	RadculasRapierBleed: {
-		DisplayName: Vampiric Bleeding
+		DisplayName: 吸血鬼流血
 		Description: 每秒造成1点伤害
 	}
 
@@ -4650,12 +4650,12 @@ Buffs: {
 	}
 
 	PlexusChaliceBuff: {
-		DisplayName: Plexus Resistance
+		DisplayName: 丛结抗性
 		Description: +30%免疫力
 	}
 
 	EbonsandDebuff: {
-		DisplayName: Weakened
+		DisplayName: 虚弱
 		Description: 受到的伤害增加15%
 	}
 
