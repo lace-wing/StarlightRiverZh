@@ -928,12 +928,12 @@ Items: {
 		DisplayName: 不同宝石的效果：
 		Tooltip:
 			'''
-			[i/s1:7686]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
-			[i/s1:7694]：+100点最大屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
-			[i/s1:7687]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
-			[i/s1:7693]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
-			[i/s1:7685]：使用攻击都会造成可叠加的剧毒紫晶减益
-			[i/s1:7692]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
+			[i/s1:5686]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
+			[i/s1:5694]：+100点最大屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
+			[i/s1:5687]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
+			[i/s1:5693]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
+			[i/s1:5685]：使用攻击都会造成可叠加的剧毒紫晶减益
+			[i/s1:5692]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
 			'''
 	}
 
@@ -4311,7 +4311,7 @@ NPCs: {
 	HorrifyingVisage.DisplayName: Horrifying Visage
 	WeakPoint.DisplayName: 思考者
 	Glassweaver.DisplayName: 织璃者
-	GlassweaverWaiting.DisplayName: 织璃者
+	GlassweaverFriendly.DisplayName: 织璃者
 	ArenaActor.DisplayName: ""
 	EscapePlatform.DisplayName: ""
 	GoldPlatform.DisplayName: ""
