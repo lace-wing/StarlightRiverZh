@@ -3702,6 +3702,15 @@ Items: {
 		DisplayName: 粉色激光笔
 		Tooltip: ""
 	}
+
+	NeuralFeather: {
+		DisplayName: 神经羽
+		Tooltip:
+			'''
+			你的箭矢会在短暂的延迟后爆炸
+			爆炸会造成{{BUFF:Psychosis}}减益
+			'''
+	}
 }
 
 Tiles: {
