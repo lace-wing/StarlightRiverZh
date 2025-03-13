@@ -3711,6 +3711,11 @@ Items: {
 			爆炸会造成{{BUFF:Psychosis}}减益
 			'''
 	}
+
+	StarlightPylonItem: {
+		DisplayName: 星光晶塔
+		Tooltip: 你不应该拥有这个！
+	}
 }
 
 Tiles: {
@@ -3912,6 +3917,7 @@ Tiles: {
 	VitricLargeCrystal.MapEntry: 大型琉璃晶
 	VitricMediumCrystal.MapEntry: 中型琉璃晶
 	VitricSmallCrystal.MapEntry: 小型琉璃晶
+	StarlightPylon.MapEntry: 星光晶塔
 }
 
 Projectiles: {
@@ -4313,6 +4319,11 @@ Biomes: {
 		DisplayName: 闪躲之地
 		TownNPCDialogueName: 闪躲之地
 	}
+
+	ObservatoryBiome: {
+		DisplayName: Observatory Biome
+		TownNPCDialogueName: the Observatory Biome
+	}
 }
 
 NPCs: {
@@ -4410,6 +4421,7 @@ NPCs: {
 
 	DesertWisp2.DisplayName: Desert Wisp2
 	Depressor.DisplayName: Depressor
+	Alican.DisplayName: ???
 }
 
 Buffs: {
