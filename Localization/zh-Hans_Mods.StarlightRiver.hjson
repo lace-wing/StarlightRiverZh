@@ -3716,6 +3716,11 @@ Items: {
 		DisplayName: 星光晶塔
 		Tooltip: 你不应该拥有这个！
 	}
+
+	StarsightTileItem: {
+		DisplayName: Starsight
+		Tooltip: "{{Debug}} placer for ability pickup"
+	}
 }
 
 Tiles: {
