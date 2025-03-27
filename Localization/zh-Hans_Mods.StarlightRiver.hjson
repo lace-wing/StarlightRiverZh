@@ -392,6 +392,15 @@ Items: {
 			'''
 	}
 
+	NeuralFeather: {
+		DisplayName: 神经羽
+		Tooltip:
+			'''
+			你的箭矢会在短暂的延迟后爆炸
+			爆炸会造成{{BUFF:Psychosis}}减益
+			'''
+	}
+
 	PsychoticManabond: {
 		DisplayName: 精神病魔力契约
 		Tooltip:
@@ -928,12 +937,12 @@ Items: {
 		DisplayName: 不同宝石的效果：
 		Tooltip:
 			'''
-			[i/s1:5686]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
-			[i/s1:5694]：+100点最大屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
-			[i/s1:5687]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
-			[i/s1:5693]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
-			[i/s1:5685]：使用攻击都会造成可叠加的剧毒紫晶减益
-			[i/s1:5692]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
+			[i/s1:5687]：暴击无视部分防御，基于敌人已损失的生命值增加暴击率
+			[i/s1:5695]：+100点最大屏障。获得一个指向你光标方向的护盾，消耗屏障来抵挡伤害
+			[i/s1:5688]：立即回复20点生命值。击中敌人时有几率生成一个回复5点生命值的心
+			[i/s1:5694]：立即补充魔力值。击中敌人时有几率生成一到三个魔力星
+			[i/s1:5686]：使用攻击都会造成可叠加的剧毒紫晶减益
+			[i/s1:5693]：击中敌人时有几率召唤一个搜寻敌人的红玉匕首，造成20%伤害
 			'''
 	}
 
@@ -2638,6 +2647,11 @@ Items: {
 		Tooltip: 调试物品
 	}
 
+	StarsightTileItem: {
+		DisplayName: 星灵之视
+		Tooltip: 用于能力拾取的调试放置器
+	}
+
 	WindsTileItem: {
 		DisplayName: 禁忌之风
 		Tooltip: 用于能力拾取的调试放置器
@@ -2680,6 +2694,11 @@ Items: {
 	DesertMonolithItem: {
 		DisplayName: 沙漠石柱
 		Tooltip: 放置一部分沙漠石柱
+	}
+
+	ShardCageBarrierItem: {
+		DisplayName: ShardCageBarrierItem
+		Tooltip: 调试物品
 	}
 
 	CommonVegetablesItem: {
@@ -2917,6 +2936,16 @@ Items: {
 	TouchstoneLootboxItem: {
 		DisplayName: Touchstone Chest Placer
 		Tooltip: ""
+	}
+
+	ChartGrateItem: {
+		DisplayName: Chart Grate
+		Tooltip: Composite
+	}
+
+	StarlightPylonItem: {
+		DisplayName: 星光晶塔
+		Tooltip: 你不应该拥有这个！
 	}
 
 	AuroracleTrophyItem: {
@@ -3388,33 +3417,53 @@ Items: {
 		Tooltip: ""
 	}
 
-	VitricBoss1Item: {
-		DisplayName: 八音盒（塞洛斯 1）
+	GraymatterDeco1x4Item: {
+		DisplayName: 灰色神经 (1x4)
 		Tooltip: ""
 	}
 
-	VitricBoss2Item: {
-		DisplayName: 八音盒（塞洛斯 2）
+	GraymatterDeco2x3Item: {
+		DisplayName: 灰色神经 (2x3)
 		Tooltip: ""
 	}
 
-	VitricPassiveItem: {
-		DisplayName: 八音盒（琉璃沙漠）
+	GraymatterDeco2x2Item: {
+		DisplayName: 灰色神经 (2x2)
 		Tooltip: ""
 	}
 
-	VitricTempleItem: {
-		DisplayName: 八音盒（琉璃神庙）
+	GraymatterDeco1x2Item: {
+		DisplayName: 灰色神经 (1x2)
 		Tooltip: ""
 	}
 
-	MinibossItem: {
-		DisplayName: 八音盒（织璃匠）
+	GraymatterDeco3x3Item: {
+		DisplayName: 灰色神经 (3x3)
 		Tooltip: ""
 	}
 
-	AuroracleItem: {
-		DisplayName: 八音盒（极光之触）
+	GraymatterDeco1x1Item: {
+		DisplayName: 灰色神经 (1x1)
+		Tooltip: ""
+	}
+
+	TempleBrickItem: {
+		DisplayName: 远古砖
+		Tooltip: ""
+	}
+
+	AuroracleRelicItem: {
+		DisplayName: 极光之触圣物
+		Tooltip: ""
+	}
+
+	CeirosRelicItem: {
+		DisplayName: 塞洛斯圣物
+		Tooltip: ""
+	}
+
+	ThinkerRelicItem: {
+		DisplayName: 思考者圣物
 		Tooltip: ""
 	}
 
@@ -3483,53 +3532,58 @@ Items: {
 		Tooltip: ""
 	}
 
-	GraymatterDeco1x4Item: {
-		DisplayName: 灰色神经 (1x4)
+	VitricBoss1Item: {
+		DisplayName: 八音盒（塞洛斯 1）
 		Tooltip: ""
 	}
 
-	GraymatterDeco2x3Item: {
-		DisplayName: 灰色神经 (2x3)
+	VitricBoss2Item: {
+		DisplayName: 八音盒（塞洛斯 2）
 		Tooltip: ""
 	}
 
-	GraymatterDeco2x2Item: {
-		DisplayName: 灰色神经 (2x2)
+	VitricPassiveItem: {
+		DisplayName: 八音盒（琉璃沙漠）
 		Tooltip: ""
 	}
 
-	GraymatterDeco1x2Item: {
-		DisplayName: 灰色神经 (1x2)
+	VitricTempleItem: {
+		DisplayName: 八音盒（琉璃神庙）
 		Tooltip: ""
 	}
 
-	GraymatterDeco3x3Item: {
-		DisplayName: 灰色神经 (3x3)
+	MinibossItem: {
+		DisplayName: 八音盒（织璃匠）
 		Tooltip: ""
 	}
 
-	GraymatterDeco1x1Item: {
-		DisplayName: 灰色神经 (1x1)
+	AuroracleItem: {
+		DisplayName: 八音盒（极光之触）
 		Tooltip: ""
 	}
 
-	AuroracleRelicItem: {
-		DisplayName: 极光之触圣物
+	IceTempleShinglesItem: {
+		DisplayName: 极光神殿瓦
 		Tooltip: ""
 	}
 
-	CeirosRelicItem: {
-		DisplayName: 塞洛斯圣物
+	IceTempleBricksItem: {
+		DisplayName: 寒石砖
 		Tooltip: ""
 	}
 
-	ThinkerRelicItem: {
-		DisplayName: 思考者圣物
+	IceTempleCobblesItem: {
+		DisplayName: 寒石圆石
 		Tooltip: ""
 	}
 
-	TempleBrickItem: {
-		DisplayName: 远古砖
+	IceTempleStuccoItem: {
+		DisplayName: 冻泥
+		Tooltip: ""
+	}
+
+	IceTempleStonesItem: {
+		DisplayName: 冻石
 		Tooltip: ""
 	}
 
@@ -3702,25 +3756,6 @@ Items: {
 		DisplayName: 粉色激光笔
 		Tooltip: ""
 	}
-
-	NeuralFeather: {
-		DisplayName: 神经羽
-		Tooltip:
-			'''
-			你的箭矢会在短暂的延迟后爆炸
-			爆炸会造成{{BUFF:Psychosis}}减益
-			'''
-	}
-
-	StarlightPylonItem: {
-		DisplayName: 星光晶塔
-		Tooltip: 你不应该拥有这个！
-	}
-
-	StarsightTileItem: {
-		DisplayName: Starsight
-		Tooltip: "{{Debug}} placer for ability pickup"
-	}
 }
 
 Tiles: {
@@ -3734,6 +3769,7 @@ Tiles: {
 	AnkhChest.MapEntry: 十字箱
 	DesertMonolith.MapEntry: ""
 	DesertMonolithFlipped.MapEntry: ""
+	ShardCage.MapEntry: ""
 	TwistSwordTile.MapEntry: 环旋重剑
 	PinkSeaSalt.MapEntry: ""
 	TableSalt.MapEntry: ""
@@ -3783,6 +3819,8 @@ Tiles: {
 	PermafrostIce.MapEntry: ""
 	Touchstone.MapEntry: 引光冰石
 	TouchstoneLootbox.MapEntry: ""
+	ChartGrate.MapEntry: ""
+	StarlightPylon.MapEntry: 星光晶塔
 	AuroracleTrophy.MapEntry: 纪念章
 	Auroracle.MapEntry: 音乐盒
 	CeirosTrophy.MapEntry: 纪念章
@@ -3879,11 +3917,13 @@ Tiles: {
 	VitricWorkbench.MapEntry: ""
 	VitricDoorClosed.MapEntry: ""
 	VitricDoorOpen.MapEntry: ""
-	VitricBoss1.MapEntry: 音乐盒
-	VitricBoss2.MapEntry: 音乐盒
-	VitricPassive.MapEntry: 音乐盒
-	VitricTemple.MapEntry: 音乐盒
-	Miniboss.MapEntry: 音乐盒
+	GraymatterDeco1x4.MapEntry: ""
+	GraymatterDeco2x3.MapEntry: ""
+	GraymatterDeco2x2.MapEntry: ""
+	GraymatterDeco1x2.MapEntry: ""
+	GraymatterDeco3x3.MapEntry: ""
+	GraymatterDeco1x1.MapEntry: ""
+	TempleBrick.MapEntry: ""
 	TempleChair.MapEntry: 椅子
 	TempleLargeVase.MapEntry: 巨大花瓶
 	TempleLargeVaseCrystal.MapEntry: 巨大花瓶
@@ -3897,13 +3937,16 @@ Tiles: {
 	TempleWeaponRack2.MapEntry: 武器架
 	TempleWeaponRack3.MapEntry: 武器架
 	TempleThingamajig.MapEntry: 武器架
-	GraymatterDeco1x4.MapEntry: ""
-	GraymatterDeco2x3.MapEntry: ""
-	GraymatterDeco2x2.MapEntry: ""
-	GraymatterDeco1x2.MapEntry: ""
-	GraymatterDeco3x3.MapEntry: ""
-	GraymatterDeco1x1.MapEntry: ""
-	TempleBrick.MapEntry: ""
+	VitricBoss1.MapEntry: 音乐盒
+	VitricBoss2.MapEntry: 音乐盒
+	VitricPassive.MapEntry: 音乐盒
+	VitricTemple.MapEntry: 音乐盒
+	Miniboss.MapEntry: 音乐盒
+	IceTempleShingles.MapEntry: ""
+	IceTempleBricks.MapEntry: ""
+	IceTempleCobbles.MapEntry: ""
+	IceTempleStucco.MapEntry: ""
+	IceTempleStones.MapEntry: ""
 	LeafOvergrow.MapEntry: ""
 	BrickOvergrow.MapEntry: ""
 	StoneOvergrow.MapEntry: ""
@@ -3922,14 +3965,10 @@ Tiles: {
 	VitricLargeCrystal.MapEntry: 大型琉璃晶
 	VitricMediumCrystal.MapEntry: 中型琉璃晶
 	VitricSmallCrystal.MapEntry: 小型琉璃晶
-	StarlightPylon.MapEntry: 星光晶塔
 }
 
 Projectiles: {
 	ArtifactItemProj.DisplayName: 人工制品
-	BrainBolt.DisplayName: 大脑光束
-	HallucinationHazard.DisplayName: 残酷的想法
-	VeinSpear.DisplayName: 静脉之矛
 	GlassBubble.DisplayName: 不稳定泡泡
 	GlassBubbleFragment.DisplayName: 玻璃碎片
 	GlassHammer.DisplayName: 编织之锤
@@ -3945,6 +3984,9 @@ Projectiles: {
 	SqueezeTell.DisplayName: 触须警告
 	TentacleTell.DisplayName: 触须警告
 	TentacleTrail.DisplayName: 触须之痕
+	BrainBolt.DisplayName: 大脑光束
+	HallucinationHazard.DisplayName: 残酷的想法
+	VeinSpear.DisplayName: 静脉之矛
 	FinalLaser.DisplayName: 怒火
 	GlassSpike.DisplayName: 琉璃尖刺
 	LavaDart.DisplayName: 熔岩弹丸
@@ -4183,15 +4225,15 @@ Projectiles: {
 	GatheringWindsWhirl.DisplayName: 聚风旋
 	HintText.DisplayName: 提示文本
 	WellspringProjectile.DisplayName: 源泉
-	FakeMindMine.DisplayName: Fake Mind Mine
-	ThinkerMindMine.DisplayName: Thinker Mind Mine
 	BurningGround.DisplayName: 燃烧的地面
 	GlassJavelin.DisplayName: 琉璃标枪
 	GlassweaverDoor.DisplayName: 织璃匠门
 	Glint.DisplayName: 闪烁
 	AuroraWaterSplash.DisplayName: 极光水溅
 	DoorBomb.DisplayName: 门炸弹
-	Laser.DisplayName: 极光
+	Laser.DisplayName: 激光
+	FakeMindMine.DisplayName: Fake Mind Mine
+	ThinkerMindMine.DisplayName: Thinker Mind Mine
 	CrystalWave.DisplayName: 水晶波
 	FireCone.DisplayName: 火椎
 	FireRingHostile.DisplayName: 火焰之环
@@ -4210,6 +4252,7 @@ Projectiles: {
 	LobotomizerProjectile.DisplayName: 脑叶切除者
 	MindCursherProjectile.DisplayName: Mind Cursher Projectile
 	MirageBowClone.DisplayName: 幻象弓克隆体
+	MirageBowHeld.DisplayName: 幻象弓
 	MyelinSlash.DisplayName: 髓鞘质斩击
 	PsychosisAura.DisplayName: 精神错乱光环
 	SandSlash.DisplayName: 沙斩
@@ -4271,7 +4314,6 @@ Projectiles: {
 	ConstructSpawner.DisplayName: Construct Spawner
 	GauntletSpawner.DisplayName: Gauntlet Spawner
 	SpawnEgg.DisplayName: Spawn Egg
-	MirageBowHeld.DisplayName: 幻象弓
 }
 
 Biomes: {
@@ -4293,6 +4335,11 @@ Biomes: {
 	MoonstoneBiome: {
 		DisplayName: 月光岩地
 		TownNPCDialogueName: 月光岩地
+	}
+
+	ObservatoryBiome: {
+		DisplayName: Observatory Biome
+		TownNPCDialogueName: the Observatory Biome
 	}
 
 	OvergrowBiome: {
@@ -4324,18 +4371,9 @@ Biomes: {
 		DisplayName: 闪躲之地
 		TownNPCDialogueName: 闪躲之地
 	}
-
-	ObservatoryBiome: {
-		DisplayName: Observatory Biome
-		TownNPCDialogueName: the Observatory Biome
-	}
 }
 
 NPCs: {
-	BrainPlatform.DisplayName: ""
-	HallucinationBlock.DisplayName: ""
-	HorrifyingVisage.DisplayName: Horrifying Visage
-	WeakPoint.DisplayName: 思考者
 	Glassweaver.DisplayName: 织璃者
 	GlassweaverFriendly.DisplayName: 织璃者
 	ArenaActor.DisplayName: ""
@@ -4344,6 +4382,10 @@ NPCs: {
 	IcePlatform.DisplayName: ""
 	IcePlatformSmall.DisplayName: ""
 	SquidBoss.DisplayName: 极光之触
+	BrainPlatform.DisplayName: ""
+	HallucinationBlock.DisplayName: ""
+	HorrifyingVisage.DisplayName: Horrifying Visage
+	WeakPoint.DisplayName: 思考者
 	ArenaBottom.DisplayName: ""
 	VitricBackdropLeft.DisplayName: ""
 	VitricBackdropRight.DisplayName: ""
@@ -4356,6 +4398,7 @@ NPCs: {
 	TestCollider.DisplayName: ""
 	BossRushOrb.DisplayName: ???
 	SoulNibbler.DisplayName: 灵魂啃噬者
+	Depressor.DisplayName: Depressor
 	CrescentCaster.DisplayName: 新月法师
 	Blover.DisplayName: 三叶草
 	TreeBat.DisplayName: 树蝠
@@ -4367,7 +4410,7 @@ NPCs: {
 	Crusher.DisplayName: 碾碎机
 	Snoobel.DisplayName: 史努贝尔
 	SwordEnemy.DisplayName: 太空焊接者
-	Crow.DisplayName: ???
+	Alican.DisplayName: ???
 	GloomSlime.DisplayName: 阴郁史莱姆
 	BoomBug.DisplayName: 萤火虫
 	CoolmiteLarge.DisplayName: 大冷凝螨
@@ -4391,42 +4434,25 @@ NPCs: {
 	Snake.DisplayName: 沙漠蝰蛇
 	BerrySlime.DisplayName: 莓果史莱姆
 	TouchstoneWisp.DisplayName: 极光之魂
-	CutsceneFakeThinker.DisplayName: Cutscene Fake Thinker
-	DeadBrain.DisplayName: 死脑
-	Neurysm.DisplayName: Neurysm
-	TheThinker.DisplayName: 思考者
 	ArenaBlocker.DisplayName: Arena Blocker
 	Auroraborn.DisplayName: Auroraborn
 	Auroraling.DisplayName: Auroraling
 	Tentacle.DisplayName: 触手
 	TentacleHurtbox.DisplayName: Tentacle Hurtbox
+	CutsceneFakeThinker.DisplayName: Cutscene Fake Thinker
+	DeadBrain.DisplayName: 死脑
+	Neurysm.DisplayName: Neurysm
+	TheThinker.DisplayName: 思考者
 	HellLavaActor.DisplayName: Hell Lava Actor
 	StarlightWaterActor.DisplayName: Starlight Water Actor
 	GravityOrbTest.DisplayName: Gravity Orb Test
 	BossRushGoal.DisplayName: Boss Rush Goal
 	Dweller.DisplayName: 栖身者
 	Stalker.DisplayName: 追猎者
+	ClearSlime.DisplayName: Clear Slime
 	Dreambeast.DisplayName: 梦幻之兽
 	WaterCube.DisplayName: 水立方
-
-	EnchantNPC: {
-		DisplayName: Enchant N P C
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-	}
-
 	DesertWisp2.DisplayName: Desert Wisp2
-	Depressor.DisplayName: Depressor
-	Alican.DisplayName: ???
 }
 
 Buffs: {
@@ -4804,163 +4830,4 @@ Prefixes: {
 	Feral.DisplayName: 野性的
 	Jumpy.DisplayName: 跳跃的
 	Tanklike.DisplayName: 坚守的
-}
-
-Configs: {
-	AudioConfig: {
-		DisplayName: 音频配置
-
-		InvSounds: {
-			Label: 特制物品栏音效
-			Tooltip: 修改所有的，特定的或不修改物品的物品栏音效。
-		}
-	}
-
-	CustomSounds: {
-		Tooltip: ""
-		All.Label: 所有
-		Specific.Label: 特定
-		None.Label: 无
-	}
-
-	GraphicsConfig: {
-		DisplayName: 图像配置
-
-		ScreenshakeMult: {
-			Label: 震屏
-			Tooltip: 修改震屏效果的强度。
-		}
-
-		LightingPollRate: {
-			Label: 光照缓冲区轮询速率
-			Tooltip:
-				'''
-				修改光照系统缓冲区轮询数据的速率。
-				值越高，性能越好，但一些物体的光照加载变慢。
-				值越低，光照越顺滑，但性能需求越高。
-				'''
-		}
-
-		ParticlesActive: {
-			Label: 额外粒子
-			Tooltip:
-				'''
-				开关特殊粒子效果。
-				若您遇到了性能问题，请关闭。
-				'''
-		}
-
-		HighQualityLighting: {
-			Label: 高质量光照材质
-			Tooltip:
-				'''
-				开关大型材质上的特殊光照。
-				若您遇到了性能问题，请关闭。
-				'''
-		}
-
-		ReflectionConfig: {
-			Label: 背景反射
-			Tooltip:
-				'''
-				控制背景反射渲染哪些物体。
-				D若您遇到了性能问题，请关闭。
-				'''
-		}
-	}
-
-	ReflectionSubConfig: {
-		Tooltip: ""
-
-		ReflectionsOn: {
-			Label: 背景反射
-			Tooltip:
-				'''
-				开关背景反射系统。
-				若关闭，该区域中的其他配置会失效。
-				若您遇到了性能问题，请关闭。
-				'''
-		}
-
-		PlayerReflectionsOn: {
-			Label: 反射玩家
-			Tooltip:
-				'''
-				开关玩家人物的背景反射。
-				对性能的影响小。
-				'''
-		}
-
-		NpcReflectionsOn: {
-			Label: 反射NPC
-			Tooltip:
-				'''
-				开关NPC的背景反射。
-				对性能的影响小。
-				'''
-		}
-
-		ProjReflectionsOn: {
-			Label: 反射射弹
-			Tooltip:
-				'''
-				开关射弹的背景反射。
-				对性能的影响大。
-				'''
-		}
-
-		DustReflectionsOn: {
-			Label: 反射粒子
-			Tooltip:
-				'''
-				开关粒子（Particle 和 Dust）和尸块的背景反射。
-				对性能的影响大。
-				'''
-		}
-	}
-
-	GUIConfig: {
-		DisplayName: 图形交互界面配置
-
-		OverheadStaminaState: {
-			Label: 头顶星光条显示
-			Tooltip: 控制玩家头顶星光条的显示时机。
-		}
-
-		KeywordStyle: {
-			Label: 关键词样式
-			Tooltip: 控制关键词在物品描述中的样式。
-		}
-
-		ObviousArmorCharge: {
-			Label: Numeric Set Bonus Indicators
-			Tooltip: Adds a numeric display to various armor set bonuses over the player
-		}
-
-		AddMaterialIndicator: {
-			Label: Indicate Items with Added Recipes
-			Tooltip: Displays a star icon in vanilla item tooltips if used in Starlight River crafting recipes
-		}
-
-		AbilityIconPosition: {
-			Label: Ability icon positon
-			Tooltip: Where the ability icons should be shown while the inventory is open
-		}
-	}
-
-	OverlayState: {
-		Tooltip: ""
-		AlwaysOn.Label: 始终
-		WhileNotFull.Label: 仅未满时
-		WhileUsing.Label: 仅使用时
-		Never.Label: 永不
-	}
-
-	KeywordStyle: {
-		Tooltip: ""
-		Colors.Label: 上色
-		Brackets.Label: 带括号
-		Both.Label: 两者皆有
-		Neither.Label: 两者皆无
-	}
 }

@@ -392,6 +392,15 @@ Items: {
 			'''
 	}
 
+	NeuralFeather: {
+		DisplayName: Neural Feather
+		Tooltip:
+			'''
+			Your arrows explode after a brief duration
+			The explosion inflicts {{BUFF:Psychosis}}
+			'''
+	}
+
 	PsychoticManabond: {
 		DisplayName: Psychotic Manabond
 		Tooltip:
@@ -928,12 +937,12 @@ Items: {
 		DisplayName: Effects of different gems:
 		Tooltip:
 			'''
-			[i/s1:5686]: Critical strikes partially ignore armor, with increased chance for missing enemy HP 
-			[i/s1:5694]: +100 maximum barrier. Gain a shield that points to your cursor and blocks attacks, consuming {{barrier}} 
-			[i/s1:5687]: Immediately heal 20 hp. Hits have a chance to create a 5 HP life heart 
-			[i/s1:5693]: Immediately refill mana. Hits have a chance to create 1 to 3 mana stars 
-			[i/s1:5685]: All strikes inflict Toxic Amethyst, a stacking poison debuff 
-			[i/s1:5692]: Hits have a chance to summon a Ruby Dagger to seek the struck enemy for 20% of the hit's damage
+			[i/s1:5687]: Critical strikes partially ignore armor, with increased chance for missing enemy HP 
+			[i/s1:5695]: +100 maximum barrier. Gain a shield that points to your cursor and blocks attacks, consuming {{barrier}} 
+			[i/s1:5688]: Immediately heal 20 hp. Hits have a chance to create a 5 HP life heart 
+			[i/s1:5694]: Immediately refill mana. Hits have a chance to create 1 to 3 mana stars 
+			[i/s1:5686]: All strikes inflict Toxic Amethyst, a stacking poison debuff 
+			[i/s1:5693]: Hits have a chance to summon a Ruby Dagger to seek the struck enemy for 20% of the hit's damage
 			'''
 	}
 
@@ -2638,6 +2647,11 @@ Items: {
 		Tooltip: "{{Debug}} Item"
 	}
 
+	StarsightTileItem: {
+		DisplayName: Starsight
+		Tooltip: "{{Debug}} placer for ability pickup"
+	}
+
 	WindsTileItem: {
 		DisplayName: Forbidden Winds
 		Tooltip: "{{Debug}} placer for ability pickup"
@@ -2680,6 +2694,11 @@ Items: {
 	DesertMonolithItem: {
 		DisplayName: Desert Monolith
 		Tooltip: Places a section of desert monolith
+	}
+
+	ShardCageBarrierItem: {
+		DisplayName: ShardCageBarrierItem
+		Tooltip: "{{Debug}} item"
 	}
 
 	CommonVegetablesItem: {
@@ -2917,6 +2936,16 @@ Items: {
 	TouchstoneLootboxItem: {
 		DisplayName: Touchstone Chest Placer
 		Tooltip: ""
+	}
+
+	ChartGrateItem: {
+		DisplayName: Chart Grate
+		Tooltip: Composite
+	}
+
+	StarlightPylonItem: {
+		DisplayName: Starlight Pylon
+		Tooltip: You shouldn't have this!
 	}
 
 	AuroracleTrophyItem: {
@@ -3388,33 +3417,53 @@ Items: {
 		Tooltip: ""
 	}
 
-	VitricBoss1Item: {
-		DisplayName: Music Box (Ceiros P1)
+	GraymatterDeco1x4Item: {
+		DisplayName: Gray Nerve (1x4)
 		Tooltip: ""
 	}
 
-	VitricBoss2Item: {
-		DisplayName: Music Box (Ceiros P2)
+	GraymatterDeco2x3Item: {
+		DisplayName: Gray Nerve (2x3)
 		Tooltip: ""
 	}
 
-	VitricPassiveItem: {
-		DisplayName: Music Box (Vitric Desert)
+	GraymatterDeco2x2Item: {
+		DisplayName: Gray Nerve (2x2)
 		Tooltip: ""
 	}
 
-	VitricTempleItem: {
-		DisplayName: Music Box (Vitric Temple)
+	GraymatterDeco1x2Item: {
+		DisplayName: Gray Nerve (1x2)
 		Tooltip: ""
 	}
 
-	MinibossItem: {
-		DisplayName: Music Box (GlassWeaver)
+	GraymatterDeco3x3Item: {
+		DisplayName: Gray Nerve (3x3)
 		Tooltip: ""
 	}
 
-	AuroracleItem: {
-		DisplayName: Music Box (Auroracle)
+	GraymatterDeco1x1Item: {
+		DisplayName: Gray Nerve (1x1)
+		Tooltip: ""
+	}
+
+	TempleBrickItem: {
+		DisplayName: Ancient Bricks
+		Tooltip: ""
+	}
+
+	AuroracleRelicItem: {
+		DisplayName: Auroracle Relic
+		Tooltip: ""
+	}
+
+	CeirosRelicItem: {
+		DisplayName: Ceiros Relic
+		Tooltip: ""
+	}
+
+	ThinkerRelicItem: {
+		DisplayName: The Thinker Relic
 		Tooltip: ""
 	}
 
@@ -3483,53 +3532,58 @@ Items: {
 		Tooltip: ""
 	}
 
-	GraymatterDeco1x4Item: {
-		DisplayName: Gray Nerve (1x4)
+	VitricBoss1Item: {
+		DisplayName: Music Box (Ceiros P1)
 		Tooltip: ""
 	}
 
-	GraymatterDeco2x3Item: {
-		DisplayName: Gray Nerve (2x3)
+	VitricBoss2Item: {
+		DisplayName: Music Box (Ceiros P2)
 		Tooltip: ""
 	}
 
-	GraymatterDeco2x2Item: {
-		DisplayName: Gray Nerve (2x2)
+	VitricPassiveItem: {
+		DisplayName: Music Box (Vitric Desert)
 		Tooltip: ""
 	}
 
-	GraymatterDeco1x2Item: {
-		DisplayName: Gray Nerve (1x2)
+	VitricTempleItem: {
+		DisplayName: Music Box (Vitric Temple)
 		Tooltip: ""
 	}
 
-	GraymatterDeco3x3Item: {
-		DisplayName: Gray Nerve (3x3)
+	MinibossItem: {
+		DisplayName: Music Box (GlassWeaver)
 		Tooltip: ""
 	}
 
-	GraymatterDeco1x1Item: {
-		DisplayName: Gray Nerve (1x1)
+	AuroracleItem: {
+		DisplayName: Music Box (Auroracle)
 		Tooltip: ""
 	}
 
-	AuroracleRelicItem: {
-		DisplayName: Auroracle Relic
+	IceTempleShinglesItem: {
+		DisplayName: Aurora Temple Shingles
 		Tooltip: ""
 	}
 
-	CeirosRelicItem: {
-		DisplayName: Ceiros Relic
+	IceTempleBricksItem: {
+		DisplayName: Coldstone Bricks
 		Tooltip: ""
 	}
 
-	ThinkerRelicItem: {
-		DisplayName: The Thinker Relic
+	IceTempleCobblesItem: {
+		DisplayName: Coldstone Cobbles
 		Tooltip: ""
 	}
 
-	TempleBrickItem: {
-		DisplayName: Ancient Bricks
+	IceTempleStuccoItem: {
+		DisplayName: Frozen Stucco
+		Tooltip: ""
+	}
+
+	IceTempleStonesItem: {
+		DisplayName: Frozen Stones
 		Tooltip: ""
 	}
 
@@ -3702,25 +3756,6 @@ Items: {
 		DisplayName: Pink Laser Pointer
 		Tooltip: ""
 	}
-
-	NeuralFeather: {
-		DisplayName: Neural Feather
-		Tooltip:
-			'''
-			Your arrows explode after a brief duration
-			The explosion inflicts {{BUFF:Psychosis}}
-			'''
-	}
-
-	StarlightPylonItem: {
-		DisplayName: Starlight Pylon
-		Tooltip: You shouldn't have this!
-	}
-
-	StarsightTileItem: {
-		DisplayName: Starsight
-		Tooltip: "{{Debug}} placer for ability pickup"
-	}
 }
 
 Tiles: {
@@ -3734,6 +3769,7 @@ Tiles: {
 	AnkhChest.MapEntry: Ankh Chest
 	DesertMonolith.MapEntry: ""
 	DesertMonolithFlipped.MapEntry: ""
+	ShardCage.MapEntry: ""
 	TwistSwordTile.MapEntry: Twisted Greatsword
 	PinkSeaSalt.MapEntry: ""
 	TableSalt.MapEntry: ""
@@ -3783,6 +3819,8 @@ Tiles: {
 	PermafrostIce.MapEntry: ""
 	Touchstone.MapEntry: Touchstone
 	TouchstoneLootbox.MapEntry: ""
+	ChartGrate.MapEntry: ""
+	StarlightPylon.MapEntry: Starlight Pylon
 	AuroracleTrophy.MapEntry: Trophy
 	Auroracle.MapEntry: Music Box
 	CeirosTrophy.MapEntry: Trophy
@@ -3879,11 +3917,13 @@ Tiles: {
 	VitricWorkbench.MapEntry: ""
 	VitricDoorClosed.MapEntry: ""
 	VitricDoorOpen.MapEntry: ""
-	VitricBoss1.MapEntry: Music Box
-	VitricBoss2.MapEntry: Music Box
-	VitricPassive.MapEntry: Music Box
-	VitricTemple.MapEntry: Music Box
-	Miniboss.MapEntry: Music Box
+	GraymatterDeco1x4.MapEntry: ""
+	GraymatterDeco2x3.MapEntry: ""
+	GraymatterDeco2x2.MapEntry: ""
+	GraymatterDeco1x2.MapEntry: ""
+	GraymatterDeco3x3.MapEntry: ""
+	GraymatterDeco1x1.MapEntry: ""
+	TempleBrick.MapEntry: ""
 	TempleChair.MapEntry: Chair
 	TempleLargeVase.MapEntry: Large Vase
 	TempleLargeVaseCrystal.MapEntry: Large Vase
@@ -3897,13 +3937,16 @@ Tiles: {
 	TempleWeaponRack2.MapEntry: Weapon Rack
 	TempleWeaponRack3.MapEntry: Weapon Rack
 	TempleThingamajig.MapEntry: Weapon Rack
-	GraymatterDeco1x4.MapEntry: ""
-	GraymatterDeco2x3.MapEntry: ""
-	GraymatterDeco2x2.MapEntry: ""
-	GraymatterDeco1x2.MapEntry: ""
-	GraymatterDeco3x3.MapEntry: ""
-	GraymatterDeco1x1.MapEntry: ""
-	TempleBrick.MapEntry: ""
+	VitricBoss1.MapEntry: Music Box
+	VitricBoss2.MapEntry: Music Box
+	VitricPassive.MapEntry: Music Box
+	VitricTemple.MapEntry: Music Box
+	Miniboss.MapEntry: Music Box
+	IceTempleShingles.MapEntry: ""
+	IceTempleBricks.MapEntry: ""
+	IceTempleCobbles.MapEntry: ""
+	IceTempleStucco.MapEntry: ""
+	IceTempleStones.MapEntry: ""
 	LeafOvergrow.MapEntry: ""
 	BrickOvergrow.MapEntry: ""
 	StoneOvergrow.MapEntry: ""
@@ -3922,14 +3965,10 @@ Tiles: {
 	VitricLargeCrystal.MapEntry: Vitric Large Crystal
 	VitricMediumCrystal.MapEntry: Vitric Medium Crystal
 	VitricSmallCrystal.MapEntry: Vitric Small Crystal
-	StarlightPylon.MapEntry: Starlight Pylon
 }
 
 Projectiles: {
 	ArtifactItemProj.DisplayName: Artifact
-	BrainBolt.DisplayName: Brain Bolt
-	HallucinationHazard.DisplayName: Cruel thought
-	VeinSpear.DisplayName: Vein Spear
 	GlassBubble.DisplayName: Volatile Bubble
 	GlassBubbleFragment.DisplayName: Glass Shard
 	GlassHammer.DisplayName: Woven Hammer
@@ -3945,6 +3984,9 @@ Projectiles: {
 	SqueezeTell.DisplayName: Tentacle Warning
 	TentacleTell.DisplayName: Tentacle Warning
 	TentacleTrail.DisplayName: Trail
+	BrainBolt.DisplayName: Brain Bolt
+	HallucinationHazard.DisplayName: Cruel thought
+	VeinSpear.DisplayName: Vein Spear
 	FinalLaser.DisplayName: Raging Fire
 	GlassSpike.DisplayName: Glass Spike
 	LavaDart.DisplayName: Magma Shot
@@ -4183,8 +4225,6 @@ Projectiles: {
 	GatheringWindsWhirl.DisplayName: Gathering Winds Whirl
 	HintText.DisplayName: Hint Text
 	WellspringProjectile.DisplayName: Wellspring Projectile
-	FakeMindMine.DisplayName: Fake Mind Mine
-	ThinkerMindMine.DisplayName: Thinker Mind Mine
 	BurningGround.DisplayName: Burning Ground
 	GlassJavelin.DisplayName: Glass Javelin
 	GlassweaverDoor.DisplayName: Glassweaver Door
@@ -4192,6 +4232,8 @@ Projectiles: {
 	AuroraWaterSplash.DisplayName: Aurora Water Splash
 	DoorBomb.DisplayName: Door Bomb
 	Laser.DisplayName: Laser
+	FakeMindMine.DisplayName: Fake Mind Mine
+	ThinkerMindMine.DisplayName: Thinker Mind Mine
 	CrystalWave.DisplayName: Crystal Wave
 	FireCone.DisplayName: Fire Cone
 	FireRingHostile.DisplayName: Fire Ring Hostile
@@ -4210,6 +4252,7 @@ Projectiles: {
 	LobotomizerProjectile.DisplayName: Lobotomizer Projectile
 	MindCursherProjectile.DisplayName: Mind Cursher Projectile
 	MirageBowClone.DisplayName: Mirage Bow Clone
+	MirageBowHeld.DisplayName: Mirage Bow Held
 	MyelinSlash.DisplayName: Myelin Slash
 	PsychosisAura.DisplayName: Psychosis Aura
 	SandSlash.DisplayName: Sand Slash
@@ -4271,7 +4314,6 @@ Projectiles: {
 	ConstructSpawner.DisplayName: Construct Spawner
 	GauntletSpawner.DisplayName: Gauntlet Spawner
 	SpawnEgg.DisplayName: Spawn Egg
-	MirageBowHeld.DisplayName: Mirage Bow Held
 }
 
 Biomes: {
@@ -4293,6 +4335,11 @@ Biomes: {
 	MoonstoneBiome: {
 		DisplayName: Moonstone
 		TownNPCDialogueName: the Moonstone Biome
+	}
+
+	ObservatoryBiome: {
+		DisplayName: Observatory Biome
+		TownNPCDialogueName: the Observatory Biome
 	}
 
 	OvergrowBiome: {
@@ -4324,18 +4371,9 @@ Biomes: {
 		DisplayName: Evasion Shrine Biome
 		TownNPCDialogueName: the Evasion Shrine Biome
 	}
-
-	ObservatoryBiome: {
-		DisplayName: Observatory Biome
-		TownNPCDialogueName: the Observatory Biome
-	}
 }
 
 NPCs: {
-	BrainPlatform.DisplayName: ""
-	HallucinationBlock.DisplayName: ""
-	HorrifyingVisage.DisplayName: Horrifying Visage
-	WeakPoint.DisplayName: The Linker
 	Glassweaver.DisplayName: Glassweaver
 	GlassweaverFriendly.DisplayName: Glassweaver
 	ArenaActor.DisplayName: ""
@@ -4344,6 +4382,10 @@ NPCs: {
 	IcePlatform.DisplayName: ""
 	IcePlatformSmall.DisplayName: ""
 	SquidBoss.DisplayName: Auroracle
+	BrainPlatform.DisplayName: ""
+	HallucinationBlock.DisplayName: ""
+	HorrifyingVisage.DisplayName: Horrifying Visage
+	WeakPoint.DisplayName: The Linker
 	ArenaBottom.DisplayName: ""
 	VitricBackdropLeft.DisplayName: ""
 	VitricBackdropRight.DisplayName: ""
@@ -4356,6 +4398,7 @@ NPCs: {
 	TestCollider.DisplayName: ""
 	BossRushOrb.DisplayName: ???
 	SoulNibbler.DisplayName: Soul Nibbler
+	Depressor.DisplayName: Depressor
 	CrescentCaster.DisplayName: Crescent Caster
 	Blover.DisplayName: Blover
 	TreeBat.DisplayName: Tree Bat
@@ -4367,7 +4410,7 @@ NPCs: {
 	Crusher.DisplayName: Masher
 	Snoobel.DisplayName: Snoobel
 	SwordEnemy.DisplayName: Sky Splicer
-	Crow.DisplayName: ???
+	Alican.DisplayName: ???
 	GloomSlime.DisplayName: Gloom Slime
 	BoomBug.DisplayName: Firebug
 	CoolmiteLarge.DisplayName: Coolmismer
@@ -4391,42 +4434,25 @@ NPCs: {
 	Snake.DisplayName: Sandviper
 	BerrySlime.DisplayName: Slimeberry
 	TouchstoneWisp.DisplayName: Aurora Spirit
-	CutsceneFakeThinker.DisplayName: Cutscene Fake Thinker
-	DeadBrain.DisplayName: Dead Brain
-	Neurysm.DisplayName: Neurysm
-	TheThinker.DisplayName: The Thinker
 	ArenaBlocker.DisplayName: Arena Blocker
 	Auroraborn.DisplayName: Auroraborn
 	Auroraling.DisplayName: Auroraling
 	Tentacle.DisplayName: Tentacle
 	TentacleHurtbox.DisplayName: Tentacle Hurtbox
+	CutsceneFakeThinker.DisplayName: Cutscene Fake Thinker
+	DeadBrain.DisplayName: Dead Brain
+	Neurysm.DisplayName: Neurysm
+	TheThinker.DisplayName: The Thinker
 	HellLavaActor.DisplayName: Hell Lava Actor
 	StarlightWaterActor.DisplayName: Starlight Water Actor
 	GravityOrbTest.DisplayName: Gravity Orb Test
 	BossRushGoal.DisplayName: Boss Rush Goal
 	Dweller.DisplayName: Dweller
 	Stalker.DisplayName: Stalker
+	ClearSlime.DisplayName: Clear Slime
 	Dreambeast.DisplayName: Dreambeast
 	WaterCube.DisplayName: Water Cube
-
-	EnchantNPC: {
-		DisplayName: Enchant N P C
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-	}
-
 	DesertWisp2.DisplayName: Desert Wisp2
-	Depressor.DisplayName: Depressor
-	Alican.DisplayName: ???
 }
 
 Buffs: {
@@ -4804,163 +4830,4 @@ Prefixes: {
 	Feral.DisplayName: Feral
 	Jumpy.DisplayName: Jumpy
 	Tanklike.DisplayName: Tanklike
-}
-
-Configs: {
-	AudioConfig: {
-		DisplayName: Audio Config
-
-		InvSounds: {
-			Label: Custom Inventory Sounds
-			Tooltip: If custom inventory sounds should play for all Items, select few, or none.
-		}
-	}
-
-	CustomSounds: {
-		Tooltip: ""
-		All.Label: All
-		Specific.Label: Specific
-		None.Label: None
-	}
-
-	GraphicsConfig: {
-		DisplayName: Graphics Config
-
-		ScreenshakeMult: {
-			Label: Screenshake
-			Tooltip: Modifies the intensity of screen shake effects
-		}
-
-		LightingPollRate: {
-			Label: Lighting Buffer Poll Rate
-			Tooltip:
-				'''
-				Changes how often the lighting buffer polls for data. 
-				Higher values increase performance but make lighting update slower on some objects. 
-				Lower values result in smoother moving light but may hurt performance.
-				'''
-		}
-
-		ParticlesActive: {
-			Label: Extra Particles
-			Tooltip:
-				'''
-				Enables/Disables special particles. 
-				Disable this if you have performance issues.
-				'''
-		}
-
-		HighQualityLighting: {
-			Label: High quality lit textures
-			Tooltip:
-				'''
-				Enables/Disables fancy lighting on large textures. 
-				Disable this if you have performance issues.
-				'''
-		}
-
-		ReflectionConfig: {
-			Label: Background Reflections
-			Tooltip:
-				'''
-				Configures what is rendered for background reflections. 
-				Disable this if you have performance issues.
-				'''
-		}
-	}
-
-	ReflectionSubConfig: {
-		Tooltip: ""
-
-		ReflectionsOn: {
-			Label: Background Reflections
-			Tooltip:
-				'''
-				This will Enable/Disable the background reflections system entirely. 
-				If this is off, the other settings in this block are ignored. 
-				Disable this if you have performance issues.
-				'''
-		}
-
-		PlayerReflectionsOn: {
-			Label: Reflect Players
-			Tooltip:
-				'''
-				This will Enable/Disable reflecting Players.
-				 low performance impact.
-				'''
-		}
-
-		NpcReflectionsOn: {
-			Label: Reflect NPCs
-			Tooltip:
-				'''
-				This will Enable/Disable reflecting NPCs.
-				 low performance impact.
-				'''
-		}
-
-		ProjReflectionsOn: {
-			Label: Reflect Projectiles
-			Tooltip:
-				'''
-				This will Enable/Disable reflecting Projectiles.
-				 high performance impact.
-				'''
-		}
-
-		DustReflectionsOn: {
-			Label: Reflect Particles
-			Tooltip:
-				'''
-				This will Enable/Disable reflecting Particles, gores and dusts.
-				 high performance impact.
-				'''
-		}
-	}
-
-	GUIConfig: {
-		DisplayName: G U I Config
-
-		OverheadStaminaState: {
-			Label: Overhead Starlight Display
-			Tooltip: When/If the overhead starlight meter should display
-		}
-
-		KeywordStyle: {
-			Label: Keyword Style
-			Tooltip: How keywords should be displayed in tooltips
-		}
-
-		ObviousArmorCharge: {
-			Label: Numeric Set Bonus Indicators
-			Tooltip: Adds a numeric display to various armor set bonuses over the player
-		}
-
-		AddMaterialIndicator: {
-			Label: Indicate Items with Added Recipes
-			Tooltip: Displays a star icon in vanilla item tooltips if used in Starlight River crafting recipes
-		}
-
-		AbilityIconPosition: {
-			Label: Ability icon positon
-			Tooltip: Where the ability icons should be shown while the inventory is open
-		}
-	}
-
-	OverlayState: {
-		Tooltip: ""
-		AlwaysOn.Label: Always On
-		WhileNotFull.Label: While Not Full
-		WhileUsing.Label: While Using
-		Never.Label: Never
-	}
-
-	KeywordStyle: {
-		Tooltip: ""
-		Colors.Label: Colors
-		Brackets.Label: Brackets
-		Both.Label: Both
-		Neither.Label: Neither
-	}
 }

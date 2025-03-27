@@ -140,3 +140,145 @@ Configs: {
 		Neither.Label: 两者皆无
 	}
 }
+
+GraphicsConfig: {
+	DisplayName: 图像配置
+
+	ScreenshakeMult: {
+		Label: 震屏
+		Tooltip: 修改震屏效果的强度。
+	}
+
+	LightingPollRate: {
+		Label: 光照缓冲区轮询速率
+		Tooltip:
+			'''
+			修改光照系统缓冲区轮询数据的速率。
+			值越高，性能越好，但一些物体的光照加载变慢。
+			值越低，光照越顺滑，但性能需求越高。
+			'''
+	}
+
+	ParticlesActive: {
+		Label: 额外粒子
+		Tooltip:
+			'''
+			开关特殊粒子效果。
+			若您遇到了性能问题，请关闭。
+			'''
+	}
+
+	HighQualityLighting: {
+		Label: 高质量光照材质
+		Tooltip:
+			'''
+			开关大型材质上的特殊光照。
+			若您遇到了性能问题，请关闭。
+			'''
+	}
+
+	ReflectionConfig: {
+		Label: 背景反射
+		Tooltip:
+			'''
+			控制背景反射渲染哪些物体。
+			D若您遇到了性能问题，请关闭。
+			'''
+	}
+}
+
+ReflectionSubConfig: {
+	Tooltip: ""
+
+	ReflectionsOn: {
+		Label: 背景反射
+		Tooltip:
+			'''
+			开关背景反射系统。
+			若关闭，该区域中的其他配置会失效。
+			若您遇到了性能问题，请关闭。
+			'''
+	}
+
+	PlayerReflectionsOn: {
+		Label: 反射玩家
+		Tooltip:
+			'''
+			开关玩家人物的背景反射。
+			对性能的影响小。
+			'''
+	}
+
+	NpcReflectionsOn: {
+		Label: 反射NPC
+		Tooltip:
+			'''
+			开关NPC的背景反射。
+			对性能的影响小。
+			'''
+	}
+
+	ProjReflectionsOn: {
+		Label: 反射射弹
+		Tooltip:
+			'''
+			开关射弹的背景反射。
+			对性能的影响大。
+			'''
+	}
+
+	DustReflectionsOn: {
+		Label: 反射粒子
+		Tooltip:
+			'''
+			开关粒子（Particle 和 Dust）和尸块的背景反射。
+			对性能的影响大。
+			'''
+	}
+}
+
+
+GUIConfig: {
+	DisplayName: 图形交互界面配置
+
+	OverheadStaminaState: {
+		Label: 头顶星光条显示
+		Tooltip: 控制玩家头顶星光条的显示时机。
+	}
+
+	KeywordStyle: {
+		Label: 关键词样式
+		Tooltip: 控制关键词在物品描述中的样式。
+	}
+
+	ObviousArmorCharge: {
+		Label: Numeric Set Bonus Indicators
+		Tooltip: Adds a numeric display to various armor set bonuses over the player
+	}
+
+	AddMaterialIndicator: {
+		Label: Indicate Items with Added Recipes
+		Tooltip: Displays a star icon in vanilla item tooltips if used in Starlight River crafting recipes
+	}
+
+	AbilityIconPosition: {
+		Label: Ability icon positon
+		Tooltip: Where the ability icons should be shown while the inventory is open
+	}
+}
+
+OverlayState: {
+	Tooltip: ""
+	AlwaysOn.Label: 始终
+	WhileNotFull.Label: 仅未满时
+	WhileUsing.Label: 仅使用时
+	Never.Label: 永不
+}
+
+KeywordStyle: {
+	Tooltip: ""
+	Colors.Label: 上色
+	Brackets.Label: 带括号
+	Both.Label: 两者皆有
+	Neither.Label: 两者皆无
+}
