@@ -3756,6 +3756,61 @@ Items: {
 		DisplayName: 粉色激光笔
 		Tooltip: ""
 	}
+
+	ChartGrateWallItem: {
+		DisplayName: Chart Grate Wall
+		Tooltip: ""
+	}
+
+	BrassPlateItem: {
+		DisplayName: Chart Grate
+		Tooltip: Composite
+	}
+
+	RawOnyxItem: {
+		DisplayName: Raw Onyx
+		Tooltip: Composite
+	}
+
+	BlinkbrickItem: {
+		DisplayName: Blinkbrick
+		Tooltip: ""
+	}
+
+	StarlightHover: {
+		DisplayName: Starlight Hover
+		Tooltip: ""
+	}
+
+	ReinforcedBlinkbrickItem: {
+		DisplayName: Reinforced Blinkbrick
+		Tooltip: ""
+	}
+
+	SmoothBrassPlateItem: {
+		DisplayName: Smooth Brass Plate
+		Tooltip: ""
+	}
+
+	LockedOnyxItem: {
+		DisplayName: Locked Onyx
+		Tooltip: ""
+	}
+
+	DreamingOnyxItem: {
+		DisplayName: Dreaming Onyx
+		Tooltip: ""
+	}
+
+	OracleGlassItem: {
+		DisplayName: Oracle Glass
+		Tooltip: ""
+	}
+
+	GlowingOracleGlassItem: {
+		DisplayName: Oracle Glass Glow Test
+		Tooltip: Composite
+	}
 }
 
 Tiles: {
@@ -3965,6 +4020,15 @@ Tiles: {
 	VitricLargeCrystal.MapEntry: 大型琉璃晶
 	VitricMediumCrystal.MapEntry: 中型琉璃晶
 	VitricSmallCrystal.MapEntry: 小型琉璃晶
+	BrassPlate.MapEntry: ""
+	RawOnyx.MapEntry: ""
+	Blinkbrick.MapEntry: ""
+	ReinforcedBlinkbrick.MapEntry: ""
+	SmoothBrassPlate.MapEntry: ""
+	LockedOnyx.MapEntry: ""
+	DreamingOnyx.MapEntry: ""
+	OracleGlass.MapEntry: ""
+	GlowingOracleGlass.MapEntry: ""
 }
 
 Projectiles: {
