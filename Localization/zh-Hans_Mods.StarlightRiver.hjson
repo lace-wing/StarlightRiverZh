@@ -294,7 +294,7 @@ Items: {
 		Tooltip:
 			'''
 			“晶亮得难以置信”
-			提炼机也许能把它开……
+			提炼机也许能把它分解……
 			'''
 	}
 
@@ -2294,7 +2294,7 @@ Items: {
 	}
 
 	CursedDrop: {
-		DisplayName: Drop of darkness
+		DisplayName: 黑暗滴液
 		Tooltip:
 			'''
 			重铸具有诅咒修饰语的饰品
@@ -2805,17 +2805,17 @@ Items: {
 
 	LumishroomItem: {
 		DisplayName: 荧光蘑菇
-		Tooltip: 发光...
+		Tooltip: 发光……
 	}
 
 	VibeshroomItem: {
 		DisplayName: 颤颤蘑菇
-		Tooltip: Vibin'
+		Tooltip: 振动中
 	}
 
 	BlueTorchOvergrowItem: {
 		DisplayName: 蓝仙灵火把
-		Tooltip: 闪光的! 并且是蓝的!
+		Tooltip: 闪光的！并且是蓝的！
 	}
 
 	CrusherOvergrowItem: {
@@ -2934,7 +2934,7 @@ Items: {
 	}
 
 	TouchstoneLootboxItem: {
-		DisplayName: Touchstone Chest Placer
+		DisplayName: 引光冰石宝箱放置器
 		Tooltip: ""
 	}
 
@@ -2988,17 +2988,17 @@ Items: {
 	}
 
 	DashBarrierItem: {
-		DisplayName: Dash Barrier
+		DisplayName: 冲刺屏障
 		Tooltip: 调试物品
 	}
 
 	JarTallItem: {
-		DisplayName: Stamina Jar Placer (Tall)
+		DisplayName: 耐力罐放置器（高）
 		Tooltip: 调试物品
 	}
 
 	TempleChestPlacer: {
-		DisplayName: Temple Chest Placer
+		DisplayName: 神殿宝箱放置器
 		Tooltip: ""
 	}
 
@@ -3113,7 +3113,7 @@ Items: {
 	}
 
 	LensItem: {
-		DisplayName: Reflector Lens
+		DisplayName: 反射镜
 		Tooltip: 调试物品
 	}
 
@@ -3768,12 +3768,12 @@ Items: {
 	}
 
 	RawOnyxItem: {
-		DisplayName: Raw Onyx
+		DisplayName: 玛瑙原石
 		Tooltip: Composite
 	}
 
 	BlinkbrickItem: {
-		DisplayName: Blinkbrick
+		DisplayName: 闪砖
 		Tooltip: ""
 	}
 
@@ -3783,12 +3783,12 @@ Items: {
 	}
 
 	ReinforcedBlinkbrickItem: {
-		DisplayName: Reinforced Blinkbrick
+		DisplayName: 加固闪砖
 		Tooltip: ""
 	}
 
 	SmoothBrassPlateItem: {
-		DisplayName: Smooth Brass Plate
+		DisplayName: 光滑黄铜板
 		Tooltip: ""
 	}
 
@@ -4402,8 +4402,8 @@ Biomes: {
 	}
 
 	ObservatoryBiome: {
-		DisplayName: Observatory Biome
-		TownNPCDialogueName: the Observatory Biome
+		DisplayName: 观星台
+		TownNPCDialogueName: 观星台
 	}
 
 	OvergrowBiome: {
