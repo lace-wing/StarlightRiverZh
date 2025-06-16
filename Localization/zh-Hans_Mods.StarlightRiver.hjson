@@ -4655,7 +4655,7 @@ Buffs: {
 
 	SupplyBeaconDefense: {
 		DisplayName: 防御供给
-		Description: 防御增加15%
+		Description: 防御增加15点
 	}
 
 	SupplyBeaconHeal: {
