@@ -1,0 +1,118 @@
+AbilityInventory.AbilityDisplay.Tooltip:
+	'''
+	[i:StarlightRiver/StarlightHover][c/AAF0FF:{0}]星光
+
+	{1}
+	'''
+BarrierDyeSlot.Name: 屏障酊剂
+
+BossRushDeathScreen: {
+	Retry: 重试？
+	GiveUp: 放弃？
+	Score: 最终分数：{0}
+}
+
+BossRushMenu: {
+	TrialName: 天浑试炼
+	Defeated: 击败的Boss
+	Back: 返回
+	Start: 开始
+	Locked: 锁定
+
+	AuroracleUnlock: {
+		Name: 极光之触
+		Hint: 通过追踪冰雪生物群落中的蛛丝马迹发现
+	}
+
+	GlassweaverUnlock: {
+		Name: 织璃匠
+		Hint: 守卫着沙漠深处的锻炉
+	}
+
+	CeirosUnlock: {
+		Name: 塞洛斯
+		Hint: 守卫着沙漠深处的神殿
+	}
+
+	ThinkerUnlock: {
+		Name: 思考者
+		Hint: Born from the Brain of Cthulhu into the crimson caverns
+	}
+
+	SpeedRelic: {
+		Name: 玛瑙秒表
+		Hint: 使游戏速度加快33%
+	}
+
+	FrailtyRelic: {
+		Name: 扭曲琉璃
+		Hint: 使你受击即死
+	}
+}
+
+CookingUI: {
+	Ingredients: 原料
+	Info: 信息/状态
+	Prepare: 准备
+	Instructions:
+		'''
+		将主菜
+		置于顶栏
+		以开始烹饪"
+		'''
+	SlotHover: 放置[c/{0}:{1}]于此
+}
+
+ExtraDefenseStats: {
+	Click:
+		'''
+
+		点击查看防御属性
+		'''
+
+	Panels: {
+		Defense: {
+			Title: 防御力
+			Value: "{0}"
+			Tooltip: 防御力会按固定数值减免你所受到的伤害。数值为防御力乘以防御效果后向上取整。
+			Extra:
+				'''
+				效果：{0}
+				吸收：{1}
+				'''
+		}
+
+		Endurance: {
+			Title: 耐力
+			Value: "{0}%"
+			Tooltip: 耐力会按百分比减免你所受到的伤害。计算顺序在防御力之后。
+			Extra: ""
+		}
+
+		Barrier: {
+			Title: 屏障
+			Value: "{0}"
+			Tooltip: 屏障会按百分比减免你所受到的伤害，但屏障会受到原始伤害。未受到伤害一段时间后屏障会重新开始充能。计算顺序在耐力和防御力之后。
+			Extra:
+				'''
+				效果：{0}%
+				再生：{1}/秒
+				延迟：{2}秒
+				'''
+		}
+
+		Life: {
+			Title: 生命
+			Value: "{0}"
+			Tooltip: 你在死亡前可承受的最大伤害量。会随着时间流逝而缓慢恢复，站定不动时恢复速度更快。
+			Extra: 再生：{0}/秒
+		}
+
+		Inoculation: {
+			Title: 免疫力
+			Value: "{0}%"
+			Tooltip: 免疫力会降低你所受到的来自于减益的（比如“着火了！”）持续伤害效果。当免疫力超过100%时，持续伤害效果将按比例转化为对你的治疗。
+			Extra: ""
+		}
+	}
+}

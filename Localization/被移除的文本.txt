@@ -135,32 +135,6 @@ Compat: {
 		}
 	}
 }
-
-	CoolmiteLargeItem: {
-		DisplayName: Coolmismer
-		Tooltip: High intensity beauty! Avoid eye and skin exposure.
-	}
-
-	CoolmiteSmolItem: {
-		DisplayName: Coolmini
-		Tooltip: Sharp edges! Watch your fingers.
-	}
-
-	MagmiteLargeItem: {
-		DisplayName: Magmite
-		Tooltip: Admire him!
-	}
-
-	MagmiteSmolItem: {
-		DisplayName: Magmini
-		Tooltip: Nurture him!
-	}
-
-	CoolmitePassiveItem: {
-		Tooltip: Fragile! Please handle with care.
-		DisplayName: Coolmite
-	}
-
 	Glassweaver.DisplayName: 织璃匠
 	GlassweaverWaiting.DisplayName: 织璃匠
 
@@ -178,7 +152,3 @@ Compat: {
 		MasterRules: " - 理论可行！ NEWBLOCK - 大师难度 NEWBLOCK - 切换 Boss 时不回复生命 NEWBLOCK - 游戏以1.5倍速运行 NEWBLOCK - 禁用治疗药水 NEWBLOCK - 禁用传送 NEWBLOCK - 3倍得分"
 	}
 }
-	DesertWisp.DisplayName: 沙漠飘烟
-	FaeflamePickup.DisplayName: 妖精火焰
-	ForbiddenWindsPickup.DisplayName: 禁忌之风
-	InfusionSlotPickup.DisplayName: Unnerving Device

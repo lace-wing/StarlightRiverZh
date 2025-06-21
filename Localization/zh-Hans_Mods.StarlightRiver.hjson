@@ -440,7 +440,7 @@ Items: {
 	DefiledAnkh: {
 		Tooltip:
 			'''
-			你的屏障的伤害吸收减少25%
+			你的屏障的伤害吸收降低25%
 			当屏障存在时，增加100%免疫力并使你免疫大多数减益
 			+40点最大屏障
 			'''
@@ -513,7 +513,7 @@ Items: {
 	ThousandthDegree: {
 		Tooltip:
 			'''
-			按住左键融化与之接触的敌人并以此为火轮加热
+			长按左键融化与之接触的敌人并以此为火轮加热
 			松开左键以发射炽热火轮
 			“撕裂并撕碎”
 			'''
@@ -1008,7 +1008,7 @@ Items: {
 		DisplayName: 坟墓粉碎者
 		Tooltip:
 			'''
-			按住W键时攻击会将敌人挑向空中，按住S键时攻击会将敌人击落
+			长按W键时攻击会将敌人挑向空中，长按S键时攻击会将敌人击落
 			击中空中的敌人会造成更多的伤害
 			'''
 	}
@@ -1448,7 +1448,7 @@ Items: {
 	Earthduster: {
 		Tooltip:
 			'''
-			按住左键发射快速的大地洪流
+			长按左键发射快速的大地洪流
 			可以使用多种不同类型的方块作为弹药，每种方块都有一种独特的效果
 			33%的几率不消耗弹药
 			'''
@@ -1584,7 +1584,7 @@ Items: {
 		DisplayName: 冲撞冲锋枪
 		Tooltip:
 			'''
-			按住左键发射高速冲击弹，随时间流逝冲锋枪会变热，一定时间后冲锋枪会过热
+			长按左键发射高速冲击弹，随时间流逝冲锋枪会变热，一定时间后冲锋枪会过热
 			松开左键将枪械以回旋镖方式投掷
 			在未过热时投掷并击中敌人会使你获得可叠加的增益，增加冲撞冲锋枪的伤害
 			在过热时投掷并击中敌人会消耗所有层数的增益，并产生致命爆炸
@@ -1885,7 +1885,7 @@ Items: {
 		Tooltip:
 			'''
 			投掷一排魔法手里剑
-			当投出的手里剑全部命中敌人，下次手里剑的投掷数量减少1
+			当投出的手里剑全部命中敌人后，下次手里剑的投掷数量减少1个
 			当投出的手里剑数量为1时会掷出一个强大的利刃
 			'''
 	}
@@ -1957,7 +1957,7 @@ Items: {
 		DisplayName: 溢流瓮
 		Tooltip:
 			'''
-			按住左键释放寒风急流
+			长按左键释放寒风急流
 			长时间使用会使其变得失控
 			'''
 	}
@@ -1995,7 +1995,7 @@ Items: {
 		Tooltip:
 			'''
 			发射闪光的触手长枪
-			按住左键可充能，松开左键释放，一次性最多发射5支长枪
+			长按左键可充能，松开左键释放，一次性最多发射5支长枪
 			'''
 		DisplayName: 触手长枪
 	}
@@ -2094,7 +2094,7 @@ Items: {
 
 	StarwoodBoomerang: {
 		DisplayName: 星木回旋镖
-		Tooltip: 按住左键引导回旋镖, 使其释放并爆炸
+		Tooltip: 长按左键引导回旋镖, 使其释放并爆炸
 	}
 
 	StarwoodBoots: {
@@ -2159,7 +2159,7 @@ Items: {
 		DisplayName: 蒸汽圆锯
 		Tooltip:
 			'''
-			按住左键攻击敌人以积蓄压力
+			长按左键攻击敌人以积蓄压力
 			松开左键以释放积蓄的压力，并发射锯刃
 			“正确工具的错误用途”
 			'''
@@ -2184,7 +2184,7 @@ Items: {
 		Tooltip:
 			'''
 			攻击敌人时产生碎片，收集这些碎片
-			按住右键时移动光标进行选择，松开右键消耗碎片并制造选中类型的机器人
+			长按右键时移动光标进行选择，松开右键消耗碎片并制造选中类型的机器人
 			'''
 	}
 
@@ -2376,7 +2376,7 @@ Items: {
 		DisplayName: 聚萤
 		Tooltip:
 			'''
-			按住左键充能，松开左键发射一排绚烂魔法矢
+			长按左键充能，松开左键发射一排绚烂魔法矢
 			完全充能时，绚烂魔法矢会在聚合时汲取魔力
 			'''
 	}
@@ -4438,8 +4438,8 @@ Biomes: {
 }
 
 NPCs: {
-	Glassweaver.DisplayName: 织璃者
-	GlassweaverFriendly.DisplayName: 织璃者
+	Glassweaver.DisplayName: 织璃匠
+	GlassweaverFriendly.DisplayName: 织璃匠
 	ArenaActor.DisplayName: ""
 	EscapePlatform.DisplayName: ""
 	GoldPlatform.DisplayName: ""
@@ -4482,7 +4482,7 @@ NPCs: {
 	CoolmiteSmol.DisplayName: 小冷凝螨
 	CrystalPopper.DisplayName: 沙漠蝙蝠
 	CrystalSlime.DisplayName: 琉璃史莱姆
-	DesertWisp.DisplayName: Desert Wisp
+	DesertWisp.DisplayName: 沙漠飘烟
 	FlyingGruntConstruct.DisplayName: 璃锻飞行士兵
 	FlyingPelterConstruct.DisplayName: 璃锻飞行射手
 	GruntConstruct.DisplayName: 璃锻士兵
@@ -4600,7 +4600,7 @@ Buffs: {
 
 	ProtectiveShard: {
 		DisplayName: 护佑碎片
-		Description: 你受到的伤害减少25%
+		Description: 你受到的伤害降低25%
 	}
 
 	Psychosis: {
