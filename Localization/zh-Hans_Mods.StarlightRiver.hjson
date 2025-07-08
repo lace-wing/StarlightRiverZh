@@ -1287,6 +1287,27 @@ Items: {
 			'''
 	}
 
+	PlasmaCutter: {
+		DisplayName: 等离子切割机
+		Tooltip:
+			'''
+			手持此物品时无人机会跟随你的光标
+			消耗魔力值使用以使无人机发射激光
+			右键翻转无人机
+			翻转后造成的伤害降低但会造成{{BUFF:PlasmaCutterBuff}}减益
+			'''
+	}
+
+	ViewFinder: {
+		DisplayName: 取景器
+		Tooltip:
+			'''
+			右键放置至多三个标记
+			用长矛打击任意敌人会使激光落向被标记的敌人
+			“用来戳巨型眼球再合适不过了！”
+			'''
+	}
+
 	AlchemistShackles: {
 		DisplayName: 炼金术士的镣铐
 		Tooltip:
@@ -2235,6 +2256,11 @@ Items: {
 			'''
 	}
 
+	SuperBreaker: {
+		DisplayName: 超级破坏者
+		Tooltip: 破坏一切！
+	}
+
 	GloomGauntlet: {
 		DisplayName: 阴郁手套
 		Tooltip:
@@ -2936,6 +2962,11 @@ Items: {
 		Tooltip: 哦哦哦……美滴很
 	}
 
+	AuroraPylonItem: {
+		DisplayName: 极光晶塔
+		Tooltip: 你不应该拥有这个！
+	}
+
 	DoorBombShooterItem: {
 		DisplayName: 调试发射器放置器
 		Tooltip: ""
@@ -3430,16 +3461,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	CombatShrineBarrierItem: {
-		DisplayName: CombatShrineBarrierItem
-		Tooltip: 调试物品
-	}
-
-	EvasionShrineBarrierItem: {
-		DisplayName: EvasionShrineBarrierItem
-		Tooltip: 调试物品
-	}
-
 	VitricBossBarrierItem: {
 		DisplayName: VitricBossBarrierItem
 		Tooltip: 调试物品
@@ -3452,6 +3473,16 @@ Items: {
 
 	GestaltCellsBarrierItem: {
 		DisplayName: GestaltCellsBarrierItem
+		Tooltip: 调试物品
+	}
+
+	CombatShrineBarrierItem: {
+		DisplayName: CombatShrineBarrierItem
+		Tooltip: 调试物品
+	}
+
+	EvasionShrineBarrierItem: {
+		DisplayName: EvasionShrineBarrierItem
 		Tooltip: 调试物品
 	}
 
@@ -3730,14 +3761,114 @@ Items: {
 		Tooltip: ""
 	}
 
-	AuroraPylonItem: {
-		Tooltip: 你不应该拥有这个！
-		DisplayName: 极光晶塔
+	BrassPlatformItem: {
+		Tooltip: ""
+		DisplayName: 黄铜平台
 	}
 
-	SuperBreaker: {
-		Tooltip: 破坏一切！
-		DisplayName: 超级破坏者
+	BaseBarrierDye: {
+		DisplayName: 基础屏障染料
+		Tooltip: ""
+	}
+
+	MirageBow: {
+		DisplayName: 幻象弓
+		Tooltip: ""
+	}
+
+	ExampleCombatMountItem: {
+		DisplayName: Example Combat Mount Item
+		Tooltip: ""
+	}
+
+	MonkSpade: {
+		DisplayName: 武僧月牙铲
+		Tooltip: ""
+	}
+
+	RainbowCycleDye: {
+		DisplayName: 循环彩虹染料
+		Tooltip: ""
+	}
+
+	RainbowCycleDye2: {
+		DisplayName: 循环彩虹染料2
+		Tooltip: ""
+	}
+
+	FaeHover: {
+		DisplayName: Fae Hover
+		Tooltip: ""
+	}
+
+	GenericHover: {
+		DisplayName: Generic Hover
+		Tooltip: ""
+	}
+
+	StarlightHover: {
+		DisplayName: Starlight Hover
+		Tooltip: ""
+	}
+
+	WindsHover: {
+		DisplayName: Winds Hover
+		Tooltip: ""
+	}
+
+	StaminaPickup: {
+		DisplayName: Stamina Pickup
+		Tooltip: ""
+	}
+
+	ForestBerries: {
+		DisplayName: 森林莓
+		Tooltip: ""
+	}
+
+	MaterialIndicatorIcon: {
+		DisplayName: Material Indicator Icon
+		Tooltip: ""
+	}
+
+	RedLaserPointer: {
+		DisplayName: 红色激光笔
+		Tooltip: ""
+	}
+
+	OrangeLaserPointer: {
+		DisplayName: 橙色激光笔
+		Tooltip: ""
+	}
+
+	YellowLaserPointer: {
+		DisplayName: 黄色激光笔
+		Tooltip: ""
+	}
+
+	GreenLaserPointer: {
+		DisplayName: 绿色激光笔
+		Tooltip: ""
+	}
+
+	BlueLaserPointer: {
+		DisplayName: 蓝色激光笔
+		Tooltip: ""
+	}
+
+	PurpleLaserPointer: {
+		DisplayName: 紫色激光笔
+		Tooltip: ""
+	}
+
+	WhiteLaserPointer: {
+		DisplayName: 白色激光笔
+		Tooltip: ""
+	}
+
+	PinkLaserPointer: {
+		DisplayName: 粉色激光笔
+		Tooltip: ""
 	}
 }
 
@@ -3799,6 +3930,7 @@ Tiles: {
 	AuroraBrick.MapEntry: ""
 	AuroraBrickDoor.MapEntry: ""
 	AuroraIce.MapEntry: ""
+	AuroraPylon.MapEntry: 极光晶塔
 	DoorBombShooter.MapEntry: ""
 	PermafrostIce.MapEntry: ""
 	Touchstone.MapEntry: 引光冰石
@@ -3954,7 +4086,7 @@ Tiles: {
 	SmoothBrassPlate.MapEntry: ""
 	RawOnyx.MapEntry: ""
 	LockedOnyx.MapEntry: ""
-	AuroraPylon.MapEntry: 极光晶塔
+	BreathingGrass.MapEntry: ""
 	VitricGiantCrystal.MapEntry: 巨型琉璃晶
 	VitricLargeCrystal.MapEntry: 大型琉璃晶
 	VitricMediumCrystal.MapEntry: 中型琉璃晶
@@ -3971,6 +4103,7 @@ Projectiles: {
 	GlassSword.DisplayName: 琉璃剑
 	LavaLob.DisplayName: Hot Lob
 	Whirlwind.DisplayName: 旋刃
+	Whirl.DisplayName: 风旋
 	InkBlob.DisplayName: 虹墨
 	InkBlobGravity.DisplayName: 虹墨
 	SpewBlob.DisplayName: 极光碎片
@@ -4216,6 +4349,104 @@ Projectiles: {
 	Dart.DisplayName: 诅咒飞镖
 	SawbladeSmall.DisplayName: 诅咒锯刃
 	Spear.DisplayName: 诅咒矛
+	GatheringWindsWhirl.DisplayName: 聚风旋
+	HintText.DisplayName: 提示文本
+	WellspringProjectile.DisplayName: 源泉
+	BurningGround.DisplayName: 燃烧的地面
+	GlassJavelin.DisplayName: 琉璃标枪
+	GlassweaverDoor.DisplayName: 织璃匠门
+	Glint.DisplayName: 闪烁
+	AuroraWaterSplash.DisplayName: 极光水溅
+	DoorBomb.DisplayName: 门炸弹
+	Laser.DisplayName: 激光
+	FakeMindMine.DisplayName: Fake Mind Mine
+	ThinkerMindMine.DisplayName: Thinker Mind Mine
+	CrystalWave.DisplayName: 水晶波
+	FireCone.DisplayName: 火椎
+	FireRingHostile.DisplayName: 火焰之环
+	FireRing.DisplayName: 火焰之环
+	GlassVolley.DisplayName: 琉璃弹
+	GlassVolleyShard.DisplayName: 琉璃弹片
+	SpikeMine.DisplayName: 尖刺地雷
+	VitricBomb.DisplayName: 琉璃炸弹
+	ScrapshotHook.DisplayName: 锈迹钩爪
+	AztecDeathSaxophoneSoundwave.DisplayName: 阿兹台克死亡萨克斯声波
+	BearPokerEndlessProjectile.DisplayName: Bear Poker Endless Projectile
+	BearPokerProjectile.DisplayName: Bear Poker Projectile
+	GraySlash.DisplayName: 灰斩
+	LobotomizerFastProjectile.DisplayName: 加速脑叶切除者
+	LobotomizerHallucination.DisplayName: 脑叶切除者幻觉
+	LobotomizerProjectile.DisplayName: 脑叶切除者
+	MindCursherProjectile.DisplayName: Mind Cursher Projectile
+	MirageBowClone.DisplayName: 幻象弓克隆体
+	MirageBowHeld.DisplayName: 幻象弓
+	MyelinSlash.DisplayName: 髓鞘质斩击
+	PsychosisAura.DisplayName: 精神错乱光环
+	SandSlash.DisplayName: 沙斩
+	TwistSwordProjectile.DisplayName: 环旋重剑
+	Acorn.DisplayName: 橡子
+	HeavyFlailCrack.DisplayName: 重型链枷爆裂
+	HeavyFlailProjectile.DisplayName: 重型链枷
+	MonkSpadeProjectile.DisplayName: 武僧月牙铲
+	SlimeThorn.DisplayName: 史莱姆荆棘
+	GeoAmethystProj.DisplayName: 紫水晶
+	GeoDiamondProj.DisplayName: 钻石
+	GeoEmeraldProj.DisplayName: 绿宝石
+	GeoRubyProj.DisplayName: 红玉
+	GeoSapphireProj.DisplayName: 蓝宝石
+	GeoTopazProj.DisplayName: 黄水晶
+	SpiritSealProjectile.DisplayName: 魂印
+	BurnTrail.DisplayName: 火痕
+	GlowingObsidianSlash.DisplayName: 发光黑曜石斩击
+	GlowingObsidianSpike.DisplayName: 发光黑曜石尖刺
+	InfernalHarvestFree.DisplayName: 地狱丰收
+	InfernalHarvestPaid.DisplayName: 地狱丰收
+	ThunderbussBall.DisplayName: 雷筒球
+	PlasmaCutterDrone.DisplayName: 等离子切割机无人机
+	ViewFinderLaser.DisplayName: 取景器激光
+	ViewFinderProjectile.DisplayName: 取景器
+	ViewFinderRightProjectile.DisplayName: 取景器
+	AxeBookProjectile.DisplayName: 猛虎下山
+	BizarreLightning.DisplayName: 奇异闪电
+	BizarreLightningOrb.DisplayName: 奇异闪电球
+	BizarrePotionPoisonCloud.DisplayName: 奇异药水毒云
+	FryingPanThrownProj.DisplayName: 煎锅
+	GuillotineVFX.DisplayName: 断头台
+	HolyAmuletOrb.DisplayName: 神圣护身符法球
+	SorcerwrenchProjectile.DisplayName: 巫师扳手
+	SpearBookProjectile.DisplayName: 灵蛇突袭
+	SwordBookParry.DisplayName: 螳螂剑术格挡
+	SwordBookProjectile.DisplayName: 螳螂剑术
+	TalismansProjectile.DisplayName: 符咒
+	ThrownAxeProjectile.DisplayName: 投斧
+	UltrapillBlood.DisplayName: 终极药丸血液
+	DatsuzeiProjectile.DisplayName: 大津贅沢
+	StarGlaive.DisplayName: 星之利刃
+	StarShuriken.DisplayName: 星之手里剑
+	AuroraThroneMountMinion.DisplayName: 极光坐骑
+	FrostballProjectile.DisplayName: 寒霜球
+	FrostExplosion.DisplayName: 寒霜爆破
+	TentalanceProjectile.DisplayName: 触手长枪
+	FrostFlailCrack.DisplayName: 冰霜链枷爆裂
+	FrostFlailProjectile.DisplayName: 冰霜链枷
+	FrostFlailShard.DisplayName: 冰霜链枷碎片
+	StarwoodSlingshotProj.DisplayName: 星木弹弓
+	TemplePickProjectile.DisplayName: 旋风镐冲锋
+	TempleSpearLight.DisplayName: 神庙之矛光
+	LaserPointerProjectile.DisplayName: 激光指示器
+	CoachGunUpgradeExplosion.DisplayName: 护骑霰弹枪升级爆炸
+	MagmaBottleBurn.DisplayName: 熔岩瓶烧灼
+	MagmiteBombProjectile.DisplayName: 熔滴螨炸弹
+	MagmiteBottleProjectile.DisplayName: 熔滴螨瓶
+	RefractiveBladeLaser.DisplayName: 折射尖刃极光
+	RefractiveBladeProj.DisplayName: 折射尖刃
+	VitricBowProjectile.DisplayName: 琉璃弓
+	VitricBowShard.DisplayName: 琉璃弓碎片
+	FirePillar.DisplayName: 火柱
+	BossRushOrbGoreProjectile.DisplayName: Boss Rush Orb Gore Projectile
+	ConstructSpawner.DisplayName: Construct Spawner
+	GauntletSpawner.DisplayName: Gauntlet Spawner
+	SpawnEgg.DisplayName: Spawn Egg
 }
 
 Biomes: {
@@ -4343,6 +4574,26 @@ NPCs: {
 	Snake.DisplayName: 沙漠蝰蛇
 	BerrySlime.DisplayName: 莓果史莱姆
 	TouchstoneWisp.DisplayName: 极光之魂
+	ArenaBlocker.DisplayName: Arena Blocker
+	Auroraborn.DisplayName: Auroraborn
+	Auroraling.DisplayName: Auroraling
+	Tentacle.DisplayName: 触手
+	TentacleHurtbox.DisplayName: Tentacle Hurtbox
+	CutsceneFakeThinker.DisplayName: Cutscene Fake Thinker
+	DeadBrain.DisplayName: 死脑
+	Neurysm.DisplayName: Neurysm
+	TheThinker.DisplayName: 思考者
+	HellLavaActor.DisplayName: Hell Lava Actor
+	StarlightWaterActor.DisplayName: Starlight Water Actor
+	GravityOrbTest.DisplayName: Gravity Orb Test
+	BossRushGoal.DisplayName: Boss Rush Goal
+	Dweller.DisplayName: 栖身者
+	Stalker.DisplayName: 追猎者
+	Revenant.DisplayName: Revenant
+	ClearSlime.DisplayName: Clear Slime
+	Dreambeast.DisplayName: 梦幻之兽
+	WaterCube.DisplayName: 水立方
+	DesertWisp2.DisplayName: Desert Wisp2
 }
 
 Buffs: {
@@ -4554,6 +4805,11 @@ Buffs: {
 		Description: 你的发型相当好！
 	}
 
+	PlasmaCutterBuff: {
+		DisplayName: 等离子扰动
+		Description: 受影响的单位获得75%魔法伤害类型暴露
+	}
+
 	BarbedKnifeBleed: {
 		DisplayName: 深度创伤
 		Description: 每秒造成8点伤害
@@ -4700,6 +4956,11 @@ Buffs: {
 			挖掘速度增加
 			'''
 	}
+
+	Full: {
+		DisplayName: 饱腹
+		Description: Mods.StarlightRiver.Buffs.Full.Description
+	}
 }
 
 Prefixes: {
@@ -4722,6 +4983,9 @@ Prefixes: {
 	StaminaPrefix2.DisplayName: 明亮的
 	StaminaPrefix3.DisplayName: 炽灼的
 	StaminaPrefix4.DisplayName: 光耀的
+	Feral.DisplayName: 野性的
+	Jumpy.DisplayName: 跳跃的
+	Tanklike.DisplayName: 坚守的
 }
 
 Compat: {
