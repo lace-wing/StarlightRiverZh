@@ -4378,7 +4378,7 @@ Projectiles: {
 	LobotomizerFastProjectile.DisplayName: 加速脑叶切除者
 	LobotomizerHallucination.DisplayName: 脑叶切除者幻觉
 	LobotomizerProjectile.DisplayName: 脑叶切除者
-	MindCursherProjectile.DisplayName: Mind Cursher Projectile
+	MindCursherProjectile.DisplayName: 思维碾碎者弹幕
 	MirageBowClone.DisplayName: 幻象弓克隆体
 	MirageBowHeld.DisplayName: 幻象弓
 	MyelinSlash.DisplayName: 髓鞘质斩击
@@ -4448,6 +4448,7 @@ Projectiles: {
 	ConstructSpawner.DisplayName: Construct Spawner
 	GauntletSpawner.DisplayName: Gauntlet Spawner
 	SpawnEgg.DisplayName: Spawn Egg
+	ThoughtPoliceProjectile.DisplayName: 思想罪
 }
 
 Biomes: {
@@ -4595,6 +4596,8 @@ NPCs: {
 	Dreambeast.DisplayName: 梦幻之兽
 	WaterCube.DisplayName: 水立方
 	DesertWisp2.DisplayName: Desert Wisp2
+	Grossquito.DisplayName: Grossquito
+	GrossquitoElite.DisplayName: Thoughtful Grossquito
 }
 
 Buffs: {
@@ -4679,6 +4682,11 @@ Buffs: {
 	Psychosis: {
 		DisplayName: 精神错乱
 		Description: 每秒造成4点伤害并增加1%暴露
+	}
+
+	PsychosisImbuementBuff: {
+		DisplayName: 武器灌注：精神错乱
+		Description: 所有攻击都会对敌人造成可叠加的精神错乱减益
 	}
 
 	Rage: {
