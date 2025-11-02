@@ -269,16 +269,47 @@ GUIConfig: {
 
 OverlayState: {
 	Tooltip: ""
-	AlwaysOn.Label: 始终
-	WhileNotFull.Label: 仅未满时
-	WhileUsing.Label: 仅使用时
-	Never.Label: 永不
+
+	AlwaysOn: {
+		Label: 始终
+		Tooltip: ""
+	}
+	WhileNotFull: {
+		Label: 仅未满时
+		Tooltip: ""
+	}
+
+	WhileUsing: {
+		Label: 仅使用时
+		Tooltip: ""
+	}
+
+	Never: {
+		Label: 永不
+		Tooltip: ""
+	}
 }
 
 KeywordStyle: {
 	Tooltip: ""
-	Colors.Label: 上色
-	Brackets.Label: 带括号
-	Both.Label: 两者皆有
-	Neither.Label: 两者皆无
+
+	Colors: {
+		Label: 上色
+		Tooltip: ""
+	}
+
+	Brackets: {
+		Label: 带括号
+		Tooltip: ""
+	}
+
+	Both: {
+		Label: 两者皆有
+		Tooltip: ""
+	}
+
+	Neither: {
+		Label: 两者皆无
+		Tooltip: ""
+	}
 }
