@@ -4,7 +4,7 @@ namespace StarlightRiverZh.QuickTranslate.Entries.GamePlay;
 
 public class PermafrostShrine : MethodEntry
 {
-    public PermafrostShrine() : base("DoorBombShooter", "PostDraw") { }
+    public PermafrostShrine() : base("DoorBombShooter", "SpecialDraw") { }
 
     public override void ILLoad()
     {
