@@ -168,15 +168,6 @@ GraphicsConfig: {
 			'''
 	}
 
-	HighQualityLighting: {
-		Label: 高质量光照材质
-		Tooltip:
-			'''
-			开关大型材质上的特殊光照。
-			若您遇到了性能问题，请关闭。
-			'''
-	}
-
 	ReflectionConfig: {
 		Label: 背景反射
 		Tooltip:
@@ -237,7 +228,6 @@ ReflectionSubConfig: {
 	}
 }
 
-
 GUIConfig: {
 	DisplayName: 图形交互界面配置
 
@@ -274,6 +264,7 @@ OverlayState: {
 		Label: 始终
 		Tooltip: ""
 	}
+
 	WhileNotFull: {
 		Label: 仅未满时
 		Tooltip: ""

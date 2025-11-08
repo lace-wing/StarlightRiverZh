@@ -1831,7 +1831,7 @@ Items: {
 
 	TinCoil: {
 		DisplayName: 锡质线圈
-		Tooltip: 
+		Tooltip:
 			'''
 			用静电打击附近的敌人
 			造成{{BUFF:StaticShock}}减益
@@ -2365,7 +2365,7 @@ Items: {
 		DisplayName: 月长石祷文
 		Tooltip: 使下个坠落的星体必定为月长石
 	}
-	
+
 	AncientStarwoodBoots: {
 		DisplayName: 远古星木护胫
 		Tooltip: ""
