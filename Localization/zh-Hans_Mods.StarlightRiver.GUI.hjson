@@ -63,6 +63,23 @@ CookingUI: {
 	SlotHover: 放置[c/{0}:{1}]于此
 }
 
+LootUI: {
+	Get: 你得到了
+	Pick: 选择两项奖励
+
+	Jokes: {
+		0: 宝藏!
+		1: 战利品!
+		2: 这个亮闪闪的!
+		3: 宝藏!
+		4: 宝藏!
+		5: 宝藏!
+		6: 宝藏!
+		7: 宝藏!
+		8: 宝藏!
+	}
+}
+
 ExtraDefenseStats: {
 	Click:
 		'''
