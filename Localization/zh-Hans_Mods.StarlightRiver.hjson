@@ -3039,7 +3039,7 @@ Items: {
 	}
 
 	GlorchItem: {
-		DisplayName: Glorch
+		DisplayName: 阴郁火把
 		Tooltip:
 			'''
 			灯是发出光芒……还是吸收黑暗？
@@ -3871,6 +3871,16 @@ Items: {
 		DisplayName: 粉色激光笔
 		Tooltip: ""
 	}
+
+	ThoughtProvoker: {
+		DisplayName: 启思者
+		Tooltip:
+			'''
+			召唤Thinky Jr来保护你
+			每有一个Thinky Jr，便增加5%耐力
+			如果被敌人或弹幕击中，Thinky Jr会冲向最近的敌人并剧烈爆炸
+			'''
+	}
 }
 
 Tiles: {
@@ -4449,6 +4459,10 @@ Projectiles: {
 	GauntletSpawner.DisplayName: Gauntlet Spawner
 	SpawnEgg.DisplayName: Spawn Egg
 	ThoughtPoliceProjectile.DisplayName: 思想罪
+	ThoughtPoliceShard.DisplayName: 思想罪
+	ThoughtPoliceCage.DisplayName: 思想罪
+	ThoughtProvokerProjectile.DisplayName: Thinky Junior
+	ThoughtProvokerExplosion.DisplayName: 灰质爆炸
 }
 
 Biomes: {
@@ -4970,29 +4984,34 @@ Buffs: {
 		DisplayName: 饱腹
 		Description: Mods.StarlightRiver.Buffs.Full.Description
 	}
+
+	ThoughtProvokerSummonBuff: {
+		DisplayName: Thinky Juniors
+		Description: 1000 IQ
+	}
 }
 
 Prefixes: {
-	Carnal.DisplayName: 世俗的
-	Crystalline.DisplayName: 晶化的
-	Eldritch.DisplayName: 怪异的
-	Ephemeral.DisplayName: 瞬逝的
-	Occult.DisplayName: 神秘的
-	Reckless.DisplayName: 鲁莽的
-	Sapping.DisplayName: 渐弱的
-	Unfaithful.DisplayName: 不忠的
-	DefensivePrefix.DisplayName: 守备的
-	DoTResistPrefix1.DisplayName: 健康的
-	DoTResistPrefix2.DisplayName: 防护的
-	DoTResistPrefix3.DisplayName: 祝福的
-	LayeredPrefix.DisplayName: 多层的
-	PlatedPrefix.DisplayName: 护板的
-	ReinforcedPrefix.DisplayName: 加固的
-	StaminaPrefix1.DisplayName: 闪烁的
-	StaminaPrefix2.DisplayName: 明亮的
-	StaminaPrefix3.DisplayName: 炽灼的
-	StaminaPrefix4.DisplayName: 光耀的
-	Feral.DisplayName: 野性的
-	Jumpy.DisplayName: 跳跃的
-	Tanklike.DisplayName: 坚守的
+	Carnal.DisplayName: 世俗
+	Crystalline.DisplayName: 晶化
+	Eldritch.DisplayName: 怪异
+	Ephemeral.DisplayName: 瞬逝
+	Occult.DisplayName: 隐晦
+	Reckless.DisplayName: 鲁莽
+	Sapping.DisplayName: 渐弱
+	Unfaithful.DisplayName: 不虔
+	DefensivePrefix.DisplayName: 防卫
+	DoTResistPrefix1.DisplayName: 旺盛
+	DoTResistPrefix2.DisplayName: 庇护
+	DoTResistPrefix3.DisplayName: 蒙福
+	LayeredPrefix.DisplayName: 分层
+	PlatedPrefix.DisplayName: 镀层
+	ReinforcedPrefix.DisplayName: 加固
+	StaminaPrefix1.DisplayName: 闪烁
+	StaminaPrefix2.DisplayName: 明亮
+	StaminaPrefix3.DisplayName: 炽华
+	StaminaPrefix4.DisplayName: 辉耀
+	Feral.DisplayName: 野性
+	Jumpy.DisplayName: 轻快
+	Tanklike.DisplayName: 坚坦
 }
