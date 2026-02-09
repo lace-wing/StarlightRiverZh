@@ -5008,9 +5008,9 @@ Prefixes: {
 	PlatedPrefix.DisplayName: 镀层
 	ReinforcedPrefix.DisplayName: 加固
 	StaminaPrefix1.DisplayName: 闪烁
-	StaminaPrefix2.DisplayName: 明亮
-	StaminaPrefix3.DisplayName: 炽华
-	StaminaPrefix4.DisplayName: 辉耀
+	StaminaPrefix2.DisplayName: 光耀
+	StaminaPrefix3.DisplayName: 炽烈
+	StaminaPrefix4.DisplayName: 辉赫
 	Feral.DisplayName: 野性
 	Jumpy.DisplayName: 轻快
 	Tanklike.DisplayName: 坚坦
