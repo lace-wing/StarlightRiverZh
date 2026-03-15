@@ -3872,13 +3872,23 @@ Items: {
 		Tooltip: ""
 	}
 
-	ThoughtProvoker: {
-		DisplayName: 启思者
+	UnstableCapacitor: {
+		DisplayName: 不稳定电容器
 		Tooltip:
 			'''
-			召唤Thinky Jr来保护你
-			每有一个Thinky Jr，便增加5%耐力
-			如果被敌人或弹幕击中，Thinky Jr会冲向最近的敌人并剧烈爆炸
+			-5%魔法暴击率
+			使用魔法武器对敌人造成暴击时会消耗所有魔力值并释放闪电爆炸
+			消耗的魔力值越多，爆炸造成的伤害便越高
+			'''
+	}
+
+	UnstableCapacitator: {
+		DisplayName: 不稳定电容器
+		Tooltip:
+			'''
+			-5%魔法暴击率
+			使用魔法武器对敌人造成暴击时会消耗所有魔力值并释放闪电爆炸
+			消耗的魔力值越多，爆炸造成的伤害便越高
 			'''
 	}
 }
@@ -4459,10 +4469,9 @@ Projectiles: {
 	GauntletSpawner.DisplayName: Gauntlet Spawner
 	SpawnEgg.DisplayName: Spawn Egg
 	ThoughtPoliceProjectile.DisplayName: 思想罪
-	ThoughtPoliceShard.DisplayName: 思想罪
-	ThoughtPoliceCage.DisplayName: 思想罪
-	ThoughtProvokerProjectile.DisplayName: Thinky Junior
-	ThoughtProvokerExplosion.DisplayName: 灰质爆炸
+	UnstableCapacitatorExplosion.DisplayName: 闪电爆炸
+	UnstableCapacitatorBolt.DisplayName: 闪电爆炸
+	UnstableCapacitatorIcon.DisplayName: Icon
 }
 
 Biomes: {
@@ -4984,11 +4993,6 @@ Buffs: {
 		DisplayName: 饱腹
 		Description: Mods.StarlightRiver.Buffs.Full.Description
 	}
-
-	ThoughtProvokerSummonBuff: {
-		DisplayName: Thinky Juniors
-		Description: 1000 IQ
-	}
 }
 
 Prefixes: {
@@ -5014,4 +5018,8 @@ Prefixes: {
 	Feral.DisplayName: 野性
 	Jumpy.DisplayName: 轻快
 	Tanklike.DisplayName: 坚坦
+	Flawless.DisplayName: 无暇
+	Hextouched.DisplayName: 咒触
+	Perfected.DisplayName: 完美
+	Starborn.DisplayName: 星灼
 }

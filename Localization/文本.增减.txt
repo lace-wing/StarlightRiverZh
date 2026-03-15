@@ -1,4 +1,26 @@
 
+
+	ThoughtProvoker: {
+		DisplayName: 启思者
+		Tooltip:
+			'''
+			召唤Thinky Jr来保护你
+			每有一个Thinky Jr，便增加5%耐力
+			如果被敌人或弹幕击中，Thinky Jr会冲向最近的敌人并剧烈爆炸
+			'''
+	}
+	ThoughtPoliceShard.DisplayName: 思想罪
+	ThoughtPoliceCage.DisplayName: 思想罪
+	ThoughtProvokerProjectile.DisplayName: Thinky Junior
+	ThoughtProvokerExplosion.DisplayName: 灰质爆炸
+	
+
+	ThoughtProvokerSummonBuff: {
+		DisplayName: Thinky Juniors
+		Description: 1000 IQ
+	}
+
+
 	TestWhip: {
 		DisplayName: "[PH]测试用鞭"
 		Tooltip:

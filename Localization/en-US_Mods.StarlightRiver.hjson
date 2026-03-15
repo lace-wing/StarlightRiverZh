@@ -3872,13 +3872,23 @@ Items: {
 		Tooltip: ""
 	}
 
-	ThoughtProvoker: {
-		DisplayName: Thought Provoker
+	UnstableCapacitor: {
+		DisplayName: Unstable Capacitor
 		Tooltip:
 			'''
-			Summons Thinky Jr to protect you
-			Endurance is increased by 5% per Thinky Jr alive
-			If hit by an enemy or projectile, Thinky Jr will target the nearest enemy and explode violently
+			-5% magic critical strike chance
+			Critically striking enemies with magic weapons consume all of your mana to cast a lightning explosion
+			The explosion deals more damage based on how much mana was consumed
+			'''
+	}
+
+	UnstableCapacitator: {
+		DisplayName: Unstable Capacitator
+		Tooltip:
+			'''
+			-5% magic critical strike chance
+			Critically striking enemies with magic weapons consume all of your mana to cast a lightning explosion
+			The explosion deals more damage based on how much mana was consumed
 			'''
 	}
 }
@@ -4459,10 +4469,9 @@ Projectiles: {
 	GauntletSpawner.DisplayName: Gauntlet Spawner
 	SpawnEgg.DisplayName: Spawn Egg
 	ThoughtPoliceProjectile.DisplayName: Thoughtcrime
-	ThoughtPoliceShard.DisplayName: Thoughtcrime
-	ThoughtPoliceCage.DisplayName: Thoughtcrime
-	ThoughtProvokerProjectile.DisplayName: Thinky Junior
-	ThoughtProvokerExplosion.DisplayName: Greymatter Explosion
+	UnstableCapacitatorExplosion.DisplayName: Lightning Explosion
+	UnstableCapacitatorBolt.DisplayName: Lightning Explosion
+	UnstableCapacitatorIcon.DisplayName: Icon
 }
 
 Biomes: {
@@ -4984,11 +4993,6 @@ Buffs: {
 		DisplayName: Full
 		Description: Mods.StarlightRiver.Buffs.Full.Description
 	}
-
-	ThoughtProvokerSummonBuff: {
-		DisplayName: Thinky Juniors
-		Description: 1000 IQ
-	}
 }
 
 Prefixes: {
@@ -5014,4 +5018,8 @@ Prefixes: {
 	Feral.DisplayName: Feral
 	Jumpy.DisplayName: Jumpy
 	Tanklike.DisplayName: Tanklike
+	Flawless.DisplayName: Flawless
+	Hextouched.DisplayName: Hextouched
+	Perfected.DisplayName: Perfected
+	Starborn.DisplayName: Starborn
 }
