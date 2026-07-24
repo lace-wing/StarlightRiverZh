@@ -80,6 +80,12 @@ LootUI: {
 	}
 }
 
+StarlightHUD: {
+	Hover: "{0}/{1} 星光"
+	IncreaseMessage: 最大星光增加了
+	IncreaseTooltip: 你的最大星光增加了1点
+}
+
 ExtraDefenseStats: {
 	Click:
 		'''
