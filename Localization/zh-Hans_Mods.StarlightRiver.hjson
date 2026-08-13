@@ -4547,7 +4547,7 @@ NPCs: {
 	SquidBoss.DisplayName: 极光之触
 	BrainPlatform.DisplayName: ""
 	HallucinationBlock.DisplayName: ""
-	HorrifyingVisage.DisplayName: Horrifying Visage
+	HorrifyingVisage.DisplayName: 恐惧面容
 	WeakPoint.DisplayName: 思考者
 	ArenaBottom.DisplayName: ""
 	VitricBackdropLeft.DisplayName: ""
@@ -4561,7 +4561,7 @@ NPCs: {
 	TestCollider.DisplayName: ""
 	BossRushOrb.DisplayName: ???
 	SoulNibbler.DisplayName: 灵魂啃噬者
-	Depressor.DisplayName: Depressor
+	Depressor.DisplayName: 压抑者
 	GestaltCell.DisplayName: 格式塔细胞
 	NeuronChomper.DisplayName: 神经元咀嚼者
 	CrescentCaster.DisplayName: 新月法师
@@ -4572,7 +4572,7 @@ NPCs: {
 	LootWraith.DisplayName: 劫掠幽灵
 	AngryCrescent.DisplayName: 愤怒新月
 	Dreamprism.DisplayName: 梦幻棱晶
-	Crusher.DisplayName: 碾碎机
+	Crusher.DisplayName: 碾碎者
 	Snoobel.DisplayName: 史努贝尔
 	SwordEnemy.DisplayName: 太空焊接者
 	Alican.DisplayName: Alican
@@ -4614,13 +4614,13 @@ NPCs: {
 	BossRushGoal.DisplayName: Boss Rush Goal
 	Dweller.DisplayName: 栖身者
 	Stalker.DisplayName: 追猎者
-	Revenant.DisplayName: Revenant
-	ClearSlime.DisplayName: Clear Slime
+	Revenant.DisplayName: 亡魂
+	ClearSlime.DisplayName: 清晰史莱姆
 	Dreambeast.DisplayName: 梦幻之兽
 	WaterCube.DisplayName: 水立方
-	DesertWisp2.DisplayName: Desert Wisp2
-	Grossquito.DisplayName: Grossquito
-	GrossquitoElite.DisplayName: Thoughtful Grossquito
+	DesertWisp2.DisplayName: 沙漠妖灵2
+	Grossquito.DisplayName: 恶心飞蚊
+	GrossquitoElite.DisplayName: 思考的恶心飞蚊
 }
 
 Buffs: {
