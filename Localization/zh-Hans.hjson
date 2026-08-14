@@ -3872,6 +3872,16 @@ Mods: {
                 DisplayName: 粉色激光笔
                 Tooltip: ""
             }
+
+			ThoughtProvoker: {
+				DisplayName: 启思者
+				Tooltip:
+					'''
+					召唤小思奇来保护你
+					每有一个小思奇，便增加5%耐力
+					如果被敌人或弹幕击中，小思奇会冲向最近的敌人并剧烈爆炸
+					'''
+			}
         }
 
         Projectiles: {
@@ -4236,6 +4246,8 @@ Mods: {
             GauntletSpawner.DisplayName: Gauntlet Spawner
 			ReusableHallucinationZone.DisplayName: Reusable Hallucination Zone
             SpawnEgg.DisplayName: Spawn Egg
+			ThoughtProvokerExplosion.DisplayName: 灰质爆炸
+			ThoughtProvokerProjectile.DisplayName: 小思奇
         }
 
         Biomes: {
@@ -4759,6 +4771,11 @@ Mods: {
                     挖掘速度增加
                     '''
             }
+
+			ThoughtProvokerSummonBuff: {
+				DisplayName: 小思奇
+				Description: 1000 IQ
+			}
         }
 
         Tiles: {
