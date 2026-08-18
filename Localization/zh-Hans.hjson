@@ -3882,6 +3882,16 @@ Mods: {
 					如果被敌人或弹幕击中，小思奇会冲向最近的敌人并剧烈爆炸
 					'''
 			}
+
+			HeavyThoughts: {
+				DisplayName: 沉重思维
+				Tooltip:
+					'''
+					长按挥舞一团精神
+					撞击时创造心灵搜寻者
+					搜寻者不会造成伤害，但会造成{{BUFF:Neurosis}}和{{BUFF:Psychosis}}
+					'''
+			}
         }
 
         Projectiles: {
@@ -4248,6 +4258,7 @@ Mods: {
             SpawnEgg.DisplayName: Spawn Egg
 			ThoughtProvokerExplosion.DisplayName: 灰质爆炸
 			ThoughtProvokerProjectile.DisplayName: 小思奇
+			HeavyThoughtsSeeker.DisplayName: 搜寻者
         }
 
         Biomes: {
